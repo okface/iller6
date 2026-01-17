@@ -2,11 +2,16 @@
 
 ## 1. Project Overview
 Iller6 is a modular, offline-first study web app hosted on GitHub Pages.
-- **Goal:** Personal study (Medical exams, Languages, etc.) via flashcards.
+- **Goal:** Personal study (Medical exams, Driving theory, etc.) via flashcards.
 - **Privacy:** **Zero** server-side database. All progress is saved in the browser's `localStorage`.
 - **Content:** Generated locally via a Python script (using LLM APIs) to prevent API exposure and allow manual review before deployment.
+- **Multi-Subject:** Now supports multiple study subjects with a landing page subject selector.
 
-## 2. Tech Stack
+## 2. Current Subjects
+- **Läkarexamen (Medical Exam)** - Swedish medical licensure exam questions
+- **Körkortsteori (Driving Theory)** - Swedish driving theory test questions with road sign support
+
+## 3. Tech Stack
 - **Frontend:** Vue.js 3 + Vite.
 - **Styling:** Tailwind CSS (Mobile-first design).
 - **Data Source:** YAML files hosted in the repo.
@@ -15,12 +20,16 @@ Iller6 is a modular, offline-first study web app hosted on GitHub Pages.
 - **Local Tools:** Python 3 (for content generation).
 
 ## 3. Data Architecture
-The app must support infinite subjects via folder structures.
+The app supports multiple subjects via folder structures.
 **Path Pattern:** `data/{Subject_Folder}/{Topic_Filename}.yaml`
 
+**Current Subjects:**
+- `data/medical_exam/` - Medical exam questions (Swedish licensure exam)
+- `data/korkortsteori/` - Driving theory questions (Swedish B-license)
+
 **Examples:**
-- `data/medical_exam/cardiology.yaml`
-- `data/languages/spanish.yaml`
+- `data/medical_exam/kardiologi.yaml`
+- `data/korkortsteori/trafik_och_vagmarken.yaml`
 
 **Question Schema (YAML):**
 Each question typically has 4 options. One is correct. VERY CONCISE feedback, few words only.
@@ -117,7 +126,27 @@ We use a lightweight "Bucket System" stored in `localStorage`.
     - Clicking them reveals their specific, concise feedback text ("Why B is wrong").
     - **Goal:** Comprehensive understanding through interactive exploration.
 
-## 6. Deployment
+## 6. Adding New Subjects
+
+To add a new subject to Iller6:
+
+1. **Create Subject Folder:** Create a new folder in `data/` (e.g., `data/languages/`)
+2. **Add Topic Files:** Create YAML files for topics (e.g., `data/languages/spanish.yaml`)
+3. **Configure Generate Script:**
+   - Add subject-specific system prompt in `scripts/generate.py` (see `SYSTEM_PROMPT_KORKORTSTEORI` example)
+   - Update `get_system_prompt()` function to return appropriate prompt for your subject
+   - Add any subject-specific context (like road signs for körkortsteori)
+4. **Update Display Names (Optional):**
+   - Edit `src/components/SubjectPicker.vue` to add display name mapping
+   - Edit `src/components/Dashboard.vue` if you have topic-specific display overrides
+5. **Bundle and Test:**
+   - Run `python3 scripts/bundle.py` to generate content.json
+   - Run `npm run build` to build the app
+   - Test in browser
+
+The app automatically detects new subjects and shows the subject picker if multiple subjects exist.
+
+## 7. Deployment
 
 - **Repo:** GitHub.
 - **Hosting:** GitHub Pages.
