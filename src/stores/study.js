@@ -32,7 +32,8 @@ export const useStudyStore = defineStore('study', {
   state: () => ({
     loading: true,
     error: null,
-    view: 'dashboard', // dashboard, quiz, summary
+    view: 'subjectPicker', // subjectPicker, dashboard, quiz, summary
+    selectedSubject: null, // Currently selected subject folder name
     
     // Data (Loaded from JSON)
     subjects: {}, // Structure: { folder: [ 'filename', ... ] }
@@ -50,6 +51,9 @@ export const useStudyStore = defineStore('study', {
     // Daily accuracy tracking (local day)
     // Structure: { date: 'YYYY-MM-DD', seen: 0, correct: 0 }
     daily: useStorage('iller6-daily', { date: '', seen: 0, correct: 0 }),
+    
+    // Store selected subject in localStorage for persistence
+    persistedSubject: useStorage('iller6-selected-subject', null),
   }),
 
   getters: {
@@ -60,6 +64,12 @@ export const useStudyStore = defineStore('study', {
         counts[q.source] = (counts[q.source] || 0) + 1;
       }
       return counts;
+    },
+    
+    // Get questions filtered by currently selected subject
+    filteredQuestions: (state) => {
+      if (!state.selectedSubject) return state.questions;
+      return state.questions.filter(q => q.source?.startsWith(state.selectedSubject + '/'));
     },
   },
 
@@ -108,12 +118,39 @@ export const useStudyStore = defineStore('study', {
         this.subjects = data.subjects;
         this.questions = data.questions;
         
+        // Restore subject selection from localStorage if available and valid
+        if (this.persistedSubject && this.subjects[this.persistedSubject]) {
+          this.selectedSubject = this.persistedSubject;
+          this.view = 'dashboard';
+        } else {
+          // Check if there's only one subject - auto-select it
+          const subjectKeys = Object.keys(this.subjects);
+          if (subjectKeys.length === 1) {
+            this.selectedSubject = subjectKeys[0];
+            this.persistedSubject = subjectKeys[0];
+            this.view = 'dashboard';
+          } else {
+            // Multiple subjects - show picker
+            this.view = 'subjectPicker';
+          }
+        }
+        
         // Sanitize progress (remove IDs that don't exist anymore if needed, or just ignore them)
       } catch (e) {
         this.error = e.message;
       } finally {
         this.loading = false;
       }
+    },
+    
+    selectSubject(subjectName) {
+      this.selectedSubject = subjectName;
+      this.persistedSubject = subjectName;
+      this.view = 'dashboard';
+    },
+    
+    backToSubjectPicker() {
+      this.view = 'subjectPicker';
     },
 
     startSession(mode, target = null, countOverride = null) {
@@ -128,7 +165,8 @@ export const useStudyStore = defineStore('study', {
         const selected = new Set(target);
         candidateQuestions = this.questions.filter(q => selected.has(q.source));
       } else {
-        candidateQuestions = this.questions;
+        // Use filtered questions by selected subject instead of all questions
+        candidateQuestions = this.filteredQuestions;
       }
 
       if (candidateQuestions.length === 0) {

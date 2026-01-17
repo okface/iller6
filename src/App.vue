@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted } from 'vue';
 import { useStudyStore } from '@/stores/study';
+import SubjectPicker from '@/components/SubjectPicker.vue';
 import Dashboard from '@/components/Dashboard.vue';
 import Quiz from '@/components/Quiz.vue';
 
@@ -29,7 +30,8 @@ onMounted(() => {
       <!-- Main Content Area -->
       <main class="flex-grow p-4 md:p-6">
         <transition name="fade" mode="out-in">
-          <Dashboard v-if="store.view === 'dashboard'" />
+          <SubjectPicker v-if="store.view === 'subjectPicker'" />
+          <Dashboard v-else-if="store.view === 'dashboard'" />
           <Quiz v-else-if="store.view === 'quiz'" />
         </transition>
       </main>

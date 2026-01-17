@@ -116,7 +116,8 @@ def build_question_batch_schema():
 # PROMPTS
 # -------------------------------------------------------------------------
 
-SYSTEM_PROMPT = """
+# Medical exam system prompt (default)
+SYSTEM_PROMPT_MEDICAL = """
 Du är en expertlärare som skapar högkvalitativa, avancerade flashcards-frågor.
 Ditt mål är att generera svåra, precisa och pedagogiska flervalsfrågor PÅ SVENSKA.
 
@@ -128,6 +129,31 @@ INNEHÅLLSKRAV:
 2. Explanation MÅSTE vara syntes-orienterad (2-3 meningar).
 3. Svårighetsgrad: Läkarexamen / Specialistnivå.
 """
+
+# Körkortsteori system prompt
+SYSTEM_PROMPT_KORKORTSTEORI = """
+Du är en erfaren körskoleinstruktör som skapar pedagogiska och varierande frågor för svenska körkortsteoriprov.
+Ditt mål är att generera realistiska, relevanta och lärorika flervalsfrågor PÅ SVENSKA.
+
+Språk: Svenska.
+Ton: Tydlig, pedagogisk och praktisk.
+
+INNEHÅLLSKRAV:
+1. Frågor ska vara relevanta för B-körkort (personbil) i Sverige.
+2. Feedback MÅSTE vara koncis (1 mening). Börja INTE med "Rätt" eller "Fel", det visas automatiskt.
+3. Explanation MÅSTE vara pedagogisk och praktisk (2-3 meningar).
+4. Frågor om vägmärken ska ALLTID ha image-fält med beskrivning av märket.
+5. Fokus på: trafikregler, vägmärken, körteknik, säkerhet, miljö och trafikfaror.
+6. Svårighetsgrad: Svenska körkortsteoriprov (både grundläggande och fördjupade frågor).
+7. Inkludera praktiska situationer som förare möter i verkligheten.
+"""
+
+def get_system_prompt(subject: str) -> str:
+    """Returns appropriate system prompt based on subject."""
+    if subject == 'korkortsteori':
+        return SYSTEM_PROMPT_KORKORTSTEORI
+    else:
+        return SYSTEM_PROMPT_MEDICAL
 
 # -------------------------------------------------------------------------
 # FUNCTIONS
@@ -199,6 +225,29 @@ def analyze_tag_usage_across_subject(subject: str):
     summary = {tag: count for tag, count in tag_counts.most_common(100)}
     return summary, total_questions
 
+def get_road_sign_context(subject: str) -> str:
+    """Returns context about Swedish road signs if subject is körkortsteori."""
+    if subject != 'korkortsteori':
+        return ""
+    
+    return """
+VÄGMÄRKEN KONTEXT (för frågor med bilder):
+När du skapar frågor om vägmärken, ange bildfilnamnet enligt mönstret: "vagmarke_[beskrivning].jpg"
+t.ex. "vagmarke_stopplikt.jpg", "vagmarke_farthinder.jpg", "vagmarke_overgangsstalle.jpg"
+
+Vanliga svenska vägmärken inkluderar:
+- Varning: Varningsmärken (triangel med röd kant): Korsning, kurva, djur, barn, vägarbete, etc.
+- Förbuds: Runda röda märken: Förbud mot infart, omkörning förbjuden, stopplikt, m.m.
+- Påbuds: Blå runda märken: Gångbana, cykelbana, påbjuden körriktning
+- Upplysnings: Blå fyrkantiga/rektangulära: Motorväg, mötesplats, parkering
+- Vägvisnings: Gröna/vita skyltar med platsinformation
+
+När du skapar en fråga om ett specifikt vägmärke:
+1. Beskriv märket tydligt i image-fältet (t.ex. "vagmarke_stopplikt.jpg")
+2. Frågan ska testa förståelse för märkets betydelse och tillämpning
+3. Svarsalternativen ska vara rimliga men bara ett korrekt
+"""
+
 def main():
     print("--- Iller6 Content Factory (Structured v2026) ---")
     
@@ -250,7 +299,13 @@ def main():
     print(f"  Loaded {total_count} existing questions.")
     
     # 4. Config
-    use_images = input("Generate Image-based questions? (y/N): ").lower().strip() == 'y'
+    # For körkortsteori, default to using images (road signs)
+    default_images = 'y' if subject == 'korkortsteori' else 'n'
+    use_images_input = input(f"Generate Image-based questions? ({'Y/n' if default_images == 'y' else 'y/N'}): ").lower().strip()
+    if use_images_input == '':
+        use_images = (default_images == 'y')
+    else:
+        use_images = use_images_input == 'y'
     
     try:
         c_in = input("How many questions to generate? (Default 5): ").strip()
@@ -260,10 +315,20 @@ def main():
         count_req = 5
     
     if use_images:
-        print("  NOTE: You must manually add images to public/assets/ matching the generated IDs.")
+        if subject == 'korkortsteori':
+            print("  NOTE: Road sign images will be referenced. Ensure image files exist in public/assets/")
+        else:
+            print("  NOTE: You must manually add images to public/assets/ matching the generated IDs.")
 
     # 5. Call LLM
     print(f"\nContacting OpenAI (gpt-5-mini) via Structured Outputs...")
+    
+    # Get appropriate system prompt and context
+    system_prompt = get_system_prompt(subject)
+    road_sign_context = get_road_sign_context(subject)
+    
+    # Create ID prefix based on subject
+    id_prefix = 'kor' if subject == 'korkortsteori' else 'med'
     
     user_prompt = f"""
     Ämne: {subject}
@@ -277,12 +342,14 @@ def main():
     TAGGAR (använd detta för att förstå vad som redan täcks och vad som saknas):
     - Tagg-frekvens (denna topic): {json.dumps(tag_summary, ensure_ascii=False)}
     - Tagg-frekvens (hela ämnet): {json.dumps(subject_tag_summary, ensure_ascii=False)}
+    
+    {road_sign_context}
 
     UPPGIFT:
     Generera {count_req} nya frågor.
     - FYLL LUCKOR i ämnet: skapa frågor som kompletterar det som saknas.
     - Återanvänd gärna existerande taggar när det passar; introducera nya endast om nödvändigt.
-    - Generera unika IDn med format ex: "med-gen-{uuid.uuid4().hex[:4]}-..."
+    - Generera unika IDn med format ex: "{id_prefix}-gen-{uuid.uuid4().hex[:4]}-..."
     """
     
     try:
@@ -290,7 +357,7 @@ def main():
         completion = client.chat.completions.create(
             model="gpt-5-mini", 
             messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             response_format={
