@@ -1,6 +1,7 @@
 {
   "subjects": {
     "korkortsteori": [
+      "scenarios",
       "trafik_och_vagmarken",
       "vagmarken_auto"
     ],
@@ -25,6 +26,179 @@
     ]
   },
   "questions": [
+    {
+      "id": "kor-scene-c1e21b",
+      "type": "multiple_choice",
+      "tags": [
+        "Hastighet",
+        "Landsv\u00e4g"
+      ],
+      "question": "Vad b\u00f6r f\u00f6raren vara s\u00e4rskilt uppm\u00e4rksam p\u00e5 vid k\u00f6rning i denna typ av milj\u00f6?",
+      "image": "scenarios/Landsvag_i_norra_Sverige,_Johannes_Jansson.jpg",
+      "options": [
+        {
+          "text": "Farliga kurvor",
+          "correct": false,
+          "feedback": "Milj\u00f6n visar ingen antydan till skarpa kurvor."
+        },
+        {
+          "text": "Djur som kan korsa v\u00e4gen",
+          "correct": true,
+          "feedback": "Skogsomr\u00e5den \u00e4r vanliga platser f\u00f6r vilda djur."
+        },
+        {
+          "text": "Trafikstockningar",
+          "correct": false,
+          "feedback": "Trafikstockningar \u00e4r mindre sannolika i denna glesbefolkade milj\u00f6."
+        },
+        {
+          "text": "V\u00e4garbete",
+          "correct": false,
+          "feedback": "Det finns inga tecken p\u00e5 v\u00e4garbete i bilden."
+        }
+      ],
+      "explanation": "Vid k\u00f6rning p\u00e5 landsv\u00e4gar genom skogsomr\u00e5den \u00e4r det viktigt att vara uppm\u00e4rksam p\u00e5 djur som kan korsa v\u00e4gen, s\u00e4rskilt i gryning och skymning. Skogskanten n\u00e4ra k\u00f6rbanan medf\u00f6r \u00f6kad risk f\u00f6r djur p\u00e5 v\u00e4gen.",
+      "source": "korkortsteori/scenarios"
+    },
+    {
+      "id": "kor-scene-d82d8b",
+      "type": "multiple_choice",
+      "tags": [
+        "Avst\u00e5ndsbed\u00f6mning",
+        "S\u00e4kerhet"
+      ],
+      "question": "Vad b\u00f6r en bilf\u00f6rare ta h\u00e4nsyn till n\u00e4r det g\u00e4ller avst\u00e5nd och s\u00e4kerhet i denna v\u00e4gsektion med mittr\u00e4cka?",
+      "image": "scenarios/Type-section_Swedish_2+1_highway.png",
+      "options": [
+        {
+          "text": "Bilf\u00f6raren ska h\u00e5lla minst 1,75 meter avst\u00e5nd till mittr\u00e4cket.",
+          "correct": false,
+          "feedback": "Avst\u00e5ndet 1,75 meter beskriver sj\u00e4lva mittr\u00e4cket, inte s\u00e4kerhetsavst\u00e5ndet."
+        },
+        {
+          "text": "Bilf\u00f6raren ska h\u00e5lla tillr\u00e4ckligt avst\u00e5nd till framf\u00f6rvarande fordon f\u00f6r att kunna stanna inom synlig str\u00e4cka.",
+          "correct": true,
+          "feedback": "Det \u00e4r viktigt att alltid kunna stanna inom synlig och fri str\u00e4cka, s\u00e4rskilt p\u00e5 v\u00e4gar med mittr\u00e4cken."
+        },
+        {
+          "text": "Bilf\u00f6raren ska alltid h\u00e5lla sig i h\u00f6gra k\u00f6rf\u00e4ltet oavsett situation.",
+          "correct": false,
+          "feedback": "Bilf\u00f6raren m\u00e5ste anpassa sitt k\u00f6rf\u00e4lt beroende p\u00e5 trafikf\u00f6rh\u00e5llanden och omk\u00f6rningar."
+        },
+        {
+          "text": "Bilf\u00f6raren kan anv\u00e4nda s\u00e4kerhetszonen p\u00e5 11 meter f\u00f6r omk\u00f6rningar vid k\u00f6bildning.",
+          "correct": false,
+          "feedback": "S\u00e4kerhetszonen \u00e4r inte avsedd f\u00f6r omk\u00f6rningar utan f\u00f6r att ge utrymme vid n\u00f6dsituationer."
+        }
+      ],
+      "explanation": "P\u00e5 v\u00e4gar med mittr\u00e4cken \u00e4r det viktigt att bilf\u00f6raren beh\u00e5ller ett s\u00e4kert avst\u00e5nd till framf\u00f6rvarande fordon f\u00f6r att kunna stanna inom synlig str\u00e4cka. S\u00e4kerhetszonen finns f\u00f6r att hantera ov\u00e4ntade h\u00e4ndelser och ska inte anv\u00e4ndas f\u00f6r omk\u00f6rningar.",
+      "source": "korkortsteori/scenarios"
+    },
+    {
+      "id": "kor-scene-1bff80",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4glag",
+        "Sikt",
+        "M\u00f6rkerk\u00f6rning"
+      ],
+      "question": "Du k\u00f6r l\u00e4ngs v\u00e4gen i bilden n\u00e4ra solnedg\u00e5ng. Vad b\u00f6r du t\u00e4nka s\u00e4rskilt p\u00e5?",
+      "image": "scenarios/Enk\u00f6ping-_(15914370131).jpg",
+      "options": [
+        {
+          "text": "Anv\u00e4nda helljus f\u00f6r att se b\u00e4ttre trots risken f\u00f6r bl\u00e4ndning.",
+          "correct": false,
+          "feedback": "Helljus kan bl\u00e4nda m\u00f6tande trafik i motljus."
+        },
+        {
+          "text": "S\u00e4nka farten och vara beredd p\u00e5 bl\u00e4ndning och halka.",
+          "correct": true,
+          "feedback": "Motljus och reflektioner fr\u00e5n v\u00e4gbanan kan minska sikten och greppet."
+        },
+        {
+          "text": "F\u00f6rlita dig p\u00e5 bilens automatisk ljusl\u00e4ge f\u00f6r b\u00e4sta sikt.",
+          "correct": false,
+          "feedback": "Automatiska ljusl\u00e4gen kan inte alltid hantera komplexa ljusf\u00f6rh\u00e5llanden r\u00e4tt."
+        },
+        {
+          "text": "\u00d6ka farten f\u00f6r att komma bort fr\u00e5n det distraherande ljuset.",
+          "correct": false,
+          "feedback": "\u00d6kad fart i d\u00e5liga siktf\u00f6rh\u00e5llanden \u00f6kar risken f\u00f6r olyckor."
+        }
+      ],
+      "explanation": "Vid k\u00f6rning i motljus n\u00e4ra solnedg\u00e5ng \u00e4r risken f\u00f6r bl\u00e4ndning och hala v\u00e4gbanor h\u00f6g p\u00e5 grund av reflektioner. S\u00e4nk farten och beh\u00e5ll kontrollen.",
+      "source": "korkortsteori/scenarios"
+    },
+    {
+      "id": "kor-scene-1f2f8a",
+      "type": "multiple_choice",
+      "tags": [
+        "Rondell",
+        "V\u00e4jningsplikt",
+        "Trafikregler"
+      ],
+      "question": "Du n\u00e4rmar dig en rondell (rondellk\u00f6rning) fr\u00e5n din nuvarande position. Vad \u00e4r det viktigaste du b\u00f6r t\u00e4nka p\u00e5 innan du k\u00f6r in i rondellen?",
+      "image": "scenarios/V\u00e4stra_industriomr\u00e5det_Kiruna_September_2019_01.jpg",
+      "options": [
+        {
+          "text": "Att blinka v\u00e4nster innan du k\u00f6r in i rondellen.",
+          "correct": false,
+          "feedback": "Du blinkar n\u00e4r du l\u00e4mnar rondellen, inte n\u00e4r du k\u00f6r in."
+        },
+        {
+          "text": "Att l\u00e4mna f\u00f6retr\u00e4de \u00e5t trafiken som redan \u00e4r i rondellen.",
+          "correct": true,
+          "feedback": "Att l\u00e4mna f\u00f6retr\u00e4de \u00e5t den som redan \u00e4r i rondellen \u00e4r korrekt enligt v\u00e4jningsreglerna."
+        },
+        {
+          "text": "Att alltid k\u00f6ra i den v\u00e4nstra filen n\u00e4r du k\u00f6r in i rondellen.",
+          "correct": false,
+          "feedback": "Filval vid infart i rondellen beror p\u00e5 vilken avfart du ska ta, inte alltid v\u00e4nster."
+        },
+        {
+          "text": "Att anv\u00e4nda tutan f\u00f6r att varna andra trafikanter n\u00e4r du k\u00f6r in.",
+          "correct": false,
+          "feedback": "Anv\u00e4ndning av tutan ska bara ske vid fara, inte under normal k\u00f6rning."
+        }
+      ],
+      "explanation": "Innan du k\u00f6r in i en rondell m\u00e5ste du l\u00e4mna f\u00f6retr\u00e4de \u00e5t fordon som redan befinner sig i rondellen. Detta \u00e4r en grundl\u00e4ggande regel f\u00f6r s\u00e4ker rondellk\u00f6rning. Blinkers anv\u00e4nds n\u00e4r du l\u00e4mnar rondellen f\u00f6r att signalera din avfart.",
+      "source": "korkortsteori/scenarios"
+    },
+    {
+      "id": "kor-scene-0a2baf",
+      "type": "multiple_choice",
+      "tags": [
+        "situation",
+        "s\u00e4kerhet",
+        "t\u00e5g\u00f6verg\u00e5ng"
+      ],
+      "question": "Vilket \u00e4r det viktigaste att t\u00e4nka p\u00e5 som f\u00f6rare n\u00e4r du n\u00e4rmar dig denna plats och ser t\u00e5get n\u00e4rma sig?",
+      "image": "scenarios/L\u00f6d\u00f6se-IMAG0211.jpg",
+      "options": [
+        {
+          "text": "Du b\u00f6r k\u00f6ra omedelbart \u00f6ver j\u00e4rnv\u00e4gssp\u00e5ret f\u00f6r att undvika m\u00f6te med t\u00e5get.",
+          "correct": false,
+          "feedback": "Det kan vara mycket farligt att k\u00f6ra \u00f6ver ett sp\u00e5r n\u00e4r ett t\u00e5g n\u00e4rmar sig."
+        },
+        {
+          "text": "Du b\u00f6r s\u00e4nka hastigheten och vara beredd att stanna f\u00f6r t\u00e5get vid behov.",
+          "correct": true,
+          "feedback": "Du m\u00e5ste alltid ha beredskap att stanna f\u00f6r t\u00e5g vid en korsning."
+        },
+        {
+          "text": "Det \u00e4r s\u00e4kert att forts\u00e4tta i din nuvarande hastighet eftersom t\u00e5get f\u00e4rdas p\u00e5 ett parallellt sp\u00e5r.",
+          "correct": false,
+          "feedback": "T\u00e5get kan \u00e4nd\u00e5 korsa v\u00e4gen, och det \u00e4r viktigt att vara beredd att stanna."
+        },
+        {
+          "text": "Du b\u00f6r \u00f6ka hastigheten f\u00f6r att snabbare passera korsningen.",
+          "correct": false,
+          "feedback": "Det \u00e4r farligt att \u00f6ka hastigheten n\u00e4r du n\u00e4rmar dig en j\u00e4rnv\u00e4gskorsning."
+        }
+      ],
+      "explanation": "N\u00e4r du n\u00e4rmar dig j\u00e4rnv\u00e4gssp\u00e5r d\u00e4r ett t\u00e5g syns n\u00e4rma sig, m\u00e5ste du vara beredd att stanna. Det \u00e4r alltid viktigt att prioritera s\u00e4kerheten och v\u00e4nta tills t\u00e5get har passerat helt.",
+      "source": "korkortsteori/scenarios"
+    },
     {
       "id": "kor-sample-001",
       "type": "multiple_choice",
@@ -18757,7 +18931,7 @@
     }
   ],
   "meta": {
-    "total_questions": 488,
-    "generated_at": "2026-01-17T20:45:57.259060+00:00"
+    "total_questions": 493,
+    "generated_at": "2026-01-17T21:08:19.101430+00:00"
   }
 }

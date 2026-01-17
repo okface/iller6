@@ -1,0 +1,132 @@
+- id: kor-scene-c1e21b
+  type: multiple_choice
+  tags:
+  - Hastighet
+  - Landsväg
+  question: Vad bör föraren vara särskilt uppmärksam på vid körning i denna typ av
+    miljö?
+  image: scenarios/Landsvag_i_norra_Sverige,_Johannes_Jansson.jpg
+  options:
+  - text: Farliga kurvor
+    correct: false
+    feedback: Miljön visar ingen antydan till skarpa kurvor.
+  - text: Djur som kan korsa vägen
+    correct: true
+    feedback: Skogsområden är vanliga platser för vilda djur.
+  - text: Trafikstockningar
+    correct: false
+    feedback: Trafikstockningar är mindre sannolika i denna glesbefolkade miljö.
+  - text: Vägarbete
+    correct: false
+    feedback: Det finns inga tecken på vägarbete i bilden.
+  explanation: Vid körning på landsvägar genom skogsområden är det viktigt att vara
+    uppmärksam på djur som kan korsa vägen, särskilt i gryning och skymning. Skogskanten
+    nära körbanan medför ökad risk för djur på vägen.
+- id: kor-scene-d82d8b
+  type: multiple_choice
+  tags:
+  - Avståndsbedömning
+  - Säkerhet
+  question: Vad bör en bilförare ta hänsyn till när det gäller avstånd och säkerhet
+    i denna vägsektion med mitträcka?
+  image: scenarios/Type-section_Swedish_2+1_highway.png
+  options:
+  - text: Bilföraren ska hålla minst 1,75 meter avstånd till mitträcket.
+    correct: false
+    feedback: Avståndet 1,75 meter beskriver själva mitträcket, inte säkerhetsavståndet.
+  - text: Bilföraren ska hålla tillräckligt avstånd till framförvarande fordon för
+      att kunna stanna inom synlig sträcka.
+    correct: true
+    feedback: Det är viktigt att alltid kunna stanna inom synlig och fri sträcka,
+      särskilt på vägar med mitträcken.
+  - text: Bilföraren ska alltid hålla sig i högra körfältet oavsett situation.
+    correct: false
+    feedback: Bilföraren måste anpassa sitt körfält beroende på trafikförhållanden
+      och omkörningar.
+  - text: Bilföraren kan använda säkerhetszonen på 11 meter för omkörningar vid köbildning.
+    correct: false
+    feedback: Säkerhetszonen är inte avsedd för omkörningar utan för att ge utrymme
+      vid nödsituationer.
+  explanation: På vägar med mitträcken är det viktigt att bilföraren behåller ett
+    säkert avstånd till framförvarande fordon för att kunna stanna inom synlig sträcka.
+    Säkerhetszonen finns för att hantera oväntade händelser och ska inte användas
+    för omkörningar.
+- id: kor-scene-1bff80
+  type: multiple_choice
+  tags:
+  - Väglag
+  - Sikt
+  - Mörkerkörning
+  question: Du kör längs vägen i bilden nära solnedgång. Vad bör du tänka särskilt
+    på?
+  image: scenarios/Enköping-_(15914370131).jpg
+  options:
+  - text: Använda helljus för att se bättre trots risken för bländning.
+    correct: false
+    feedback: Helljus kan blända mötande trafik i motljus.
+  - text: Sänka farten och vara beredd på bländning och halka.
+    correct: true
+    feedback: Motljus och reflektioner från vägbanan kan minska sikten och greppet.
+  - text: Förlita dig på bilens automatisk ljusläge för bästa sikt.
+    correct: false
+    feedback: Automatiska ljuslägen kan inte alltid hantera komplexa ljusförhållanden
+      rätt.
+  - text: Öka farten för att komma bort från det distraherande ljuset.
+    correct: false
+    feedback: Ökad fart i dåliga siktförhållanden ökar risken för olyckor.
+  explanation: Vid körning i motljus nära solnedgång är risken för bländning och hala
+    vägbanor hög på grund av reflektioner. Sänk farten och behåll kontrollen.
+- id: kor-scene-1f2f8a
+  type: multiple_choice
+  tags:
+  - Rondell
+  - Väjningsplikt
+  - Trafikregler
+  question: Du närmar dig en rondell (rondellkörning) från din nuvarande position.
+    Vad är det viktigaste du bör tänka på innan du kör in i rondellen?
+  image: scenarios/Västra_industriområdet_Kiruna_September_2019_01.jpg
+  options:
+  - text: Att blinka vänster innan du kör in i rondellen.
+    correct: false
+    feedback: Du blinkar när du lämnar rondellen, inte när du kör in.
+  - text: Att lämna företräde åt trafiken som redan är i rondellen.
+    correct: true
+    feedback: Att lämna företräde åt den som redan är i rondellen är korrekt enligt
+      väjningsreglerna.
+  - text: Att alltid köra i den vänstra filen när du kör in i rondellen.
+    correct: false
+    feedback: Filval vid infart i rondellen beror på vilken avfart du ska ta, inte
+      alltid vänster.
+  - text: Att använda tutan för att varna andra trafikanter när du kör in.
+    correct: false
+    feedback: Användning av tutan ska bara ske vid fara, inte under normal körning.
+  explanation: Innan du kör in i en rondell måste du lämna företräde åt fordon som
+    redan befinner sig i rondellen. Detta är en grundläggande regel för säker rondellkörning.
+    Blinkers används när du lämnar rondellen för att signalera din avfart.
+- id: kor-scene-0a2baf
+  type: multiple_choice
+  tags:
+  - situation
+  - säkerhet
+  - tågövergång
+  question: Vilket är det viktigaste att tänka på som förare när du närmar dig denna
+    plats och ser tåget närma sig?
+  image: scenarios/Lödöse-IMAG0211.jpg
+  options:
+  - text: Du bör köra omedelbart över järnvägsspåret för att undvika möte med tåget.
+    correct: false
+    feedback: Det kan vara mycket farligt att köra över ett spår när ett tåg närmar
+      sig.
+  - text: Du bör sänka hastigheten och vara beredd att stanna för tåget vid behov.
+    correct: true
+    feedback: Du måste alltid ha beredskap att stanna för tåg vid en korsning.
+  - text: Det är säkert att fortsätta i din nuvarande hastighet eftersom tåget färdas
+      på ett parallellt spår.
+    correct: false
+    feedback: Tåget kan ändå korsa vägen, och det är viktigt att vara beredd att stanna.
+  - text: Du bör öka hastigheten för att snabbare passera korsningen.
+    correct: false
+    feedback: Det är farligt att öka hastigheten när du närmar dig en järnvägskorsning.
+  explanation: När du närmar dig järnvägsspår där ett tåg syns närma sig, måste du
+    vara beredd att stanna. Det är alltid viktigt att prioritera säkerheten och vänta
+    tills tåget har passerat helt.

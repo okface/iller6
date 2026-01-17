@@ -7,6 +7,7 @@ import collections
 import random
 import urllib.request
 import urllib.parse
+import base64
 from typing import List, Optional
 from pydantic import BaseModel, Field
 from openai import OpenAI
@@ -152,6 +153,9 @@ INNEHÅLLSKRAV:
    - RÄTT: "Vad innebär detta vägmärke?" eller "Vägmärket i bilden markerar..."
 6. Svårighetsgrad: Svenska körkortsteoriprov (både grundläggande och fördjupade frågor).
 7. Inkludera praktiska situationer som förare möter i verkligheten.
+8. SVARSALTERNATIV: De felaktiga alternativen (distraktorerna) ska vara trovärdiga och semi-relaterade till ämnet.
+   - Undvik uppenbart felaktiga påståenden (som 'Snöröjning pågår' för en motorvägsskylt).
+   - Alternativen ska vara sådana som en orutinerad förare rimligen skulle kunna blanda ihop med det rätta svaret.
 """
 
 def get_system_prompt(subject: str) -> str:
@@ -444,6 +448,112 @@ def run_roadsign_generator(count=5):
     except Exception as e:
         print(f"Error during auto-generation: {e}")
 
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
+def run_scenario_generator(count=5):
+    """
+    1. Scans public/assets/scenarios
+    2. Filters out used images
+    3. Sends image to GPT-4o Vision to generate scenario question
+    """
+    scenarios_dir = os.path.join(ASSETS_DIR, 'scenarios')
+    if not os.path.exists(scenarios_dir):
+        print(f"Error: {scenarios_dir} not found. Run fetch_scenarios.py first.")
+        return
+
+    output_file = os.path.join(DATA_DIR, 'korkortsteori', 'scenarios.yaml')
+    
+    # Check used images
+    used_images = set()
+    if os.path.exists(output_file):
+        existing_data = load_existing(output_file)
+        if existing_data:
+             for q in existing_data:
+                 if q.get('image'):
+                     # stored as "scenarios/filename.jpg" usually
+                     used_images.add(os.path.basename(q['image']))
+    else:
+        existing_data = []
+
+    # Find available images
+    all_files = [f for f in os.listdir(scenarios_dir) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
+    available = [f for f in all_files if f not in used_images]
+    
+    print(f"\nFound {len(all_files)} images, {len(available)} available.")
+    
+    if not available:
+        print("No new scenario images to process.")
+        return
+        
+    # Select images
+    if count > len(available):
+        to_process = available
+    else:
+        to_process = random.sample(available, count)
+        
+    print(f"Processing {len(to_process)} images...")
+    
+    new_questions = []
+    
+    for img_file in to_process:
+        print(f"  > Analyzing {img_file}...")
+        img_path = os.path.join(scenarios_dir, img_file)
+        base64_image = encode_image(img_path)
+        
+        system_prompt = get_system_prompt('korkortsteori')
+        # Tweak prompt for Vision
+        system_prompt += "\n\nOBS: Du kommer få en bild på en trafiksituation. Din uppgift är att skapa en teorifråga baserad på vad föraren ser (man ser inte alltid motorhuven/ratten, men utgå från kamerans perspektiv). Identifiera risker, regler eller vägmärken i bilden."
+
+        try:
+            # Using gpt-4o for reliable Vision support
+            completion = client.chat.completions.create(
+                model="gpt-4o", 
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {
+                        "role": "user", 
+                        "content": [
+                            {"type": "text", "text": "Analysera trafiksituationen i denna bild. Skapa EN utmanande körkortsfråga (flerval) baserad på bilden. Vad bör föraren tänka på? Vilka regler gäller? Var specifik kopplat till bildens innehåll."},
+                            {
+                                "type": "image_url",
+                                "image_url": {
+                                    "url": f"data:image/jpeg;base64,{base64_image}"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                 response_format={
+                    "type": "json_schema",
+                    "json_schema": {
+                        "name": "question_batch",
+                        "schema": build_question_batch_schema(),
+                        "strict": True
+                    }
+                }
+            )
+            
+            raw_json = completion.choices[0].message.content
+            batch = QuestionBatch.model_validate_json(raw_json)
+            
+            # Post-process: Add image path and ensure ID unique
+            for q in batch.questions:
+                q.image = f"scenarios/{img_file}" # Relative to assets/
+                q.id = f"kor-scene-{uuid.uuid4().hex[:6]}"
+                new_questions.append(q.model_dump())
+                
+        except Exception as e:
+            print(f"    Failed to generate for {img_file}: {e}")
+
+    # Save
+    if new_questions:
+        all_data = existing_data + new_questions
+        with open(output_file, 'w', encoding='utf-8') as f:
+            yaml.dump(all_data, f, sort_keys=False, allow_unicode=True)
+        print(f"\nSaved {len(new_questions)} new scenario questions to {output_file}")
+
 
 def main():
     print("--- Iller6 Content Factory (Structured v2026) ---")
@@ -470,8 +580,9 @@ def main():
         print("\n--- Körkortsteori Mode ---")
         print("1. Standard (Topic-based text/manual images)")
         print("2. AUTO Road Signs (Download images + Generate questions)")
+        print("3. AUTO Traffic Scenarios (Analyze local scenario images)")
         try:
-            mode = input("Select Mode (1/2): ").strip()
+            mode = input("Select Mode (1/2/3): ").strip()
         except:
             mode = "1"
             
@@ -481,6 +592,14 @@ def main():
             except:
                 cnt = 5
             run_roadsign_generator(cnt)
+            return
+
+        if mode == "3":
+            try:
+                cnt = int(input("How many scenario questions? (Default 5): ").strip())
+            except:
+                cnt = 5
+            run_scenario_generator(cnt)
             return
 
     # 2. Select Topic
