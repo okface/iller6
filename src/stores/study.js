@@ -32,7 +32,7 @@ export const useStudyStore = defineStore('study', {
   state: () => ({
     loading: true,
     error: null,
-    view: 'subjectPicker', // subjectPicker, dashboard, quiz, summary
+    view: null, // null initially, set by loadContent: 'subjectPicker', 'dashboard', 'quiz'
     selectedSubject: null, // Currently selected subject folder name
     
     // Data (Loaded from JSON)

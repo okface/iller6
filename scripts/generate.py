@@ -327,8 +327,13 @@ def main():
     system_prompt = get_system_prompt(subject)
     road_sign_context = get_road_sign_context(subject)
     
-    # Create ID prefix based on subject
-    id_prefix = 'kor' if subject == 'korkortsteori' else 'med'
+    # Create ID prefix based on subject (use first 3 characters)
+    # Subject-specific prefix mapping for better readability
+    id_prefix_map = {
+        'korkortsteori': 'kor',
+        'medical_exam': 'med',
+    }
+    id_prefix = id_prefix_map.get(subject, subject[:3].lower())
     
     user_prompt = f"""
     Ämne: {subject}

@@ -1,6 +1,7 @@
 <script setup>
 import { computed, ref } from 'vue';
 import { useStudyStore } from '@/stores/study';
+import { formatName, getSubjectDisplayName, getTopicDisplayName } from '@/utils/displayNames';
 
 const store = useStudyStore();
 
@@ -87,7 +88,7 @@ const allSources = computed(() => {
         subject: sub.name,
         topic,
         count,
-        label: showSubject ? `${formatName(sub.name)} — ${prettyTopic(topic)}` : `${prettyTopic(topic)}`,
+        label: showSubject ? `${formatName(sub.name)} — ${getTopicDisplayName(topic)}` : `${getTopicDisplayName(topic)}`,
       });
     });
   });
@@ -102,20 +103,22 @@ const allSources = computed(() => {
 });
 
 // Format folder names (e.g. medical_exam -> Medical Exam)
-const formatName = (str) => {
-  return str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-};
+// This function is imported from utils now but kept here for backward compatibility if needed
+// const formatName = (str) => {
+//   return str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+// };
 
 // Display overrides (filenames stay ASCII, UI can be Swedish)
-const topicDisplayOverrides = {
-  allmanmedicin: 'Allmänmedicin',
-  oron_nasa_hals: 'Öron-näsa-hals',
-};
+// Moved to utils/displayNames.js
+// const topicDisplayOverrides = {
+//   allmanmedicin: 'Allmänmedicin',
+//   oron_nasa_hals: 'Öron-näsa-hals',
+// };
 
-const prettyTopic = (topic) => {
-  const key = String(topic || '').replace(/\.ya?ml$/i, '');
-  return topicDisplayOverrides[key] || formatName(key);
-};
+// const prettyTopic = (topic) => {
+//   const key = String(topic || '').replace(/\.ya?ml$/i, '');
+//   return topicDisplayOverrides[key] || formatName(key);
+// };
 
 const startSpecific = (subject, topic) => {
   store.startSession('specific', `${subject}/${topic}`); // matches the 'source' field we added in bundle.py
@@ -158,11 +161,7 @@ const focusSelected = (count) => {
 };
 
 const subjectDisplayName = computed(() => {
-  const overrides = {
-    'medical_exam': 'Läkarexamen',
-    'korkortsteori': 'Körkortsteori'
-  };
-  return overrides[store.selectedSubject] || formatName(store.selectedSubject || '');
+  return getSubjectDisplayName(store.selectedSubject || '');
 });
 </script>
 

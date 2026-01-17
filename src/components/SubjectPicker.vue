@@ -1,25 +1,18 @@
 <script setup>
 import { computed } from 'vue';
 import { useStudyStore } from '@/stores/study';
+import { getSubjectDisplayName } from '@/utils/displayNames';
 
 const store = useStudyStore();
 
 const subjectsList = computed(() => {
   return Object.keys(store.subjects).map(folder => ({
     name: folder,
-    displayName: formatSubjectName(folder),
+    displayName: getSubjectDisplayName(folder),
     topicCount: store.subjects[folder].length,
     questionCount: store.questions.filter(q => q.source?.startsWith(folder + '/')).length
   }));
 });
-
-const formatSubjectName = (str) => {
-  const overrides = {
-    'medical_exam': 'Läkarexamen',
-    'korkortsteori': 'Körkortsteori'
-  };
-  return overrides[str] || str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-};
 
 const selectSubject = (subjectName) => {
   store.selectSubject(subjectName);
