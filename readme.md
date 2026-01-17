@@ -1,7 +1,7 @@
-# Iller5: Advanced Study Platform
+# Iller6: Advanced Study Platform
 
 ## 1. Project Overview
-Iller5 is a modular, offline-first study web app hosted on GitHub Pages.
+Iller6 is a modular, offline-first study web app hosted on GitHub Pages.
 - **Goal:** Personal study (Medical exams, Languages, etc.) via flashcards.
 - **Privacy:** **Zero** server-side database. All progress is saved in the browser's `localStorage`.
 - **Content:** Generated locally via a Python script (using LLM APIs) to prevent API exposure and allow manual review before deployment.

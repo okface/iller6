@@ -1,10 +1,10 @@
-# Deployment Guide for Iller5
+# Deployment Guide for Iller6
 
 This guide explains how to get your app online using GitHub Pages.
 
 ## 0. Prerequisite: Create the Repo
 1. Go to [GitHub.com/new](https://github.com/new).
-2. Repository name: `iller5` (or whatever you like).
+2. Repository name: `iller6` (or whatever you like).
 3. **Public** or **Private** (GitHub Pages works for both, but Private requires Pro if you want Pages). *Recommendation: Public is easier if free.*
 4. Do NOT check "Add README", "Add .gitignore", etc. Create an empty repo.
 5. Click **Create repository**.
@@ -17,7 +17,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/iller5.git
+git remote add origin https://github.com/YOUR_USERNAME/iller6.git
 git push -u origin main
 ```
 
@@ -30,15 +30,15 @@ git push -u origin main
 4. That's it! The workflow file I created (`.github/workflows/deploy.yml`) handles the rest.
 
 ## 3. Important: Fix the `base` URL
-Since your site will likely be hosted at `username.github.io/iller5/`, you need to tell Vite about this subfolder.
+Since your site will likely be hosted at `username.github.io/iller6/`, you need to tell Vite about this subfolder.
 
 1. Open `vite.config.js`.
-2. Add `base: '/iller5/',` (replace `iller5` with your repo name).
+2. Add `base: '/iller6/',` (replace `iller6` with your repo name).
 
 Example:
 ```javascript
 export default defineConfig({
-  base: '/iller5/', // <--- ADD THIS LINE
+  base: '/iller6/', // <--- ADD THIS LINE
   plugins: [vue()],
   // ...
 })

@@ -14,7 +14,7 @@ onMounted(() => {
 <template>
   <div class="min-h-screen bg-gradient-to-b from-stone-100 via-amber-50/40 to-rose-100/40 text-slate-900 font-sans">
     <div v-if="store.loading" class="flex items-center justify-center h-screen">
-      <div class="text-xl animate-pulse text-indigo-600 font-bold">Loading Iller5...</div>
+      <div class="text-xl animate-pulse text-indigo-600 font-bold">Loading Iller6...</div>
     </div>
     
     <div v-else-if="store.error" class="flex items-center justify-center h-screen">

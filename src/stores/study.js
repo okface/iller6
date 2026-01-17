@@ -45,11 +45,11 @@ export const useStudyStore = defineStore('study', {
     
     // User Progress (Persisted in localStorage)
     // Structure: { questionId: { bucket: 'A'|'B'|'C', consecutiveCorrect: 0, lastSeen: timestamp, seen: 0, correct: 0, wrong: 0, lastWasCorrect: true|false } }
-    progress: useStorage('iller5-progress', {}),
+    progress: useStorage('iller6-progress', {}),
 
     // Daily accuracy tracking (local day)
     // Structure: { date: 'YYYY-MM-DD', seen: 0, correct: 0 }
-    daily: useStorage('iller5-daily', { date: '', seen: 0, correct: 0 }),
+    daily: useStorage('iller6-daily', { date: '', seen: 0, correct: 0 }),
   }),
 
   getters: {
@@ -96,8 +96,8 @@ export const useStudyStore = defineStore('study', {
         // Cache busting: GitHub Pages/static CDNs + browsers may cache content.json aggressively.
         // By varying the URL per deployment, we can fetch new questions without users clearing
         // site data (which would also wipe localStorage progress).
-        const buildTag = (typeof __ILLER5_BUILD_TIME__ !== 'undefined' && __ILLER5_BUILD_TIME__)
-          ? __ILLER5_BUILD_TIME__
+        const buildTag = (typeof __ILLER6_BUILD_TIME__ !== 'undefined' && __ILLER6_BUILD_TIME__)
+          ? __ILLER6_BUILD_TIME__
           : `${Date.now()}`;
         const path = `${basePath}?v=${encodeURIComponent(buildTag)}`;
         

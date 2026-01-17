@@ -200,7 +200,7 @@ def analyze_tag_usage_across_subject(subject: str):
     return summary, total_questions
 
 def main():
-    print("--- Iller5 Content Factory (Structured v2026) ---")
+    print("--- Iller6 Content Factory (Structured v2026) ---")
     
     # 1. Select Subject
     subjects = get_subjects()

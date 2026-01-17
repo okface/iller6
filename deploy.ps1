@@ -1,11 +1,11 @@
-# Deploy Helper Script for Iller5
+# Deploy Helper Script for Iller6
 # Usage: ./deploy.ps1 "Your commit message"
 
 param (
     [string]$message = "Update content"
 )
 
-Write-Host "--- Iller5 Deployment Helper ---" -ForegroundColor Cyan
+Write-Host "--- Iller6 Deployment Helper ---" -ForegroundColor Cyan
 
 # 1. Run Bundler locally (just to be safe and sanity check)
 Write-Host "1. Running Bundler..." -ForegroundColor Yellow
@@ -27,4 +27,4 @@ git push origin main
 
 Write-Host "--- Success! ---" -ForegroundColor Green
 Write-Host "GitHub Actions will now build and deploy your site."
-Write-Host "Check progress here: https://github.com/okface/iller5/actions" -ForegroundColor Cyan
+Write-Host "Check progress here: https://github.com/okface/iller6/actions" -ForegroundColor Cyan
