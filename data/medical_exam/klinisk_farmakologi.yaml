@@ -1,0 +1,121 @@
+- type: multiple_choice
+  tags:
+  - läkemedelsförmånen
+  - off-label
+  - apotek
+  question: Vilket av följande påståenden är minst rimligt beträffande läkemedelsförskrivning och expediering på apotek?
+  image: null
+  options:
+  - text: Det är inte tillåtet att förskriva läkemedel off label, dvs utanför det som läkemedlet är godkänt för.
+    correct: true
+    feedback: Off‑label‑förskrivning är möjlig om läkaren bedömer det lämpligt och tar ansvar för indikation, information och dokumentation.
+  - text: En patient får ett läkemedel förskrivet som inte är på förmån, och får själv betala hela kostnaden.
+    correct: false
+    feedback: Om ett läkemedel inte omfattas av läkemedelsförmånen betalar patienten normalt hela kostnaden själv.
+  - text: Läkemedel inom förmånen är helt gratis för barn (under 18 år) och äldre (över 65 år).
+    correct: false
+    feedback: Läkemedel inom förmånen är inte automatiskt gratis för dessa åldersgrupper; högkostnadsskydd och eventuella egenavgifter gäller.
+  - text: En patient kommer till apoteket och ska hämta ut Amlodipin Accord, men expedieras Amlodipin Sandoz. Byte sker enligt utbytbarhetslistan till periodens vara.
+    correct: false
+    feedback: Apotek får byta till utbytbar vara enligt utbytbarhetslistan om förskrivaren inte reserverat mot utbyte.
+  - text: En patient ska hämta ut läkemedel för sin hjärtsviktsbehandling. Alla läkemedlen är inom förmånen. Patienten får hämta ut för högst 90 dagar.
+    correct: false
+    feedback: Det är vanligt att expediera läkemedel inom förmånen för upp till 90 dagars förbrukning vid ett uttag.
+  explanation: Off‑label‑förskrivning är tillåten under förutsättning att förskrivaren ansvarar för bedömning, dokumentation och information till patienten. Apotek får byta ut läkemedel enligt utbytbarhetslistan om inte utbyte är reserverat; icke‑förmånsläkemedel betalas av patienten, och för förmånsmediciner gäller högkostnadsskydd snarare än automatisk avgiftsfrihet för vissa åldersgrupper.
+  id: imp-a3ad2d6a
+- type: multiple_choice
+  tags:
+  - läkemedelsbiverkningar
+  - farmakovigilans
+  question: Vilket påstående är minst rimligt avseende biverkningar?
+  image: null
+  options:
+  - text: En negativ dechallenge talar emot att det handlar om en biverkning.
+    correct: false
+    feedback: Om symtomen inte förbättras efter att läkemedlet satts ut (negativ dechallenge) minskar sannolikheten för orsakssamband.
+  - text: Svart triangel vid läkemedelsnamnet i FASS betyder att läkemedlet är under särskild utredning.
+    correct: false
+    feedback: Svart triangel anger att läkemedlet är under särskild övervakning (additional monitoring), ofta nysubstans eller nytt användningsområde.
+  - text: Biverkningar som spontanrapporteras är ett viktigt sätt för Läkemedelsverket att få kunskap om frekvensen.
+    correct: true
+    feedback: Spontanrapporter är viktiga för signaldetektion men ger inte pålitliga uppgifter om frekvens på grund av omfattande underrapportering och bias.
+  - text: När ett nytt läkemedel godkänns är ovanliga biverkningar oftast inte tillräckligt kända.
+    correct: false
+    feedback: Sällsynta biverkningar upptäcks ofta först efter godkännande när fler patienter exponeras.
+  - text: Typ A-biverkningar kan ofta hanteras genom att sänka dosen.
+    correct: false
+    feedback: Typ A-biverkningar är dosberoende och förutsägbara, och kan ofta minskas genom dosreduktion eller anpassad behandling.
+  explanation: Spontanrapporter används främst för att upptäcka nya säkerhetssignaler men kan inte ge tillförlitliga frekvenssiffror p.g.a. underrapportering. Causalitetsbedömning använder dechallenge/rechallenge; svart triangel markerar särskild övervakning; typ A-biverkningar är oftast dosberoende och hanterbara.
+  id: imp-1d2402bc
+- type: multiple_choice
+  tags:
+  - Evidensbaserad medicin
+  - Forskningsmetodik
+  question: Vilka studiedesigner har högst evidensgrad?
+  image: null
+  options:
+  - text: Systematiska översikter och metaanalyser av randomiserade kontrollerade studier
+    correct: true
+    feedback: Dessa sammanställer och kvantifierar resultat från flera RCT:er och utgör högsta nivå av klinisk evidens.
+  - text: Observationsstudier och fall-kontrollstudier
+    correct: false
+    feedback: Ger ofta viktig information om associationer men har högre risk för confounding och bias än RCT och deras översikter.
+  - text: Fallrapporter och expertutlåtanden
+    correct: false
+    feedback: Anekdotiska observationer med begränsad generaliserbaritet och hög risk för bias, vilket ger låg evidensgrad.
+  - text: Enkätstudier och tvärsnittsstudier
+    correct: false
+    feedback: Ger prevalens och associationsdata men kan inte etablera kausalitet och har lägre evidensstyrka.
+  - text: Laboratoriestudier och djurstudier
+    correct: false
+    feedback: Viktiga för mekanistisk kunskap men resultaten är inte direkt överförbara till klinisk evidens hos människor.
+  explanation: Systematiska översikter och metaanalyser av randomiserade kontrollerade studier ger högst evidens eftersom de kombinerar flera välkontrollerade försök och minskar slumpmässiga fel. Övriga studiedesigner används för olika syften men har större risk för bias och kan sällan ensam fastställa kausalitet.
+  id: imp-291a85c7
+- type: multiple_choice
+  tags:
+  - epidemiologi
+  - statistik
+  question: Vad är skillnaden mellan kausalitet och korrelation?
+  image: null
+  options:
+  - text: Korrelation innebär att två variabler samvarierar, kausalitet innebär att den ena orsakar den andra.
+    correct: true
+    feedback: Korrelation är samvariation, kausalitet innebär ett orsak-verkan-förhållande där en variabel påverkar en annan.
+  - text: Korrelation gäller bara vid experiment, kausalitet bara vid observation.
+    correct: false
+    feedback: Korrelation och kausalitet kan observeras i både experimentella och observationsstudier; kausalitet kräver starkare bevis än bara observationsdata.
+  - text: Kausalitet innebär samband utan orsak, korrelation innebär orsakssamband.
+    correct: false
+    feedback: Detta omkastar begreppen; kausalitet betyder orsakssamband medan korrelation betyder endast samband utan att nödvändigtvis vara orsak.
+  - text: Det finns ingen skillnad.
+    correct: false
+    feedback: 'Det är en viktig skillnad: korrelation är samvariation, kausalitet är orsaksrelation.'
+  - text: Kausalitet är när två variabler råkar samvariera...
+    correct: false
+    feedback: Det beskriver korrelation, inte kausalitet; kausalitet kräver bevis för att en variabel påverkar en annan.
+  explanation: Korrelation betyder att två variabler samvarierar statistiskt, men säger inget om orsak. Kausalitet innebär att förändring i en variabel direkt orsakar förändring i en annan; för att sluta sig till kausalitet behövs t.ex. tidsordning, plausibilitet och ofta experimentell eller metodologiskt stark evidens.
+  id: imp-c2338e74
+- type: multiple_choice
+  tags:
+  - Antidepressiva
+  - Biverkningar
+  question: Vilket av följande är INTE en vanlig biverkning av selektiva serotoninåterupptagshämmare (SSRI)?
+  image: null
+  options:
+  - text: Sömnstörningar
+    correct: false
+    feedback: SSRI kan ofta ge sömnstörningar, både insomnia och ibland somnolens.
+  - text: Viktminskning
+    correct: true
+    feedback: Viktnedgång är inte typiskt; långsiktig viktökning förekommer oftare än bestående viktminskning.
+  - text: Huvudvärk
+    correct: false
+    feedback: Huvudvärk är en vanlig initial biverkning av SSRI.
+  - text: Illamående
+    correct: false
+    feedback: Illamående är mycket vanligt, särskilt i början av behandlingen.
+  - text: Sexuell dysfunktion
+    correct: false
+    feedback: Sexuell dysfunktion (minskad libido, fördröjd orgasm, erektil dysfunktion) är en välkänd och vanlig biverkning.
+  explanation: SSRI ger ofta GI-biverkningar (illamående), huvudvärk, sömnstörningar och signifikant sexuell dysfunktion. Viktförändringar kan förekomma, men bestående viktnedgång är inte en vanlig effekt — viktökning är vanligare över tid.
+  id: imp-290dcee3

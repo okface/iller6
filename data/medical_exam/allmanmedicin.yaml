@@ -1,0 +1,976 @@
+- type: multiple_choice
+  tags:
+  - Pneumoni
+  - Diagnostik
+  question: Sofia, 52 år, har hosta och feber sedan ett dygn och undrar om hon har lunginflammation och behöver antibiotika. Vilket av följande fynd är mest användbart för att skilja akut bronkit från pneumoni?
+  image: null
+  options:
+  - text: CRP
+    correct: false
+    feedback: CRP kan ge stöd men saknar tillräcklig specificitet för att ensamt avgöra pneumoni.
+  - text: Patientens ålder och komorbiditet
+    correct: false
+    feedback: Viktiga för riskbedömning och behandlingsbeslut men diagnostiserar inte pneumoni i sig.
+  - text: Allmänpåverkan och andningsfrekvens
+    correct: true
+    feedback: Uttalad allmänpåverkan och takypné talar mer för pneumoni och kräver ofta vidare utredning.
+  - text: Temperaturen
+    correct: false
+    feedback: Feber förekommer vid både bronkit och pneumoni och är inte tillräckligt diskriminerande.
+  - text: Färgen på upphostningarna
+    correct: false
+    feedback: Sputumfärg korrelerar dåligt med förekomst av pneumoni eller bakteriell infektion.
+  explanation: 'Klinisk bedömning är central: allmänpåverkan, andningsfrekvens och syrgasmättnad är bäst för att misstänka pneumoni. CRP och lungröntgen kan komplettera vid osäkerhet, medan ålder/komorbiditet snarare påverkar riskbedömning och behandlingsbehov än diagnos.'
+  id: med-all-3b79c8
+- type: multiple_choice
+  tags:
+  - Sinuit
+  - Antibiotika
+  - Infektion
+  question: Magdalena, 63 år, söker vårdcentralen för förkylningssymtom med tryck i båda kinderna sedan 6 dagar. Hon upplever besvär från bihålorna och önskar antibiotika som hon fått tidigare. Vilket av följande fynd talar mest för att patienten kan ha nytta av antibiotika vid akut sinuit?
+  image: null
+  options:
+  - text: Tryckkänsla i båda kinderna när patienten böjer sig framåt
+    correct: false
+    feedback: Tryck vid framåtböjning förekommer vid både virus- och bakteriella sinuiter och är inte tillräckligt specifikt för antibiotikabehandling.
+  - text: Färgad snuva
+    correct: false
+    feedback: Gult eller grönt sekret är vanligt också vid virusinfektioner och är inte ensamt ett säkert tecken på bakteriell sinuit.
+  - text: CRP
+    correct: false
+    feedback: CRP kan vara vägledande i vissa situationer men ger ofta begränsad nytta vid lindriga sinuitbesvär.
+  - text: Patienten har tidigare fått antibiotika för sinuit
+    correct: false
+    feedback: Tidigare antibiotikabehandling vid liknande besvär betyder inte att nuvarande episod är bakteriell eller att antibiotika behövs.
+  - text: Hög feber och ensidig smärta i kinden
+    correct: true
+    feedback: Hög feber och ensidiga, uttalade lokala symtom talar för bakteriell sinuit och kan motivera antibiotika.
+  explanation: 'Antibiotika övervägs vid tecken på bakteriell sinuit: uttalad ensidig smärta, hög feber, purulent sekret och/eller förlopp >10 dagar eller försämring efter initial förbättring. Många vanliga symtom som färgat sekret eller tryckkänsla är inte tillförlitliga för att skilja virus från bakterier.'
+  id: med-all-06946e
+- type: multiple_choice
+  tags:
+  - Faryngit
+  - Diagnostik
+  question: 'Tareq, 28 år, har ont i halsen sedan 2 dagar. Ingen snuva, hosta eller heshet. Det gör ont vid sväljning och svårt att äta fast föda men han kan dricka. Status: opåverkat AT, temp 38,7°C. Mun och svalg: rodnade tonsiller utan beläggningar. Ömma, svullna lymfkörtlar i käkvinklarna. Hur många Centorkriterier har Tareq?'
+  image: null
+  options:
+  - text: '3'
+    correct: true
+    feedback: Feber >38°C, öm/svullen cervikal lymfkörtel och frånvaro av hosta ger 3 poäng.
+  - text: '4'
+    correct: false
+    feedback: Tonsillerna saknar beläggningar/exsudat, så det blir inte fyra kriterier.
+  - text: '2'
+    correct: false
+    feedback: Patienten uppfyller tre kriterier, inte två.
+  - text: '1'
+    correct: false
+    feedback: Flera kriterier är uppfyllda (feber, öm cervikal lymfkörtel, ingen hosta).
+  - text: '5'
+    correct: false
+    feedback: Centor består av max fyra kriterier.
+  explanation: 'De klassiska Centorkriterierna är: feber >38°C, tonsillbeläggningar, öm anterior cervikal lymfadenopati och frånvaro av hosta. Poängen uppskattar sannolikheten för streptokockfaryngit; Tareq får 3 poäng eftersom han har feber, öm cervikal lymfkörtel och ingen hosta men inga tonsillbeläggningar. Ålder ger endast poäng i den modifierade (McIsaac) versionen.'
+  id: med-all-a5fabb
+- type: multiple_choice
+  tags:
+  - Evidensbaserad medicin
+  - Beslutsfattande
+  question: Vilket av följande beskriver bäst vad evidensbaserad medicin är?
+  image: null
+  options:
+  - text: Läkarens egna erfarenheter
+    correct: false
+    feedback: Individuell erfarenhet är viktig men ensam erfarenhet saknar systematisk vetenskaplig grund och patientens perspektiv.
+  - text: Kvalitetsparametrar som mäts för att avgöra kvaliteten på vården
+    correct: false
+    feedback: Kvalitetsmått bedömer vårdens resultat men utgör inte definitionen av evidensbaserad medicin.
+  - text: Resultatet från en enskild vetenskaplig studie
+    correct: false
+    feedback: Enstaka studier kan vara missvisande; EBM bygger på sammanvägd bästa tillgängliga evidens, inte enstaka studier.
+  - text: Patientens krav på utredning och behandling
+    correct: false
+    feedback: Patientens preferenser är en av tre komponenter men räcker inte ensamt för att vara evidensbaserat beslutsfattande.
+  - text: En sammanvägning av bästa tillgängliga evidens från vetenskapliga studier, beprövad erfarenhet och patientens preferenser
+    correct: true
+    feedback: 'Detta fångar de tre hörnstenarna i evidensbaserad medicin: vetenskaplig evidens, klinisk expertis och patientens värderingar.'
+  explanation: Evidensbaserad medicin innebär att kliniska beslut fattas genom att kombinera bästa tillgängliga forskning, klinisk erfarenhet och patientens preferenser. Det kräver kritisk bedömning av studiers kvalitet och anpassning till den enskilde patienten.
+  id: med-all-0ea4f5
+- type: multiple_choice
+  tags:
+  - Evidensbaserad medicin
+  - Statistik
+  question: Vilket mått är viktigast att få presenterat när du vill veta hur effektiv en ny behandling är jämfört med standardbehandling?
+  image: null
+  options:
+  - text: Antalet ingående patienter
+    correct: false
+    feedback: Antalet patienter påverkar studiens precision och statistiska styrka men säger inget direkt om behandlingens effekt.
+  - text: Den relativa riskreduktionen med konfidensintervall
+    correct: false
+    feedback: Relativ riskreduktion visar proportionell förändring men kan överdriva klinisk nytta utan kännedom om baslinjerisk; CI ger visserligen osäkerhet men inte absolut effekt.
+  - text: Hur mycket behandlingarna som jämförs kostar
+    correct: false
+    feedback: Kostnad är relevant för ekonomi och prioritering men beskriver inte behandlingseffektivitet i sig.
+  - text: Den absoluta riskreduktionen med konfidensintervall
+    correct: true
+    feedback: Visar den faktiska skillnaden i risk mellan behandlingarna och konfidensintervallet visar osäkerheten, vilket ger ett direkt mått på klinisk nytta.
+  - text: P-värdet för jämförelse mellan grupperna
+    correct: false
+    feedback: P‑värdet anger statistisk signifikans men inte effektstorlek eller klinisk betydelse.
+  explanation: Absolut riskreduktion (ARR) med konfidensintervall anger den faktiska minskningen i risk mellan ny och standardbehandling och visar samtidig osäkerhet i skattningen. Relativa mått och p‑värden kan vara vilseledande utan baslinjerisk och säger inte hur stor den kliniska vinsten är.
+  id: med-all-5d122b
+- type: multiple_choice
+  tags:
+  - Kommunikation
+  - Narrativ medicin
+  question: Konsultationsprocessen är viktig för kvaliteten på ett läkarbesök. Vilket påstående beskriver konsultationsprocessen bäst?
+  image: null
+  options:
+  - text: I den gemensamma delen ingår att läkaren förklarar och samtalar med patienten om möjliga slutsatser och fortsatt planering.
+    correct: true
+    feedback: Konsultationen innehåller en gemensam del för förklaring, slutsatser och planering som främjar delaktighet.
+  - text: Konsultationsprocessen tar för lång tid för att kunna användas vid akuta besök.
+    correct: false
+    feedback: Processen kan anpassas till tidsramar och används även i akuta situationer med fokus på prioritering och tydlig kommunikation.
+  - text: Konsultationsprocessen har utvecklats för att kunna bemöta missnöjda patienter.
+    correct: false
+    feedback: Målet är god kommunikation och delaktighet för alla patienter, inte enbart att hantera missnöje.
+  - text: Konsultationsprocessen förutsätter att läkare och patient talar samma språk.
+    correct: false
+    feedback: Samma språk underlättar, men processen kan genomföras med tolkning eller andra kommunikationshjälpmedel.
+  - text: Konsultationsprocessen förutsätter kontinuitet.
+    correct: false
+    feedback: Kontinuitet är fördelaktigt men inte ett krav för att genomföra en strukturerad konsultation.
+  explanation: Konsultationsprocessen inkluderar en gemensam del där läkare och patient diskuterar möjliga slutsatser och fortsatt planering för att skapa delaktighet och tydlighet. Den är flexibel och kan anpassas efter akuthetsgrad, språkförutsättningar och kontinuitet.
+  id: med-all-c25d22
+- type: multiple_choice
+  tags:
+  - Ögonremiss
+  - Akutbedömning
+  question: Ibland behöver patienter remitteras akut till ögonläkare. Vid vilket av följande alternativ är det mest korrekt att remittering sker akut?
+  image: null
+  options:
+  - text: Vid en vagel i båda de övre ögonlocken
+    correct: false
+    feedback: Vaglar är oftast lokala och kan vanligtvis skötas konservativt i primärvård.
+  - text: På grund av att det sitter en stålflis i hornhinnan på vänster öga
+    correct: false
+    feedback: En stålflisa i hornhinnan kan vara brådskande och kräver snabb bedömning, men är inte generellt mer akut än ett helt rött och smärtande öga.
+  - text: På grund av kraftig smärta i det högra ögat, som är helt rött
+    correct: true
+    feedback: Kraftig smärta och diffus rodnad kan tyda på akut trångvinkelglaukom, keratit eller sclerit och kräver omedelbar ögonläkarbedömning.
+  - text: Vid konjunktivit på grund av allergi mot gräspollen, gråbo och katt
+    correct: false
+    feedback: Allergisk konjunktivit är vanligtvis icke-brådskande och kan behandlas i primärvård.
+  - text: På grund av att den mediala delen av den högra konjunktivan plötsligt blivit alldeles röd
+    correct: false
+    feedback: Lokaliserad rodnad är ofta mindre allvarlig (t.ex. subkonjunktival blödning eller lokal konjunktivit) och kräver sällan akut remiss.
+  explanation: Kraftig ögonsmärta med global rodnad kan indikera allvarliga tillstånd som akut trångvinkelglaukom, keratit eller sclerit och behöver snabb specialistbedömning. Främmande kropp i hornhinnan kan också vara akut, medan vagel, allergisk konjunktivit och lokaliserad rodnad oftast inte kräver omedelbar remiss.
+  id: med-all-058de5
+- type: multiple_choice
+  tags:
+  - Prioritering
+  - Etik
+  - Hälso- och sjukvård
+  question: Vilka tre principer utgör de formella prioriteringsprinciperna i svensk hälso- och sjukvård?
+  image: null
+  options:
+  - text: Människovärdesprincipen, behovs- och solidaritetsprincipen samt kostnadseffektivitetsprincipen
+    correct: true
+    feedback: 'Dessa tre är de formella prioriteringsprinciperna: lika människovärde, fördelning efter behov/solidaritet och kostnadseffektivitet.'
+  - text: Människovärdesprincipen, hälso- och sjukvårdsprincipen och tystnadspliktsprincipen
+    correct: false
+    feedback: Tystnadsplikt och en generell 'hälso- och sjukvårdsprincip' ingår inte som formella prioriteringsprinciper.
+  - text: Människovärdesprincipen, eutanasiprincipen och principen om det fria valet
+    correct: false
+    feedback: Eutanasi och fritt vårdval är inte prioriteringsprinciper för resursfördelning.
+  - text: Människovärdesprincipen, behovs- och solidaritetsprincipen samt autonomiprincipen
+    correct: false
+    feedback: Autonomi är en viktig etisk princip but ingår inte i de formella prioriteringsprinciperna; kostnadseffektivitet är den tredje principen.
+  explanation: 'De tre formella prioriteringsprinciperna är: människovärdesprincipen (alla människors lika värde), behovs- och solidaritetsprincipen (resurser fördelas efter behov och solidaritet) samt kostnadseffektivitetsprincipen (insatser ska vara kostnadseffektiva i relation till nyttan). Dessa styr vilka vårdinsatser som prioriteras i systemet.'
+  id: med-all-5efec8
+- type: multiple_choice
+  tags:
+  - Ortostatism
+  - Diagnostik
+  - Geriatrik
+  question: Ortostatism förekommer ofta hos äldre. Vilket av följande påståenden stämmer bäst?
+  image: null
+  options:
+  - text: Blodtrycksbehandling kan fortsätta utan förändring; endast andra läkemedel behöver omvärderas.
+    correct: false
+    feedback: Blodtrycksbehandling kan behöva justeras vid ortostatism och en fullständig läkemedelsgenomgång rekommenderas.
+  - text: Ortostatiskt blodtryck definieras som ett systoliskt fall ≥10 mmHg eller diastoliskt ≥5 mmHg inom tre minuter efter uppresning.
+    correct: false
+    feedback: De vedertagna gränserna är ett fall ≥20 mmHg systoliskt eller ≥10 mmHg diastoliskt inom tre minuter.
+  - text: Vanliga symptom är yrsel, dubbelseende, svimning, trötthet, sviktande tankeförmåga, illamående, skakningar och huvudvärk.
+    correct: false
+    feedback: Delvis rätt men ofullständigt — detta listar många vanliga symptom, men uttalandet nämner inte att synpåverkan också kan förekomma och saknar definition samt åtgärder.
+  - text: Det saknas kunskap om det går att träna fysiskt för att minska besvären.
+    correct: false
+    feedback: Det finns stöd för att riktad fysisk träning och balansövningar ibland kan minska symtomen vid ortostatism.
+  - text: Ortostatism kan ge yrsel, dubbelseende, svimning, trötthet, kognitiv svikt, illamående, skakningar och huvudvärk; synpåverkan kan förekomma. Definitionen är ett systoliskt fall ≥20 mmHg eller diastoliskt fall ≥10 mmHg inom tre minuter efter uppresning, och läkemedelsgenomgång samt ibland fysisk träning kan minska besvären.
+    correct: true
+    feedback: Detta sammanfattar symptom, korrekt diagnostisk gräns och lämpliga åtgärder.
+  explanation: Ortostatism definieras som ett blodtrycksfall ≥20 mmHg systoliskt eller ≥10 mmHg diastoliskt inom tre minuter efter uppresning. Det ger ofta yrsel, synpåverkan och kognitiva symptom; åtgärder inkluderar läkemedelsgenomgång, volymåtgärder och ibland riktad fysisk träning.
+  id: med-all-5a9cfa
+- type: multiple_choice
+  tags:
+  - Myelom
+  - Diagnostik
+  question: Gustav har sökt vårdcentralen tre gånger för svår ryggsmärta som inte förbättrats av NSAID och sjukgymnastik. Misstanke om myelom väcks. Vilka blodprover beställer du för att utreda detta?
+  image: null
+  options:
+  - text: Hb, LPK, TPK, serumelfores, jon Ca och Krea
+    correct: false
+    feedback: Saknar fria lätta kedjor (FLC) som ofta behövs för att upptäcka monoklonal komponent, därför otillräckligt vid misstänkt myelom.
+  - text: Hb, LPK, TPK och neutrofila
+    correct: false
+    feedback: Endast blodstatus ger information om cytopenier men upptäcker inte monoklonal komponent eller organsvikt vid myelom.
+  - text: Hb, LPK, TPK, Diff, Krea, serumelfores
+    correct: false
+    feedback: Innehåller serumelfores men saknar fria lätta kedjor och joniserat kalcium, vilket kan göra att myelom eller hyperkalcemi missas.
+  - text: Hb, LPK, TPK, serumelfores, FLC, jon Ca, Krea
+    correct: true
+    feedback: Kombination — blodstatus, serumelfores och fria lätta kedjor identifierar monoklonal komponent och joniserat kalcium samt kreatinin bedömer hyperkalcemi och njurpåverkan.
+  - text: SR, TSH, fritt T4, FLC, Krea
+    correct: false
+    feedback: SR och sköldkörtelprover adresserar andra differentialdiagnoser men saknar serumelfores och kalcium, vilket gör utredningen för myelom ofullständig.
+  explanation: Vid misstanke om multipelt myelom behövs både detektering av monoklonal komponent (serumelfores och fria lätta kedjor) och bedömning av organsvikt (joniserat kalcium för hyperkalcemi och kreatinin för njurpåverkan), samt blodstatus för anemi eller cytopenier. Saknas FLC eller kalcium/krea kan myelom eller dess komplikationer förbises.
+  id: med-all-f5df14
+- type: multiple_choice
+  tags:
+  - Diagnostik
+  - Infektion
+  - Primärvård
+  question: C-reaktivt protein (CRP) är ett vanligt snabbtest i svensk primärvård. Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: CRP bör användas för att triagera infektionspatienter
+    correct: false
+    feedback: CRP kan vara normalt tidigt och påverkas av många faktorer, därför är det inte ett tillförlitligt triageringsinstrument ensam.
+  - text: CRP >100 mg/L betyder att patienten behöver antibiotika
+    correct: false
+    feedback: Högt CRP talar för stark inflammation eller bakteriell infektion men beslut om antibiotika bygger på helhetsbedömning, inte enbart CRP.
+  - text: Det kan dröja ett dygn innan CRP stiger även vid svåra infektioner
+    correct: true
+    feedback: CRP börjar ofta stiga först efter 6–24 timmar, så tidiga prover kan vara falskt normala.
+  - text: CRP är ett säkert test för att skilja mellan virala och bakteriella infektioner
+    correct: false
+    feedback: CRP har begränsad specificitet och kan inte ensamt särskilja viral från bakteriell etiologi.
+  - text: CRP speglar alltid svårighetsgraden av en infektion
+    correct: false
+    feedback: CRP korrelerar ofta med inflammation men påverkas av tidpunkt, individuellt svar och komorbiditet, så det speglar inte alltid svårighet.
+  explanation: CRP är en akutfasmarkör som ökar vid inflammation och infektion men stiger oftast inte omedelbart utan efter flera timmar. CRP är ett användbart stöd i primärvården men måste tolkas i klinisk kontext eftersom nivåerna inte entydigt avgör bakterie/virus eller indikationen för antibiotika.
+  id: med-all-2c90a6
+- type: multiple_choice
+  tags:
+  - Diagnostik
+  - Halsont
+  - Streptokocker
+  question: Snabbtest för grupp A-streptokocker (Strep A) används vid bedömning av halsont. Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: Det kan dröja upp till 3 dagar innan Strep A blir positivt vid en streptokocktonsillit
+    correct: false
+    feedback: Strep A blir vanligen positivt tidigt vid aktiv infektion; ett flera dagars fördröjt positivt test är inte typiskt.
+  - text: En stor andel av patienterna med 3 - 4 Centorkriterier har negativt Strep A
+    correct: true
+    feedback: Centorpoäng ökar sannolikheten för GAS men många med 3–4 poäng har ändå negativt Strep A pga virusorsaker eller bärrisken.
+  - text: En patient med ont i halsen som har typiska beläggningar på tonsillerna behöver inte ta Strep A före antibiotikabehandling
+    correct: false
+    feedback: Trots typiska beläggningar bör man oftast verifiera med Strep A före antibiotika eftersom bärare förekommer.
+  - text: Strep A är ett okänsligt test och det är vanligt med falskt negativa svar
+    correct: false
+    feedback: Strep A har rimlig känslighet; falskt negativa kan förekomma men är inte så vanliga att testet betraktas som generellt okänsligt.
+  - text: CRP >100 mg/L betyder att patienten behöver antibiotika om Strep A är negativt vid halsfluss
+    correct: false
+    feedback: Ett förhöjt CRP talar för bakteriell infektion men ändrar inte att ett negativt Strep A talar emot GAS; beslut grundas på helhetsbedömning.
+  explanation: Centorkriterierna ökar sannolikheten för grupp A-streptokocker men är inte diagnostiska; många fall med högt Centor är virusorsakade eller bärare. Snabbtestet har god nytta i diagnostiken och bör användas för att styra antibiotikabehandling tillsammans med klinisk bedömning.
+  id: med-all-986043
+- type: multiple_choice
+  tags:
+  - Vetenskapsteori
+  - Forskningsmetodik
+  question: Vilket är mest rätt om begreppet vetenskap?
+  image: null
+  options:
+  - text: vetenskap är att alltid veta bäst
+    correct: false
+    feedback: Vetenskap är en process för att ta fram och pröva kunskap, inte en garanti för att alltid 'veta bäst'.
+  - text: vetenskaplig kunskap är hållbar över tid
+    correct: false
+    feedback: Missvisande — vissa vetenskapliga rön består länge, men kunskap kan revideras när nya bevis framkommer.
+  - text: det som är vetenskap är alltid sant
+    correct: false
+    feedback: Vetenskapliga teorier är bästa förklaringar utifrån tillgängliga data men är inte absoluta sanningar och kan ändras.
+  - text: vetenskap är organiserad kunskap
+    correct: true
+    feedback: Vetenskap kännetecknas av systematiserad, prövad och dokumenterad kunskap med etablerade metoder och teorier.
+  - text: allt som publiceras i vetenskapliga tidskrifter är vetenskap
+    correct: false
+    feedback: Publicering kräver granskning men kvaliteten varierar och publicerat material måste bedömas kritiskt.
+  explanation: Vetenskap är organiserad kunskap som systematiskt samlas, prövas och förklaras med metoder och teorier. Den är inte ofelbar eller absolut sann; resultat kan revideras och publicering kräver kritisk kvalitetsbedömning.
+  id: med-all-2abfb9
+- type: multiple_choice
+  tags:
+  - Urologi
+  - Antibiotikaresistens
+  question: Äldre personer har ofta bakterier i urinen utan symtom — asymtomatisk bakteriuri (ABU). Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: ABU ska behandlas med surgörande medel
+    correct: false
+    feedback: Surgörande medel är irrelevant; ABU är oftast kolonisation och kräver inte sådan behandling.
+  - text: ABU är en vanlig orsak till förvirringstillstånd hos äldre
+    correct: false
+    feedback: ABU orsakar vanligen inga systemiska symtom eller delirium; andra orsaker till förvirring bör utredas.
+  - text: ABU bidrar inte till antibiotikaresistens
+    correct: false
+    feedback: Onödig antibiotikabehandling av ABU kan selektera resistenta bakterier och öka resistensproblemet.
+  - text: ABU ska inte behandlas med antibiotika
+    correct: true
+    feedback: Generellt ska ABU inte behandlas eftersom det är kolonisation; undantag är graviditet och vissa urologiska ingrepp.
+  - text: ABU ska följas upp med urinprov en gång i månaden
+    correct: false
+    feedback: Rutinmässig uppföljning med månatliga urinodlingar är inte indicerad om patienten är asymptomatisk.
+  explanation: Asymtomatisk bakteriuri är förekomst av bakterier i urin utan urinvägssymtom och kräver normalt inte antibiotika eftersom det oftast är kolonisation. Undantag är graviditet och planerade urologiska ingrepp; onödig behandling ökar risken för antibiotikaresistens.
+  id: med-all-295695
+- type: multiple_choice
+  tags:
+  - Filosofi
+  - Kunskapsteori
+  question: Vilka tre kunskapsformer ingår i Aristoteles begreppssystem för kunskap?
+  image: null
+  options:
+  - text: Farmakon, Daidalos, Phronesis
+    correct: false
+    feedback: Innehåller irrelevanta namn och termer som inte motsvarar Aristoteles distinktion av kunskapsformer.
+  - text: Techne, Episteme, Phronesis
+    correct: true
+    feedback: 'Detta är Aristoteles klassiska tredelning: techne (praktiskt hantverk), episteme (teoretisk vetenskap) och phronesis (praktisk visdom).'
+  - text: Techne, Hippokrates ed, Phronesis
+    correct: false
+    feedback: '''Hippokrates ed'' är en historisk text, inte en av Aristoteles definierade kunskapsformer.'
+  - text: Stundom bota, ofta lindra, alltid trösta
+    correct: false
+    feedback: Detta är en vårdprincip eller slogan, inte Aristoteles teoretiska begreppsuppdelning.
+  - text: Techne, Episteme, Etik
+    correct: false
+    feedback: Etik är ett bredare moraliskt fält och ersätter inte phronesis, som särskilt betecknar praktisk visdom i handling.
+  explanation: Aristoteles skiljer mellan techne (praktiskt hantverkskunnande), episteme (systematiskt teoretiskt vetande) och phronesis (praktisk visdom och förmåga att fatta etiskt riktiga beslut i konkreta situationer). Tredelningen belyser skillnaden mellan att veta hur, att veta att och att handla klokt.
+  id: med-all-18da01
+- type: multiple_choice
+  tags:
+  - Dermatologi
+  - Immunologi
+  question: Psoriasis är en hudsjukdom som drabbar 2–4 % av befolkningen och många har kontakt med primärvården. Det finns ingen bot men flera effektiva behandlingar. Vilket påstående om psoriasis stämmer bäst?
+  image: null
+  options:
+  - text: Psoriasis är en allergisk systemsjukdom
+    correct: false
+    feedback: Psoriasis är inte en IgE‑medierad allergi utan en immunmedierad T‑cellsdriven inflammatorisk sjukdom.
+  - text: Psoriasis kan diagnosticeras med ett blodprov
+    correct: false
+    feedback: Det finns inget enkelt diagnostiskt blodprov; diagnosen baseras huvudsakligen på kliniskt utseende och vid behov histologi.
+  - text: Psoriasisutslag och svampinfektioner har olika utseenden
+    correct: false
+    feedback: Felaktigt som "bäst" påstående — de har ofta olika typiska drag, men kan kliniskt ibland likna varandra och kräver differentiering.
+  - text: Psoriasis är en kronisk, immunmedierad, inflammatorisk systemsjukdom
+    correct: true
+    feedback: Psoriasis är en kronisk immunmedierad inflammatorisk sjukdom som påverkar hud, ofta leder och kan ha systemiska komorbiditeter.
+  - text: Psoriasis brukar debutera i tonåren
+    correct: false
+    feedback: Debutåldern varierar och är bimodal med både ung vuxen‑ och medelålderstoppar, så tonåren är för generaliserande.
+  explanation: Psoriasis är en kronisk, immunmedierad inflammatorisk systemsjukdom som främst ger hud- och ibland ledsymtom och kan associeras med metabolt syndrom och andra komorbiditeter. Diagnosen är klinisk och behandling riktas mot att kontrollera inflammation och symtom.
+  id: med-all-d10ee6
+- type: multiple_choice
+  tags:
+  - Psoriasisartrit
+  - Inflammatorisk ryggsmärta
+  question: En 34-årig man med känd psoriasis söker för smärta och svullnad i vänster knä samt smärta i nedre delen av ryggen som blir bättre vid rörelse. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Ankyloserande spondylit
+    correct: false
+    feedback: AS ger oftast uttalad axial sjukdom med symmetrisk sacroiliit och mindre framträdande isolerat knäengagemang än psoriasisartrit.
+  - text: Psoriasisartrit
+    correct: true
+    feedback: Kombinationen av känd psoriasis, asymmetrisk oligoartrit i knät och inflammatorisk ryggsmärta som förbättras vid rörelse talar för psoriasisartrit.
+  - text: Reumatoid artrit
+    correct: false
+    feedback: RA ger vanligen symmetrisk polyartrit i småleder snarare än ensam asymmetrisk knäsvullnad.
+  - text: Artros
+    correct: false
+    feedback: Artros är icke-inflammatorisk och smärtan förvärras vanligen av aktivitet, inte förbättras av rörelse.
+  - text: SLE
+    correct: false
+    feedback: SLE ger oftare multisystemsymtom och serologiska fynd; presentationen med psoriasis och isolerad inflammatorisk oligoartrit är mindre typisk.
+  explanation: Psoriasisartrit förekommer hos patienter med psoriasis och kan ge asymmetrisk oligoartrit i stora leder (t.ex. knä) samt inflammatorisk ryggsmärta som förbättras vid aktivitet. Klinisk bild och ledfördelning skiljer den från AS, RA, artros och SLE.
+  id: med-all-55c1c3
+- type: multiple_choice
+  tags:
+  - Alkoholabstinens
+  - Diffdiagnos
+  question: En 65-årig man vårdas efter operation för höftfraktur. Han är darrig, rastlös och svettig, är feberfri men har hög puls och förhöjt blodtryck. Neurologstatus är utan påtagliga avvikelser och han är fullt orienterad. Vid inkomst påvisades 1,5 promille i utandningsluften. Vilket psykiskt tillstånd har patienten sannolikt utvecklat?
+  image: null
+  options:
+  - text: Alkoholabstinens
+    correct: true
+    feedback: Tremor, rastlöshet, svettning och sympatikusaktivering efter dokumenterat alkoholbruk är typiskt för alkoholabstinens.
+  - text: Posttraumatiskt syndrom
+    correct: false
+    feedback: PTSD kännetecknas av återupplevelse, undvikande och hyperarousal efter trauma, inte akut autonom abstinensbild.
+  - text: Paniksyndrom
+    correct: false
+    feedback: Panik ger plötsliga intensiva ångestattacker med rädsla och somatiska symtom, men inte kopplat till tidigare alkoholintag här.
+  - text: Postoperativ depression
+    correct: false
+    feedback: Depression ger nedstämdhet och minskad funktion; den förklarar inte de akuta autonoma symptomen och tremorn.
+  - text: Delirium tremens
+    correct: false
+    feedback: Delirium tremens innebär uttalad förvirring, desorientering och ofta hallucinationer, vilket saknas hos denna patient.
+  explanation: Alkoholabstinens uppstår när regelbundet alkoholintag abrupt avbryts; vanliga tecken är tremor, svettning, rastlöshet, takykardi och hypertension. Delirium tremens är en svårare form med desorientering och hallucinationer, vilket inte förekommer här, varför enkel abstinens är mest sannolik.
+  id: med-all-56f0e0
+- type: multiple_choice
+  tags:
+  - Alkoholmarkörer
+  - Laboratoriediagnostik
+  question: Vilken blodmarkör har högst sensitivitet och specificitet för nylig alkoholkonsumtion och används som förstahandsval i svensk sjukvård?
+  image: null
+  options:
+  - text: Disialotransferrin (CDT)
+    correct: false
+    feedback: CDT kan indikera kronisk hög alkoholkonsumtion men är mindre specifik och kan påverkas av andra tillstånd.
+  - text: Fosfatidyletanol (b-Peth)
+    correct: true
+    feedback: B‑Peth har hög sensitivitet och specificitet för nylig alkoholintag och används som förstahandsmarkör i Sverige.
+  - text: Gamma-GT (GGT)
+    correct: false
+    feedback: GGT är känslig för leverpåverkan men ospecifik och kan stiga vid andra leversjukdomar eller läkemedel.
+  - text: Medelcellvolym (MCV)
+    correct: false
+    feedback: MCV kan stiga vid alkoholbruk men är långsamt reagerande och ospecifikt (t.ex. B12‑brist).
+  - text: Aspartataminotransferas (ASAT)
+    correct: false
+    feedback: ASAT stiger vid lever- eller muskelskada och är inte specifik för alkohol.
+  explanation: b‑Peth (fosfatidyletanol) bildas endast vid etanolintag och ger hög sensitivitet och specificitet för nylig konsumtion (dagar–veckor beroende på mängd). Andra markörer (CDT, GGT, MCV, ASAT) kan indikera alkoholpåverkan men är mindre specifika och påverkas av andra sjukdomar eller faktorer.
+  id: med-all-43df11
+- type: multiple_choice
+  tags:
+  - Narrativ medicin
+  - Kommunikation
+  - Patientcentrerad vård
+  question: Begreppet narrativ medicin, utvecklat vid Columbia University, har flera kännetecken. Vilket påstående beskriver bäst vad narrativ medicin innebär?
+  image: null
+  options:
+  - text: Det innebär att praktiska färdigheter ska presenteras muntligt innan behandling.
+    correct: false
+    feedback: Narrativ medicin handlar inte om muntliga presentationer av praktiska färdigheter inför behandling.
+  - text: Det innebär att praktiska färdigheter ska presenteras muntligt innan behandling.
+    correct: false
+    feedback: Detta är en upprepad felaktig tolkning; fokus ligger på berättelsen och mötet, inte demonstrationsrutiner.
+  - text: Det är mötet mellan läkare och patient som föregår behandlingen som står i centrum.
+    correct: true
+    feedback: Narrativ medicin betonar patientens berättelse och relationen mellan läkare och patient som grund för vårdval.
+  - text: Det är ett annat ord för effektiv läkemedelsbehandling med få biverkningar.
+    correct: false
+    feedback: Begreppet avser kommunikativ och relationell praxis, inte farmakologisk effektivitet.
+  - text: Det innebär att läkaren inte får manipulera patienten under behandlingarna.
+    correct: false
+    feedback: Det är inte en regel om 'manipulation'; fokus är på förståelse, lyssnande och etisk relation.
+  explanation: Narrativ medicin betonar lyssnandet på patientens berättelse och den relationella kontexten som föregår och formar behandlingen. Metoden syftar till ökad empati, bättre kommunikation och en mer patientcentrerad vård.
+  id: med-all-0ec3fe
+- type: multiple_choice
+  tags:
+  - Vetenskap
+  - Forskningsmetodik
+  question: Vilket är mest rätt om begreppet vetenskap?
+  image: null
+  options:
+  - text: Allt som publiceras i vetenskapliga tidskrifter är vetenskap.
+    correct: false
+    feedback: Publicering innebär inte automatiskt att en studie är korrekt eller oberoende reproducibel.
+  - text: Vetenskaplig kunskap är hållbar över tid.
+    correct: false
+    feedback: Felaktigt — kunskap kan vara robust men revideras eller förfinas när ny evidens framkommer.
+  - text: Vetenskap är organiserad kunskap.
+    correct: true
+    feedback: Vetenskap bygger på systematiska metoder, empiri och kritisk granskning för att organisera kunskap.
+  - text: Det som är vetenskap är alltid sant.
+    correct: false
+    feedback: Vetenskapliga slutsatser är tentativa och kan ändras med ny data eller bättre förklaringar.
+  - text: Vetenskap är att alltid veta bäst.
+    correct: false
+    feedback: Vetenskap handlar om metoder och öppen prövning, inte om att ha sista ordet eller alltid ha rätt.
+  explanation: Vetenskap är organiserad kunskap som utvecklas genom systematiska metoder, observationer och kritisk granskning. Publicerade studier kan innehålla fel eller begränsningar, och kunskap revideras när bättre evidens blir tillgänglig.
+  id: med-all-7aeedf
+- type: multiple_choice
+  tags:
+  - Evidensbaserad medicin
+  - Meta-analys
+  question: Vilket av nedanstående påståenden om meta-analyser är mest korrekt?
+  image: null
+  options:
+  - text: är en statistisk sammanvägning av studier och utgör högsta bevisnivå vid utvärdering.
+    correct: true
+    feedback: En meta-analys kombinerar resultat från flera studier, ofta inom en systematisk översikt, och ger högre precision i effektuppskattningar när studierna är välgjorda.
+  - text: är en statistisk metod för att jämföra behandlingseffekten mellan minst tre grupper.
+    correct: false
+    feedback: Meta-analys handlar om att sammanväga effektstorlekar mellan studier, inte om ett krav på minst tre behandlingsgrupper.
+  - text: är en metod som analyserar flera variabler utöver en slutanalys med chi-två-test.
+    correct: false
+    feedback: Meta-analys är inte samma som multivariat analys; den sammanställer studieresultat och kan göra subgrupps- eller regressionsanalyser men är inte ett enkelt chi-två-verktyg för flera variabler.
+  - text: är en metod som görs när materialet är för litet för att göra vanliga statistiska analyser.
+    correct: false
+    feedback: Även om poolning kan öka statistisk styrka, är meta-analys inte en nödlösning för otillräckligt material och kräver tillräcklig och kvalitativ data.
+  - text: är en metod för att göra översiktliga litteratursökningar både snabbare och säkrare.
+    correct: false
+    feedback: Meta-analys bygger på systematiska litteratursökningar; den sammanställer resultat, men ersätter inte eller förenklar själva sökprocessen.
+  explanation: En meta-analys är en statistisk sammanvägning av resultat från flera studier, oftast inom ramen för en systematisk översikt, vilket ökar precisionen i uppskattade effekter. Resultatens tillförlitlighet beror på studiernas kvalitet och heterogenitet; dåliga underliggande studier ger fortfarande svagt bevis.
+  id: med-all-a4f0f1
+- type: multiple_choice
+  tags:
+  - Infektion
+  - Diagnostik
+  - Halsfluss
+  question: Snabbtest för grupp A-streptokocker (Strep A) används vid bedömning av tonsillit. Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: Ett negativt Strep A-test innebär att patienten inte är allvarligt sjuk.
+    correct: false
+    feedback: Ett negativt snabbtest utesluter inte allvarlig sjukdom; allvar bedöms kliniskt och andra orsaker kan förekomma.
+  - text: Strep A är ett okänsligt test och det är vanligt med falskt negativa svar.
+    correct: false
+    feedback: Missvisande — testet har måttlig känslighet (ungefär 70–90%) så falskt negativa förekommer, men det är inte extremt okänsligt.
+  - text: Strep A är negativt hos en stor andel av patienterna med 3–4 Centorkriterier.
+    correct: true
+    feedback: Snabbtester har begränsad känslighet så många med flera Centorkriterier kan få negativt Strep A; odling/PCR är mer känsliga.
+  - text: Strep A tas inte vid halsont med typiska tonsillbeläggningar innan antibiotika ges.
+    correct: false
+    feedback: Man brukar ta Strep A före antibiotikabehandling vid misstänkt streptokocktonsillit om möjligt.
+  - text: Strep A kan dröja upp till 5 dagar innan svaret blir positivt vid streptokocktonsillit.
+    correct: false
+    feedback: Snabbtest blir vanligtvis positivt tidigt om bakterien finns; flera dagars fördröjning är inte typisk.
+  explanation: Snabbtester för grupp A‑streptokocker har begränsad men måttlig känslighet (cirka 70–90%) och hög specificitet. Vid hög klinisk sannolikhet och negativt snabbtest bör odling eller PCR övervägas eftersom de är mer känsliga.
+  id: med-all-7f230a
+- type: multiple_choice
+  tags:
+  - Ortostatism
+  - Geriatrik
+  - Diagnostik
+  question: Ortostatism kan förekomma hos upp till 30 % av personer över 75 år. Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: Fysisk träning i fyra månader kan reducera symptomen.
+    correct: false
+    feedback: Delvis sant men missvisande — träning kan förbättra symtom hos vissa patienter, men effekt är inte garanterad efter exakt fyra månader.
+  - text: Yrsel, svimning, trötthet, svaghet och sviktande tankeförmåga förekommer ofta.
+    correct: true
+    feedback: Dessa är typiska symtom vid ortostatism vid ställningsförändring på grund av cerebral hypoperfusion.
+  - text: Synpåverkan förekommer aldrig vid ortostatism.
+    correct: false
+    feedback: Synstörningar kan förekomma vid ortostatism som uttryck för cerebral hypoperfusion.
+  - text: Ortostatiskt blodtryck innebär systoliskt blodtrycksfall och pulsstegring.
+    correct: false
+    feedback: Felaktigt — ortostatiskt blodtrycksfall definieras som en minskning i systoliskt (≥20 mmHg) eller diastoliskt (≥10 mmHg) tryck; en pulsökning kan ses men kan utebli vid autonom svikt.
+  - text: Ortostatism är alltid förknippat med blodtrycksbehandling.
+    correct: false
+    feedback: Orsakerna är mångfacetterade (t.ex. dehydrering, läkemedel, autonom svikt) och inte alltid relaterade till antihypertensiv behandling.
+  explanation: Ortostatisk hypotension är vanligt hos äldre och ger ofta yrsel, synstörningar och kognitiv påverkan vid ställningsförändring. Diagnosen ställs vid ett fall i systoliskt tryck ≥20 mmHg eller diastoliskt ≥10 mmHg inom 3 minuter efter uppresning; pulsrespons varierar beroende på autonom funktion och bakomliggande orsaker.
+  id: med-all-1b8af8
+- type: multiple_choice
+  tags:
+  - ABU
+  - Antibiotikaresistens
+  - Urinvägsinfektion
+  question: Äldre personer har ofta bakterier i urinen utan symtom — asymtomatisk bakteriuri (ABU). Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: ABU som behandlas kan bidra till antibiotikaresistens.
+    correct: true
+    feedback: Onödig antibiotikabehandling selekterar resistenta bakterier och bör undvikas vid asymtomatisk bakteriuri.
+  - text: ABU ska behandlas med antibiotika.
+    correct: false
+    feedback: Antibiotika rekommenderas normalt inte för ABU, förutom i specifika situationer (t.ex. graviditet eller innan vissa urologiska ingrepp).
+  - text: ABU ska behandlas med citronjuice.
+    correct: false
+    feedback: Det finns ingen evidens för citronjuice som behandling av ABU.
+  - text: ABU är en vanlig orsak till förvirringstillstånd hos äldre.
+    correct: false
+    feedback: Asymtomatisk bakteriuri orsakar vanligen inte konfusion; förvirring bör utredas för andra orsaker.
+  - text: ABU ska följas upp med urinprov en gång i månaden.
+    correct: false
+    feedback: Rutinmässiga månatliga urinodlingar rekommenderas inte; odling tas endast vid klinisk misstanke om UVI eller behov av utredning.
+  explanation: Asymtomatisk bakteriuri innebär bakterier i urin utan symtom och behandlas normalt inte eftersom behandling sällan ger klinisk nytta och ökar risken för antibiotikaresistens. Undantag är exempelvis graviditet och vissa urologiska procedurer där behandling kan vara indicerad.
+  id: med-all-0dd85a
+- type: multiple_choice
+  tags:
+  - Infektion
+  - CRP
+  question: C-reaktivt protein (CRP) används ofta som snabbtest i svensk primärvård. Vilket påstående stämmer bäst?
+  image: null
+  options:
+  - text: CRP är en evidensbaserad metod för att bedöma infektionspatienter i alla åldrar.
+    correct: false
+    feedback: CRP är ett användbart stöd men fungerar inte som ett universellt, heltäckande beslutstöd i alla åldersgrupper och situationer.
+  - text: CRP >50 mg/L är den nivå vid vilken antibiotika alltid rekommenderas.
+    correct: false
+    feedback: Det finns ingen absolut tröskel; värden >50 mg/L ökar misstanken för bakteriell infektion men antibiotikabeslut ska baseras på helhetsbedömning.
+  - text: CRP kan säkert skilja mellan virala och bakteriella infektioner.
+    correct: false
+    feedback: CRP har begränsad specificitet och kan inte ensamt avgöra viral kontra bakteriell orsak.
+  - text: CRP >100 mg/L vid oklar nedre luftvägsinfektion hos vuxen talar starkt för bakteriell infektion och motiverar oftast antibiotikabehandling.
+    correct: true
+    feedback: Mycket höga CRP-nivåer (>100 mg/L) vid oklar nedre luftvägsinfektion hos vuxen talar ofta för bakteriell sjukdom och indikerar vanligen antibiotika.
+  - text: CRP <20 mg/L kan med hög sannolikhet inte utesluta pneumoni och behov av antibiotika.
+    correct: false
+    feedback: Felaktigt formulerat — låga CRP-värden (<20 mg/L) minskar sannolikheten för pneumoni men utesluter den inte helt; tolkas alltid i klinisk kontext.
+  explanation: CRP är en användbar inflammationsmarkör som kan stödja bedömningen av infektioner, men den är inte ett absolut diagnostiskt test. Höga värden (>100 mg/L) talar starkt för bakteriell infektion, medan låga värden (<20 mg/L) minskar sannolikheten för pneumoni men inte utesluter den; beslut om antibiotika ska baseras på både klinik och CRP.
+  id: med-all-7c92b0
+- type: multiple_choice
+  tags:
+  - AOM
+  - Diagnostik
+  - Pediatrik
+  question: Akut otitis media (AOM) är en infektion i mellanörat, vanligast hos små barn. Vilket påstående passar bäst för diagnosen AOM?
+  image: null
+  options:
+  - text: Patient med AOM som fått antibiotika ska remitteras akut till öronläkare vid terapisvikt efter tre dagar.
+    correct: false
+    feedback: Terapisvikt kräver klinisk omprövning men inte rutinmässigt akut öronremiss efter bara tre dagar.
+  - text: AOM hos vuxna behandlas inte med antibiotika.
+    correct: false
+    feedback: Vuxna löper högre risk för komplikationer och kan ofta behöva antibiotika vid AOM.
+  - text: AOM kan ställas när hela trumhinnan är röd.
+    correct: false
+    feedback: Isolerad rodnad kan bero på gråt eller feber och är inte tillräcklig för AOM-diagnos.
+  - text: AOM kan ställas när trumhinnan buktar, är ogenomskinlig och orörlig.
+    correct: true
+    feedback: Buktning, ogenomskinlighet och nedsatt rörlighet tyder på mellanöreffusion och infektion.
+  - text: AOM hos 1–12-åringar ska alltid behandlas med antibiotika.
+    correct: false
+    feedback: Många barn kan initialt avvaktas; behandlingsval beror på ålder, svårighetsgrad och bilateralt förlopp.
+  explanation: Diagnosen AOM baseras på trumhinnefynd såsom buktning, opacitet och nedsatt rörlighet som indikerar mellanöreffusion och infektion. Rodnad ensam är ospecifikt; beslut om antibiotika beror på ålder, symtomens svårighetsgrad och sjukdomsförlopp.
+  id: med-all-e7899e
+- type: multiple_choice
+  tags:
+  - Skörhet
+  - Geriatrik
+  question: Clinical Frailty Scale används för att bedöma skörhet och prioritera vårdinsatser för äldre. Vilket alternativ motsvarar störst akut vårdbehov (högst grad av skörhet)?
+  image: null
+  options:
+  - text: En 85‑årig man med hormonbehandlad prostatacancer och ryggvärk. Sover dåligt. Behöver hjälp att klä på sig varje morgon, med frukost och lunch, och med medicinering två gånger per dag.
+    correct: false
+    feedback: Delvis beroende i morgonrutiner och måltider visar måttlig skörhet men inte uttalad daglig omsorgsbehov som kräver högst prioritet.
+  - text: En 86‑årig kvinna opererad för handledsfraktur för tre månader sedan, läkemedel i apodos. Tränar hos sjukgymnast, lagar egen mat och får hjälp med inköp.
+    correct: false
+    feedback: Fungerar relativt självständigt i ADL och är under rehabilitering, vilket tyder på låg till måttlig skörhet och lägre akut vårdbehov.
+  - text: En 77‑årig nybliven änka med hypertoni, tablettbehandlad diabetes typ 2 och Parkinson sedan 2 år. Får hjälp med frukost morgon, medicinering tre gånger/dag, inköp och städning.
+    correct: false
+    feedback: Behöver regelhjälp i flera IADL och viss personlig hjälp vilket motsvarar måttlig skörhet men inte full beroende i personlig omvårdnad.
+  - text: En 89‑årig kvinna rullstolsburen efter högersidig stroke för ett halvår sedan, med hypertoni och perniciös anemi. Har läkemedel i dosett och får hjälp med personlig vård fyra gånger per dag, inköp, städning och alla måltider.
+    correct: true
+    feedback: Uttalat beroende i personlig vård och helhetsomsorg visar hög grad av skörhet och största akuta vårdbehov enligt CFS.
+  - text: En 91‑årig man som tidigare varit frisk, utan läkemedel. Klarat sig själv men de senaste månaderna "saktats ner" och blir trött under dagen.
+    correct: false
+    feedback: Endast subjektiv nedgång och trötthet tyder på låg grad av skörhet (prefrail) och lägre immediatt vårdbehov.
+  explanation: Clinical Frailty Scale graderar äldre utifrån funktionsnivå och behov av hjälp, från mycket fit till svårt skör. Högst akut vårdbehov korrelerar med uttalat beroende i personliga ADL (många dagliga hjälpinsatser) och oförmåga att klara måltider och hygien själv.
+  id: med-all-addac5
+- type: multiple_choice
+  tags:
+  - Ögon
+  - Akut
+  - Remiss
+  question: Vid vilket av dessa tillstånd behöver patienten remitteras akut till ögonläkare?
+  image: null
+  options:
+  - text: På grund av nytillkommen smärta i det ena ögat, som är rött.
+    correct: true
+    feedback: Korrekt — nytillkommen ensidig smärta med rodnad kan tyda på akut glaukom, irit eller annan allvarlig intraokulär inflammation och kräver omedelbar ögonläkarkontakt.
+  - text: På grund av inflammation i ögonen vid allergi mot gräs och hassel.
+    correct: false
+    feedback: Allergisk konjunktivit är oftast bilateral och klåda-dominerad och behandlas vanligen i primärvården.
+  - text: På grund av att mediala delen av den högra konjunktivan är röd.
+    correct: false
+    feedback: Lokal medial rodnad talar oftare för lokal konjunktivit eller episclerit och är sällan ett akut specialistfall.
+  - text: På grund av inflammation i båda de övre ögonlocken.
+    correct: false
+    feedback: Kronisk blefarit (ögonlocksinfektion/inflammation) sköts oftast i primärvården med hygien och lokala åtgärder.
+  - text: På grund av en stålflis på hornhinnan i vänster öga.
+    correct: false
+    feedback: Korneal främskada kan kräva snabb bedömning men är inte lika typisk för intraokulära nödsituationer som nytillkommen smärta och rodnad.
+  explanation: Nytillkommen ensidig smärta och rodnad bör alltid bedömas akut då det kan röra sig om akut glaukom, irit eller annan synhotande intraokulär inflammation. Många konjunktiviter och blefariter handläggs i primärvården, medan korneala främmande kroppar ofta kan bedömas snabbt men inte alltid är lika brådskande ur specialistperspektiv.
+  id: med-all-e87b85
+- type: multiple_choice
+  tags:
+  - Rökning
+  - Prevention
+  - Kardiovaskulär risk
+  question: Gällande tobaksrökning, vilket av nedanstående påståenden är felaktigt?
+  image: null
+  options:
+  - text: Tobaksrökning under graviditet ökar risken för låg födelsevikt
+    correct: false
+    feedback: Sant — rökning under graviditet ökar risken för låg födelsevikt, prematuritet och andra graviditetskomplikationer.
+  - text: Rökstopp efter många års rökning har ingen hälsovinst eftersom skadorna redan skett
+    correct: true
+    feedback: Rökstopp ger betydande hälsovinster även efter lång tids rökning, med minskad risk för hjärt-kärlsjukdomar, förbättrad lungfunktion och lägre mortalitet över tid.
+  - text: Tobaksrökning ger ökad risk för komplikationer vid operation
+    correct: false
+    feedback: Sant — rökning ökar risken för postoperativa komplikationer som sårinfektion, dålig sårläkning och pulmonella problem.
+  - text: Tobaksrökning ger ökad risk för hjärt-kärlsjukdomar
+    correct: false
+    feedback: Sant — rökning är en stark och väl etablerad riskfaktor för ateroskleros, hjärtinfarkt och stroke.
+  - text: Tobaksrökning är den enskilt främsta riskfaktorn för sjukdom och framtida död
+    correct: false
+    feedback: Sant — globalt är tobaksrökning en av de största enskilda orsakerna till sjukdom och förtida död.
+  explanation: Rökning orsakar många sjukdomar (kardiovaskulära, respiratoriska, cancer) och är en ledande orsak till förtida död. Hälsovinster börjar kort efter rökstopp och fortsätter långsiktigt, även för långvariga rökare.
+  id: imp-6399f49e
+- type: multiple_choice
+  tags:
+  - Sömnapné
+  - Hypertoni
+  - Stroke
+  question: Bagare Bengtsson är överviktig, snarkar och är trött — troligen obstruktivt sömnapnésyndrom. Vilken sjukdomsrisk är förhöjd förutom diabetes?
+  image: null
+  options:
+  - text: Förmaksflimmer och bältros.
+    correct: false
+    feedback: OSA ökar visserligen risken för förmaksflimmer men inte för bältros (herpes zoster).
+  - text: Arteriell hypertoni och stroke.
+    correct: true
+    feedback: OSA är starkt kopplat till arteriell hypertoni och ökar risken för cerebrovaskulära händelser som stroke.
+  - text: Ulcerös kolit och stroke.
+    correct: false
+    feedback: Stroke kan vara associerat med OSA men ulcerös kolit har ingen etablerad koppling till sömnapné.
+  - text: Arteriell hypertoni och ulcerös kolit.
+    correct: false
+    feedback: Arteriell hypertoni är korrekt förknippat med OSA, men ulcerös kolit är inte det.
+  - text: Bältros och arteriell hypertoni.
+    correct: false
+    feedback: Arteriell hypertoni är vanlig vid OSA men bältros (herpes zoster) är inte en känd följdsjukdom av sömnapné.
+  explanation: Obstruktivt sömnapnésyndrom leder till intermittent hypoxi, ökad sympatikusaktivitet och inflammation som främjar utveckling av arteriell hypertoni och ökar risken för stroke och andra kardiovaskulära komplikationer.
+  id: imp-66f1d6f8
+- type: multiple_choice
+  tags:
+  - Sömnapné
+  - Resistent hypertoni
+  - Polysomnografi
+  question: Man 54 år med svårbehandlat blodtryck (165/95) trots tre antihypertensiva. Överviktig, snarkar med misstänkta andningsuppehåll och är trött. Prover normala. Lämplig handläggning?
+  image: null
+  options:
+  - text: Insomningstablett
+    correct: false
+    feedback: Sömnmedel kan förvärra obstruktiv sömnapné och behandlar inte orsaken till förhöjt blodtryck.
+  - text: Lägg till betablockerare
+    correct: false
+    feedback: Att lägga till betablockerare är inte första åtgärd vid misstänkt sömnapné som orsak till resistent hypertoni; utred orsaken först.
+  - text: Öka tiaziddiuretikum
+    correct: false
+    feedback: Upptrappning av diuretikum kan ibland hjälpas vid resistent hypertoni men adresserar inte den sannolika bakomliggande sömnapnén i detta fall.
+  - text: Misstänkt sömnapné - remiss polysomnografi
+    correct: true
+    feedback: Obstruktiv sömnapné är en vanlig orsak till resistent hypertoni och ska utredas med sömnapnéscreening/polysomnografi.
+  - text: Misstänkt primär hyperaldosteronism - beställ aldosteron/reninkvot
+    correct: false
+    feedback: Primär hyperaldosteronism kan ge resistent hypertoni men finns oftast vid hypokalemi eller andra fynd; här talar anamnesen mer för sömnapné.
+  explanation: Obstruktiv sömnapné är en vanlig sekundär orsak till svårbehandlad hypertoni, särskilt hos överviktiga män med snarkning och dagtrötthet. Polysomnografi bekräftar diagnosen och behandling med CPAP kan förbättra blodtrycket; andra sekundära orsaker utreds vid misstanke.
+  id: imp-4117173e
+- type: multiple_choice
+  tags:
+  - Kommunikation
+  - Narrativ medicin
+  - Patientcentrerad vård
+  question: Vad innebär narrativ kompetens?
+  image: null
+  options:
+  - text: Ingen av ovanstående
+    correct: false
+    feedback: Det finns ett korrekt alternativ bland de givna svaren (alternativ 5).
+  - text: Att man inte skall lura patienten
+    correct: false
+    feedback: Ärlig kommunikation är viktig men det beskriver inte narrativ kompetens.
+  - text: Att kunna ta en strukturerat anamnes
+    correct: false
+    feedback: Strukturerad anamnes är en klinisk färdighet, men narrativ kompetens handlar om att ta tillvara patientens berättelse.
+  - text: En förmåga att se hela patienten
+    correct: false
+    feedback: Delvis rätt men otillräckligt — att se hela patienten är bredare; narrativ kompetens fokuserar på patientens berättelse.
+  - text: En förmåga att lyssna och ta vara på patientens berättelse
+    correct: true
+    feedback: Narrativ kompetens innebär att kunna uppfatta, tolka och använda patientens berättelse i vården.
+  explanation: Narrativ kompetens är förmågan att lyssna på, förstå och använda patientens berättelse för att förbättra diagnostik, empati och vårdrelationen. Det handlar om att uppmärksamma patientens perspektiv och erfarenheter snarare än bara symptomlistor.
+  id: imp-e37b762d
+- type: multiple_choice
+  tags:
+  - UVI
+  - Graviditet
+  - Antibiotika
+  question: Jamila, 28 år, gravid v.17, har sveda och trängningar (misstänkt nedre urinvägsinfektion) och är feberfri. Vilken åtgärd är mest korrekt?
+  image: null
+  options:
+  - text: Tempa, om >38 till gyn.
+    correct: false
+    feedback: Enbart tempkontroll och remiss vid feber är för passivt eftersom graviditet kräver odling och tidig behandling vid symtom.
+  - text: Urinsticka, odling, antibiotika direkt.
+    correct: true
+    feedback: Vid symtom på UVI i graviditet tas urinsticka och framför allt urinodling och antibiotika påbörjas tidigt efter provtagning.
+  - text: Ta CRP, om >50 behandla pyelonefrit.
+    correct: false
+    feedback: CRP är inte avgörande för beslut om behandling av nedre UVI i graviditet och pyelonefrit behandlas utifrån klinik, inte enbart CRP.
+  - text: Urinsticka, odling, avvakta svar.
+    correct: false
+    feedback: Man ska inte avvakta odlingssvaret i graviditet utan börja behandling efter provtagning vid klinisk misstanke.
+  - text: Urinsticka, behandla om positiv.
+    correct: false
+    feedback: Urinsticka kan misslyckas med att fånga infektion; odling bör tas och behandling ges även vid stark klinisk misstanke även om stickan är negativ.
+  explanation: Vid symtom på UVI under graviditet ska urinodling alltid tas och antibiotikabehandling påbörjas tidigt eftersom risken för ascenderande infektion och komplikationer är större. Urinsticka är ett snabbt hjälpmedel men ersätter inte odling; man bör inte avvakta odlingssvaret innan behandling.
+  id: imp-7fbdfbe7
+- type: multiple_choice
+  tags:
+  - Evidensbaserad medicin
+  - Kliniskt beslutsfattande
+  question: Vad är evidensbaserad medicin?
+  image: null
+  options:
+  - text: Att endast basera behandling på expertutlåtanden
+    correct: false
+    feedback: Expertutlåtanden är en del men ensamstående expertis utgör inte evidensbaserad medicin.
+  - text: Att främst använda läkemedelsföretagens rekommendationer
+    correct: false
+    feedback: Industrirekommendationer kan vara partiska och ersätter inte oberoende vetenskaplig evidens.
+  - text: Att enbart använda läkarens kliniska erfarenhet
+    correct: false
+    feedback: Klinisk erfarenhet är viktig men måste kombineras med vetenskaplig evidens och patientens värderingar.
+  - text: Att alltid följa riktlinjer utan att ta hänsyn till patientens önskemål
+    correct: false
+    feedback: Evidensbaserad medicin inkluderar patientens preferenser och kontext i beslutsfattandet.
+  - text: Att kombinera bästa tillgängliga vetenskapliga evidens, klinisk expertis och patientens värderingar
+    correct: true
+    feedback: Detta är den vedertagna definitionen av evidensbaserad medicin.
+  explanation: Evidensbaserad medicin innebär att integrera bästa tillgängliga forskning med klinisk erfarenhet och patientens värderingar för att fatta informerade vårdbeslut. Den prioriterar högkvalitativa studier (t.ex. randomiserade kontrollerade studier och systematiska översikter) men anpassas alltid till den enskilde patientens situation.
+  id: imp-f3b65cfd
+- type: multiple_choice
+  tags:
+  - Svalginfektion
+  - Centor-kriterier
+  question: 'Märta, 5 år: halsont, feber 38,9 °C, ingen hosta, ömmande käkvinklar och svullna tonsiller. Hur många Centorkriterier uppfylls?'
+  image: null
+  options:
+  - text: '2'
+    correct: false
+    feedback: Fler kriterier är uppfyllda (feber, avsaknad av hosta, ömande lymfkörtlar och tonsillförändringar).
+  - text: '3'
+    correct: false
+    feedback: Det är inte bara tre; hon har även tonsillpåverkan utöver de andra tre kriterierna.
+  - text: '0'
+    correct: false
+    feedback: Flera typiska Centorkriterier föreligger vid detta tillstånd.
+  - text: '4'
+    correct: true
+    feedback: Feber >38 °C, avsaknad av hosta, ömmande anteriora cervikala lymfkörtlar och tonsillförändringar ger 4 Centorkriterier.
+  - text: '1'
+    correct: false
+    feedback: Fler än ett kriterium är uppfyllt vid patientens symtom.
+  explanation: 'De klassiska Centorkriterierna är: feber >38 °C, avsaknad av hosta, ömmande anteriora cervikala lymfkörtlar och tonsillpåverkan (exsudat/svullnad). Märta uppfyller alla fyra. (Obs: McIsaac-modifieraren lägger till ålder, men originala Centor ger här 4 poäng.)'
+  id: imp-5409a033
+- type: multiple_choice
+  tags:
+  - Medicinhistoria
+  - Hippokrates
+  question: Vem var den förste moderna läkaren som hävdade att sjukdomar inte är ett gudomligt straff (associerat med Hippokrates‑eden)?
+  image: null
+  options:
+  - text: Galenos
+    correct: false
+    feedback: Galenos (Galen) var en inflytelserik läkare på 100–200‑talet e.Kr., men inte den första som förklarade sjukdomar som naturliga.
+  - text: Aristoteles
+    correct: false
+    feedback: Aristoteles var en filosof, inte den första moderna läkaren som formulerade medicinska förklaringar av sjukdom.
+  - text: Platon
+    correct: false
+    feedback: Platon var filosof och inte känd för att ha formulerat den Hippokratiska synen på sjukdomars naturliga orsaker.
+  - text: Hippokrates
+    correct: true
+    feedback: Hippokrates betraktas som medicinens fader och förknippas med idén att sjukdomar har naturliga orsaker och med Hippokrateseden.
+  - text: Sokrates
+    correct: false
+    feedback: Sokrates var filosof och inte den som introducerade den medicinska idén att sjukdomar inte är gudomliga straff.
+  explanation: Hippokrates (ca 460–370 f.Kr.) ses som grundaren av vetenskaplig medicin och betonade naturliga orsaker till sjukdomar, vilket ligger bakom Hippokrates‑eden. De andra namnen är huvudsakligen filosofer eller en senare läkare (Galen).
+  id: imp-a34e65f4
+- type: multiple_choice
+  tags:
+  - beroende
+  - abstinens
+  - opioider
+  question: Vilket symtomkluster är mest typiskt vid opiatabstinens?
+  image: null
+  options:
+  - text: Synhallucinationer, ataxi, nystagmus och aggressivitet
+    correct: false
+    feedback: Detta beskriver snarare intoxikation med PCP eller vissa dissociativa/hallucinogena substanser, inte opiatabstinens.
+  - text: Feber, nackstelhet, fotofobi och medvetandesänkning
+    correct: false
+    feedback: Dessa tecken talar för meningit/encefalit snarare än opiatabstinens.
+  - text: Eufori, små pupiller, klåda och andningsdepression
+    correct: false
+    feedback: Detta är typiska tecken på opiatintoxikation (eufori, mios, andningsdepression), inte abstinens.
+  - text: Bradykardi, hypotermi, hypersomni och förstoppning
+    correct: false
+    feedback: Dessa är effekter av opioidpåverkan; abstinens ger istället sympatikusaktivering (t.ex. takykardi, mydriasis).
+  - text: Oro/rastlöshet, muskelvärk, svettningar, rinnande näsa och diarré
+    correct: true
+    feedback: Detta är typiska symtom vid opiatabstinens med autonom hyperaktivitet och influensaliknande besvär.
+  explanation: 'Opiatabstinens kännetecknas av autonom hyperaktivitet och influensaliknande symtom: ångest, rastlöshet, muskelvärk, svettningar, rinorré, tårflöde, gäspningar och diarré. Detta skiljer sig från opiatintoxikation som ger mios, sedering och andningsdepression.'
+  id: imp-bda21c56
+- type: multiple_choice
+  tags:
+  - Infektion
+  - CRP
+  - Allmänmedicin
+  question: 'Pablo, 45 år: hosta, snuva och halsont. Temp 38,3°C, lungor auskulteras utan anmärkning. Behövs snabb-CRP?'
+  image: null
+  options:
+  - text: CRP behöver inte tas hos en opåverkad patient med typiskt virala symtom
+    correct: true
+    feedback: Opåverkade patienter med typiska virala övre luftvägssymtom behöver oftast inte CRP.
+  - text: CRP kan skilja på om Pablo har en viral eller bakteriell infektion
+    correct: false
+    feedback: CRP kan ge stöd i bedömningen men kan inte entydigt skilja mellan viral och bakteriell infektion.
+  - text: CRP kan ersätta lungröntgen
+    correct: false
+    feedback: CRP visar systemisk inflammation men kan inte ersätta lungröntgen vid misstanke om pneumoni.
+  - text: CRP bör tas, behandla om >50.
+    correct: false
+    feedback: Även om värden >50 mg/L kan tala för bakteriell infektion används CRP inte rutinmässigt utan tolkas i klinisk kontext.
+  - text: CRP ska alltid tas vid symptom från luftvägarna
+    correct: false
+    feedback: CRP tas inte rutinmässigt vid alla luftvägssymtom, utan vid klinisk osäkerhet eller allmänpåverkan.
+  explanation: Patienten är opåverkad med typiska förkylningssymtom, varför snabb-CRP i regel inte behövs. CRP kan däremot vara användbart vid klinisk osäkerhet eller misstanke om nedre luftvägsinfektion, men det skiljer inte entydigt viral från bakteriell orsak och ersätter inte röntgen.
+  id: imp-3865cffe
+- type: multiple_choice
+  tags:
+  - Pediatrik
+  - Infektion
+  - Antibiotika
+  question: 'Emil, 4 år, har feber och ont i höger öra. Status: akut mediaotit höger (buktande trumhinna, nedsatt rörlighet), vänster ua. Opåverkad i övrigt. Åtgärd?'
+  image: null
+  options:
+  - text: Förskriv antibiotika direkt.
+    correct: false
+    feedback: Hos opåverkade barn över 1 år med ensidig, icke-komplicerad AOM rekommenderas inte rutinmässig omedelbar antibiotikabehandling.
+  - text: Förskriv PcV i reserv.
+    correct: false
+    feedback: Delvis korrekt men inte förstahandsval — en reserveringsrecept (delayed prescription) kan övervägas i vissa situationer, men primärt rekommenderas aktiv exspektans och smärtlindring.
+  - text: Remiss öronläkare.
+    correct: false
+    feedback: Remiss till öronläkare behövs inte vid enkel, opåverkad AOM utan komplikationer.
+  - text: Förskriv amoxicillin i reserv.
+    correct: false
+    feedback: Antibiotika (om indicerat) ges vanligen som PcV i Sverige; dessutom är antibiotika inte indicerat direkt hos opåverkade barn i detta fall.
+  - text: Avvakta med antibiotika, ge smärtlindring (aktiv exspektans).
+    correct: true
+    feedback: För opåverkade barn >1 år med ensidig, icke-komplicerad AOM rekommenderas aktiv exspektans med adekvat smärtlindring och uppföljning.
+  explanation: Enskild, icke-komplicerad akut mediaotit hos ett opåverkat barn över 1 år behandlas i första hand med smärtlindring och aktiv exspektans i 2–3 dygn. Antibiotika ges vid försämring eller utebliven förbättring; PcV är förstahandsval om behandling blir nödvändig. Öronläkarbedömning krävs vid komplikationer eller recidiv.
+  id: imp-2bbe8287

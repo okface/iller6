@@ -1,0 +1,443 @@
+- type: multiple_choice
+  tags:
+  - Geriatrik
+  - Antikolinerga
+  question: Vissa läkemedel bör undvikas eller ges med stor försiktighet till äldre. Vilket påstående beskriver detta bäst?
+  image: null
+  options:
+  - text: Det saknas kunskap om samband mellan fallolyckor och läkemedel
+    correct: false
+    feedback: Det finns tydlig forskning som kopplar vissa läkemedel, exempelvis bensodiazepiner och antikolinerga preparat, till ökad fallrisk hos äldre.
+  - text: Sömnläkemedlet Propavan är ofta ett bra alternativ vid lättare sömnbesvär
+    correct: false
+    feedback: Propavan (propiomazin) har antikolinerga och sederande effekter och är vanligtvis inte förstahandsval hos äldre på grund av ökad biverkningsrisk.
+  - text: Äldre personer över 75 år ska aldrig ordineras ett NSAID-preparat
+    correct: false
+    feedback: NSAID är inte absolut kontraindicerade utan kan ibland användas med försiktighet och noggrann bedömning av risker såsom GI-blödning och njurpåverkan.
+  - text: Fördelarna med psykofarmaka överväger som regel nackdelarna med behandling
+    correct: false
+    feedback: Psykofarmaka måste prövas noggrant hos äldre eftersom biverkningar ofta ökar och fördelarna inte automatiskt överväger riskerna.
+  - text: Läkemedel mot urininkontinens, oro och vissa smärtstillande medel kan ha antikolinerga effekter och bör därför undvikas eller användas med stor försiktighet hos äldre
+    correct: true
+    feedback: Antikolinerga läkemedel bidrar ofta till kognitiv påverkan, muntorrhet, förstoppning och ökad fallrisk och bör därför undvikas eller doseras mycket försiktigt hos äldre.
+  explanation: Äldre är känsligare för läkemedelsbiverkningar pga förändrad farmakokinetik och farmakodynamik. Antikolinerga läkemedel ökar risken för kognitiva störningar, muntorrhet, förstoppning och fall; därför bör sådana läkemedel undvikas eller noggrant prövas och helst ersättas med säkrare alternativ.
+  id: med-kli-4fef03
+- type: multiple_choice
+  tags:
+  - Autoantikroppar
+  - SLE
+  question: Vilken av följande är en vanlig autoantikropp vid systemisk lupus erythematosus (SLE)?
+  image: null
+  options:
+  - text: Reumatoid faktor (RF)
+    correct: false
+    feedback: RF förekommer vid RA och olika inflammatoriska eller infektiösa tillstånd, men är inte typisk eller specifik för SLE.
+  - text: Anti-dsDNA
+    correct: true
+    feedback: Anti-dsDNA är karakteristisk för SLE och nivåerna korrelerar ofta med sjukdomsaktivitet, särskilt njurengagemang.
+  - text: Anti-Jo1
+    correct: false
+    feedback: Anti-Jo1 är associerad med inflammatorisk myopati (polymyositis/dermatomyositis), inte SLE.
+  - text: Anti-CCP
+    correct: false
+    feedback: Anti-CCP är högspecifikt för reumatoid artrit och ses inte som en markör för SLE.
+  - text: ANCA
+    correct: false
+    feedback: ANCA är kopplat till småkärlsvaskuliter (t.ex. GPA, MPA) och är inte typiskt för SLE.
+  explanation: Anti-dsDNA-antikroppar är typiska för SLE och kan spegla sjukdomsaktivitet och risk för lupusnefrit. Andra listade autoantikroppar är snarare karakteristiska för RA, inflammatorisk myopati eller ANCA-vaskuliter.
+  id: med-int-097e36
+- type: multiple_choice
+  tags:
+  - Monoartrit
+  - Gikt
+  - Akut smärta
+  question: Vilken typ av sjukdom karakteriseras oftast av monoartrit med akut, intensiv smärta?
+  image: null
+  options:
+  - text: SLE
+    correct: false
+    feedback: SLE ger vanligen en migrerande eller symmetrisk artrit/polyartrit och är mindre typisk för en plötslig, ensidig monoartrit.
+  - text: Ankyloserande spondylit
+    correct: false
+    feedback: Ankyloserande spondylit drabbar framför allt ryggraden och sakroiliakaleder, inte typiskt som akut perifer monoartrit.
+  - text: Gikt
+    correct: true
+    feedback: Gikt ger ofta plötslig, intensiv inflammation i ett enda led (klassiskt stortåns grundled), vilket ger akut monoartrit.
+  - text: Reumatoid artrit
+    correct: false
+    feedback: Reumatoid artrit är typiskt en kronisk, symmetrisk polyartrit snarare än en akut monoartrit.
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Psoriasisartrit kan vara oligo- eller polyartikulär och ibland asymmetrisk, men ger vanligtvis inte den klassiska plötsliga monoartriten som gikt.
+  explanation: Gikt orsakas av uratkristaller som utlöser en akut, intensiv inflammatorisk reaktion i ett led, oftast stortåns metatarsofalangealled. De övriga diagnoserna uppvisar vanligen kronisk eller flerledsengagerad artrit och är därför mindre typiska för akut monoartrit.
+  id: med-int-604799
+- type: multiple_choice
+  tags:
+  - Reumatoid artrit
+  - Metotrexat
+  - Biverkningar
+  question: Vilken av följande är en vanlig biverkan av metotrexat vid behandling av reumatoid artrit?
+  image: null
+  options:
+  - text: Sömnsvårigheter
+    correct: false
+    feedback: Sömnproblem är inte en typisk direkt biverkan av metotrexat och bör utredas för andra orsaker eller interaktioner.
+  - text: Viktuppgång
+    correct: false
+    feedback: Metotrexat förknippas inte med viktuppgång; viktförändringar talar oftare för andra läkemedel eller livsstilsfaktorer.
+  - text: Takykardi
+    correct: false
+    feedback: Takykardi är inte en vanlig biverkan av metotrexat och bör utredas som möjlig kardiell eller farmakologisk effekt från annat håll.
+  - text: Muskelvärk
+    correct: false
+    feedback: Muskelsmärta är inte ett typiskt läkemedelsbiverkningsmönster för metotrexat; överväg sjukdomsaktivitet eller annan behandling.
+  - text: Illamående
+    correct: true
+    feedback: Illamående är en vanlig biverkan vid metotrexatbehandling och kan ofta mildras med folsyra.
+  explanation: Metotrexat ger ofta gastrointestinala biverkningar som illamående och stomatit; dess allvarligare risker inkluderar benmärgspåverkan, hepatotoxicitet och lungpåverkan. Profylax med folsyra minskar framför allt GI- och mukosala biverkningar.
+  id: med-kli-fbeca3
+- type: multiple_choice
+  tags:
+  - HLA-B27
+  - Spondylartrit
+  question: Vilket sjukdomstillstånd är starkast associerat med HLA-B27?
+  image: null
+  options:
+  - text: Systemisk skleros
+    correct: false
+    feedback: Systemisk skleros är inte typiskt kopplat till HLA‑B27; andra autoantikroppar (t.ex. anti‑Scl‑70) är mer relevanta.
+  - text: Sjögrens syndrom
+    correct: false
+    feedback: Sjögrens associeras inte med HLA‑B27 utan oftare med antikropparna SSA/SSB.
+  - text: Reumatoid artrit
+    correct: false
+    feedback: Reumatoid artrit är främst kopplat till RF och ACPA, inte HLA‑B27.
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Delvis rätt men inte bäst — vissa patienter med psoriasisartrit kan vara HLA‑B27‑positiva, men associationen är mycket svagare än för ankyloserande spondylit.
+  - text: Ankyloserande spondylit
+    correct: true
+    feedback: HLA‑B27 har en mycket stark koppling till ankyloserande spondylit och förekommer hos majoriteten av patienterna.
+  explanation: HLA‑B27 är en HLA‑klass I‑allel som är starkt associerad med axial spondylartrit, framför allt ankyloserande spondylit. Andra reumatiska sjukdomar kan ibland visa HLA‑B27 men har antingen svagare eller ingen tydlig association.
+  id: med-int-c21fe7
+- type: multiple_choice
+  tags:
+  - Artrit
+  - Gikt
+  question: Vilken av följande sjukdomar karaktäriseras oftast av plötslig, svår smärta i ett enda led (monoartrit), klassiskt i stortåns grundled)?
+  image: null
+  options:
+  - text: Reumatoid artrit
+    correct: false
+    feedback: RA ger vanligen en symmetrisk, kronisk polyartrit snarare än en akut monoartrit.
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Psoriasisartrit är oftast oligo- eller polyartikulär och har en mer subakut/kronisk förlopp.
+  - text: Ankyloserande spondylit
+    correct: false
+    feedback: Sjukdomen ger främst axial smärta (rygg/sakrum) snarare än akut monoartrit.
+  - text: Gikt
+    correct: true
+    feedback: Gikt ger ofta plötslig, intensiv monoartrit pga inflammation utlösts av uratkristaller, klassiskt i stortåns grundled.
+  - text: SLE
+    correct: false
+    feedback: SLE ger vanligtvis icke-erosiv, ofta polyartikulär artrit tillsammans med systemiska symtom.
+  explanation: Gikt beror på deposition av monosodiumuratkristaller i leder som triggar en akut neutrofil-driven inflammation, vilket leder till plötslig svår smärta i ett enstaka led (ofta MTP1). Differentialdiagnoser som RA och SLE ger vanligen mer symmetrisk eller polyartikulär och mer kronisk bild.
+  id: med-int-1fc17a
+- type: multiple_choice
+  tags:
+  - Reumatoid artrit
+  - Extraartikulära manifestationer
+  - Autoimmunitet
+  question: Vilket av nedanstående kan vara en extraartikulär manifestation vid reumatoid artrit?
+  image: null
+  options:
+  - text: Reumatiska noduli
+    correct: false
+    feedback: Reumatiska noduli är en vanlig extraartikulär manifestation vid RA, men 'Alla ovanstående' är mest korrekt här.
+  - text: Keratoconjunctivitis sicca
+    correct: false
+    feedback: Keratoconjunctivitis sicca kan förekomma vid RA, men det mest fullständiga svaret är 'Alla ovanstående'.
+  - text: Pleurit
+    correct: false
+    feedback: Pleurit är en möjlig extraartikulär manifestation vid RA, men inte det bästa enskilda svaret i denna fråga.
+  - text: Perikardit
+    correct: false
+    feedback: Perikardit kan ses vid RA, men 'Alla ovanstående' inkluderar detta och andra manifestationer.
+  - text: Alla ovanstående
+    correct: true
+    feedback: RA kan ge reumatiska noduli, keratoconjunctivitis sicca, pleurit och perikardit som extraartikulära manifestationer.
+  explanation: Reumatoid artrit är en systemisk autoimmun sjukdom som ofta ger extraartikulära manifestationer, särskilt vid seropositiv sjukdom. Vanliga sådana inkluderar subkutana noduli, sicca-symtom, pleurit och perikardit, vilket gör att alla listade alternativ kan förekomma.
+  id: med-int-ce7ce2
+- type: multiple_choice
+  tags:
+  - Serotonergt syndrom
+  - Toxikologi
+  question: Serotonergt syndrom är ett potentiellt farligt tillstånd som beror på ökad serotonerg aktivitet. Vilket av följande symtom förekommer INTE vid serotonergt syndrom?
+  image: null
+  options:
+  - text: Muskelryckningar (kramper, spasmer)
+    correct: false
+    feedback: Muskelryckningar och kramper är typiska neuromuskulära tecken vid serotonergt syndrom.
+  - text: Hyperreflexi (lättretliga reflexer)
+    correct: false
+    feedback: Hyperreflexi är vanligt och speglar neuromuskulär överaktivitet.
+  - text: Tremor (skakiga, ofrivilliga rörelser vanligen i fingrar, händer, armar eller huvud), agitation
+    correct: false
+    feedback: Tremor och agitation är vanliga symtom vid serotonergt syndrom.
+  - text: Koordinationsstörningar
+    correct: false
+    feedback: Koordination kan påverkas sekundärt till neuromuskulära symtom och spasticitet.
+  - text: Hypotermi (nedsatt kroppstemperatur)
+    correct: true
+    feedback: Hypotermi är inte typiskt; serotonergt syndrom ger snarare feber/hypertermi och andra autonoma störningar.
+  explanation: Serotonergt syndrom orsakas av överstimulering av serotoninreceptorer, ofta efter kombination eller överdos av serotonerga läkemedel. Typiska fynd är en triad av förändrad mental status, autonoma störningar och neuromuskulära tecken (tremor, clonus, hyperreflexi); hypertermi förekommer vid svårare fall, inte hypotermi.
+  id: med-kli-9de2ad
+- type: multiple_choice
+  tags:
+  - Alkoholberoende
+  - Läkemedel
+  - Profylax
+  question: Vilket läkemedel används INTE som profylaktisk behandling för att förebygga återfall vid alkoholberoende?
+  image: null
+  options:
+  - text: Litium
+    correct: true
+    feedback: Litium är en stämningsstabiliserare för bipolär sjukdom och används inte som standardprofylax för alkoholberoende.
+  - text: Disulfiram (Antabus)
+    correct: false
+    feedback: Disulfiram används för att skapa en aversion mot alkohol genom att hämma aldehyddehydrogenas.
+  - text: Akamprosat (Campral)
+    correct: false
+    feedback: Akamprosat används för att minska sug och stabilisera neurokemin vid avhållsamhet från alkohol.
+  - text: Baklofen
+    correct: false
+    feedback: Baklofen, en GABA-B-agonist, används ibland off-label för att minska alkoholsug och förebygga återfall.
+  - text: Naltrexon
+    correct: false
+    feedback: Naltrexon, en opioidantagonist, minskar alkohols belönande effekter och används för återfallsprofylax.
+  explanation: Vid alkoholberoende används disulfiram, akamprosat och naltrexon (samt ibland baklofen off-label) för att minska sug, uppmuntra avhållsamhet eller förebygga återfall. Litium är en stämningsstabiliserare indicerad vid bipolär sjukdom och ingår inte i standardprofylax för alkoholberoende.
+  id: med-kli-649c48
+- type: multiple_choice
+  tags:
+  - Meta-analys
+  - Evidensnivå
+  - Studiedesign
+  question: Vilket av följande påståenden är mest korrekt om meta-analyser?
+  image: null
+  options:
+  - text: Visar resultaten av flera studier sammanslaget.
+    correct: true
+    feedback: Meta-analys kombinerar statistiskt resultat från flera studier för att ge en samlad skattning av effekt.
+  - text: Det är en statistisk metod för att jämföra behandlingseffekten mellan två grupper.
+    correct: false
+    feedback: Även om meta-analyser kan uppskatta behandlingseffekter över studier är det en bredare metod som sammanställer flera studiers resultat, inte en enkel tvågruppsanalys.
+  - text: Meta-analyser görs när vanliga statistiska analyser inte kan göras.
+    correct: false
+    feedback: Meta-analys är inte en nödlösning utan en planerad metod för syntes av flera studier efter systematisk sökning och urval.
+  - text: Det är en strategi för att göra litteratursökningar snabbare.
+    correct: false
+    feedback: Litteratursökning är en separat steg; meta-analys är den statistiska sammanställningen av de identifierade studierna.
+  - text: Analyserar meta‑värdet av en funktion.
+    correct: false
+    feedback: Detta är felaktigt och irrelevant; meta-analys avser syntes av empiriska studie-resultat, inte 'meta‑värden' av funktioner.
+  explanation: Meta-analys är en statistisk metod för att kombinera resultat från flera studier för att få en gemensam skattning av effektstorlek och ökad precision. Den bygger på en systematisk litteratursökning, bedömning av heterogenitet och risk för bias innan resultaten slås ihop.
+  id: med-int-26da7b
+- type: multiple_choice
+  tags:
+  - Narrativ medicin
+  - Patientcentrering
+  - Medicinsk etik
+  question: Begreppet narrativ medicin utvecklades vid Columbia University av Rita Charon. Vad innebär narrativ medicin?
+  image: null
+  options:
+  - text: Att man försöker ta vara på patientens egen berättelse i den etiska och medicinska bedömningen
+    correct: true
+    feedback: Narrativ medicin betonar patientens berättelse som central för klinisk och etisk bedömning.
+  - text: Det är ett annat ord för alternativ medicin
+    correct: false
+    feedback: Det avser kliniskt lyssnande och tolkning, inte alternativa behandlingsmetoder.
+  - text: Att det enligt Hippokrates är viktigare vilken sjukdom personen har än vilken person som har sjukdomen
+    correct: false
+    feedback: Narrativ medicin sätter snarare personen och deras upplevelse i fokus, inte motsatsen.
+  - text: Att läkare inte får förleda patienten när det gäller behandling
+    correct: false
+    feedback: Visseligen är ärlighet viktigt, men narrativ medicin handlar om att förstå patientens perspektiv, inte enbart juridisk skyldighet.
+  - text: Att episteme och läkekonst är samma sak
+    correct: false
+    feedback: Narrativ medicin skiljer sig från ren teoretisk kunskap och betonar berättande och kontext i klinisk praxis.
+  explanation: Narrativ medicin handlar om att aktivt lyssna på och integrera patientens berättelse och erfarenheter i medicinska och etiska bedömningar. Genom att förstå patientens perspektiv förbättras kommunikation, diagnostik och patientcentrerad vård.
+  id: med-int-9ea74b
+- type: multiple_choice
+  tags:
+  - Polymyalgia reumatika
+  - Diagnostik
+  - Muskelvärk
+  question: Vilket av följande är mest typiskt för polymyalgia reumatika (PMR)?
+  image: null
+  options:
+  - text: Morgonstelhet i händerna
+    correct: false
+    feedback: Mer typiskt för reumatoid artrit; PMR ger främst stelhet i axlar och höfter.
+  - text: Proximal muskelvärk utan svaghet
+    correct: true
+    feedback: Korrekt — PMR karakteriseras av symmetrisk proximal värk och stelhet utan egentlig muskelsvaghet.
+  - text: Subkutana reumatiska noduli
+    correct: false
+    feedback: Associeras framförallt med reumatoid artrit, inte PMR.
+  - text: Hudutslag i malarområdet
+    correct: false
+    feedback: Malarutslag talar för SLE och är inte ett kännetecken för PMR.
+  - text: Erytema nodosum
+    correct: false
+    feedback: Ses vid tillstånd som sarkoidos, infektion eller IBD, inte typiskt för PMR.
+  explanation: PMR ger plötsligt insjuknande med symmetrisk proximal muskelvärk och uttalad morgonstelhet i skuldror och höfter, oftast med förhöjda inflammationsparametrar (SR/CRP). Muskelstyrkan är vanligtvis bevarad, vilket hjälper till att skilja PMR från inflammatoriska myopatier.
+  id: med-int-74419f
+- type: multiple_choice
+  tags:
+  - Reumatoid artrit
+  - Anti-CCP
+  question: 'En patient med nydebuterad artrit i flera småleder och positiv anti-CCP har mest sannolikt:'
+  image: null
+  options:
+  - text: Gikt
+    correct: false
+    feedback: Gikt ger oftast monoartrit orsakad av uratkristaller och är inte associerad med anti-CCP.
+  - text: Reaktiv artrit
+    correct: false
+    feedback: Reaktiv artrit följer vanligen en infektion och är ofta asymmetrisk; den är inte kopplad till anti-CCP-antikroppar.
+  - text: Reumatoid artrit
+    correct: true
+    feedback: Anti-CCP är mycket specifik för reumatoid artrit, som typiskt ger symmetrisk inflammatorisk polyartrit i småleder.
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Psoriasisartrit brukar ha associerade hud- eller nagelförändringar och saknar hög specificitet för anti-CCP.
+  - text: Artros
+    correct: false
+    feedback: Artros är en degenerativ ledsjukdom utan typiska autoantikroppar och ger oftast icke-inflammatoriska symptom i belastningsleder.
+  explanation: Positiv anti-CCP är mycket specifik för reumatoid artrit och tillsammans med symmetrisk småledsartrit starkt talar för denna diagnos. Andra entiteter som gikt, reaktiv artrit, psoriasisartrit och artros har andra typiska kliniska mönster och saknar anti-CCP-specificitet.
+  id: med-int-c35ebd
+- type: multiple_choice
+  tags:
+  - Reumatoid artrit
+  - DMARD
+  - Metotrexat
+  question: Vilket läkemedel är förstahandsval som sjukdomsmodifierande behandling (DMARD) vid nydiagnostiserad reumatoid artrit (RA)?
+  image: null
+  options:
+  - text: Hydroksyklorokin
+    correct: false
+    feedback: Kan användas vid mild sjukdom eller i kombination, men har mindre dokumenterad effekt än metotrexat.
+  - text: Ciklosporin
+    correct: false
+    feedback: Används sällan på grund av biverkningar och har en begränsad plats i behandlingsalgoritmen.
+  - text: Infliximab
+    correct: false
+    feedback: Är ett biologiskt läkemedel som reserveras för patienter med otillräckligt svar på konventionella DMARD.
+  - text: Sulfasalazin
+    correct: false
+    feedback: Kan användas vid mild sjukdom eller i kombination, men är inte förstahandsval ensam.
+  - text: Metotrexat
+    correct: true
+    feedback: Etablerat förstahands-DMARD med dokumenterad effekt på sjukdomsaktivitet och prevention av radiografisk progression.
+  explanation: Metotrexat är etablerat som förstahandsval vid nydiagnostiserad RA tack vare god effekt på sjukdomsaktivitet och förmåga att bromsa radiografisk progression. Hydroksyklorokin och sulfasalazin kan användas vid mildare sjukdom eller i kombination (t.ex. triple therapy), medan biologiska läkemedel som infliximab används vid otillräckligt svar på konventionella DMARD.
+  id: med-int-7d71d8
+- type: multiple_choice
+  tags:
+  - Gikt
+  - Akutbehandling
+  - Reumatologi
+  question: Vilken är förstahandsbehandling vid en akut giktattack?
+  image: null
+  options:
+  - text: Metotrexat
+    correct: false
+    feedback: Metotrexat används vid kroniska inflammatoriska reumatiska sjukdomar (t.ex. RA), inte för akut gikt.
+  - text: Hydroxiklorokin
+    correct: false
+    feedback: Hydroxyklorokin används vid kroniska tillstånd som SLE/RA och är inte ett akutmedel för gikt.
+  - text: Prednisolon i lågdos
+    correct: false
+    feedback: Delvis rätt men inte förstahandsval — glukokortikoider kan användas om NSAID/kolkicin är kontraindicerat eller vid polyartrit.
+  - text: Kolkicin eller NSAID
+    correct: true
+    feedback: Kolkicin eller NSAID ger snabb antiinflammatorisk effekt och är förstahandsval vid akut giktattack.
+  - text: Allopurinol
+    correct: false
+    feedback: Uratsänkande behandling ska inte initieras eller ändras under en pågående akut giktattack.
+  explanation: Akut gikt behandlas främst med antiinflammatoriska läkemedel (NSAID eller kolkicin) för snabb smärtlindring och dämpning av ledinflammation. Kortikosteroider är ett alternativ vid kontraindikationer mot NSAID/kolkicin. Uratsänkande behandling som allopurinol bör inte påbörjas eller justeras under en akut attack.
+  id: med-int-17d76e
+- type: multiple_choice
+  tags:
+  - SSRI
+  - Antidepressiva
+  question: Vilket av följande preparat klassificeras som ett SSRI?
+  image: null
+  options:
+  - text: Escitalopram
+    correct: true
+    feedback: Escitalopram är ett selektivt serotoninåterupptagshämmare (SSRI) som hämmar SERT.
+  - text: Duloxetin
+    correct: false
+    feedback: Duloxetin är en SNRI och hämmar återupptag av både serotonin och noradrenalin.
+  - text: Alimemazin
+    correct: false
+    feedback: Alimemazin är en sedativ antihistamin, inte ett antidepressivt SSRI.
+  - text: Venlafaxin
+    correct: false
+    feedback: Venlafaxin är också en SNRI som påverkar både serotonin och noradrenalin.
+  - text: Ciprofloxacin
+    correct: false
+    feedback: Ciprofloxacin är en fluorokinolonantibiotika och inte ett antidepressivt läkemedel.
+  explanation: SSRI (selektiva serotoninåterupptagshämmare) blockerar serotonintransportören och ökar serotoninnivåerna i synapsen, vilket används vid depression och ångeststörningar. SNRI påverkar både serotonin och noradrenalin, medan sedativa antihistaminer och antibiotika tillhör andra läkemedelsklasser.
+  id: med-kli-bb3773
+- type: multiple_choice
+  tags:
+  - Elektrolytrubbningar
+  - Hjärtsvikt
+  - Diuretika
+  question: Vid vilket av följande tillstånd kan låg plasmakaliumkoncentration (hypokalemi) ses?
+  image: null
+  options:
+  - text: Acidos
+    correct: false
+    feedback: Acidos ger vanligen hyperkalemi eftersom kalium förskjuts ut ur cellerna vid pH-sänkning.
+  - text: Behandling med betablockerare
+    correct: false
+    feedback: Betablockerare blockerar β2‑medierat cellupptag av kalium och tenderar att ge hyperkalemi, medan β2‑agonister ger hypokalemi.
+  - text: Njursvikt
+    correct: false
+    feedback: Njursvikt leder oftast till hyperkalemi på grund av nedsatt utsöndring av kalium.
+  - text: Hjärtsvikt
+    correct: true
+    feedback: Patienter med hjärtsvikt behandlas ofta med loop‑ eller thiaziddiuretika som kan orsaka hypokalemi.
+  - text: Muskelskada
+    correct: false
+    feedback: Muskelskada (rhabdomyolys) frisätter intracellulärt kalium och ger i regel hyperkalemi.
+  explanation: Hypokalemi är vanligen läkemedelsorsakad, särskilt av diuretika som används vid hjärtsvikt (loop‑ och thiaziddiuretika). De andra angivna tillstånden leder i regel till hyperkalemi eller påverkar kaliumbalansen åt andra hållet.
+  id: imp-7b84abae
+- type: multiple_choice
+  tags:
+  - Elektrolyter
+  - Hyponatremi
+  - Vätskebalans
+  question: Vilket av följande påståenden om hyponatremi stämmer inte?
+  image: null
+  options:
+  - text: För snabb korrigering av hyponatremi kan orsaka osmotiskt demyeliniseringssyndrom
+    correct: false
+    feedback: För snabb natriumhöjning kan leda till osmotiskt demyeliniseringssyndrom (t.ex. central pontin demyelinisering).
+  - text: Kronisk hyponatremi är vanligare än akut hyponatremi
+    correct: false
+    feedback: I klinisk praxis är kronisk hyponatremi (>48 timmar) oftare förekommande än akut.
+  - text: Hyponatremi ses oftast i samband med uttorkningstillstånd som kraftiga svettningar/diarré
+    correct: true
+    feedback: Även om uttorkning kan orsaka hyponatremi i vissa fall, är de vanligaste orsakerna SIADH, diuretika, hjärtsvikt och leversvikt snarare än primära svettningar/diarréer.
+  - text: Akut hyponatremi definieras som hyponatremi som utvecklats inom 48 timmar
+    correct: false
+    feedback: Den vanliga gränsen för akut är utveckling inom 48 timmar.
+  - text: Kronisk hyponatremi bör generellt korrigeras långsamt
+    correct: false
+    feedback: Kronisk hyponatremi korrigeras långsamt för att minimera risken för osmotisk demyelinisering.
+  explanation: Hyponatremi orsakas oftast av relativt vattenöverskott (t.ex. SIADH, diuretika, hjärtsvikt, leversvikt) snarare än rena vätskeförluster som svett/diarré. Akut hyponatremi (<48 h) kan kräva snabbare åtgärd, medan kronisk hyponatremi bör korrigeras långsamt för att undvika osmotiskt demyeliniseringssyndrom.
+  id: imp-1319de35

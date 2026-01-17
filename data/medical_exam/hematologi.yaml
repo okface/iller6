@@ -1,0 +1,488 @@
+- type: multiple_choice
+  tags:
+  - Pancytopeni
+  - Akut leukemi
+  - Neutropeni
+  question: 'Erik, 38 år, har haft ledvärk några veckor men är i övrigt opåverkad. Blodprover: CRP 31 mg/L, Hb 79 g/L, trombocyter 35 x10^9/L, vita 0,8 x10^9/L, neutrofila <0,1 x10^9/L. Vad är klokast att göra nu?'
+  image: null
+  options:
+  - text: Misstänk toxisk påverkan av benmärgen, t.ex. alkohol. Beställ B-PEth.
+    correct: false
+    feedback: Otillräckligt — graden av cytopenier och svår neutropeni kräver omedelbar hematologbedömning snarare än primärt alkoholutredning.
+  - text: Misstanke om hematologisk sjukdom. Diktera en remiss för poliklinisk utredning.
+    correct: false
+    feedback: Strategi — poliklinisk utredning fördröjer akut bedömning vid hög infektions- och blödningsrisk.
+  - text: Misstänk benmärgshämning pga viros. Omprov om 1–2 veckor.
+    correct: false
+    feedback: Riskabelt att avvakta — svår neutropeni och trombocytopeni kräver snabb utredning och ofta sjukhusomhändertagande.
+  - text: Misstänk felanalys av laboratoriet. Omprov.
+    correct: false
+    feedback: Omprov kan göras parallellt, men man bör inte fördröja kontakt med hematolog när värdena indikerar allvarlig pancytopeni.
+  - text: Misstänk akut leukemi. Ring närmaste hematologimottagning.
+    correct: true
+    feedback: Uttalad pancytopeni med svår neutropeni talar för akut leukemi och kräver omedelbar hematologbedömning och benmärgsutredning.
+  explanation: Uttalad pancytopeni med mycket låg neutrofila samt anemi och trombocytopeni är mycket oroande för akut leukemi eller annan allvarlig benmärgssjukdom. Snabb hematologkontakt, sjukhusinläggning och benmärgsundersökning är nödvändigt; att invänta eller enbart poliklinisk utredning är olämpligt.
+  id: med-hem-5a853d
+- type: multiple_choice
+  tags:
+  - MDS
+  - Pancytopeni
+  - Makrocytos
+  question: '78-årig tidigare frisk man söker för trötthet. Status: puls 105/min och ett systoliskt blåsljud. Blodstatus: Hb 88 g/L, MCV 115 fL, trombocyter 80 × 10^9/L, leukocyter 1,5 × 10^9/L. Homocystein och methylmalonat är normala. Vilken är den mest troliga förklaringen till dessa fynd?'
+  image: null
+  options:
+  - text: Kronisk myeloisk leukemi
+    correct: false
+    feedback: Osannolikt — CML ger typiskt leukocytos med neutrofili/basofili och BCR‑ABL, inte pancytopeni.
+  - text: Myelodysplastiskt syndrom (MDS)
+    correct: true
+    feedback: Äldre patient med pancytopeni och makrocytär anemi utan B12/folatbrist talar för MDS med ineffektiv hematopoes.
+  - text: Myelofibros
+    correct: false
+    feedback: Osannolikt — myelofibros ger ofta uttalad splenomegali, teardrop‑erytrocyter och benmärgsfibros vilket inte beskrivs här.
+  - text: Vitamin B12‑brist
+    correct: false
+    feedback: Osannolikt — B12‑brist ger makrocytos men skulle ge förhöjt homocystein och methylmalonat, vilket här är normalt.
+  - text: Myelom
+    correct: false
+    feedback: Osannolikt — myelom ger oftast normocytär anemi med plasmacellsökning och paraprotein, inte typisk makrocytos och pancytopeni.
+  explanation: Myelodysplastiskt syndrom är en klonal benmärgssjukdom hos äldre som ger ineffektiv hematopoes med cytopenier och ofta makrocytär anemi. Diagnos ställs med benmärgsundersökning och cytogenetik efter att bristtillstånd som B12/folat uteslutits; MDS kan progrediera till AML.
+  id: med-hem-a1bb70
+- type: multiple_choice
+  tags:
+  - Neutropen feber
+  - Cytostatika
+  - Infektion
+  question: 'Petter, 24 år, får kurativ cytostatikabehandling för spridd testikelcancer. Idag på em blev han plötsligt matt och har feber 39,2 °C. På akuten: blek, matt, febril, puls 110, BT 115/65. Lab: Hb 87 g/L, leukocyter 0,8 x10^9/L, trombocyter 45 x10^9/L. Snabb-CRP 20 mg/L. Övriga labbesked väntas senare. Vad är klokast att göra nu?'
+  image: null
+  options:
+  - text: CRP är relativt låg — troligen virus. Rekommendera rikligt med vätska och paracetamol; åter vid försämring.
+    correct: false
+    feedback: Hos patienter med uttalad leukopeni och feber måste man misstänka bakteriell infektion trots lågt CRP; observation hemma är olämpligt.
+  - text: Lägg in patienten och avvakta svar på differentialräkning/neutrofila innan behandlingsbeslut.
+    correct: false
+    feedback: Väntan på diff kan fördröja livsviktig behandling; empirisk antibiotika ska ges omedelbart vid misstänkt neutropen feber.
+  - text: 'Misstanke om neutropen feber: lägg in patienten, ta blododlingar och påbörja omedelbart bredspektrum IV-antibiotika.'
+    correct: true
+    feedback: Feber hos patient med neutropeni kräver snabb inläggning, blododlingar och omedelbar IV-bredspektrumantibiotika eftersom infektioner kan progrediera snabbt.
+  - text: Ge infusion (vätska) och skicka hem patienten; kontakta onkolog nästa dag för ev. antibiotika som inte interagerar med cytostatika, skriv ut peroralt amoxicillin (Kåvepenin) 1 g x3 i en vecka.
+    correct: false
+    feedback: Hemgång och peroralt amoxicillin är otillräckligt och riskfyllt vid neutropen feber; behandling måste vara intravenös och börja omedelbart.
+  - text: Sätt in peroralt kinolon (t.ex. ciprofloxacin) och följ upp polikliniskt.
+    correct: false
+    feedback: Peroral behandling är inadekvat vid hög feber och uttalad neutropeni; intravenös bredspektrumbehandling krävs initialt.
+  explanation: Neutropen feber definieras som feber hos patient med signifikant neutropeni och är en medicinsk nödsituation. Blododlingar ska tas och empirisk bredspektrum IV-antibiotika ges omedelbart eftersom inflammationsmarkörer som CRP kan vara låga tidigt och infektioner kan snabbt bli livshotande.
+  id: med-hem-f655ee
+- type: multiple_choice
+  tags:
+  - Hemolys
+  - Autoimmun hemolys
+  question: 'Anna, 39 år, söker akuten med ofrivillig viktnedgång 1 månad, nattliga svettningar och feber ~38°C i minst 2 veckor. Hon kände knölar i ena armhålan för några dagar sedan och noterade ikterus i ögonvitorna i morse. Lab: Hb 67 g/L, vita/diff/TPK ua, MCV förhöjt, bilirubin 86 μmol/L, LD förhöjt, retikulocyter mycket förhöjda, kreatinin lätt förhöjt. Haptoglobin kommer först nästa vardag. Vad är klokast att göra nu?'
+  image: null
+  options:
+  - text: Lägg in för omedelbar omfattande utredning av malignitet (mammografi, CT buk, gastroskopi, koloskopi och benmärgsundersökning) och transfundera 2 enheter erytrocytkoncentrat akut.
+    correct: false
+    feedback: Bilden tyder på hemolys och kräver akut riktad utredning/behandling, inte primärt en storskalig cancerutredning eller rutintransfusion.
+  - text: Lägg in patienten, beställ direkt antiglobulintest (DAT) omedelbart och starta prednisolon vid misstanke om autoimmun hemolys; ge iv vätska och avvakta med transfusion såvida inte patienten är hemodynamiskt instabil.
+    correct: true
+    feedback: Labbprofilen talar för akut hemolys; DAT bekräftar autoimmun hemolys och kortikal steroidbehandling ska initieras medan transfusion undviks om möjligt.
+  - text: Observera on, kontrollera Hb två gånger per dygn och skicka hem patienten i väntan på haptoglobin, med planerad poliklinisk utredning för misstänkt bröstcancer om metastasmisstanke.
+    correct: false
+    feedback: Patienten har signifikant anemi och tecken på aktiv hemolys; hemmaobservation fördröjer nödvändig akut diagnostik och behandling.
+  - text: Starta omedelbar endoskopisk utredning (gastroskopi och koloskopi) för gastrointestinal blödning och transfundera 2 enheter erytrocyter akut.
+    correct: false
+    feedback: Normala vita och diff, höga retikulocyter samt kraftigt förhöjt bilirubin/LD talar för hemolys snarare än blödning som huvudorsak.
+  - text: Avvakta alla åtgärder tills haptoglobin-svaret anländer nästa vardag; inga behandlingar eller prov beställs under tiden.
+    correct: false
+    feedback: Onödig fördröjning; kliniska och andra laboratoriefynd redan pekar mot hemolys och kräver omedelbar riktad åtgärd.
+  explanation: Kliniken och proverna (högt bilirubin, LD och retikulocyter samt makrocytos) talar för intravaskulär eller extravaskulär hemolys, ofta autoimmun. DAT bekräftar diagnosen och kortikosteroider är förstahandsbehandling; transfusion ges endast vid hemodynamisk instabilitet eller svår anemi som inte tolereras. Storskaliga utredningar för malignitet eller rutintransfusioner är sekundära tills hemolysen utretts och behandlats.
+  id: med-hem-4caebd
+- type: multiple_choice
+  tags:
+  - Stamcellstransplantation
+  - Akut myeloisk leukemi
+  question: Allogen stamcellstransplantation är en viktig kurativ behandlingsmodalitet inom hematologi. Vilken är den vanligaste indikationen för allogen stamcellstransplantation bland vuxna i Sverige?
+  image: null
+  options:
+  - text: Akut myeloisk leukemi
+    correct: true
+    feedback: Många högrisk- eller refraktära AML-patienter får allogen transplantation med kurativt syfte.
+  - text: Kronisk lymfatisk leukemi
+    correct: false
+    feedback: CLL är sällan indikation för allogen transplantation och behandlas oftast med läkemedel och målstyrd terapi.
+  - text: Kronisk myeloisk leukemi
+    correct: false
+    feedback: CML behandlas i regel effektivt med tyrosinkinashämmare; allogen transplantation är numera ovanligt.
+  - text: Högmalignt lymfom
+    correct: false
+    feedback: Vissa lymfom kan kräva allogen SCT men det är mindre vanligt; autolog transplantation är ofta förstahandsval vid behov.
+  - text: Myelom
+    correct: false
+    feedback: Multipelt myelom behandlas primärt med autolog stamcellstransplantation snarare än allogen.
+  explanation: I Sverige är akut myeloisk leukemi den vanligaste indikation för allogen stamcellstransplantation hos vuxna eftersom många högrisk- eller refraktära patienter behöver en kurativ behandling. Andra sjukdomar som CML, myelom och de flesta lymfom behandlas ofta med alternativa, icke-allogena strategier.
+  id: med-hem-a6a4e7
+- type: multiple_choice
+  tags:
+  - Trombocytopeni
+  - ITP
+  question: 'En 25‑årig tidigare frisk man söker på ÖNH-akuten för svår att blodstilla näsblödning och har petekier. Blodstatus: Hb 143 g/L, LPK 4,8 x10^9/L och TPK <5 x10^9/L. Diff är normal och patienten är i övrigt väl (ingen feber, inga infektioner eller viktnedgång). Vilken är den mest sannolika orsaken till trombocytopenin?'
+  image: null
+  options:
+  - text: Felaktigt provsvar; ta om provet
+    correct: false
+    feedback: Pseudotrombocytopeni p.g.a. EDTA-aggregat är möjlig, men en normal diff talar emot provfel och patientens svåra mucokutana blödning stöder verkligt lågt TPK.
+  - text: B12-brist
+    correct: false
+    feedback: B12-brist ger oftast megaloblastisk förändring och flercellig påverkan (anemi, ibland leukopeni) snarare än isolerad svår trombocytopeni.
+  - text: Akut leukemi
+    correct: false
+    feedback: Akut leukemi ger vanligen abnorm diff med blaster eller andra avvikelser och systemiska symtom, vilket saknas här.
+  - text: Myelodysplastiskt syndrom
+    correct: false
+    feedback: MDS ses oftast hos äldre och ger ofta multilineär cytopeni och morfologiska avvikelser i diffen, vilket inte stämmer med denna unga patient.
+  - text: ITP (Immunologisk trombocytopen purpura)
+    correct: true
+    feedback: Isolerad, svår trombocytopeni med normal diff och mucokutana blödningar hos en tidigare frisk ung vuxen är typiskt för immunmedierad trombocytopeni (ITP).
+  explanation: ITP är en immunmedierad destruktion av trombocyter som ger isolerad trombocytopeni och typiskt mucokutan blödningsbild. Diagnosen är oftast en uteslutningsdiagnos när andra orsaker och multilineära avvikelser saknas.
+  id: med-hem-f31bad
+- type: multiple_choice
+  tags:
+  - Multipelt myelom
+  - Hyperkalcemi
+  question: Vilket av följande labfynd innebär att multipelt myelom alltid ska behandlas?
+  image: null
+  options:
+  - text: S-Ca på 3,05.
+    correct: true
+    feedback: Korrekt — S-Ca 3,05 mmol/L indikerar allvarlig hyperkalcemi med end-organpåverkan och kräver behandling vid myelom.
+  - text: SR >100
+    correct: false
+    feedback: Hög SR är ospecifikt och ensam inte en behandlingsindikation.
+  - text: Plasmacellshalt i benmärgen >20 %
+    correct: false
+    feedback: '>20% i benmärgen utan andra myelom-definierande kriterier kräver inte nödvändigtvis behandling (tröskel för klart aktivt myelom kan vara ≥60%).'
+  - text: Neutrofila < 1,8
+    correct: false
+    feedback: Mild neutropeni i denna nivå är inte ett standardkriterium för omedelbar myelombehandling.
+  - text: Patologisk kvot av fria lätta kedjor
+    correct: false
+    feedback: Patologisk FLC-kvot kan vara myelom-definierande endast om specifika trösklar uppfylls (t.ex. involverad/uninvolverad ≥100 med tillräcklig nivå).
+  explanation: Allvarlig hyperkalcemi (S-Ca ≳3,0 mmol/L) är ett tecken på end-organpåverkan vid multipelt myelom och motiverar behandling. Andra fynd som hög SR, måttlig plasmacellhalt eller en avvikande FLC-kvot kräver bedömning mot specifika myelomkriterier innan behandling initieras.
+  id: med-hem-e48974
+- type: multiple_choice
+  tags:
+  - Neutropen feber
+  - Akut omhändertagande
+  question: Du är hematologjour en fredagkväll. En patient under pågående cytostatikabehandling för akut myeloisk leukemi ringer från avdelningen och uppger feber 38,6°C sedan några timmar. Inga fokala infektionssymtom och patienten är i övrigt opåverkad. Vilket råd ger du?
+  image: null
+  options:
+  - text: Åk in till akutmottagningen för genomodling, uppstart av bredspektrum IV-antibiotika, vätska och inläggning.
+    correct: true
+    feedback: Misstänkt neutropen feber kräver omedelbar inläggning, blododling och empirisk IV-bredspektumantibiotika plus vätska.
+  - text: Stanna hemma, starta Ciprofloxacin 500 mg x 2 samma kväll. Hör av dig till Hematologmottagningen på måndag.
+    correct: false
+    feedback: Peroral ciprofloxacin och att vänta är otillräckligt vid möjlig neutropen feber som kräver IV-behandling och omedelbar bedömning.
+  - text: Åk in till akutmottagningen för provtagning, värdering av infektionssymtom, och ställningstagande till inläggning och antibiotikabehandling utefter CRP-svar och statusfynd.
+    correct: false
+    feedback: Att avvakta CRP kan fördröja livsviktig empirisk behandling; blododling och start av IV-antibiotika bör inte skjutas upp.
+  - text: Åk till primärvårds-jourcentralen för en bedömning och eventuell remiss in till akutmottagningen.
+    correct: false
+    feedback: Primärvård kan sakna resurser och fördröja akut onkologisk handläggning vid misstänkt neutropen sepsis.
+  - text: Stanna hemma, följ tempen, och vid stigande temp/utebliven förbättring ny kontakt med avdelningen imorgon.
+    correct: false
+    feedback: Observation hemma riskerar att fördröja omedelbar behandling vid möjlig neutropeni och sepsis.
+  explanation: Feber hos patient under cytostatikabehandling ska betraktas som neutropen feber tills motsatsen är klarlagd. Detta kräver omedelbar inläggning, blododlingar och empirisk bredspektrum IV-antibiotika samt övervakning och vätskebehandling eftersom fördröjd behandling ökar risken för allvarlig sepsis.
+  id: med-hem-5c7b9b
+- type: multiple_choice
+  tags:
+  - Mikrocytär anemi
+  - Thalassemi
+  question: En 30-årig kvinna, gravid v 9 (förstföderska) född i Grekland, har Hb 110 g/L, MCV 67 fl, ferritin 70 µg/L (ref 15–150) och retikulocyter 120 x10^9/L (ref 20–100). Vilken är den mest sannolika orsaken till hennes lätta anemi?
+  image: null
+  options:
+  - text: Utspädning p.g.a. ökad plasmavolym under graviditet
+    correct: false
+    feedback: Mindre sannolik — utspädningsanemi uppträder oftast senare i graviditeten och är vanligen normocytär, inte mikrocytär.
+  - text: B12-brist
+    correct: false
+    feedback: B12-brist ger makrocytär anemi med förhöjt MCV, inte lågt MCV.
+  - text: Thalassemia minor
+    correct: true
+    feedback: Mikrocytär anemi med normalt/högt ferritin och medelhavsursprung är typiskt för thalassemia minor.
+  - text: Järnbrist p.g.a. ökat järnbehov under graviditet
+    correct: false
+    feedback: Järnbrist ger lågt ferritin; här är ferritin normalt vilket talar emot järnbrist.
+  - text: Thalassemia major
+    correct: false
+    feedback: Thalassemia major ger svår, ofta transfusionsberoende anemi från barndomen, inte en mild anemi hos en vuxen.
+  explanation: Mikrocytär anemi med normalt eller förhöjt ferritin och ursprung från medelhavsområdet talar för thalassemia minor. Thalassemia minor är en mild, ärftlig minskning av globinproduktion som ger lågt MCV men normalt ferritin, till skillnad från järnbrist där ferritin är lågt.
+  id: med-hem-30cace
+- type: multiple_choice
+  tags:
+  - Neutropeni
+  - Trombocytopeni
+  - Infektion
+  question: 'Jonas 67 år har nyligen behandlats för akut myeloisk leukemi med två cykler daunorubicin + cytarabin och är 6 dagar efter sista cytostatikadosen. Han söker akuten med feber (knappt 39 °C), puls 105/min, lätt ökad AF, näsblödning, blödande tandkött. Lab: LPK 0,7 x10^9/L, TPK <10 x10^9/L, Hb 94 g/L, CRP 50 mg/L. Vad är klokast att göra nu?'
+  image: null
+  options:
+  - text: Ordinera blodtransfusion och skicka hem patienten med råd att kontakta sin hematolog efter helgen.
+    correct: false
+    feedback: Patienten har neutropen feber och svår trombocytopeni och får inte skickas hem då risken för snabbt progredierande sepsis och blödning är hög.
+  - text: Misstänk i första hand viros; lägg in för observation, ta blododling men avvakta antibiotika tills odlingssvar finns. Planera trombocyttransfusion på måndag.
+    correct: false
+    feedback: Vid neutropen feber ska bredspektrum IV-antibiotika ges omedelbart efter blododling; att avvakta ökar risk för sepsis, och trombocyter måste erbjudas snarare än först på måndag.
+  - text: Komplettera prover (elektrolyter, krea, leverprover, koagulation), ta blododlingar och sätt in bredspektrum IV-antibiotika omedelbart, ge vätska, beställ trombocytkoncentrat för snar transfusion och lägg in patienten för monitorering.
+    correct: true
+    feedback: 'Neutropen feber är en akut situation: utredning + blododlingar bör tas och bredspektrum IV-antibiotika ges omedelbart, samt trombocyttransfusion vid så låg TPK och blödningsfenomen.'
+  - text: Skriv ut tablett fenoximetylpenicillin peroralt och be patienten återkomma vid försämring.
+    correct: false
+    feedback: Peroralt penicillin är otillräckligt vid neutropen feber; patienten behöver IV-antibiotika och observation/beredskap pga hög risk för allvarlig infektion och blödning.
+  - text: Misstanke om tidigt recidiv av AML. Påbörja intensifierad cytostatikabehandling (fludarabin, cytarabin, idarubicin) och lägg in patienten.
+    correct: false
+    feedback: Symtomen och labben tyder på neutropen feber och blödningsrisk efter nylig behandling, inte akut indikation för återfallsbehandling; cytostatika skulle förvärra neutropeni och blödningsrisk.
+  explanation: 'Neutropen feber är en onkologisk akutdiagnos där snabb handläggning krävs: ta blododlingar och ge bredspektrum IV-antibiotika omedelbart, komplettera prover och vätska, beställ trombocyttransfusion vid TPK <10 x10^9/L eller vid blödning, och vårdinskrivning för monitorering och stödbehandling.'
+  id: med-hem-3ac089
+- type: multiple_choice
+  tags:
+  - Splenomegali
+  - Myeloproliferativ sjukdom
+  question: Vilken av följande sjukdomar är ofta associerad med mjältförstoring (splenomegali)?
+  image: null
+  options:
+  - text: Myelom
+    correct: false
+    feedback: Vanligtvis ingen uttalad splenomegali eftersom myelom främst påverkar benmärg och skelett.
+  - text: Aplastisk anemi
+    correct: false
+    feedback: Ger hypoplastisk benmärg och oftast liten eller normal mjälte, inte splenomegali.
+  - text: Kronisk myeloisk leukemi
+    correct: true
+    feedback: KML är en myeloproliferativ sjukdom med extramedullär hematopoes som ofta ger uttalad splenomegali.
+  - text: Uttalad järnbrist
+    correct: false
+    feedback: Järnbrist orsakar inte primärt splenomegali och förklarar inte en förstorad mjälte.
+  - text: Monoklonal gammopati (MGUS)
+    correct: false
+    feedback: MGUS är en benign plasmacellsproliferation som normalt inte ger betydande mjältförstoring.
+  explanation: Kronisk myeloisk leukemi (CML) ger ofta massiv splenomegali på grund av extramedullär hematopoes; den karakteriseras ofta av BCR‑ABL1. Tillstånd som myelom, MGUS, aplastisk anemi och järnbrist orsakar vanligen inte uttalad mjältförstoring.
+  id: med-hem-c9bc0b
+- type: multiple_choice
+  tags:
+  - Monoklonal gammopati
+  - MGUS
+  question: 'En 74-årig tidigare frisk bonde är i övrigt asymptomatisk. Blodprover: Hb 125 g/L, kreatinin 90 µmol/L, sänkan något förhöjd. Serumelektrofores visar en IgG-kappa M-komponent 20 g/L. Benmärgsundersökning: 5% plasmaceller. DT-skelett utan myelomdestruktion. Vilken diagnos är mest sannolik?'
+  image: null
+  options:
+  - text: Plasmacellsleukemi
+    correct: false
+    feedback: Plasmacellsleukemi kännetecknas av höga nivåer cirkulerande plasmaceller och uttalad leukemi, vilket inte föreligger här.
+  - text: Plasmocytom
+    correct: false
+    feedback: Plasmocytom är ett solitärt tumörfokus i ben eller mjukdelar, medan här finns generell M-komponent och inget solitärt lesion.
+  - text: Asymtomatiskt myelom
+    correct: false
+    feedback: Smoldering myelom kräver antingen ≥10% benmärgsplasmaceller eller högre M-proteinnivåer (t.ex. ≥30 g/L) utan organsvikt, vilket inte uppfylls.
+  - text: Behandlingskrävande myelom
+    correct: false
+    feedback: Behandlingskrävande myelom kräver myelomrelaterade skador (CRAB eller myelomdefinierande händelser), vilka saknas.
+  - text: Monoklonal gammopati av oklar signifikans (MGUS)
+    correct: true
+    feedback: Kriterierna för MGUS är M-protein <30 g/L, benmärgsplasmaceller <10% och avsaknad av myelomrelaterade skador, vilket stämmer för denna patient.
+  explanation: Patientens fynd (IgG M-komponent 20 g/L, 5% plasmaceller i benmärgen och inga CRAB-tecken eller skelettdestruktioner) uppfyller kriterierna för MGUS. Smoldering myelom kräver högre M-protein eller ≥10% plasmaceller, och symtomatiskt myelom kräver organsvikt eller myelomdefinierande händelser.
+  id: med-hem-0ec4bd
+- type: multiple_choice
+  tags:
+  - MDS
+  - AML
+  question: 'En 81-årig man med känt myelodysplastiskt syndrom (MDS) följs med transfusioner ungefär 1 gång/månad. De senaste veckorna har han blivit allt tröttare, gått ner i vikt och haft återkommande näsblödningar. Transfusionsbehovet har ökat. Lab: Hb 58 g/L, LPK 1,0 x10^9/L, TPK 13 x10^9/L. Differential: neutrofiler 0,4 x10^9/L, 5 % blaster. Vilken är den mest sannolika förklaringen till patientens försämring?'
+  image: null
+  options:
+  - text: Utveckling av en immunologisk trombocytopeni (ITP)
+    correct: false
+    feedback: ITP ger i regel isolerad trombocytopeni utan uttalad pancytopeni eller ökad andel blaster.
+  - text: Uttalad B12-brist
+    correct: false
+    feedback: B12-brist ger makrocytär anemi (högt MCV) och neurologiska tecken och förklarar inte blastenökning eller kraftig pancytopeni.
+  - text: Utveckling av myelofibros
+    correct: false
+    feedback: Myelofibros ger ofta splenomegali och ett leukoerytroblastiskt blodutstryk snarare än en snabb blastenhet.
+  - text: Transformation av patientens MDS till en akut myeloisk leukemi
+    correct: true
+    feedback: Korrekt — stigande transfusionsbehov, uttalad pancytopeni och ökad andel blaster talar för progression av MDS till AML.
+  - text: Uttalad järnbrist
+    correct: false
+    feedback: Järnbrist ger typiskt mikrocytär anemi och inte ökad andel blaster eller svår pancytopeni.
+  explanation: MDS kan progrediera till akut myeloisk leukemi, vilket kännetecknas av en snabb klinisk försämring och ökad andel blaster (diagnostiskt ofta ≥20% i benmärg eller blod). Denna progression ger ökande transfusionsbehov och uttalad pancytopeni, medan alternativen har andra typiska laboratorie- eller kliniska mönster.
+  id: med-hem-28120a
+- type: multiple_choice
+  tags:
+  - Trombocytopeni
+  - Blödning
+  - Diagnostik
+  question: Erik, 28 år, har blött från tandköttet och nässlemhinnan i ett dygn. Han mår övrigt väl. Blodprover visar normala Hb, leukocyter och differentialräkning, men trombocyter är omätbart låga. Vilken är den mest sannolika diagnosen?
+  image: null
+  options:
+  - text: TTP – trombotisk trombocytopen purpura
+    correct: false
+    feedback: TTP ger ofta hemolys (schistocyter), neurologiska/renala symtom och påverkan på blodstatus, inte isolerad trombocytopeni.
+  - text: Akut leukemi
+    correct: false
+    feedback: Akut leukemi ger vanligtvis avvikande vita och/eller anemi samt blaster i differentialräkningen.
+  - text: ITP – immunogen trombocytopen purpura
+    correct: true
+    feedback: Isolerad svår trombocytopeni med normal Hb och vita och mucocutana blödningar talar för immunmedierad nedbrytning av trombocyter (ITP).
+  - text: Koagulopati pga leversvikt, kontrollera PK-värde
+    correct: false
+    feedback: Leversvikt ger vanligen förlängt PK/INR och andra koagulationsrubbningar, inte enbart mycket låga trombocyter.
+  - text: Förvärvad hemofili
+    correct: false
+    feedback: Förvärvad hemofili ger blödningsfenomen med förlängd aPTT och normalt trombocytantal.
+  explanation: ITP är en immunmedierad destruktion av trombocyter som ger isolerad trombocytopeni och mucocutana blödningar, medan Hb och vita oftast är normala. Andra differentialdiagnoser som TTP, leukemi, leversvikt och förvärvad hemofili har typiska laboratoriefynd som skiljer dem från ITP.
+  id: med-hem-401c04
+- type: multiple_choice
+  tags:
+  - Hematologi
+  - Diagnostik
+  question: Jan, 76 år, med KLL. Nu uttalad trötthet och andfåddhet — misstanke om hemolytisk anemi. Vilka prover beställer du för att påvisa autoimmun hemolytisk anemi?
+  image: null
+  options:
+  - text: 1. Kreatinin, beta2-mikroglobulin, fragmentocyter, M-komponent, SR
+    correct: false
+    feedback: Dessa prover bedömer njurfunktion, tumörbörda eller monoklonalitet; saknar viktiga hemolysmarkörer och DAT.
+  - text: 2. LD, haptoglobin, retikulocyter, bilirubin, DAT
+    correct: true
+    feedback: Kombinationen visar hemolys (förhöjt LD, bilirubin, lågt haptoglobin, retikulocytos) och DAT påvisar autoantikroppar.
+  - text: 3. LD, transferrin, retikulocyter, ferritin, DAT
+    correct: false
+    feedback: Transferrin och ferritin bedömer järnstatus och är inte centrala för att påvisa hemolys; haptoglobin/bilirubin saknas.
+  - text: 4. ANCA, haptoglobin, SR, retikulocyter, FACS
+    correct: false
+    feedback: ANCA och SR är för inflammations-/vaskulitutredning, FACS är ej standard för AIHA; DAT och bilirubin/LD saknas.
+  - text: 5. ALP, haptoglobin, schistocyter, bilirubin, FACS
+    correct: false
+    feedback: ALP och schistocyter pekar mot hepatobiliär eller mikroangiopatisk hemolys; DAT och LD saknas för att påvisa autoimmun hemolys.
+  explanation: Autoimmun hemolytisk anemi visar förhöjt LD och indirekt bilirubin, lågt haptoglobin och retikulocytos; direkt antiglobulintest (DAT) är diagnostiskt för att påvisa autoantikroppar. KLL är en känd utlösande orsak till varm AIHA.
+  id: imp-9b92dc2b
+- type: multiple_choice
+  tags:
+  - Kronisk lymfatisk leukemi
+  - Behandlingsindikationer
+  - Anemi
+  question: Vilket av följande är en behandlingsindikation vid kronisk lymfatisk leukemi (KLL)?
+  image: null
+  options:
+  - text: B-lymfocyter > 300 x 10^9/L
+    correct: false
+    feedback: Isolerad hög lymfocytos är vanligtvis ingen behandlingsindikation i KLL; leukostas är ovanligt.
+  - text: B-lymfocyter > 100 x 10^9/L
+    correct: false
+    feedback: Ett visst absolut lymfocytantal utan symtom eller progression motiverar i regel inte behandling.
+  - text: Hb < 100 g/L pga KLL
+    correct: true
+    feedback: Anemi orsakad av KLL (Hb <100 g/L) är en etablerad indikation för behandling.
+  - text: Buksmärtor
+    correct: false
+    feedback: Felformulerat — buksmärta som uttryck för symtomgivande splenomegali är indikation, men ospecificerad buksmärta ensam är inte.
+  - text: Förstorade lymfkörtlar < 10 cm utan symtom
+    correct: false
+    feedback: Asymptomatiska förstorade körtlar (och icke-progressiva) ger normalt inte behandling; indikation vid stora (>5 cm), progressiva eller symtomgivande noder.
+  explanation: Behandlingsindikationer i KLL enligt etablerade kriterier inkluderar progressiv benmärgsinsufficiens (t.ex. Hb <100 g/L eller trombocytopeni <100×10^9/L), symtomgivande eller progressiv spleno-/lymfadenopati, konstitutionella symtom och snabb lymfocytökning (doublingstid <6 månader). Isolerad lymfocytos utan symtom behandlas inte.
+  id: imp-99f4a1ed
+- type: multiple_choice
+  tags:
+  - venös tromboembolism
+  - riskfaktorer
+  question: Vilket av följande förknippas inte med ökad risk för venös tromboembolism?
+  image: null
+  options:
+  - text: Hög ålder
+    correct: false
+    feedback: Hög ålder är en välkänd riskfaktor för VTE på grund av ökad koagulationsbenägenhet och komorbiditet.
+  - text: Central venkateter
+    correct: false
+    feedback: Central venkateter ger endotelpåverkan och stas lokalt och ökar risken för venös trombos.
+  - text: Kongenital trombocytopeni
+    correct: true
+    feedback: Medfödd låg trombocytantalassocieras generellt med blödningsrisk, inte ökad venös trombosrisk.
+  - text: Cancer
+    correct: false
+    feedback: Cancer ger ett hyperkoagulabelt tillstånd och är en stark riskfaktor för VTE.
+  - text: Nefrotiskt syndrom
+    correct: false
+    feedback: Nefrotiskt syndrom leder till förlust av antikoagulanter (t.ex. antitrombin) i urinen och ökad trombosrisk.
+  explanation: Kongenital trombocytopeni innebär låg antal blodplättar och är i regel kopplat till blödningsbenägenhet snarare än ökad venös trombosrisk. De andra alternativen (hög ålder, central venkateter, cancer och nefrotiskt syndrom) är etablerade riskfaktorer för venös tromboembolism via stas, endotelpåverkan eller hyperkoagulabilitet.
+  id: imp-d0d3b730
+- type: multiple_choice
+  tags:
+  - Myelom
+  - M-komponent
+  - Utredning
+  question: Man 65 år med IgG kappa M‑komponent 15 g/L. Misstanke om MGUS men man vill utesluta multipelt myelom. Vilka undersökningar krävs för diagnostik och bedömning av behandlingsindikation?
+  image: null
+  options:
+  - text: Blodprov (blodstatus, elstatus, fria lätta kedjor), benmärgsundersökning och PET‑CT
+    correct: false
+    feedback: PET‑CT kan vara användbart i vissa fall men är inte förstahandsval för rutinmässig skelettutredning; helkropps lågdos‑CT eller helkropps‑MRI är rekommenderade och benmärgsprov krävs vanligtvis.
+  - text: Blodprov samt CT hals, thorax och buk
+    correct: false
+    feedback: CT hals/thorax/buk utreder inte skelettet systematiskt för myelomrelaterade lytiska förändringar och saknar benmärgsanalys.
+  - text: Blodprov samt MR helkropp
+    correct: false
+    feedback: Helkropps‑MRI är en lämplig bildmodalitet men saknar benmärgsbiopsi; benmärgsundersökning behövs för att kvantifiera klonala plasmaceller vid diagnostik.
+  - text: Blodprov, benmärgsundersökning och CT lågdos myelomskelett
+    correct: true
+    feedback: Kombinationen av riktade blodprover (inklusive fria lätta kedjor), benmärgsbiopsi och helkropps lågdos‑CT (eller helkropps‑MRI) är standard för att ställa diagnos och avgöra behandlingsindikation.
+  - text: Endast blodprov då patienten är symptomfri.
+    correct: false
+    feedback: Även asymtomatiska patienter med M‑komponent behöver kompletterande utredning (bilddiagnostik och ofta benmärgsprov) för att utesluta myelom eller andra myeloproliferativa tillstånd.
+  explanation: Vid misstanke om myelom krävs riktade blodprover (blodstatus, kalcium, njurfunktion, albumin, S‑elektrofores/IFE, fria lätta kedjor), benmärgsbiopsi för att kvantifiera klonal plasmacellandel och helkroppsbildgivning (lågdos‑CT eller helkropps‑MRI; PET‑CT i särskilda fall) för att påvisa myelom‑definierande förändringar som lytiska lesioner eller extramedullär sjukdom.
+  id: imp-cd32609a
+- type: multiple_choice
+  tags:
+  - B12-brist
+  - järnbrist
+  - atrofisk gastrit
+  question: 'Anna, 25 år, trötthet. Hb 77 g/L. Lab: B12-brist, högt folat, järnbrist. Atrofisk gastrit. Vilken är bästa initiala behandling?'
+  image: null
+  options:
+  - text: Börjar med järn, tar om prover.
+    correct: false
+    feedback: Att prioritera järn och fördröja B12 kan riskera irreversibel neurologisk skada från obehandlad B12-brist.
+  - text: Ger B12 först, tar om folat sen.
+    correct: true
+    feedback: B12 bör ersättas först (vanligen parenteralt vid atrofisk gastrit) för att förebygga neurologisk komplikation; järn kan behandlas därefter.
+  - text: Folat och järn först.
+    correct: false
+    feedback: Att ge folat innan B12 kan förvärra eller maskera neurologiska symtom och folat är redan förhöjt här.
+  - text: Börjar med B12 och folat, tar om järn sen.
+    correct: false
+    feedback: Delvis fel — B12 ska ges men extra folat är onödigt och kan vara riskabelt om B12 inte etablerats; folatnivån är redan hög.
+  - text: Ger B12, folat och järn samtidigt.
+    correct: false
+    feedback: B12 och järn kan behöva behandlas, men rutinmässig tillsats av folat är onödig här och kan dölja B12-bristens effekter.
+  explanation: Vid B12-brist, särskilt vid atrofisk gastrit, ska B12 ersättas snarast (ofta parenteralt) för att förhindra neurologisk skada. Folat bör inte ges före eller rutinmässigt om inte brist påvisats (här är folat förhöjt). Järnbrist behandlas också, men B12-prioritering är viktigast initialt.
+  id: imp-4d822d3b
+- type: multiple_choice
+  tags:
+  - Polycytemi
+  - Polycytemia vera
+  question: 65-årig kvinna, rökare, med klåda efter dusch. Hb 165 g/L, EVF 0,49. Vad är nästa steg?
+  image: null
+  options:
+  - text: 1. Kompletterar med diff, järnpaket, s-erytropoetin.
+    correct: false
+    feedback: Delvis korrekt — diff, järnstatus och s-erytropoetin är rimliga initiala prover, men misstanke om polycytemia vera kräver även JAK2-analys och hematologbedömning.
+  - text: 2. Storrökare, ingen utredning, men UL buk.
+    correct: false
+    feedback: Rökning kan ge sekundär erytrocytos men patienten uppfyller tröskelvärden för polycytemi och behöver utredas vidare, inte endast bukultraljud.
+  - text: 3. Remiss Hematologen (frågeställning polycytemia vera).
+    correct: true
+    feedback: Hb och EVF når gränsvärden för polycytemi och aquagen klåda stödjer misstanke om PV; hematologremiss för JAK2-test och vidare handläggning är indicerat.
+  - text: 4. DT hals/thorax/buk (lymfom?).
+    correct: false
+    feedback: Lymfom ger sällan isolerad förhöjd Hb/EVF med aquagen klåda; DT är inte första steget vid misstanke om polycytemia vera.
+  - text: 5. Diuretika-effekt (pseudopolycytemi).
+    correct: false
+    feedback: Diuretika kan ge hemokoncentration men patientens symtom och värden talar för verklig polycytemi som kräver vidare utredning.
+  explanation: Hb 165 g/L och EVF 0,49 uppfyller WHO:s tröskelvärden för polycytemi hos kvinna. Aquagen klåda och eventuell splenomegali talar för polycytemia vera — utredning bör inkludera JAK2-mutation, s-erytropoetin, syremättnad för att utesluta sekundära orsaker och remiss till hematolog.
+  id: imp-c0816cf1

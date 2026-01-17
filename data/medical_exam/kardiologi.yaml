@@ -1,0 +1,1382 @@
+- id: med-cardio-001
+  type: multiple_choice
+  tags:
+  - Arytmi
+  - Farmakologi
+  question: Vilket läkemedel är kontraindicerat hos stabila patienter med tydligt Wolff-Parkinson-White (WPW) syndrom och förmaksflimmer?
+  image: null
+  options:
+  - text: Adenosin
+    correct: true
+    feedback: Blockerar AV-noden, vilket kan tvinga överledning via den snabba extrabanan -> risk för VF.
+  - text: Prokainamid
+    correct: false
+    feedback: Används ofta vid WPW då det bromsar överledningen i extrabanan.
+  - text: Amiodaron
+    correct: false
+    feedback: Generellt säkrare, men komplex verkningsmekanism i akutskedet.
+  - text: Ibutilid
+    correct: false
+    feedback: Används primärt för konvertering av fladder/flimmer.
+  explanation: Vid WPW med förmaksflimmer kommer blockering av AV-noden (Adenosin, Betablockad, Ca-antagonister) att driva impulserna via den snabba extrabanan, vilket kan leda till ventrikelflimmer. Prokainamid är att föredra.
+- id: med-cardio-002
+  type: multiple_choice
+  tags:
+  - Anatomi
+  question: Vilket kranskärl försörjer oftast SA-noden?
+  image: null
+  options:
+  - text: Höger kranskärl (RCA)
+    correct: true
+    feedback: Försörjer SA-noden hos ~60% av befolkningen.
+  - text: Circumflexa (LCx)
+    correct: false
+    feedback: Försörjer SA-noden hos ~40% av befolkningen.
+  - text: LAD (Left Anterior Descending)
+    correct: false
+    feedback: Försörjer framväggen/septum, sällan SA-noden.
+  - text: Posterior Descending Artery (PDA)
+    correct: false
+    feedback: Avgör kärldominans, men är inte primär försörjning till SA.
+  explanation: Artären till SA-noden avgår från RCA hos cirka 60% av befolkningen och från LCx hos 40%.
+- type: multiple_choice
+  tags:
+  - Koronarsjukdom
+  - Trombosprofylax
+  question: Vilken medicinering skrivs en tidigare frisk patient vanligen ut med efter PCI-behandlad, okomplicerad hjärtinfarkt?
+  image: null
+  options:
+  - text: Acetylsalisylsyra + warfarin + statin + nitrospray
+    correct: false
+    feedback: Warfarin (antikoagulantia) ges inte rutinmässigt efter PCI utan samtidig indikation som förmaksflimmer eller ventrikulär trombos.
+  - text: P2Y12 hämmare + DOAK + statin + nitrospray
+    correct: false
+    feedback: DOAK (direktverkande antikoagulantia) används endast vid samtidig indikation; rutinbehandling är inte kombination med antikoagulantia.
+  - text: Acetylsalisylsyra + DOAK + statin + nitrospray
+    correct: false
+    feedback: Kombinera ASA med DOAK är inte standard efter okomplicerad PCI utan annan indikation.
+  - text: P2Y12 hämmare + Waran+ statin+ nitrospray
+    correct: false
+    feedback: Waran kräver särskild indikation och är inte rutin efter PCI; dess användning ökar blödningsrisk när den läggs till trombocythämning.
+  - text: Acetylsalisylsyra + P2Y12 hämmare + statin + nitrospray
+    correct: true
+    feedback: Dubbelt trombocythämmande (ASA + P2Y12-hämmare), högintensiv statin och nitroglycerin vid behov är standard efter okomplicerad PCI.
+  explanation: Efter PCI för okomplicerad hjärtinfarkt ges vanligen dubbel trombocythämning (acetylsalicylsyra + P2Y12-hämmare) plus högintensiv statin och nitrospray för symtomlindring. Antikoagulantia (warfarin eller DOAK) används endast om det finns samtidig indikation som förmaksflimmer eller vänsterkammarthrombos.
+  id: med-kar-663ec4
+- type: multiple_choice
+  tags:
+  - Sekundärprevention
+  - Blodtryck
+  - Lipider
+  question: Vilka sekundärpreventiva mål gäller efter en hjärtinfarkt hos en person under 70 år?
+  image: null
+  options:
+  - text: Blodtryck < 140 / < 90 mmHg och LDL < 1.8 mmol/L
+    correct: false
+    feedback: Både blodtrycks- och LDL-målen är för högre än rekommenderat för sekundärprevention efter infarkt.
+  - text: Blodtryck < 130 / < 80 mmHg och LDL < 1.4 mmol/L
+    correct: true
+    feedback: Detta är de rekommenderade, mer aggressiva målen för patienter <70 år efter hjärtinfarkt.
+  - text: Blodtryck < 140 / < 80 mmHg och LDL < 1.4 mmol/L
+    correct: false
+    feedback: LDL-målet är korrekt men det systoliska blodtrycket <140 mmHg är för generöst jämfört med rekommenderat <130 mmHg.
+  - text: Blodtryck < 120 / < 70 mmHg och LDL < 1.8 mmol/L
+    correct: false
+    feedback: Blodtrycket är onödigt lågt och kan öka risk för hypotension, samtidigt är LDL-målet för högt.
+  - text: Blodtryck < 130 / < 80 mmHg och LDL < 1.8 mmol/L
+    correct: false
+    feedback: Blodtrycksmålet är korrekt men LDL-målet är för högt; rekommenderat LDL för <70 år är <1,4 mmol/L.
+  explanation: Efter hjärtinfarkt hos patienter under 70 rekommenderas blodtryck <130/80 mmHg och LDL-kolesterol <1,4 mmol/L för bästa sekundärprevention. Högre mål ger sämre riskreduktion, medan mycket låga blodtrycksmål kan medföra hypotensionsrisk.
+  id: med-kar-381baa
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Farmakoterapi
+  question: Vilket av följande påståenden om behandling av patienter med hjärtsvikt är INTE korrekt?
+  image: null
+  options:
+  - text: Regelbunden fysisk träning förbättrar fysisk kapacitet hos hjärtsviktspatienter men har inte visats minska mortaliteten.
+    correct: false
+    feedback: Träning förbättrar kondition och livskvalitet men det finns ingen entydig evidens för sänkt mortalitet.
+  - text: Angiotensin‑receptorblockerande läkemedel (ARB) är mindre effektiva än ACE‑hämmare avseende reduktion av mortalitet hos patienter med hjärtsvikt och nedsatt ejektionsfraktion.
+    correct: true
+    feedback: ARB anses i praktiken ha likvärdig mortalitetsnytta och används ofta som alternativ vid ACE‑hämmarintolerans.
+  - text: Spironolakton minskar mortaliteten hos patienter med hjärtsvikt och nedsatt ejektionsfraktion.
+    correct: false
+    feedback: Mineralokortikoidreceptorantagonister som spironolakton har visats reducera mortalitet hos utvalda patienter med nedsatt EF.
+  - text: Digoxin påverkar inte mortaliteten hos patienter med hjärtsvikt och nedsatt ejektionsfraktion men kan minska symtom och sjukhusinläggningar.
+    correct: false
+    feedback: Digoxin förbättrar symptomkontroll och kan minska hospitaliseringar men har ingen klar effekt på överlevnad.
+  - text: ACE‑hämmare är indicerade för patienter med hjärtsvikt och nedsatt ejektionsfraktion oavsett NYHA‑klass (om ej kontraindicerade).
+    correct: false
+    feedback: ACE‑hämmare rekommenderas vid nedsatt EF oavsett symtomgrad om patienten tolererar behandlingen.
+  explanation: Behandling av systolisk hjärtsvikt inkluderar ACE‑hämmare (eller ARB vid intolerans), beta‑blockerare och MRA för mortalitetsreduktion; digoxin förbättrar symtom men inte överlevnad, och fysisk träning ökar kapacitet utan klar mortalitetsvinst. ARB anses ha likvärdig mortalitetsnytta som ACE‑hämmare och är ett alternativ vid biverkningar.
+  id: med-kar-dcf41e
+- type: multiple_choice
+  tags:
+  - Infarkt
+  - EKG
+  question: 65-årig man kommer till akutmottagningen med bröstsmärta i en timme, illamående och kräkningar. EKG visar ST‑höjning i de inferiora avledningarna (II, III, aVF). Vilket kranskärl är mest sannolikt ockluderat?
+  image: null
+  options:
+  - text: LCX (ramus circumflexus)
+    correct: false
+    feedback: LCX kan ge inferiora förändringar vid vänster dominans men är mindre sannolik än RCA vid klassisk inferior ST‑höjning.
+  - text: OM (obtuse marginalis)
+    correct: false
+    feedback: OM är en gren från LCX och ger oftare laterala än rena inferiora förändringar; inte den vanligaste orsaken till isolerad inferior ST‑höjning.
+  - text: RCA (höger kranskärl)
+    correct: true
+    feedback: RCA‑ocklusion ger klassiskt ST‑höjning i II, III och aVF och är den vanligaste orsaken till inferiorinfarkt.
+  - text: LAD (left anterior descending, främre nedåtgående)
+    correct: false
+    feedback: LAD‑ocklusion ger typiskt anteriort mönster med ST‑höjning i V1–V4, inte inferiora avledningar.
+  - text: Huvudstam (left main)
+    correct: false
+    feedback: Left main‑ocklusion ger ofta omfattande och utbredda ST‑förändringar snarare än isolerad inferior ST‑höjning.
+  explanation: ST‑höjning i II, III och aVF talar för inferiorväggsinfarkt, vilket hos de flesta patienter orsakas av ocklusion i höger koronarartär (RCA). LCX/OM kan orsaka liknande mönster vid vänster dominans, medan LAD ger anteriort mönster och vänster huvudstam ger mer utbredd ischemi.
+  id: med-kar-85c378
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Lungödem
+  - Akutmedicin
+  question: 'En 73‑årig kvinna med ischemisk hjärtsvikt (EF 35%) inkommer med successivt förvärrad dyspné och nattlig hosta. Status: samtalsdyspné, SpO2 92% på 5 L syrgas, AF 100–110/min, BT 140/80, rassel upp till hilus bilateralt, halsvenstas och varm perifer cirkulation. EKG visar förmaksflimmer utan tecken till pågående ischemi. Vilken av följande utgör förstahandsbehandling?'
+  image: null
+  options:
+  - text: Intravenös Betablockad samt Furosemid.
+    correct: false
+    feedback: Betablockad bör ofta sättas ut eller undvikas vid akut dekompenserad hjärtsvikt; furosemid kan vara indicerat men betablockad är olämpligt initialt.
+  - text: Intravenöst Milrinon (inotropi-stöd) samt CPAP-behandling.
+    correct: false
+    feedback: Milrinon och andra inotropa läkemedel används vid hypotension eller kardiogen chock, inte som förstahandsval hos en varm, hemodynamiskt stabil patient.
+  - text: Intravenöst Digoxin samt CPAP-behandling.
+    correct: false
+    feedback: Digoxin har långsammare effekt och ger inte snabb preload/afterload‑reduktion; CPAP kan vara korrekt men digoxin är inte first‑line för akut avlastning.
+  - text: Elkonvertering akut
+    correct: false
+    feedback: Akut elkonvertering indikeras vid hemodynamisk instabilitet; patienten är förhållandevis stabil med BT 140/80 och behöver inte omedelbar elkonvertering.
+  - text: Intravenöst Nitroglycerin samt CPAP-behandling.
+    correct: true
+    feedback: IV nitroglycerin ger snabb venös och arteriell dilatation (minskar preload/afterload) och CPAP förbättrar syresättning och minskar venöst återflöde, vilket snabbt avlastar akut lungödem.
+  explanation: Akut vänsterkammarsvikt med lungödem behandlas initialt med syrgas/CPAP för att förbättra syresättning och minska preload samt med snabb vasodilatation (IV nitroglycerin) för att avlasta hjärtat. Diuretika används ofta tidigt, medan betablockerare bör undvikas vid akut dekompensation och inotropa droger reserveras för hypotension eller chock.
+  id: med-kar-52ade8
+- type: multiple_choice
+  tags:
+  - Kardiomyopati
+  - Alkohol
+  - Hjärtsvikt
+  question: '52‑årig man med 3 månaders progressiv trötthet, dyspné och ortopné. Ingen bröstsmärta. Hypertoni i 10 år, behandlad med bisoprolol 5 mg och hydroklortiazid, röker ½ paket/dag. Uppger daglig alkoholkonsumtion (whisky socialt + 1–2 martinis till lunch). Status: AF 20/min, lungor med bilaterala rassel basalt, hjärta regelbunden, puls 104/min, systoliskt blåsljud grad 2/6 vid apex. EKG sinus utan ischemiska förändringar. BT 135/85. Lungröntgen visar förstorad hjärta och lätt kardiogen stas. Vilken är den mest sannolika orsaken till patientens hjärtsvikt?'
+  image: null
+  options:
+  - text: Alkoholkardiomyopati
+    correct: true
+    feedback: Kroniskt dagligt alkoholintag kan ge dilaterad kardiomyopati med kardiomegali och hjärtsviktssymptom, vilket stämmer med fynden här.
+  - text: För hög dos betablockad
+    correct: false
+    feedback: Betablockadsöverdos ger vanligen bradykardi och hypotension, inte takykardi och dilatation med kardiomegali.
+  - text: Kranskärlssjukdom
+    correct: false
+    feedback: Ischemisk kardiomyopati är möjlig men mindre sannolik då patienten saknar bröstsmärtor, ischemiska EKG‑förändringar och typisk anamnes.
+  - text: Hypertrofisk kardiomyopati
+    correct: false
+    feedback: Hypertrof kardiomyopati ger oftast septalhypertrofi och diastolisk dysfunktion snarare än dilatation och uttalad kardiomegali.
+  - text: Hypertoni
+    correct: false
+    feedback: Kronisk obehandlad hypertoni kan ge hjärtsvikt men patientens blodtryck är välkontrollerat och ger oftare vänsterkammarhypertrofi snarare än dilatation.
+  explanation: Kronisk alkoholmissbruk kan orsaka dilaterad kardiomyopati med nedsatt systolisk funktion, kardiomegali och tecken på vänsterkammarsvikt. Avsaknad av ischemiska tecken, bröstsmärta och välreglerat blodtryck gör alkoholkardiomyopati mest sannolik i detta fall.
+  id: med-kar-0d3e23
+- type: multiple_choice
+  tags:
+  - Aortastenos
+  - Diagnostik
+  question: 55‑årig asymptomatisk man med hyperlipidemi och hypertoni utreds med ekokardiografi efter blåsljud. Transthorakal ekokardiografi visar lätt vänsterkammarhypertrofi med bevarad systolisk funktion, förkalkad aortaklaff med maximal aortagradient 31 mmHg, samt lindrig mitralisinsufficiens och PA‑tryck 34 mmHg. Blodtryck 132/79 mmHg. Hur bör aortastenos handläggas i nuläget?
+  image: null
+  options:
+  - text: Transesofageal ekokardiografi (TEE).
+    correct: false
+    feedback: TEE behövs inte för bedömning av en sannolikt mild–måttlig aortastenos; transthorakal ekokardiografi ger oftast tillräcklig information.
+  - text: Ekokardiografisk kontroll om ca ett år.
+    correct: true
+    feedback: Asymptomatisk patient med bevarad systolisk funktion och maxgrad ~31 mmHg bör följas med upprepad ekokardiografi efter cirka ett år för att bevaka progression.
+  - text: Kraftigare blodtryckssänkandebehandling med diuretika.
+    correct: false
+    feedback: Intensifierad antihypertensiv behandling eller diuretika är inte indicerat endast pga blåsljudet och kan vara olämpligt utan annan indikation.
+  - text: Koronarangiografi och presentation på thoraxkonferensen inför ställningstagande till klaffoperation.
+    correct: false
+    feedback: Invasiv angiografi och operationsbedömning är inte motiverat utan symtom eller tecken på svår aortastenos eller kammarpåverkan.
+  explanation: En maximal aortagradient på 31 mmHg hos en asymptomatisk patient med bevarad vänsterkammarfunktion tyder på mild–måttlig aortastenos, vilket vanligen följas med klinisk uppföljning och upprepad ekokardiografi (≈12 mån). Invasiva eller kirurgiska åtgärder och avancerad bilddiagnostik övervägs först vid symptom, snabb progress eller tecken på kammarpåverkan.
+  id: med-kar-e02389
+- type: multiple_choice
+  tags:
+  - Klaffsjukdom
+  - Ekokardiografi
+  question: En 74‑årig kvinna med osteoporos och välbehandlad hypertoni remitterades för ekokardiografi inför en höftoperation. Undersökningen visade normalstor vänsterkammare, LVEF 60 %, förkalkad aortaklaff med maxgradient 14 mmHg (lätt aortastenos), mitralisinsufficiens grad 1/3 och lindrig trikuspidalisinsufficiens. Maxgradient över trikuspidalis 21 mmHg. Vad är lämplig handläggning av dessa klaffvitier?
+  image: null
+  options:
+  - text: Transesofageal ekokardiografi för bättre kartläggning av klaffarna.
+    correct: false
+    feedback: Inte indicerat — TEE är mer invasiv och används när transthorakal ekokardiografi är otillräcklig eller vid misstanke om endokardit/komplexa klafflesioner, vilket saknas här.
+  - text: Årliga ekokardiografiska kontroller.
+    correct: false
+    feedback: Överbehandling — måttliga, hemodynamiskt obetydliga förändringar utan symtom kräver inte rutinmässiga årliga ekon.
+  - text: Ingen ekokardiografisk uppföljning. Remiss till primärvården för uppföljning av hypertoni.
+    correct: true
+    feedback: Fynden är lindriga och hemodynamiskt insignifikanta; fortsatt primärvårdsuppföljning och behandling av riskfaktorer är lämpligt.
+  - text: Arbets‑EKG.
+    correct: false
+    feedback: Inte indicerat — arbetsprov görs vid misstanke om ischemisk hjärtsjukdom eller symptom på kranskärlssjukdom, vilket inte föreligger här.
+  - text: CT‑angiografi för kartläggning av kranskärlen inför klaffoperation.
+    correct: false
+    feedback: Inte relevant — ingen klaffoperation planeras och det finns inga tecken på koronarsjukdom som motiverar CT‑koronarangiografi.
+  explanation: Lätta, asymtomatiska klaffförändringar med normal vänsterkammarfunktion kräver normalt ingen särskild kardiologisk uppföljning utan hanteras i primärvården med kontroll av riskfaktorer. Ytterligare bilddiagnostik eller funktionstester är endast indicerade vid symtom, progression eller misstanke om samtidig kranskärlssjukdom.
+  id: med-kar-677bbf
+- type: multiple_choice
+  tags:
+  - Aortarotsaneurysm
+  - Bikuspid aortaklaff
+  question: '50-årig normotensiv kvinna med astma utreds med ekokardiografi efter kort episod med förmaksflimmer. Eko: normalstor välfungerande VK (EF 60%), bikuspid aortaklaff med central insufficiens grad 1/3, vidgad aortarot ≈59 mm, MI 1/3, normalt vänster förmak, PA-tryck ≈23 mmHg. Hur handlägger du detta efter fynden?'
+  image: null
+  options:
+  - text: MR hjärta för närmare kartläggning av klaffarna och aortan.
+    correct: false
+    feedback: MR kan ge klaff- och vävnadsinformation men CT ger bättre anatomisk detalj för aortarot och möjliggör samtidig koronarbedömning inför kirurgi.
+  - text: Uppföljande ekokardiografi (UCG) om 6 månader.
+    correct: false
+    feedback: Med aortarot ≈59 mm överskrids sedvanliga operationsgränser och aktiv utredning/handläggning bör påbörjas snarare än väntas.
+  - text: Beställa CT aorta och kranskärlsröntgen samt remittera patienten för aortarotskirurgi.
+    correct: true
+    feedback: Aortarot omkring 59 mm kräver vidare anatomisk kartläggning med CT (inkl. koronarbilder) och snabb kirurgisk konsultation för planering.
+  - text: Remiss till förmaksflimmerablation.
+    correct: false
+    feedback: Ablation kan övervägas senare, men först ska den stora aortarotsdilatationen utredas och åtgärdas då den är akut prioriterad.
+  explanation: Aortarotdiameter ~59 mm hos patient med bikuspid aortaklaff överstiger vanliga operationsgränser och kräver snabb vidareutredning och kirurgisk bedömning. CT aorta med koronarskattning är lämplig för preoperativ planering; ekokardiografi eller MR ensam är otillräckliga i detta skede.
+  id: med-kar-3079f0
+- type: multiple_choice
+  tags:
+  - Takykardi
+  - EKG
+  - Supraventrikulär takykardi
+  question: Sara, 39 år, söker för hjärtklappning sedan två timmar. Hon har haft liknande episodier tidigare men inte så ihållande. EKG visar en regelbunden takykardi med smala QRS-komplex och inga tydliga P‑vågor före varje QRS. Vad visar EKG?
+  image: null
+  options:
+  - text: Regelbunden supraventrikulär takykardi
+    correct: true
+    feedback: Korrekt — regelbunden smal‑komplex takykardi utan tydliga P‑vågor och plötslig debut talar för SVT (t.ex. AVNRT/AVRT).
+  - text: Sinustakykardi
+    correct: false
+    feedback: Sinustakykardi har normalt P‑vågor före varje QRS och gradvis debut relaterad till fysiologisk stress eller feber.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Förmaksflimmer ger en irregularly irregular rytm med varierande R‑R‑intervall, inte en regelbunden takykardi.
+  - text: Kammartakykardi
+    correct: false
+    feedback: Kammartakykardi ger ofta breda QRS‑komplex (>120 ms) och indikerar ventrikulär fokus, inte smal supraventrikulär takykardi.
+  - text: Förmaksfladder
+    correct: false
+    feedback: Förmaksfladder visar ofta 'sågtandsmönster' av fluttervågor och kan ge regelbundna blockeringar (t.ex. 2:1), men fluttervågor brukar kunna identifieras.
+  explanation: Supraventrikulär takykardi (SVT) kännetecknas av plötslig debut av regelbunden, smal‑komplex takykardi utan tydliga P‑vågor; vanliga orsaker är AVNRT och AVRT. Initial behandling är vagala manövrer och vid utebliven effekt adenosin, med elkonvertering vid instabilitet.
+  id: med-kar-465654
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - Förmaksflimmer
+  question: Per Larsson, 84 år, med hypertoni och typ 2‑diabetes söker för tilltagande andfåddhet. Han förnekar hjärtklappning. EKG tas — vad visar det?
+  image: null
+  options:
+  - text: Förmaksflimmer
+    correct: true
+    feedback: EKG visar frånvaro av distinkta P‑vågor och en oregelbunden oregelbunden kammarrytm, typiskt för förmaksflimmer.
+  - text: Sinusrytm, SVES och muskelstörningar
+    correct: false
+    feedback: Sinusrytm har tydliga P‑vågor före varje QRS; muskelstörningar ger artefakter men inte den oregelbundna, kaotiska baseline som ses vid AF.
+  - text: Respiratorisk sinusarytmi
+    correct: false
+    feedback: Respiratorisk sinusarytmi visar varierande RR‑intervall med synliga P‑vågor i samband med andning, inte frånvaro av P‑vågor.
+  - text: Atypiskt förmaksfladder
+    correct: false
+    feedback: Förmaksfladder ger ofta regelbundna "sågtandsmönster" (F‑vågor) och en mer regelbunden kammarrytm än det oregelbundna mönstret vid AF.
+  - text: Torsade de Pointes
+    correct: false
+    feedback: Torsade är en polymorf ventrikulär takykardi med snurrande QRS‑morfologi, inte ett supraventrikulärt mönster utan P‑vågor.
+  explanation: Förmaksflimmer är vanligt hos äldre och patienter med hypertoni/diabetes; det kännetecknas på EKG av frånvaro av organiserade P‑vågor och en oregelbunden kammarrytm. Upptäckt kräver bedömning av symptom, frekvenskontroll och tromboemboliprofylax utifrån stroke‑risk (t.ex. CHA2DS2‑VASc).
+  id: med-kar-0c7556
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - EKG
+  - Diagnostik
+  question: En 68-årig tidigare frisk man noterar med sin pulsklocka en puls runt 150/min men känner sig inte särskilt påverkad. På Jourcentralen tas ett EKG. Vilken rytmstörning visar EKG:t?
+  image: null
+  options:
+  - text: Sinustakykardi
+    correct: false
+    feedback: Osannolikt — sinustakykardi har tydliga P‑vågor före varje QRS och ofta mer varierande eller lägre frekvens; saknar de karakteristiska "sågtands"-vågorna.
+  - text: Preexciterat förmaksflimmer
+    correct: false
+    feedback: Preexciterat förmaksflimmer ger ofta oregelbundna, snabba och bredda QRS-komplex pga variabel ledning via accessorisk bana, inte en regelbunden frekvens ~150.
+  - text: Ventrikeltakykardi
+    correct: false
+    feedback: Ventrikeltakykardi ger vanligen breda QRS och patienten är ofta påverkad; här talar en regelbunden snabb kammarfrekvens nära 150 snarare för supraventrikulär rytm med 2:1 block.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Osannolikt — förmaksflimmer ger en oregelbundet oregelbunden RR‑intervall utan distinkta P‑vågor, medan här är rytmen regelbunden med typisk frekvens.
+  - text: Förmaksfladder med 2:1 blockering
+    correct: true
+    feedback: Klassiskt förmaksfladder har atrieaktivitet ~300/min med "sågtands"-vågor och vid 2:1 AV‑block blir kammarfrekvensen cirka 150/min och regelbunden.
+  explanation: Förmaksfladder ger ofta en atriefrekvens runt 300/min med karakteristiska "sågtands"-vågor i II, III och aVF; vid 2:1 AV‑ledning blir kammarfrekvensen cirka 150/min och rytmen regelbunden. Viktigt att skilja från förmaksflimmer (irregulärt oregelbundet) och ventrikeltakykardi (bredda QRS och oftast mer symptomgivande).
+  id: med-kar-b7a0a4
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Ischemisk hjärtsjukdom
+  - Farmakologi
+  question: 'En 55‑årig man drabbades för en vecka sedan av en stor framväggsinfarkt som akut PCI-behandlades framgångsrikt. Ekokardiografi visade akinesi över framväggen och nedsatt vänsterkammarfunktion med EF ≈35 %. Patienten är kliniskt stabil, inga bröstsmärtor, lätt andfådd vid backgång. Läkemedel: acetylsalicylsyra, ticagrelor, enalapril och metoprolol (påbörjad upptitrering), atorvastatin. Vilken ytterligare åtgärd bör vidtas i dagsläget?'
+  image: null
+  options:
+  - text: Tillägg av loopdiuretika
+    correct: false
+    feedback: Inte indicerat i frånvaro av tecken på vätskeretention eller lungstas; diuretika används vid volymöverbelastning.
+  - text: Utredning avseende hjärttransplantation
+    correct: false
+    feedback: Inte aktuell vid nylig infarkt och stabil patient; transplantationsutredning är för avancerad och vid refraktär svikt.
+  - text: Tillägg av hjärtselektiv kalciumflödeshämmare
+    correct: false
+    feedback: Kalciumflödeshämmare med negativ inotrop effekt är olämpliga vid reducerad EF och kan förvärra systolisk funktion.
+  - text: Fortsatt upptitrering av Enalapril och Metoprolol samt tillägg av Forxiga och Eplerenone
+    correct: true
+    feedback: 'Riktlinje‑styrd behandling vid ischemisk HFrEF: fortsätt uppnå måldoser och lägg till SGLT2‑hämmare (Forxiga) samt MRA (eplerenon) för att förbättra prognos och minska remodellering.'
+  - text: Remiss för stress‑ekokardiografi för att ta reda på om det finns reversibel ischemi
+    correct: false
+    feedback: Efter framgångsrik PCI och frånvaro av angina är rutinmässig ischemitestning inte prioriterad; ytterligare ischemiutredning kan övervägas vid symtom eller klinisk misstanke.
+  explanation: 'Vid ischemisk systolisk hjärtsvikt (EF ≈35 %) ska målinriktad läkemedelsbehandling optimeras: ACE‑hämmare/ARB/ARNI och beta‑blocker fortsatt upptitrering samt addition av MRA och SGLT2‑hämmare för mortalitetsnytta och minskad remodellering. Andra åtgärder (diuretika, omhändertagande för transplantation eller ischemiutredning) bedöms utifrån klinisk bild och symtom.'
+  id: med-kar-7bb38d
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - HFpEF
+  - Förmaksflimmer
+  question: 'En 75‑årig kvinna med typ 2‑diabetes och tablettbehandlad hypertoni söker för successivt ökande trötthet och dyspné under månader, samt nyligen bilateral bensvullnad. Status: opåverkad i vila, lindriga pittingödem, oregelbunden puls 96/min, basala rassel, BT 160/85. EKG: förmaksflimmer, viss tecken till Vänsterkammarhypertrofi. Lab: NT‑proBNP 2963 ng/L, Troponin I-serie 45–55–48 ng/L (99:e percentil 15 ng/L), eGFR 54. Ekokardiografi: LVEF 52 %, lätt vänsterkammarhypertrofi, förstorat vänster förmak och tecken till förhöjda fyllnadstryck. Vilken är den mest sannolika orsaken till patientens aktuella besvär?'
+  image: null
+  options:
+  - text: Hypertrof kardiomyopati
+    correct: false
+    feedback: Mindre sannolik — HCM är oftast hereditär med typisk asymmetrisk septalhypertrofi på ekokardiografi, vilket inte rapporterats här och kliniken stämmer bättre med långvarig hypertoni och HFpEF.
+  - text: Hypertensivt lungödem
+    correct: false
+    feedback: Felaktigt — hypertensivt lungödem ger ofta akut svår dyspné och kraftiga lungauskultationsfynd, medan här föreligger subakuta/kroniska tecken på förhöjda fyllnadstryck och kronisk sviktbild.
+  - text: Dåligt reglerat förmaksflimmer
+    correct: false
+    feedback: Delvis bidragande men otillräckligt — förmaksflimmer kan förvärra symtomen men förklarar inte den höga NT‑proBNP, LA‑förstoring och ekokardiografiska tecken på förhöjda fyllnadstryck.
+  - text: Hjärtsvikt p.g.a. av subakut hjärtinfarkt
+    correct: false
+    feedback: Osannolikt — troponin är måttligt förhöjt och stabilt över tid utan typisk dynamik eller sänkningsmönster, LVEF är bevarad och det finns inga andra tydliga tecken på akut infarkt.
+  - text: Hjärtsvikt med bevarad ejektionsfraktion
+    correct: true
+    feedback: Äldre kvinna med långvarig hypertoni, AF, LV‑hypertrofi, förstorad förmak, förhöjda fyllnadstryck och markant NT‑proBNP är typiskt för HFpEF.
+  explanation: HFpEF innebär hjärtsviktsymtom med bevarad ejektionsfraktion och beror ofta på diastolisk dysfunktion med förhöjda fyllnadstryck. Vanligt i äldre patienter med hypertoni och förmaksflimmer; NT‑proBNP är ofta högt och troponin kan vara lätt förhöjt p.g.a. kronisk myokardbelastning.
+  id: med-kar-069ef2
+- type: multiple_choice
+  tags:
+  - Sinusknutedysfunktion
+  - Bradykardi
+  question: '66‑årig kvinna med psoriasis och hyperlipidemi, tidigare PCI mot LAD för två år sedan. Läkemedel: acetylsalicylsyra, atorvastatin och metotrexat. Söker för successivt tilltagande trötthet och andfåddhet; hon noterar att pulsen knappt stiger vid ansträngning (kronotropisk inkompetens). EKG visar sinusbradykardi med intermittenta sinuspauser och normal AV‑överledning. Vilken diagnos talar EKG mest för?'
+  image: null
+  options:
+  - text: Sinusknutedysfunktion (Sick sinus syndrome)
+    correct: true
+    feedback: Sinusbradykardi och sinuspauser tillsammans med kronotropisk inkompetens är typiskt för sinusknutedysfunktion.
+  - text: AV‑block III (komplett AV‑block)
+    correct: false
+    feedback: Komplett AV‑block ger AV‑dissociation med oberoende förmaks‑ och kammarrytmer, inte sinuspauser med normal AV‑överledning.
+  - text: AV‑block I
+    correct: false
+    feedback: AV‑block I ger bara förlängd PR‑intervall utan bortfall eller sinuspauser.
+  - text: AV‑block II (Mobitz I/II)
+    correct: false
+    feedback: AV‑block II visar intermittenta uteblivna QRS efter P (och karakteristiska PR‑mönster), inte primärt sinusbradykardi/pauser.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Förmaksflimmer ger oregelbunden rytm utan tydliga P‑vågor, inte organiserade sinusvågor och pauser.
+  explanation: Sinusknutedysfunktion innebär att sinusknutan inte förmår generera adekvata impulser, vilket ger sinusbradykardi, sinuspauser eller kronotropisk inkompetens. På EKG ses närvarande P‑vågor med låg frekvens och återkommande pauser; detta skiljer sig från AV‑block där problemet ligger i överledningen mellan förmak och kammare.
+  id: med-kar-6b8601
+- type: multiple_choice
+  tags:
+  - Akut koronart syndrom
+  - EKG
+  - ST-höjning
+  question: Vilket av nedanstående alternativ beskriver bäst det bifogade EKG:t som precis tagits på en kvinna med misstänkt akut koronart syndrom?
+  image: null
+  options:
+  - text: ST-höjningar inferiort
+    correct: true
+    feedback: Typisk bild för akut inferior STEMI (ST‑höjningar i II, III, aVF), ofta vid ocklusion av höger kranskärl.
+  - text: ST-sänkningar lateralt
+    correct: false
+    feedback: Laterala ST‑sänkningar kan vara reciproka till inferiora ST‑höjningar men i sig är de inte det mest specifika fyndet.
+  - text: Generella, konkava ST-lyft
+    correct: false
+    feedback: Diffusa, konkava ST‑höjningar talar snarare för perikardit än för lokaliserat STEMI.
+  - text: Belastningstecken
+    correct: false
+    feedback: Ospecifika belastningstecken ger ofta ST‑sänkningar eller T‑vågsförändringar men beskriver inte den här typiska inferiora ST‑höjningen.
+  - text: ST-höjningar anteroseptalt
+    correct: false
+    feedback: Anteroseptala ST‑höjningar ses i V1–V4 och stämmer inte med en inferior (II, III, aVF) EKG‑bild.
+  explanation: ST‑höjningar i de inferiora avledningarna (II, III, aVF) är typiska för ett akut inferior STEMI, ofta pga ocklusion i höger kranskärl. Reciprocity kan ge laterala ST‑sänkningar; diffusa konkava ST‑höjningar är mer förenliga med perikardit.
+  id: med-kar-8d21bc
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - HFrEF
+  - Läkemedelsbehandling
+  question: En patient med HFrEF (EF < 50 %) ska påbörja optimal läkemedelsbehandling. Vilken kombination rekommenderas för att minska mortalitet och risken för sjukhusinläggning?
+  image: null
+  options:
+  - text: MRA och betablockerare
+    correct: false
+    feedback: Ofullständig behandling — saknar RAAS‑blockerare/ARNI och SGLT2‑hämmare som har dokumenterad effekt på överlevnad.
+  - text: SGLT2‑hämmare och betablockerare
+    correct: false
+    feedback: Ofullständig behandling — saknar MRA och RAAS‑blockad/ARNI som bidrar till ytterligare mortalitetsreduktion.
+  - text: Betablockerare och ACE‑hämmare
+    correct: false
+    feedback: Ofullständig — traditionell grundbehandling men bör kompletteras med SGLT2‑hämmare och MRA (eller ARB/ARNI) för optimal prognos.
+  - text: Furosemid
+    correct: false
+    feedback: Endast symtomlindring — loopdiuretika avlastar vid vätskeöverskott men förbättrar inte långtidöverlevnaden.
+  - text: Betablockerare, ACE‑hämmare/ARB/ARNI, SGLT2‑hämmare och MRA
+    correct: true
+    feedback: Denna fyrkombination är rekommenderad som grundbehandling vid HFrEF för att minska mortalitet och sjukhusinläggningar.
+  explanation: Optimal läkemedelsbehandling vid HFrEF innefattar betablockerare, en RAAS‑blockerare (ACE‑hämmare, ARB eller helst ARNI när möjligt), SGLT2‑hämmare och MRA. Tillsammans har dessa preparat visats reducera mortalitet och risk för sjukhusinläggning; diuretika som furosemid används huvudsakligen för symtomlindring.
+  id: med-kar-df1ff0
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - HFpEF
+  - Behandling
+  question: Vilket av följande påståenden rörande hjärtsvikt med bevarad ejektionsfraktion (HFpEF) är felaktigt?
+  image: null
+  options:
+  - text: Ejektionsfraktion är ≥ 50%
+    correct: false
+    feedback: HFpEF definieras vanligen som EF ≥50%.
+  - text: Behandling med ACE-hämmare eller ARB är rekommenderad
+    correct: true
+    feedback: ACE-hämmare/ARB har inte visat entydig prognostisk nytta i HFpEF och rekommenderas inte specifikt för att förbättra överlevnad, även om de används vid samtidig hypertoni eller ischemisk hjärtsjukdom.
+  - text: Behandlingen inriktas på underliggande sjukdomar, t.ex. hypertoni
+    correct: false
+    feedback: Behandlingen fokuserar på kontroll av bakomliggande orsaker och komorbiditeter.
+  - text: Diuretika kan ge symptomlindring i vissa fall
+    correct: false
+    feedback: Diuretika lindrar kongestionssymtom och kan förbättra patientens välbefinnande.
+  - text: Hos äldre är HFpEF vanligare än hjärtsvikt med reducerad ejektionsfraktion
+    correct: false
+    feedback: HFpEF är särskilt vanlig hos äldre patienter, ofta med flera komorbiditeter.
+  explanation: HFpEF karakteriseras av EF ≥50% och är vanligare hos äldre. Behandlingen riktas mot kontroll av underliggande sjukdomar (t.ex. hypertoni, ischemisk hjärtsjukdom, arytmier) och symptombedömning; diuretika kan ge symtomlindring, medan ACE-hämmare/ARB inte visat klar prognostisk nytta i HFpEF.
+  id: med-kar-0fa841
+- type: multiple_choice
+  tags:
+  - Kranskärlssjukdom
+  - Stabil angina
+  question: Vilket av nedanstående om symtomatologin vid stabil angina är korrekt?
+  image: null
+  options:
+  - text: A+C+D
+    correct: false
+    feedback: Innehåller D (vilosymtom) som är felaktigt för stabil angina och saknar B och E.
+  - text: A+B+C+E
+    correct: true
+    feedback: 'A, B, C och E stämmer: typisk substernal smärta/tryck med möjlig utstrålning, dyspné som anginalt ekvivalent, palpömhet/andningskorrelation talar emot ischemi och diabetiker kan ha dämpad smärta.'
+  - text: A+B
+    correct: false
+    feedback: Korrekt sammanställning saknar C och E, som också är viktiga kliniska punkter.
+  - text: Inget av ovanstående svarsalternativ
+    correct: false
+    feedback: Ett av alternativen (A+B+C+E) är korrekt beskrivet.
+  - text: A+C+D+E
+    correct: false
+    feedback: Innehåller D (vilosymtom) som är felaktigt för stabil angina och saknar B.
+  explanation: Stabil angina ger vanligen ansträngningsutlösta substernala smärtor eller tryck som kan stråla mot arm, hals eller rygg. Vissa patienter har enbart ansträngningsberoende dyspné; palpömhet eller andningskorrelation talar för icke-kardiell orsak, och diabetiker kan ha dämpad smärta vid ischemi pga diabetesassocierad neuropati.
+  id: med-kar-b73ec1
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Ejektionsfraktion
+  - Diagnostik
+  question: Vilket mått på ejektionsfraktion (EF) stämmer med diagnosen HFpEF (hjärtsvikt med bevarad vänsterkammarfunktion)?
+  image: null
+  options:
+  - text: '>=50%'
+    correct: true
+    feedback: HFpEF definieras i regel som ejektionsfraktion ≥50%.
+  - text: 41-49%
+    correct: false
+    feedback: Detta intervall klassificeras som HFmrEF (mellanreducerad EF), inte HFpEF.
+  - text: '>=40%'
+    correct: false
+    feedback: Inkluderar även lätt nedsatt EF (40–49%) och är därmed för låg gräns för HFpEF.
+  - text: 44-55%
+    correct: false
+    feedback: Blandar in 41–49%-intervallet och en övre gräns på 55% är inte den etablerade definitionsgränsen.
+  - text: '>55%'
+    correct: false
+    feedback: För snävt; skulle utesluta patienter med EF 50–55% som enligt standard räknas som HFpEF.
+  explanation: HFpEF definieras vanligen som hjärtsvikt med bevarad ejektionsfraktion, med en cut-off vid EF ≥50%. EF 41–49% kallas HFmrEF (mellanreducerad) och ≤40% klassas som HFrEF (reducerad EF).
+  id: med-kar-53fdb2
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Etiologi
+  - Hypertoni
+  question: Vilka är de två vanligaste bakomliggande orsakerna till hjärtsvikt hos vuxna?
+  image: null
+  options:
+  - text: Hypertoni och klaffsjukdom
+    correct: false
+    feedback: Klaffsjukdom kan ge hjärtsvikt men är mindre vanlig som orsak än ischemisk hjärtsjukdom.
+  - text: Hypertoni och inlagringskardiomyopatier
+    correct: false
+    feedback: Inlagringskardiomyopatier (t.ex. amyloidos) är relativt ovanliga orsaker jämfört med ischemisk hjärtsjukdom.
+  - text: Hypertoni och ischemisk hjärtsjukdom
+    correct: true
+    feedback: Långvarig hypertoni leder till remodellering och dysfunktion och kranskärlssjukdom ger myokardskada som ofta leder till hjärtsvikt.
+  - text: Hjärtmuskelsjukdomar och ischemisk hjärtsjukdom
+    correct: false
+    feedback: Primära hjärtmuskelsjukdomar förekommer men är mindre vanliga än hypertoni som en av de två vanligaste orsakerna.
+  - text: Ischemisk hjärtsjukdom och medfödda hjärtfel
+    correct: false
+    feedback: Medfödda hjärtfel är en mindre vanlig orsak till hjärtsvikt hos vuxna jämfört med hypertoni.
+  explanation: Hypertoni och ischemisk hjärtsjukdom är de vanligaste orsakerna till hjärtsvikt hos vuxna; långvarigt högt blodtryck ger kammarhypertrofi och remodellering medan ischememi orsakar myokardskada och nedsatt pumpfunktion. Andra orsaker såsom klaffsjukdom, inlagringskardiomyopatier och medfödda fel förekommer men är mindre vanliga i vuxenpopulationen.
+  id: med-kar-eba58c
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - NT-proBNP
+  - Ekokardiografi
+  question: En 76-årig patient söker på vårdcentralen för andfåddhet, bensvullnad och trötthet. Patienten har haft hypertoni i många år. NT‑proBNP är 1500 ng/L och övriga laboratorier är utan anmärkning. Vilken är nästa mest lämpliga åtgärd?
+  image: null
+  options:
+  - text: Kontrollerar om NT‑proBNP (upprepar provet)
+    correct: false
+    feedback: Onödigt — värdet är klart förhöjt i kombination med symtom och kräver vidare utredning, inte bara upprepning.
+  - text: Remiss för lungröntgen
+    correct: false
+    feedback: Lungröntgen kan ge kompletterande information men ersätter inte ekokardiografi för att bekräfta hjärtsvikt.
+  - text: Sätter in vattendrivande läkemedel (diuretika) direkt
+    correct: false
+    feedback: Diuretika kan lindra symtom, men bör inte ges utan att först utreda hjärtfunktion och bakomliggande orsak.
+  - text: Remiss för ultraljud av hjärtat eller remiss direkt till hjärtmottagningen
+    correct: true
+    feedback: Ekokardiografi är nödvändig för att bekräfta hjärtsvikt, bedöma vänsterkammarfunktion och utreda etiologi.
+  - text: Återbesök om två veckor för att se om besvären gått över av sig själva
+    correct: false
+    feedback: Olämpligt — med så högt NT‑proBNP och aktuella symtom riskerar väntan fördröjd diagnostik och behandling.
+  explanation: Ett NT‑proBNP på 1500 ng/L hos en patient med dyspné och perifera ödem ger stark misstanke om hjärtsvikt. Ekokardiografi är nästa steg för att bekräfta diagnos, bedöma kammarfunktion och fastställa vidare handläggning; andra åtgärder kan vara kompletterande men ersätter inte ultraljud.
+  id: med-kar-b27fd5
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Järnbrist
+  - Behandling
+  question: En vanlig komorbiditet vid hjärtsvikt är järnbrist. Hur bör järnbrist hos patienter med kronisk hjärtsvikt behandlas?
+  image: null
+  options:
+  - text: Peroral järnsubstitution
+    correct: false
+    feedback: Peroral järn har ofta nedsatt absorption och biverkningar och är ofta otillräckligt vid hjärtsvikt.
+  - text: Erytropoietin subkutant
+    correct: false
+    feedback: Erytropoetin ges inte rutinmässigt vid järnbrist i hjärtsvikt och medför risker; används endast i specifika situationer.
+  - text: Peroral och intravenös järnsubstitution i kombination
+    correct: false
+    feedback: Kombinationsbehandling visar ingen klar fördel och peroralt tillskott bidrar sällan utöver intravenös behandling vid hjärtsvikt.
+  - text: Järnrik diet
+    correct: false
+    feedback: Kost kan stödja järnstatus men är otillräcklig för att korrigera klinisk järnbrist vid hjärtsvikt.
+  - text: Intravenös järnsubstitution
+    correct: true
+    feedback: Intravenöst järn rekommenderas vid hjärtsvikt med järnbrist eftersom det ger bättre återställande av järndepåer och förbättring av symtom och funktion.
+  explanation: Vid kronisk hjärtsvikt är intravenös järnsubstitution förstahandsval vid påvisad järnbrist eftersom peroral behandling ofta är ineffektiv på grund av nedsatt absorption och biverkningar. IV-järn har visat förbättring av symtom, träningstolerans och kan minska sjukhusinläggningar i kliniska studier.
+  id: med-kar-5997e9
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - HFpEF
+  - SGLT2-hämmare
+  question: Vilken av nedanstående har indikation för behandling av hjärtsvikt med bevarad vänsterkammarfunktion (HFpEF) i Sverige?
+  image: null
+  options:
+  - text: Digoxin
+    correct: false
+    feedback: Inte rekommenderat för att förbättra prognos vid HFpEF; kan i vissa fall användas för frekvenskontroll eller symptomlindring hos utvalda patienter.
+  - text: SGLT2-hämmare
+    correct: true
+    feedback: SGLT2-hämmare har dokumenterad nytta vid HFpEF och rekommenderas i Sverige för att minska risken för hjärtsviktsförsämring och sjukhusinläggning.
+  - text: ARNI
+    correct: false
+    feedback: Saknar entydig evidens för övergripande prognosförbättring vid HFpEF; kan övervägas i individuella fall men är inte generell indikation.
+  - text: Mineral receptor antagonist (MRA)
+    correct: false
+    feedback: Visar inte klar prognosnytta vid HFpEF i större studier; spironolakton kan dock övervägas vid vätskeöverskott eller särskilda indikationer.
+  - text: ACE-hämmare/ARB
+    correct: false
+    feedback: Visar inte konsekvent prognosförbättring vid HFpEF; används främst för behandling av medföljande hypertoni eller ischemisk hjärtsjukdom.
+  explanation: SGLT2-hämmare (t.ex. dapagliflozin, empagliflozin) har i RCT visat minskad risk för hjärtsviktsförsämring och sjukhusinläggning vid HFpEF och rekommenderas i Sverige. Andra läkemedelsklasser saknar lika stark evidens för prognosförbättring men kan användas för symptomlindring eller behandling av komorbiditeter vid individuell bedömning.
+  id: med-kar-9a0b0d
+- type: multiple_choice
+  tags:
+  - Mitralisinsufficiens
+  - Klaffkirurgi
+  question: En tidigare frisk 42-årig man söker vårdcentralen för nedsatt ork. Distriktsläkaren hör ett blåsljud över apex och remitterar till ekokardiografi. Ekokardiografi visar lätt dilaterad vänsterkammare med god systolisk funktion (LVEF 60 %), dilaterat vänsterförmak, stor mitralisinsufficiens orsakad av bakre mitralklaffprolaps och lätt förhöjt pulmonaltryck. Vad bör erbjudas patienten nu?
+  image: null
+  options:
+  - text: Remiss till kardiolog för bedömning avseende klaffkirurgi.
+    correct: true
+    feedback: Symtomatisk, signifikant organisk MR med kammar‑ och förmaksdilatation samt förhöjt PA‑tryck kräver kardiologisk bedömning för eventuell klaffkirurgi.
+  - text: Remiss till ergospirometri.
+    correct: false
+    feedback: Arbetsprov/ergospirometri är inte första åtgärd vid betydande organisk mitralisinsufficiens; kirurgisk bedömning prioriteras.
+  - text: Utredning med Holter‑EKG.
+    correct: false
+    feedback: Ambulant arytmiutredning är inte primär vid symtomatisk, betydande MR med strukturella förändringar; klaffbedömning kommer först.
+  - text: Inläggning för behandling med inotropa droger och aortaballongpump.
+    correct: false
+    feedback: Dessa åtgärder är reserverade för kardiogen chock eller svår hjärtsvikt, vilket inte föreligger här.
+  - text: Expektans. Ny ekokardiografi och arbets‑EKG om ett år.
+    correct: false
+    feedback: Väntande expektans är olämpligt vid symtom och tecken på kammar‑/förmaksdilatation samt förhöjt pulmonaltryck.
+  explanation: Patienten har signifikant primär mitralisinsufficiens med symtom och strukturella förändringar (vänsterkammar‑ och förmaksdilatation, lätt förhöjt PA‑tryck). Detta innebär att kardiologisk bedömning för möjlig klaffkirurgi är indicerad för att planera åtgärd och förbättra prognos.
+  id: med-kar-613bb8
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Farmakoterapi
+  - RAAS
+  question: Vilken kombination av läkemedel är inte rekommenderad för behandling av kronisk hjärtsvikt?
+  image: null
+  options:
+  - text: Betablockad och ivabradin
+    correct: false
+    feedback: Kombinationen kan användas vid kvarvarande takykardi trots betablockerare (ivabradin är indikerat i selekterade fall).
+  - text: ACE (Angiotensin converting enzyme)-hämmare i kombination med ARB (Angiotensin receptor blockad)
+    correct: true
+    feedback: Dubbel RAAS-blockad rekommenderas inte vid kronisk hjärtsvikt p.g.a. ökad risk för hyperkalemi och njurpåverkan utan klar överlevnadsvinst.
+  - text: ACE (Angiotensin converting enzyme)-hämmare och betablockerare
+    correct: false
+    feedback: Detta är en etablerad grundbehandling vid systolisk hjärtsvikt och förbättrar överlevnad och remodellering.
+  - text: ACE (Angiotensin converting enzyme)-hämmare och MRA (Mineralkortikoidreceptor-antagonist)
+    correct: false
+    feedback: Kombinationen används ofta som del av riktlinjerna för att ytterligare minska mortalitet och symtom vid HFrEF.
+  - text: MRA (Mineralkortikoidreceptor-antagonist) och furosemid
+    correct: false
+    feedback: MRA och loopdiuretikum som furosemid kombineras vanligtvis för att kontrollera vätskeretention och minska symtom.
+  explanation: Dubbel blockad av RAAS (ACE-hämmare + ARB) ger ökad risk för hyperkalemi och försämrad njurfunktion utan klar överlevnadsfördel och rekommenderas därför inte. Guidelinebehandling för systolisk hjärtsvikt innefattar ACE/ARB/ARNI, betablockerare, MRA och diuretika för symtomkontroll; ivabradin är ett tillägg vid kvarvarande takykardi i utvalda patienter.
+  id: med-kar-f75b4e
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - EKG
+  question: En 70‑årig i övrigt frisk man noterar på sin pulsklocka en jämn puls på cirka 150/min men känner sig inte besvärad. Han får komma till jourcentral där ett EKG tas. Vilken arytmi är mest sannolik på ett EKG med regelbunden kammarfrekvens runt 150/min?
+  image: null
+  options:
+  - text: Ventrikeltakykardi
+    correct: false
+    feedback: Ventrikeltakykardi ger ofta breda QRS och patienten är ofta mer symtomatisk; här är en regelbunden smalkammartakt mer typisk för supraventrikulär arytmi.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Förmaksflimmer ger vanligen en oregelbunden ojämn kammarrytm ('irregularly irregular'), inte en regelbunden frekvens på exakt ~150/min.
+  - text: Sinustakykardi
+    correct: false
+    feedback: Sinustakykardi är oftast variabel och korrelerar med fysiologisk stress eller aktivitet; en plötslig, regelbunden 150/min talar snarare för en supraventrikulär arytmi.
+  - text: Preexciterat förmaksflimmer
+    correct: false
+    feedback: Preexciterat förmaksflimmer ger oftast mycket snabb och oregelbunden kammarrytm med breda, varierande QRS och tecken på preexcitation, vilket skiljer sig från en regelbunden 150/min.
+  - text: Förmaksfladder med 2:1 blockering
+    correct: true
+    feedback: Förmaksfladder har ofta atrialfrekvens ≈300/min med 2:1 AV‑ledningsgrad vilket ger en regelbunden kammarfrekvens på ≈150/min och karakteristiska 'sågtands' fluttervågor.
+  explanation: Förmaksfladder ger typiskt en atrialfrekvens runt 250–350/min; vid 2:1 AV‑block ses en regelbunden ventrikelfrekvens ≈125–150/min och 'sågtandsmönster' i frontalplanets avledningar. EKG skiljer det från förmaksflimmer (oregelbunden rytm) och ventrikeltakykardi (bred QRS och ofta mer instabil). Behandling inriktas på frekvens- eller rytmkontroll och tromboemboliskt omhändertagande beroende på duration och riskfaktorer.
+  id: med-kar-2eea12
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - Mitralisstenos
+  - Antikoagulation
+  question: 35-årig kvinna med tät reumatisk mitralisstenos och plötsligt påkommen hjärtklappning som vid ankomst visade förmaksflimmer men konverterade till sinus efter 6 timmar. Vänsterkammare normalstor och rörlig. Vad är mest indicerat vid utskrivningen?
+  image: null
+  options:
+  - text: Start av Warfarin och poliklinisk uppföljning
+    correct: true
+    feedback: Reumatisk mitralisstenos ger hög tromboembolisk risk; antikoagulation med VKA rekommenderas vid förmaksflimmer och fortsatt uppföljning för vidare handläggning är lämplig.
+  - text: Remiss för ablation av Hiska-bunten samt DDD-pacemaker
+    correct: false
+    feedback: His-bunt ablation och DDD-pacemaker är indicerat för specifika bradyarytmier/AV-block, inte vid paroxysmalt förmaksflimmer utan indikativa bradyarytmier.
+  - text: Remiss för arbetsprov för att utvärdera symptom med hänsyn till tät mistralistenos
+    correct: false
+    feedback: Arbetsprov utreds för ischemiska symptom eller fysisk kapacitet, men tät mitralisstenos bedöms primärt med ekokardiografi och klinisk status, inte rutinmässigt arbetsprov.
+  - text: Start av Warfarin och remiss för DDD-pacemaker
+    correct: false
+    feedback: Antikoagulation är korrekt, men pacemaker krävs endast vid samtidig sympatombärande bradykardi eller AV-block, vilket inte föreligger här.
+  explanation: Reumatisk tät mitralisstenos ger hög risk för tromboembolism vid förmaksflimmer; därför rekommenderas behandling med vitamin K-antagonist. Vid paroxysmalt förmaksflimmer utan indikation för pacemaker eller ablation är antikoagulation och poliklinisk uppföljning för vidare valvutredning/ev. intervention adekvat.
+  id: med-kar-a219b7
+- type: multiple_choice
+  tags:
+  - Kranskärlssjukdom
+  - Revaskularisation
+  - Diabetes
+  question: 73-årig man med diabetes och hyperlipidemi vårdas för en non-STEMI. Han hade ett enda bröstsmärtstillfälle i 15 minuter och är smärtfri under vårdtiden. EKO visar normal ejektionsfraktion. Koronarangiografi visar ockluderad LAD med kollateraler från RCA, täta stenoser i LCx och en signifikant stenos i mitten av RCA. Vilken åtgärd rekommenderas i första hand?
+  image: null
+  options:
+  - text: PCI inneliggande
+    correct: false
+    feedback: Akut PCI är mindre lämpligt vid komplex multikärlssjukdom där flera kärl kräver behandling och patienten är smärtfri utan pågående ischemi.
+  - text: Arbetsprov för att värdera en eventuell restischemi
+    correct: false
+    feedback: Ett arbetsprov har låg prioritet akut och ändrar inte behovet av revaskularisation vid påvisad omfattande anatomisk sjukdom.
+  - text: Myokardscintigrafi för att värdera en eventuell restischemi
+    correct: false
+    feedback: Funktionstester tillför lite när invasiv angiografi redan visar komplex multivessel-sjukdom som kräver beslut om revaskularisation.
+  - text: PCI elektiv, efter ca 1 månad när han hämtat sig från hjärtinfarkten
+    correct: false
+    feedback: Elektiv PCI ger sämre långtidsresultat än CABG vid diabetes och komplex multikärlssjukdom och är därför inte förstahandsval.
+  - text: CABG-operation
+    correct: true
+    feedback: Diabetes och komplex multikärlssjukdom inklusive ockluderad LAD talar för CABG för komplett revaskularisation och bättre långtidsutfall.
+  explanation: Hos diabetiker med komplex multivessel coronarsjukdom, särskilt med ockluderad LAD, ger CABG oftast bättre överlevnad och färre reinterventioner än PCI. Målet är komplett revaskularisation; eftersom patienten är smärtfri och angiografin redan visar omfattande sjukdom är kirurgisk planering rimlig. Funktionstester har låg prioritet i detta läge.
+  id: med-kar-13ffb0
+- type: multiple_choice
+  tags:
+  - Hjärtklaffar
+  - Aortastenos
+  - Symtom
+  question: Vilka tre symtom ska du alltid fråga efter hos patienter med misstänkt uttalad aortastenos eftersom de talar för dålig prognos utan intervention?
+  image: null
+  options:
+  - text: Angina, arytmi och bensvullnad
+    correct: false
+    feedback: Arytmi och bensvullnad kan förekomma men är inte del av den klassiska prognostiska triaden vid aortastenos.
+  - text: Synkopé/presynkopé, dyspné och bensvullnad
+    correct: false
+    feedback: Dyspné och synkope är korrekta men bensvullnad ersätter angina, som är det tredje klassiska symtomet.
+  - text: Dyspné, arytmi och bensvullnad
+    correct: false
+    feedback: Arytmi och bensvullnad är mindre specifika; angina saknas i detta påstående.
+  - text: Dyspné, angina och synkopé/presynkopé
+    correct: true
+    feedback: Dessa tre (dyspné, angina, synkope/presynkope) utgör den klassiska symtomtriaden som indikerar hög risk vid uttalad aortastenos.
+  - text: Synkopé/presynkopé, arytmi och bensvullnad
+    correct: false
+    feedback: Denna kombination saknar angina och dyspné, vilka är viktiga prognostiska symtom vid aortastenos.
+  explanation: Vid uttalad aortastenos är den klassiska triaden dyspné (hjärtsvikt), angina (myokardischemi) och synkope/presynkopé (nedsatt cerebral perfusion). Förekomst av dessa symtom tyder på hög mortalitetsrisk utan klaffintervention och kräver vidare utredning.
+  id: med-kar-e73afd
+- type: multiple_choice
+  tags:
+  - Auskultation
+  - Blåsljud
+  question: Du auskulterar en patients hjärta och hör ett högfrekvent holosystoliskt blåsljud med maximal intensitet över apex och utstrålning mot axillen. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: En ventrikelseptumdefekt
+    correct: false
+    feedback: VSD ger också holosystoliskt blåsljud men är oftast hårdare och mest hörbart vid vänster sternalrand utan typisk utstrålning mot axillen.
+  - text: En aortainsufficiens
+    correct: false
+    feedback: Aortainsufficiens ger ett diastoliskt decrescendo-blåsljud, inte ett holosystoliskt blåsljud över apex.
+  - text: En mitralisinsufficiens
+    correct: true
+    feedback: Mitralisinsufficiens ger ett högfrekvent holosystoliskt blåsljud med maximum vid apex och typisk utstrålning mot axillen pga systolisk regurgitation genom mitralisklaffen.
+  - text: En förmaksseptumdefekt
+    correct: false
+    feedback: ASD ger oftast ett systoliskt ejektionsblåsljud och ett fast delat S2, inte ett holosystoliskt apex-blåsljud med axillär utstrålning.
+  - text: En aortastenos
+    correct: false
+    feedback: Aortastenos ger ett systoliskt ejektionsblåsljud (crescendo‑decrescendo) bäst över höger övre sternum, inte ett holosystoliskt blåsljud från apex.
+  explanation: Mitralisinsufficiens kännetecknas av ett högfrekvent holosystoliskt blåsljud med maximum över apex och utstrålning mot axillen på grund av systolisk regurgitation genom mitralisklaffen. Ventrikelseptumdefekt kan också ge holosystoliskt blåsljud men lokalisation och karaktär skiljer sig, medan aortainsufficiens och aortastenos har typiskt diastoliskt respektive ejektionssystoliskt ljud.
+  id: med-kar-1714f5
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Resynkronisering
+  question: En 65‑årig kvinna, några månader efter stor STEMI behandlad med PCI mot LAD, har kvarstående ansträngningsdyspné trots måldoserad sviktbehandling. Initial EF var 20% och har förbättrats till cirka 25–30%. Status i övrigt stabilt. EKG visar sinusrytmen 60/min och LBBB med QRS‑bredd 152 ms. Vad remitterar du patienten för?
+  image: null
+  options:
+  - text: Ny kranskärlsröntgen
+    correct: false
+    feedback: Inte primärt indicerat — hon är nyligen PCI:ad och saknar tecken på pågående ischemiska symtom som motiverar ny koronarangiografi.
+  - text: Inläggning av CRT-D
+    correct: true
+    feedback: Korrekt — symtomatisk svikt trots optimal läkemedelsbehandling, LBBB och QRS 152 ms med EF ≈25–30% gör henne kandidat för CRT, och ischemisk etiologi samt arytmirisk talar för CRT med defibrillator (CRT‑D).
+  - text: Lungvensisolering
+    correct: false
+    feedback: Irrelevant — lungvensisolering (AF‑ablation) är indicerat vid symtomgivande förmaksflimmer, vilket inte föreligger här.
+  - text: Lungröntgen
+    correct: false
+    feedback: Ej prioritet — lungstatus och saturation är normala och röntgen tillför sannolikt inte avgörande information för aktuell frågeställning.
+  - text: Inläggning av CRT-P
+    correct: false
+    feedback: Mindre lämpligt — CRT‑P kan förbättra resynkronisering men vid ischemisk kardiomyopati och hög arytmirisk rekommenderas CRT‑D med ICD‑funktion.
+  explanation: Cardiac resynchronization therapy är indicerat vid kvarstående symtom (NYHA II–IV) trots optimal medicinering hos patienter med nedsatt EF och LBBB med bred QRS; vid ischemisk etiologi och ökad risk för ventrikulära arytmier föredras CRT‑D framför enbart CRT‑P för att minska risken för plötslig hjärtdöd.
+  id: med-kar-f44435
+- type: multiple_choice
+  tags:
+  - Perikardit
+  - EKG
+  - Akut bröstsmärta
+  question: 'En ung kvinna söker akuten med andningskorrelerade, pleuritisk bröstsmärta. De senaste dagarna haft feber och övre luftvägssymtom. Tidigare frisk, tar endast p-piller. BT 100/65 mmHg, SpO2 97%. Lab: Hb 119, LPK 10,3, CRP 43, NT‑proBNP 97, TnI 7, D‑dimer 0,1. EKG (25 mm/s) visar utbredda, konkava ST‑höjningar och PR‑sänkningar. Vilken är den troligaste diagnosen?'
+  image: null
+  options:
+  - text: Myokardit
+    correct: false
+    feedback: Myokardit ger ofta mer uttalad troponinstegring och tecken på myokardskada eller svikt, inte typiskt isolerade pleuritsmärtor efter viral infektion.
+  - text: Perikardit
+    correct: true
+    feedback: Pleuritisk, positionell bröstsmärta efter viral infektion samt typiska EKG‑förändringar (diffusa ST‑höjningar och PR‑sänkningar) talar för perikardit.
+  - text: Perimyokardit
+    correct: false
+    feedback: Perimyokardit har liknande symtom men brukar ge högre troponinnivåer eller tecken på myokial dysfunktion, vilket saknas här.
+  - text: Inferior STEMI
+    correct: false
+    feedback: STEMI ger ofta fokal ST‑höjning i inferiora avledningar med reciprociteter och betydligt högre troponin, samt annan klinisk bild än pleuritisk smärta.
+  - text: Lungemboli
+    correct: false
+    feedback: Lungemboli kan ge pleuritisk smärta men här talar låg D‑dimer, normal saturation och karakteristiskt perikardiellt EKG för perikardit.
+  explanation: Akut perikardit uppträder ofta efter viral infektion med pleuritisk, positionell bröstsmärta och karakteristiska EKG‑fynd (diffusa, konkava ST‑höjningar och PR‑sänkningar). Troponin kan vara normalt eller lätt förhöjt; diagnosen ställs kliniskt med stöd av EKG och labb.
+  id: med-kar-41c2ee
+- type: multiple_choice
+  tags:
+  - Förmaksflimmer
+  - EKG
+  - Antikoagulation
+  question: 74-årig man med övervikt, typ 2-diabetes, hypertoni och nyligen genomförd elektrisk elkonvertering kommer på EKG-kontroll några dagar efter proceduren. Han känner sig väl. Vad visar EKG och vad gör du?
+  image: null
+  options:
+  - text: EKG visar sinusrytm och högergrenblock. Elkonverteringen har lyckats och du informerar om att han fortsatt ska ta sin DOAC och höra av sig om flimret kommer tillbaka.
+    correct: false
+    feedback: EKG visar inte sinusrytm; patienten har fortsatt förmaksflimmer. Fortsatt DOAC kan ändå vara rätt men fyndbeskrivningen är felaktig.
+  - text: EKG visar förmaksflimmer och högergrenblock. Patienten behöver uppenbart en pacemaker som du skriver remiss för.
+    correct: false
+    feedback: Förmaksflimmer i sig och högergrenblock är inte indikation för pacemaker utan kräver annan bedömning beroende på symtom och AV‑block.
+  - text: EKG visar normofrekvent förmaksflimmer och högergrenblock. Elkonverteringen har inte lyckats. Du dubbelkollar att han tar sin DOAC; i övrigt ingen ytterligare åtgärd akut.
+    correct: true
+    feedback: EKG visar fortsatt förmaksflimmer med normal ventrikelfrekvens; om patient är stabil och korrekt antikoagulerad behövs vanligtvis ingen akut ytterligare behandling.
+  - text: EKG visar förmaksflimmer. Ekonverteringen har inte lyckats och patienten behöver remitteras till kardiolog för insättning av antiarytmika.
+    correct: false
+    feedback: Felaktigt som rutin — Remiss för antiarytmika kan övervägas vid recidiverande eller symtomgivande AF, men är inte nödvändig om patienten är stabil och välkontrollerad.
+  - text: EKG visar sinusrytm och vänstergrenblock. Patienten behöver uppenbart en pacemaker som du skriver remiss för.
+    correct: false
+    feedback: EKG-fyndet (sinus + Vänstergrenblock) stämmer inte med verkligt EKG; vänstergrenblock i sig är inte automatiskt indikation för pacemaker.
+  explanation: Patientens EKG visar fortsatt förmaksflimmer med normal kammarfrekvens samt ett högergrenblock. Efter elkonvertering kan AF återkomma; om patienten är hemodynamiskt stabil, symtomfattig och adekvat antikoagulerad (DOAC) behövs oftast ingen akut åtgärd utan vidare uppföljning och övervägande av rytm- eller frekvensstrategi vid behov.
+  id: med-kar-3aeeb2
+- type: multiple_choice
+  tags:
+  - Supraventrikulär takykardi
+  - EKG
+  question: 'En 25-årig kvinna söker akut med plötslig hjärtklappning sedan en timme. Hon är i övrigt frisk och förnekar droger, alkohol och tobak. Status: puls 170/min regelbunden, blodtryck 120/80 mmHg, cirkulatoriskt stabil. EKG visar en regelbunden smal QRS-takykardi cirka 170/min utan synliga P‑vågor. Vilken är den mest sannolika diagnosen?'
+  image: null
+  options:
+  - text: Ventrikeltakykardi
+    correct: false
+    feedback: Ventrikeltakykardi ger oftast breda QRS-komplex och kan ge cirkulatorisk påverkan; här är takykardin smal och patienten är stabil.
+  - text: Förmaksfladder med 2:1 blockering
+    correct: false
+    feedback: Förmaksfladder med 2:1 ger ofta en regelbunden frekvens runt 150/min och typiska "sågtandsmönster" i inferiora avledningar, vilket inte stämmer med beskrivningen.
+  - text: AV-nodal återkopplingstakykardi (AVNRT)
+    correct: true
+    feedback: Typisk presentation hos unga kvinnor med plötslig debut, regelbunden smal QRS-takykardi 140–250/min och frånvaro av tydliga P‑vågor talar för AVNRT.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Förmaksflimmer ger en oregelbundenlyd rytm ('irregularly irregular'), inte en regelbunden takykardi som här.
+  - text: Sinustakykardi
+    correct: false
+    feedback: Sinustakykardi har synliga P‑vågor och gradvis debut oftast under 140/min; plötslig, hög frekvens utan P‑vågor talar emot sinusrytm.
+  explanation: AVNRT är en vanlig supraventrikulär takykardi orsakad av en re-entry krets inom AV‑nodalområdet, ger plötslig debut av regelbunden smal QRS-takykardi och ofta frånvaro av synliga P‑vågor. Initial behandling är vagala manövrar följt av adenosin vid behov; recidiverande symtom kan behandlas med kateterablation.
+  id: med-kar-ba0030
+- type: multiple_choice
+  tags:
+  - STEMI
+  - Akut PCI
+  question: Du är kardiologjour på HIA när ambulansen larmar från en lägenhet i Bergsjön. De har en 81-årig man med andfåddhet och lätt kallsvettning. Ambulansen skickar ett EKG som visar uttalade ST-höjningar i flera avledningar förenliga med ett akut STEMI. Vad gör du?
+  image: null
+  options:
+  - text: Ordinerar 320 mg Trombyl och ber ambulansen köra till närmaste akutmottagning för en bedömning.
+    correct: false
+    feedback: Vid klart STEMI ska patienten prioriteras till PCI-kompetent centra, inte bara närmaste akutmottagning, för att snabb reperfusion uppnås.
+  - text: Avvaktar medicinering, men tar patienten till din avdelning för att bedöma honom närmare.
+    correct: false
+    feedback: Att avvakta och fördröja reperfusion ökar infarktstorlek; akut åtgärd och riktad transport till PCI är nödvändig.
+  - text: Ordinerar 320 mg Trombyl, 300 mg Clopidogrel och trombolys i ambulansen.
+    correct: false
+    feedback: Trombolys övervägs endast om PCI inte kan erbjudas inom rekommenderad tidsram; dessutom ökar ålder risken för blödning.
+  - text: Ordinerar 320 mg Trombyl + 5000 E Heparin och ber dem köra patienten till PCI-lab.
+    correct: true
+    feedback: Vid akut STEMI ska patienten snabbast möjligt till PCI; prehospital aspirin och heparin ges ofta inför reperfusionsbehandling.
+  - text: Ordinerar 320 mg Trombyl och 5000 E Heparin och ber dem ta patienten till närmaste akutmottagning för en bedömning.
+    correct: false
+    feedback: Även om aspirin och heparin är korrekta initiala åtgärder kräver STEMI transport direkt till PCI-labb för snabb reperfusion.
+  explanation: Vid manifest ST-höjningsinfarkt är primär PCI det föredragna behandlingsalternativet om den kan utföras snabbt. Ge omedelbart aspirin och ofta heparin innan transport till PCI-centret; trombolys används endast när PCI inte kan erbjudas inom rekommenderad tid eller vid särskilda förhållanden.
+  id: med-kar-22ba4d
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - Diagnostik
+  question: En 58-årig man söker för några veckors obehagskänsla i bröstet och beskriver att "hjärtat slår ojämnt", särskilt i vila på kvällen. Han har inga bröstsmärtor vid ansträngning, inga svimningar, ingen hereditet för plötslig hjärtdöd och är i övrigt frisk. Vilo-EKG visar sinusrytm med frekventa ventrikulära extraslag (VES). Blodtryck och prover är normala och patienten är opåverkad. Hur bör du i första hand handlägga patienten?
+  image: null
+  options:
+  - text: Skicka remiss för pacemakerimplantation
+    correct: false
+    feedback: Pacemaker är inte indicerat för enkla VES hos en i övrigt frisk patient utan ledningsstörning eller synkope.
+  - text: Ordinera antiarytmika och remittera till kardiolog
+    correct: false
+    feedback: Systemiska antiarytmika är inte första steget utan tecken på strukturell hjärtsjukdom eller svåra symtom.
+  - text: Ge lugnande besked, remittera till vårdcentral för uppföljning med Holter-EKG.
+    correct: true
+    feedback: Rimlig initial åtgärd för att kvantifiera VES-bördan och bedöma behov av vidare utredning hos en annars opåverkad patient.
+  - text: Lägga in patienten på hjärtavdelning med telemetriövervakning
+    correct: false
+    feedback: Inläggning med telemetri krävs inte utan tecken på instabilitet, synkope eller allvarlig arytmi.
+  - text: Beställa UCG och inleda behandling med betablockerare inneliggande
+    correct: false
+    feedback: Ekokardiografi kan övervägas vid hög VES-börda eller kvarstående symtom, och betablockerare kan provas ambulant; akut inneliggande behandling är inte motiverad här.
+  explanation: Hos en i övrigt frisk och opåverkad patient med frekventa VES utan synkope eller ischemiska symtom är initial handläggning ambulant med Holter för att kvantifiera arytmin och bedöma behov av vidare utredning. Mer invasiva åtgärder, sjukhusvård eller antiarytmika övervägs vid strukturell hjärtsjukdom, hög VES-börda eller uttalade symtom.
+  id: med-kar-1c1ca0
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Diagnostik
+  question: '53‑årig i övrigt frisk kvinna söker akuten för tilltagande andfåddhet under 3 veckor. Hon har kraftigt nedsatt ork och kan inte ligga ner utan sover sittande. AT: blodtryck 145/103 mmHg, SpO2 95%. Lab: CRP 20 mg/L, Hb 113 g/L, glukos 11 mmol/L. Auskultation hjärta utan anmärkning, lungor med rassel basalt bilateralt. Bedside lungröntgen/ultraljud visar pleuravätska basalt bilateralt och B‑lines över hela lungfälten. EKG tas. Hur resonerar du som medicinjour och hur handlägger du fallet?'
+  image: null
+  options:
+  - text: Misstänker lungemboli och utfärdar remiss till CT thorax.
+    correct: false
+    feedback: Subakut ortopné, bilateral pleuravätska och utbredda B‑lines talar för lungödem/hjärtsvikt snarare än typisk lungemboli.
+  - text: Hypertensiv kris. Startar behandling med labetalol redan på akuten.
+    correct: false
+    feedback: Blodtrycket är måttligt förhöjt men inte en hypertensiv kris; bilden talar primärt för dekompenserad hjärtsvikt och kräver annan initial behandling.
+  - text: Akut Q‑vågshjärtinfarkt, ordnar med akut kranskärlsröntgen med PCI beredskap.
+    correct: false
+    feedback: Det finns inga tydliga ischemiska symtom eller fynd som talar för pågående STEMI; presentationen är mer förenlig med gradvis hjärtsvikt och lungödem.
+  - text: Bör handläggas som hyperglykemi med ketoacidos, initierar behandling med 1 liter NaCl.
+    correct: false
+    feedback: Glukos 11 mmol/L är måttligt förhöjt utan tecken på DKA; stor vätskebolus kan förvärra lungödem vid hjärtsvikt.
+  - text: Bedöms som dekompenserad hjärtsvikt. Påbörjar vätskedrivande behandling med furosemid, lägger in patienten, remiss för ekokardiografi.
+    correct: true
+    feedback: Ortopné, rassel, pleuravätska och diffust B‑mönster på lungultraljud är typiskt för lungödem; initial behandling är loopdiuretika, syrgas/övervakning och snabb ekokardiografi.
+  explanation: Kliniska tecken som ortopné, basal rassel, bilateral pleuravätska och utbredda B‑lines indikerar lungödem vid dekompenserad hjärtsvikt. Initial handläggning innefattar loopdiuretika, syrgas och övervakning samt snabb ekokardiografi för att klarlägga orsak och vägleda fortsatt behandling.
+  id: med-kar-ce9be2
+- type: multiple_choice
+  tags:
+  - EKG
+  - Förmaksflimmer
+  - Antikoagulantia
+  question: 82-årig man, behandlad endast med amlodipin, söker pga andningssvårighet och feber. Han diagnostiseras med vänstersidig pneumoni och får antibiotika. Ett rutin-EKG tas — hur påverkar EKG-fyndet fortsatt handläggning?
+  image: null
+  options:
+  - text: EKG med avvikande el-axel, lungemboli bör uteslutas först.
+    correct: false
+    feedback: Avvikande el-axel är ospecifikt och kräver inte i sig utredning för lungemboli; klinisk bild och lämplig diagnostik styr utredningen för emboli.
+  - text: EKG visar inferior hjärtinfarkt, patienten läggs direkt på kardiologen för akut PCI.
+    correct: false
+    feedback: Akut PCI kräver fynd av STEMI (eller klar klinisk och biomarkörbaserad infarkt); ett EKG-fynd måste tolkas tillsammans med symtom och troponiner innan direkt PCI ordineras.
+  - text: EKG visar sinusrytm med flertal extraslag, förväntat fynd i patientens ålder som inte föranleder ytterligare åtgärder.
+    correct: false
+    feedback: Felaktigt som generell regel — extraslag är vanliga hos äldre men nya eller symptomgivande extraslag bör bedömas och följas upp utifrån hemodynamik och symtom.
+  - text: EKG visar normofrekvent förmaksflimmer, antikoagulation bör övervägas.
+    correct: true
+    feedback: Förmaksflimmer hos en 82‑åring ger hög trombosrisk (CHA2DS2‑VASc) och antikoagulation bör övervägas om det inte finns kontraindikationer, samtidigt som underliggande infektion behandlas.
+  - text: EKG med tecken till vänsterkammarhypertrofi, lägger till ACE-hämmare i patientens blodtryckssänkande behandling.
+    correct: false
+    feedback: EKG-tecken på LVH kan tyda på långvarig belastning men är inte ensam indikation för att lägga till ACE‑hämmare; behandlingsval baseras på blodtryckskontroll och helhetsbedömning.
+  explanation: Nydebuterat förmaksflimmer hos äldre, särskilt i samband med infektion, medför hög stroke‑risk och antikoagulationsbedömning enligt CHA2DS2‑VASc rekommenderas. Behandla bakomliggande orsak och överväg samtidig frekvens- eller rytmkontroll beroende på symtom och hemodynamik.
+  id: med-kar-3acb87
+- type: multiple_choice
+  tags:
+  - AV-block
+  - Synkope
+  question: En 77-årig kvinna inläggs för observation efter yrsel. Hon har haft flera kortvariga yrselattacker och två svimningar, en i sittande. På avdelningen är hon opåverkad, BT 110/60 mmHg, saturation 97 %. Ett 12-avlednings-EKG registrerat i samband med en yrselepisod visar komplett AV-block (3:e grads AV-block) med ventrikulär frekvens cirka 30–40/min. Vilken åtgärd är mest lämplig för fortsatt handläggning?
+  image: null
+  options:
+  - text: Myokardscintigrafi (nukleär stressundersökning). Därefter behandling beroende på resultat.
+    correct: false
+    feedback: Fynden tyder på ledningsrubbning som förklarar synkoperna; iskemiutredning är inte första prioritet vid symtomgivande höggradigt AV‑block.
+  - text: Inleda behandling med frekvensreglerande läkemedel.
+    correct: false
+    feedback: Frekvensreglerande läkemedel (t.ex. betablockerare) skulle förvärra bradykardin och är kontraindicerade vid höggradigt AV‑block.
+  - text: Lugnande besked. Detta är ett godartat tillstånd och ingen specifik behandling behövs.
+    correct: false
+    feedback: Symtomgivande komplett AV‑block är inte godartat och kräver intervention för att förebygga återkommande synkoper och risk för asystoli.
+  - text: Lugnande besked. Patienten bör avstå från bilkörning tills hon är symtomfri, men ingen specifik behandling behövs.
+    correct: false
+    feedback: Avråda från körning är visserligen relevant, men det adresserar inte den bakomliggande livshotande ledningsrubbningen som behöver behandling.
+  - text: Planera implantation av permanent pacemaker.
+    correct: true
+    feedback: Symtomgivande höggradigt/komplett AV‑block hos en äldre patient är indikation för permanent pacemaker.
+  explanation: Symtomgivande komplett AV‑block ger bradykardi och risk för återkommande synkoper och asystoli; behandling är implantation av permanent pacemaker. Utredning för andra orsaker kan övervägas men primär åtgärd är pacemaker vid permanent eller progressivt höggradigt AV‑block.
+  id: med-kar-3bd3cf
+- type: multiple_choice
+  tags:
+  - Hypertoni
+  - Diagnostik
+  question: Vad är sekundär hypertoni?
+  image: null
+  options:
+  - text: Högt blodtryck som beror på tillfällig stress och/eller smärta
+    correct: false
+    feedback: Detta beskriver en tillfällig stressreaktion (t.ex. vitrockshypertoni), inte sekundär hypertoni.
+  - text: Högt blodtryck som beror på flera olika ogynnsamma levnadsvanor i kombination
+    correct: false
+    feedback: Det är typiskt för primär (essentiell) hypertoni kopplad till livsstilsfaktorer, inte en särskild sekundär orsak.
+  - text: Högt blodtryck som beror på hög ålder
+    correct: false
+    feedback: Ålder kan bidra till blodtrycksökning men är ingen avgränsad bakomliggande orsak som definierar sekundär hypertoni.
+  - text: Högt blodtryck som beror på en tydligt avgränsad orsak, tex en hormonrubbning
+    correct: true
+    feedback: Sekundär hypertoni orsakas av en identifierbar bakomliggande sjukdom eller läkemedel som kan vara behandlingsbar.
+  - text: Högt blodtryck som inte är så viktig att behandla pga att patienten har andra medicinska problem som är viktigare
+    correct: false
+    feedback: Detta handlar om behandlingsprioritering, inte om att blodtrycket har en sekundär etiologi.
+  explanation: Sekundär hypertoni är förhöjt blodtryck som kan hänföras till en identifierbar, ofta behandlingsbar orsak (t.ex. njursjukdom, primär hyperaldosteronism, feokromocytom eller läkemedel). Misstanke om sekundär orsak uppstår vid plötslig debut, svårbehandlat blodtryck eller typiska kliniska tecken.
+  id: med-kar-12e46c
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - QT-syndrom
+  question: En 25-årig man anländer efter bevittnat hjärtstopp tidigt på morgonen efter att väckarklockan ringde. Första detekterbara rytm var ventrikelflimmer och ROSC uppnåddes efter två defibrilleringar. Akut koronarangiografi är normal. Vilket EKG-fynd är mest sannolikt förklaring till hjärtstoppet?
+  image: null
+  options:
+  - text: Lång QT-tid
+    correct: true
+    feedback: Lång QT kan ge torsades de pointes som degenererar till ventrikelflimmer — sannolik orsak hos ung patient med normala kranskärl.
+  - text: T-negativisering septalt
+    correct: false
+    feedback: T-negativisering septalt tyder på lokal repolarisationsstörning eller tidigare ischemi men förklarar sällan plötsligt VF hos ung med normal angiografi.
+  - text: Sinusbradykardi
+    correct: false
+    feedback: Sinusbradykardi ger främst synkope eller hypoperfusion, inte typiskt ventrikelflimmer och hjärtstopp i denna kontext.
+  - text: Förmaksflimmer
+    correct: false
+    feedback: Förmaksflimmer påverkar förmaksaktivitet och kammarfrekvens men orsakar sällan ventrikelflimmer hos tidigare friska individer.
+  - text: Nodal ersättningsrytm
+    correct: false
+    feedback: Junktionell ersättningsrytm är en escape-rytm vid pauser eller AV-block och är inte en vanlig orsak till ventrikelflimmer.
+  explanation: Lång QT predisponerar för tidiga efterdepolariseringar och torsades de pointes som kan degenerera till ventrikelflimmer. Hos ung patient med normal koronarangiografi bör kongenitalt eller förvärvat långt QT‑syndrom misstänkas och utredas.
+  id: med-kar-1b16d5
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Läkemedelsbehandling
+  question: 'En 72‑årig kvinna med ischemisk hjärtsjukdom och tidigare NSTEMI söker för successivt tilltagande trötthet, andfåddhet vid lätt ansträngning och nattlig hosta. EKG visar sinusrytm med vänstergrenblock. Ekokardiografi: ejektionsfraktion 25% och vänsterkammardilatation utan nytillkommen regional väggrörelse‑störning. Vilken kombination av läkemedel utgör förstahandsbehandling för att förbättra långsiktig överlevnad vid denna systoliska hjärtsvikt (utöver behandling riktad mot ischemi)?'
+  image: null
+  options:
+  - text: ACE‑hämmare/ARB, kalciumflödeshämmare, loopdiuretika
+    correct: false
+    feedback: Kalciumflödeshämmare ger normalt ingen dokumenterad mortalitetsnytta vid HFrEF och vissa CCB kan vara skadliga; loopdiuretika lindrar symtom men förbättrar inte långsiktig överlevnad.
+  - text: Betablockerare, SGLT2‑hämmare
+    correct: false
+    feedback: Betablockerare och SGLT2‑hämmare är viktiga men ensam kombination är otillräcklig; saknar RAAS‑blockad (ACE/ARB/ARNI) och MRA som också minskar mortalitet.
+  - text: ACE‑hämmare/ARB eller ARNI, betablockerare, MRA, SGLT2‑hämmare
+    correct: true
+    feedback: Dessa fyra läkemedelsklasser (helst ARNI i stället för ACE/ARB när möjligt) har visat överlevnadsvinst vid HFrEF; loopdiuretika används vid volymsymtom men påverkar inte överlevnad.
+  - text: Loopdiuretika, SGLT2‑hämmare, kalciumflödeshämmare
+    correct: false
+    feedback: Denna kombination saknar neurohormonal blockad (RAAS‑hämmare och betablockare) som är nödvändig för mortalitetsreduktion; CCB ger ingen klar överlevnadsvinst.
+  - text: Loopdiuretika, långverkande nitroglycerin
+    correct: false
+    feedback: Detta ger främst symtomlindring vid volöverbelastning eller kärlrelaterade symtom men saknar de läkemedel som visat mortalitetsnytta vid systolisk hjärtsvikt.
+  explanation: Vid HFrEF (EF ≤35–40%) rekommenderas sakernas kombination av RAAS‑hämmare (helst ARNI när möjligt), betablockerare, MRA och SGLT2‑hämmare eftersom dessa fyra klasser visat minskad mortalitet och sjukhusinläggningar. Loopdiuretika används för symtomlindring vid volymsbelastning men påverkar inte långtidsöverlevnaden; vissa CCB kan vara skadliga eller ineffektiva i denna patientgrupp.
+  id: med-kar-7f15f9
+- type: multiple_choice
+  tags:
+  - Arytmi
+  - Ventrikeltakykardi
+  - Akutbehandling
+  question: Du är läkare på akuten. En 55-årig man kommer in med pågående ventrikeltakykardi. Pulsen är svag, EKG-visar frekvens ~180/min och blodtrycket går inte att mäta. Patienten är perifert kall och blek. Vilken behandling är förstahandsval vid akut ventrikeltakykardi hos en hemodynamiskt instabil patient?
+  image: null
+  options:
+  - text: Sedering
+    correct: false
+    feedback: Sedering kan behövas inför kardioversion men är inte i sig en kurativ behandling för instabil ventrikeltakykardi.
+  - text: Beta-blockare tabletter t.ex. Seloken
+    correct: false
+    feedback: Orala beta‑blockare verkar för långsamt och är olämpliga vid hypotension och hemodynamisk instabilitet.
+  - text: Elkonvertering
+    correct: true
+    feedback: Akut elektrisk kardioversion är förstahandsval vid hemodynamisk instabil ventrikeltakykardi eftersom den omedelbart kan återställa normal rytm och förbättra cirkulationen.
+  - text: Lidokaininfusion (antiarytmikum)
+    correct: false
+    feedback: Lidokain kan användas om kardioversion inte är möjlig eller som tillägg, men är inte primär åtgärd vid instabil patient.
+  - text: Intravenös Amiodaron (antiarytmikum)
+    correct: false
+    feedback: IV amiodaron kan ha effekt men verkar långsammare och rekommenderas inte som förstahandsbehandling vid hemodynamisk instabilitet.
+  explanation: Vid ventrikeltakykardi med hemodynamisk instabilitet är elektrisk kardioversion förstahandsbehandling eftersom den snabbt återställer rytmen och förbättrar cirkulationen. Antiarytmika som lidokain eller amiodaron används om kardioversion inte kan utföras eller som komplement, och sedering ges vid behov inför stöt.
+  id: med-kar-225d39
+- type: multiple_choice
+  tags:
+  - Akut hjärtsvikt
+  - Lungödem
+  - Akutvård
+  question: 'Du är jour på akutmottagningen. En ~70-årig lätt överviktig man kommer med kraftig andfåddhet, halvsitter och är grådaskig. Han svarar enstavigt, nekar bröstsmärta. Anamnesen beskriver snabb försämring under kvällen. Status: AF 30/min, SpO2 90% på 10 L O2, BT 200/110, takykardi, hjärta RR, rikliga rassel över båda lungfälten, inga pittingödem. Lungultraljud visar fynd som stärker misstanken om lungödem. Vad gör du?'
+  image: null
+  options:
+  - text: Du bedömer det som ett lungödem och ringer CIVA-jouren, den här patienten behöver intuberas.
+    correct: false
+    feedback: Intubation är inte förstahandsåtgärd om patienten kan skydda luftväg och svara; försök CPAP och medicinsk initialbehandling innan invasiv ventilering.
+  - text: Du bedömer att patienten har ett lungödem. Han är takykard och har högt blodtryck, så du ordinerar iv betablockad samt morfin som symtomlindring.
+    correct: false
+    feedback: Intravenös betablockad kan vara skadlig i akut hjärtsvikt; morfin är inte rutinmässigt och betablockerare är inte förstahandsval vid hypertensivt lungödem.
+  - text: Du misstänker pneumothorax och beställer en akut lungröntgen.
+    correct: false
+    feedback: Unilateral frånvaro av andningsljud och hyperresonans förekommer vid pneumothorax; här talar bilaterala rassel och ultraljudsfynd mer för lungödem.
+  - text: Patienten har ett hypertensivt lungödem. Du ordinerar nitro, furix iv. och CPAP, samt morfin.
+    correct: true
+    feedback: Akut hypertensivt lungödem behandlas med snabb efterloadreduktion (nitro), diuretika (furosemid) och icke-invasiv ventilation (CPAP); morfin kan övervägas vid ångest och symtomlindring.
+  - text: Du misstänker akut lungemboli och ordinerar Fragmin, samt skriver remiss för en akut CT-thorax.
+    correct: false
+    feedback: Kliniken och ultraljudsfynden talar för kardialt lungödem snarare än lungembolism; rutinmässig antikoagulering och CT är inte första åtgärd här.
+  explanation: Hypertensivt akut lungödem beror på akut vänsterkammarsvikt med ökat hydrostatiskt tryck; snabb behandling syftar till att reducera preload/afterload och förbättra syrgasmättnad. Första åtgärder är syrgas/CPAP, nitrater för efterloadminskning och snabb diures med furosemid; intubation krävs endast vid svårare respiratorisk eller cirkulatorisk svikt.
+  id: med-kar-1d1a04
+- type: multiple_choice
+  tags:
+  - Hypertoni
+  - Vänsterkammarhypertrofi
+  - Patofysiologi
+  question: Maria, 65 år, har nyupptäckt hypertoni och vänsterkammarhypertrofi på EKG. Vilken är den huvudsakliga bakomliggande mekanismen till hypertrofin?
+  image: null
+  options:
+  - text: Kronisk volymbelastning
+    correct: false
+    feedback: Kronisk volymbelastning ger oftast excentrisk hypertrofi med dilatation, inte den typiska koncentriska LV-hypertrofin vid hypertension.
+  - text: Förhöjd hjärtfrekvens
+    correct: false
+    feedback: Takykardi ökar arbetsbelastningen men är inte huvudorsaken till strukturell vänsterkammarhypertrofi vid hypertoni.
+  - text: Ökat perifert motstånd
+    correct: true
+    feedback: Förhöjt systemiskt kärlmotstånd (efterload) vid hypertoni leder till koncentrisk vänsterkammarhypertrofi.
+  - text: Hypokalemi
+    correct: false
+    feedback: Lågt kalium ger främst arytmier och muskelsymtom, inte kronisk kammarförtjockning.
+  - text: Kronisk njursvikt
+    correct: false
+    feedback: Njursvikt kan bidra till hypertension och volymbelastning men är inte den direkta, huvudsakliga mekanismen för hypertrofin i denna situation.
+  explanation: Hypertoni ger ökat systemiskt perifer motstånd (efterload), vilket kräver högre tryckarbete av vänster kammare och utlöser koncentrisk hypertrofi genom tillväxt av myocyters parallella sarkomerer. Volymbelastning ger istället excentrisk hypertrofi.
+  id: imp-175c3f4a
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Diagnostik
+  - Ekokardiografi
+  question: Ulla, 67 år, med misstänkt hjärtsvikt (orkeslöshet, dyspné, ödem). Vilken undersökning är viktigast för att fastställa diagnosen och klassificera typen av hjärtsvikt?
+  image: null
+  options:
+  - text: Långtids-EKG
+    correct: false
+    feedback: Kan visa arytmier (t.ex. förmaksflimmer) som bidrar till symtomen, men diagnostiserar inte eller klassificerar hjärtsvikten.
+  - text: NT-proBNP
+    correct: false
+    feedback: Mycket användbart som screenings- eller uteslutningstest (sänkt sannolikhet vid låga värden) men kan inte ensamt bestämma typ av hjärtsvikt.
+  - text: EKG
+    correct: false
+    feedback: EKG ger viktig kompletterande information (ischemi, kammarhypertrofi) men är ospecifikt för att fastställa eller klassificera hjärtsvikt.
+  - text: Arbetsprov
+    correct: false
+    feedback: Arbetsprov bedömer ischemi och arbetskapacitet men används inte för primär diagnostik eller klassifikation av hjärtsvikt.
+  - text: Ekokardiografi
+    correct: true
+    feedback: Svar — ekokardiografi visar vänsterkammarfunktion (LVEF), diastolisk funktion, klaffsjukdom och strukturella orsaker och är central för diagnos och klassificering.
+  explanation: Ekokardiografi är förstahandsundersökningen för att bekräfta hjärtsvikt och skilja mellan nedsatt (HFrEF) och bevarad (HFpEF) systolisk funktion samt för att identifiera strukturella orsaker. NT‑proBNP och EKG är viktiga kompletterande tester men ersätter inte ekokardiografin.
+  id: imp-402aa690
+- type: multiple_choice
+  tags:
+  - Kardiologi
+  - Klinisk Farmakologi
+  question: Vilket av följande alternativ beskriver vanliga biverkningar av kalciumkanalblockerare (t.ex. amlodipin)?
+  image: null
+  options:
+  - text: Bradykardi och trötthet
+    correct: false
+    feedback: Bradykardi är mer typiskt för icke-dihydropyridin CCB (verapamil/diltiazem); trötthet kan förekomma men är inte karaktäristisk för amlodipin.
+  - text: Impotens och depression
+    correct: false
+    feedback: Impotens och depression är inte vanliga eller typiska biverkningar av kalciumkanalblockerare.
+  - text: Hyponatremi och urinsyrahöjning
+    correct: false
+    feedback: Dessa effekter ses snarare vid tiaziddiuretika, inte vid kalciumkanalblockerare.
+  - text: Ankelödem och värmekänsla i ansiktet
+    correct: true
+    feedback: Perifert ödem och flushing/värmekänsla från vasodilatation är vanliga biverkningar av dihydropyridin kalciumkanalblockerare som amlodipin.
+  - text: Torrhosta och hyperkalemi
+    correct: false
+    feedback: Torrhosta är typisk för ACE-hämmare och hyperkalemi för vissa andra läkemedel, inte för kalciumkanalblockerare.
+  explanation: Dihydropyridin-kalciumkanalblockerare (t.ex. amlodipin) ger arteriell vasodilatation vilket ofta ger perifert ödem och flushing/ värmekänsla; huvudvärk och rodnad förekommer också. Icke-dihydropyridiner kan istället ge bradykardi/AV-block.
+  id: imp-9eae96bd
+- type: multiple_choice
+  tags:
+  - hypertoni
+  - fysisk aktivitet
+  question: Vad är sant om fysisk aktivitet vid hypertoni?
+  image: null
+  options:
+  - text: Tung styrketräning är viktigaste träningen vid hypertoni
+    correct: false
+    feedback: Tung styrketräning är inte det viktigaste; både aerob träning och måttlig styrketräning ger blodtryckssänkande effekter.
+  - text: Promenad är alltid av för låg intensitet för att ha effekt på blodtrycket
+    correct: false
+    feedback: Rask eller regelbunden promenad kan sänka blodtrycket; intensitet och regelbundenhet spelar roll.
+  - text: Bara konditionsträning har effekt på blodtrycket
+    correct: false
+    feedback: Konditionsträning har störst evidens men styrketräning ger också blodtryckssänkning och kombination är fördelaktigt.
+  - text: Effekten av regelbunden fysisk aktivitet motsvarar ungefär ett läkemedel
+    correct: true
+    feedback: Regelbunden fysisk aktivitet ger i genomsnitt en systolisk sänkning på flera mmHg, ungefär jämförbar med en antihypertensiv läkemedelsdos.
+  - text: Gåfotboll är fel aktivitet för att sänka blodtrycket
+    correct: false
+    feedback: Gåfotboll är en måttligt intensiv aktivitet som kan bidra till blodtryckssänkning om den utförs regelbundet.
+  explanation: Regelbunden fysisk aktivitet, särskilt aerob träning (t.ex. rask promenad, cykling), sänker blodtrycket med i genomsnitt ca 5–10 mmHg. Styrketräning ger också positiva effekter och kombinationsträning rekommenderas; den totala effekten kan vara jämförbar med en läkemedelsdos.
+  id: imp-b864b79b
+- type: multiple_choice
+  tags:
+  - Kardiomyopati
+  - Alkohol
+  - Hjärtsvikt
+  question: 'Man 52 år med trötthet och andfåddhet. Alkoholmissbruk. EKG: sinustakykardi. Ekokardiografi: dilaterade hjärtrum och nedsatt systolisk funktion. Mest sannolika diagnos?'
+  image: null
+  options:
+  - text: Restriktiv kardiomyopati
+    correct: false
+    feedback: Restriktiv kardiomyopati ger oftast normal kammardimension och främst diastolisk dysfunktion, inte dilatation med nedsatt systolisk funktion.
+  - text: Alkoholinducerad dilaterad kardiomyopati
+    correct: true
+    feedback: Långtvarigt alkoholmissbruk kan ge dilatation av kamrarna och global nedsatt systolisk funktion i en dilaterad kardiomyopati.
+  - text: Hypertrof kardiomyopati
+    correct: false
+    feedback: Hypertrof kardiomyopati karakteriseras av förtjockade väggar och ofta bevarad eller hyperkontraktil systolisk funktion, inte dilatation.
+  - text: Ischemisk hjärtsjukdom
+    correct: false
+    feedback: Ischememi kan ge dilatation sekundärt, men fyndet av global dilatation hos en person med uttalat alkoholmissbruk gör alkoholorsakad dilaterad kardiomyopati mer sannolik.
+  - text: Perimyokardit
+    correct: false
+    feedback: Perimyokardit ger ofta akuta symtom och ST-T-förändringar; det är mindre sannolikt som förklaring till kronisk dilatation utan annan akut klinik.
+  explanation: Den kliniska bilden med långtgående alkoholmissbruk tillsammans med ekokardiografiska fynd av dilaterade kamrar och nedsatt systolisk funktion är typisk för alkoholinducerad dilaterad kardiomyopati, vilket leder till hjärtsviktssymtom. Andra diagnoser ger oftast andra ekofynd eller en annan klinisk tidsbild.
+  id: imp-f008c3d2
+- type: multiple_choice
+  tags:
+  - Förmaksflimmer
+  - Arytmi
+  - Akutmedicin
+  question: Man 56 år, nyupptäckt förmaksflimmer sedan igår kväll (<24 h). Vilken behandling används oftast för att återställa sinusrytmen om den inte gått över spontant?
+  image: null
+  options:
+  - text: El-konvertering
+    correct: true
+    feedback: Synkron DC-konvertering är en snabb och effektiv metod för att återställa sinusrytmen vid nyupptäckt AF som inte konverterar spontant.
+  - text: Antikoagulantia
+    correct: false
+    feedback: Antikoagulantia förebygger tromboemboli men återställer inte sinusrytmen; de övervägs beroende på AF-duration och stroke-risk.
+  - text: Pacemakerinläggning
+    correct: false
+    feedback: Pacemaker används för bradyarytmier eller AV-block, inte för att återställa förmaksflimmer i första hand.
+  - text: Kateterablation
+    correct: false
+    feedback: Ablation är en invasiv behandling för återkommande eller persisterande AF, inte en akut åtgärd för att omedelbart konvertera nyupptäckt AF.
+  - text: Betablockad
+    correct: false
+    feedback: Betablockerare ger frekvenskontroll och symtomlindring men konverterar normalt inte till sinusrytm.
+  explanation: Vid nyupptäckt förmaksflimmer <24–48 timmar är synkron elektrisk konvertering en vanlig och effektiv metod för att återställa sinusrytmen. Antikoagulation handlar om stroke-prevention och kateterablation eller pacemaker är inte förstahandsval för akut konversion; betablockad används för frekvenskontroll.
+  id: imp-0c1fd680
+- type: multiple_choice
+  tags:
+  - Kardiologi
+  - Klaffsjukdom
+  question: Kvinna 65 år med hjärtsviktssymtom. Holosystoliskt blåsljud och bifasisk P‑våg i EKG (tecken på förstorad vänster förmak). Vilket klaffvitium är mest sannolikt?
+  image: null
+  options:
+  - text: Trikuspidisinsufficiens
+    correct: false
+    feedback: Trikuspidalinsufficiens ger ett holosystoliskt blåsljud men påverkar höger förmak/atria, inte vänster förmak.
+  - text: Ventrikelseptumdefekt
+    correct: false
+    feedback: VSD ger också ett holosystoliskt blåsljud men är oftast medfött/juvenilt och är mindre typiskt samband med isolerad vänster förmaksförstoring hos en äldre patient.
+  - text: Mitralisinsufficiens
+    correct: true
+    feedback: Mitralisinsufficiens ger ett holosystoliskt blåsljud och leder till volymöverbelastning och förstorning av vänster förmak.
+  - text: Mitralistenos
+    correct: false
+    feedback: Mitralisstenos ger ett diastoliskt, rumlande blåsljud (ofta med öppningsknäpp) och kan ge vänster förmaksförstoring men inte holosystoliskt blåsljud.
+  - text: Aortainsufficiens
+    correct: false
+    feedback: Aortainsufficiens ger ett diastoliskt decrescendo‑blåsljud och påverkar i första hand vänster kammare, inte ett holosystoliskt blåsljud med primär vänster förmaksförstoring.
+  explanation: Ett holosystoliskt blåsljud vid apex som ofta utstrålar mot axillen är typiskt för mitralisinsufficiens. Mitralisinsufficiens ger volymöverbelastning av vänster förmak, vilket förklarar bifasisk P‑våg som tecken på vänster förmaksförstoring.
+  id: imp-b535c58b
+- type: multiple_choice
+  tags:
+  - Pleurautredning
+  - Hjärtsvikt
+  - Diagnostik
+  question: Svea, 84 år, tidigare bosatt i Kongo, har bilateral pleuravätska. Pleuraprotein 27 g/L (transudat) och svullna fötter. Vilken är troligaste orsak och lämplig utredning?
+  image: null
+  options:
+  - text: Empyem. Remiss lungklinik.
+    correct: false
+    feedback: Empyem är vanligtvis ett exsudat associerat med infektion och unilateral förlopp, inte transudat.
+  - text: Kollagenos. Reumaprover.
+    correct: false
+    feedback: Kollagenoser brukar ge exsudativa effusioner och andra systemiska tecken, inte typiskt transudat med perifer ödem.
+  - text: Tuberkulos. Remiss infektion.
+    correct: false
+    feedback: Tuberkulos ger oftast exsudativ, ofta unilateral eller lokalt dominerande pleuravätska, inte ett transudat.
+  - text: Hjärtsvikt. Remiss EKO och NT-proBNP.
+    correct: true
+    feedback: Bilateral transudativ pleuravätska tillsammans med pittingödem talar för hjärtsvikt; EKO och NT‑proBNP är lämpliga utredningar.
+  - text: Malignitet. Thorakoskopi.
+    correct: false
+    feedback: Malign pleurautgjutning är oftast exsudativ och ofta ensidig; thorakoskopi är överdrivet som första åtgärd vid transudat.
+  explanation: Transudativa pleuravätskor (lågt pleuraprotein) orsakas vanligen av systemiska tillstånd, främst hjärtsvikt, särskilt när effusionen är bilateral och perifer ödem förekommer. Därför är hjärtutredning med ekokardiografi och NT‑proBNP indicerat; infektion, malignitet och kollagenoser ger vanligen exsudat.
+  id: imp-3c320f9b
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Akut behandling
+  - Diuretika
+  question: Bertil 65 år, ex-rökare, tidigare infarkt. Han har dyspné, ortopné, rassel bilateralt, tredje hjärtton och vänstersidigt skänkelblock. Vilken är första åtgärd?
+  image: null
+  options:
+  - text: Remittera för poliklinisk ekokardiografi.
+    correct: false
+    feedback: Ekokardiografi är viktig men ska inte vänta; patienten behöver akut behandling först.
+  - text: Ordinera metoprolol iv.
+    correct: false
+    feedback: IV betablocker är olämpligt vid akut lungödem/hjärtsvikt eftersom det kan förvärra cirkulationen.
+  - text: Remittera för subakut pacemakerimplantation.
+    correct: false
+    feedback: Vänstersidigt skänkelblock kräver inte rutinmässig akut pacemaker om inte höggradigt AV‑block eller hemodynamisk påverkan föreligger.
+  - text: Ordinera furosemid 40 mg intravenöst.
+    correct: true
+    feedback: IV loopdiuretika är förstahandsåtgärd vid akut lungödem för att snabbt minska preload och förbättra andningen.
+  - text: Skriva akut remiss till sjukhus för kranskärlsröntgen.
+    correct: false
+    feedback: Akut koronarangiografi indikeras vid pågående infarkt eller instabil ischemisk smärta; först ska hjärtsvikten stabiliseras.
+  explanation: Kliniken är typisk för akut vänstersidig hjärtsvikt/pulmonellt ödem (dyspné, ortopné, rassel, S3). Akut behandling innefattar syrgas vid behov och framför allt IV loopdiuretika för att snabbt avlasta vänster kammare; diagnostiska åtgärder som ekokardiografi eller koronarangio planeras efter initial stabilisering.
+  id: imp-f5dba2ca
+- type: multiple_choice
+  tags:
+  - Förmaksflimmer
+  - Frekvensreglering
+  question: Medelålders man med nyupptäckt förmaksflimmer, tidigare frisk och opåverkad. Vilken åtgärd bör UNDVIKAS?
+  image: null
+  options:
+  - text: Akut elkonvertering
+    correct: false
+    feedback: Akut elkonvertering är indicerat vid hemodynamisk instabilitet eller svåra symtom, men behöver inte undvikas generellt.
+  - text: Insättning av oral antikoagulation (OAK)
+    correct: false
+    feedback: OAK bedöms efter CHA2DS2-VASc och ska övervägas vid adekvat strokefaktor; det är inte per automatik fel att ordinera.
+  - text: Frekvensreglering med betablockad
+    correct: false
+    feedback: Betablockad är ett lämpligt förstahandsval för frekvenskontroll hos hemodynamiskt stabila patienter.
+  - text: Remiss till hjärtmottagning för elektiv elkonvertering
+    correct: false
+    feedback: Elektiv elkonvertering är ett rimligt alternativ för rytmkontroll efter bedömning och eventuell antikoagulation.
+  - text: Frekvensreglering med digitalis
+    correct: true
+    feedback: Digitalis bör undvikas som förstahandsval hos medelålders, aktiv och hemodynamiskt stabil patient eftersom den är mindre effektiv vid aktivitet och har snäv terapeutisk bredd.
+  explanation: Digitalis är inte förstahandsval för frekvenskontroll hos medelålders eller fysiskt aktiva patienter eftersom effekten är mest uttalad i vila och risk för toxicitet finns. Betablockerare eller icke-dihydropyridin Ca‑blockerare är vanliga förstaval; OAK beslutas utifrån CHA2DS2‑VASc och elkonvertering används vid instabilitet eller elektivt efter utredning.
+  id: imp-e49252bd

@@ -1,0 +1,1360 @@
+- type: multiple_choice
+  tags:
+  - Variceal blödning
+  - Akutbehandling
+  - Transfusionsstrategi
+  question: 'En patient med känd alkoholrelaterad levercirros söker akut för hematemes. Han står på diuretika för ascites. Temp normal, blodtryck 105/65 mmHg, puls 98/min. Första prover: Hb 88 g/L, CRP 6 mg/L, kreatinin 99 µmol/L. Vilka av följande akuta åtgärder är indicerade?'
+  image: null
+  options:
+  - text: alla åtgärder är indicerade
+    correct: false
+    feedback: Systematisk transfusion till Hb-mål 100 g/L rekommenderas inte rutinmässigt vid cirrotisk blödning.
+  - text: a, b och c är indicerade
+    correct: false
+    feedback: Inkluderar transfusion till Hb 100 g/L, vilket normalt undviks till förmån för en restriktiv strategi (mål ~70–80 g/L).
+  - text: a och b är indicerade
+    correct: false
+    feedback: Antibiotikaprofylax och ventrikelsond saknas i detta alternativ; transfusion till 100 g/L är dessutom ej rutinindicerad.
+  - text: b, c och d är indicerade
+    correct: true
+    feedback: Vid misstänkt variceal blödning ges vasoaktiv behandling (terlipressin), profylaktisk antibiotika (t.ex. cefotaxim) och ventrikelsond kan användas för aspiration/diagnostik.
+  - text: a, c och d är indicerade
+    correct: false
+    feedback: Inkluderar transfusion till Hb 100 g/L, vilket inte rekommenderas routinemässigt vid cirrotisk blödning om patienten är hemodynamiskt stabil.
+  explanation: Vid misstänkt variceal blödning bör man snabbt ge vasoaktiv behandling (t.ex. terlipressin) och profylaktisk bredspektrumantibiotika för att minska infektion och mortalitet; ventrikelsond kan användas för aspiration och diagnostik. Transfusionsstrategin är restriktiv hos cirrotiker med mål Hb omkring 70–80 g/L om inte patienten är instabil.
+  id: med-aku-82534c
+- type: multiple_choice
+  tags:
+  - Pneumothorax
+  - Fysikalstatus
+  question: Vilket av följande fynd talar inte för pneumothorax?
+  image: null
+  options:
+  - text: Dämpade perkussionstoner
+    correct: true
+    feedback: Dämpade perkussionstoner tyder snarare på vätska eller massiv konsolidering (t.ex. pleurautgjutning), inte luft i pleurarummet.
+  - text: Andningskorrelerad bröstsmärta
+    correct: false
+    feedback: Pleuritsmärta som förvärras vid andning är typisk vid pneumothorax.
+  - text: Nedsatta andningsljud
+    correct: false
+    feedback: Luft i pleurahålan dämpar andningsljuden över det drabbade området.
+  - text: Hypersonor perkussionston
+    correct: false
+    feedback: Hypersonor (överresonant) perkussion är karakteristisk för luft i pleurahålan vid pneumothorax.
+  - text: Dyspné
+    correct: false
+    feedback: Dyspné är ett vanligt symtom vid pneumothorax, särskilt vid större kollapser.
+  explanation: Vid pneumothorax finns luft i pleurahålan vilket ger hypersonor perkussion, nedsatta andningsljud, pleuritsmärta och dyspné. Dämpade perkussionstoner talar istället för vätska eller massiv konsolidering som vid pleurautgjutning eller konsolidering.
+  id: med-aku-d37008
+- type: multiple_choice
+  tags:
+  - Hypertension
+  - Diagnostik
+  question: Vilket av nedanstående förknippas INTE med diagnosen malign hypertoni?
+  image: null
+  options:
+  - text: Ögonbottenförändringar med papillödem
+    correct: false
+    feedback: Papillödem är ett typiskt tecken vid malign hypertoni och indikerar akut retinal och papillär skada.
+  - text: Ett nattligt diastoliskt medelvärde mellan 90–100 mmHg vid 24-timmars blodtrycksmonitorering
+    correct: true
+    feedback: Ett nattligt diastoliskt medelvärde på 90–100 mmHg är förhöjt men ligger inte i nivå med den mycket höga akutpåverkan som definierar malign hypertoni.
+  - text: Ögonbottenförändringar med blödningar
+    correct: false
+    feedback: Retinala blödningar är vanliga vid svår hypertoni och ses ofta vid malign hypertoni.
+  - text: Njurpåverkan (fibrinoid nekros)
+    correct: false
+    feedback: Akut njurskada med fibrinoid nekros är ett karaktäristiskt tecken på malign hypertoni.
+  - text: Blodtryck >180/120 mmHg
+    correct: false
+    feedback: Ett mycket högt nivå (>180/120 mmHg) är typiskt vid malign hypertoni och ingår i kriterierna.
+  explanation: Malign hypertoni definieras av mycket högt blodtryck (vanligen >180/120 mmHg) tillsammans med tecken på akut målsorganskada, särskilt papillödem och retinala blödningar samt akut njurpåverkan (fibrinoid nekros). Ett nattligt diastoliskt medelvärde på 90–100 mmHg är förhöjt men motsvarar snarare måttlig eller okontrollerad kronisk hypertoni än malign hypertoni.
+  id: med-aku-768312
+- type: multiple_choice
+  tags:
+  - Lungemboli
+  - Antikoagulantia
+  - Perioperativ
+  question: Hur länge ska en patient som drabbats av lungemboli i samband med ortopedisk kirurgi behandlas med antikoagulantia, om symtomen gått i regress efter 4 månader?
+  image: null
+  options:
+  - text: 6 månader
+    correct: true
+    feedback: Vid postoperativ (provokerad) lungemboli rekommenderas 6 månaders antikoagulationsbehandling även om symtomen förbättrats tidigare.
+  - text: Tillsvidarebehandling
+    correct: false
+    feedback: Livslång behandling är inte indicerad efter en provokerad postoperativ PE utan återfall eller bestående riskfaktorer.
+  - text: Minst 6 månader
+    correct: false
+    feedback: Felaktig formulering — rekommendationen är fast 6 månader för denna situation; 'minst' kan innebära onödig förlängning utan specifik indikation.
+  - text: Behandlingen avslutas efter 4 månader
+    correct: false
+    feedback: Att avsluta vid 4 månader är otillräckligt vid postoperativ lungemboli; behandlingen ska fullföljas till 6 månader.
+  - text: 12 månader
+    correct: false
+    feedback: 12 månader övervägs främst vid återkommande, oprovocerad eller fortsatt hög trombosrisk, inte rutinellt efter provokerad postoperativ PE.
+  explanation: Vid lungemboli i samband med ortopedisk kirurgi betraktas detta som en provokerad VTE där rekommendationen är 6 månaders antikoagulantia. Symptomregression tidigare är inte skäl att förkorta behandlingen; förlängning eller livslång behandling reserveras för återfall eller kvarstående riskfaktorer.
+  id: med-aku-6ab9bc
+- type: multiple_choice
+  tags:
+  - Elektrolytrubbning
+  - Hyperkalemi
+  question: Elektrolytrubbningar är vanliga på akutmottagning. Vid vilket av följande tillstånd är insulin + glukos-dropp mest lämpligt som akut behandling?
+  image: null
+  options:
+  - text: Hyponatremi
+    correct: false
+    feedback: Hyponatremi behandlas med vätskemanipulation och eventuellt hyperton NaCl, inte insulin.
+  - text: Hyperkalemi
+    correct: true
+    feedback: Insulin med glukos flyttar snabbt kalium intracellulärt och sänker serumkalium akut.
+  - text: Hypokalemi
+    correct: false
+    feedback: Insulin förvärrar hypokalemi genom att flytta kalium in i cellerna; behandling är kaliumtillskott.
+  - text: Hypernatremi
+    correct: false
+    feedback: Hypernatremi kräver kontrollerad vätske- och natriumkorrigering, inte insulin.
+  - text: Hyperkalcemi
+    correct: false
+    feedback: Hyperkalcemi behandlas främst med iv vätska, diuretika, bisfosfonater eller kalcitonin, inte insulin/glukos.
+  explanation: Insulin tillsammans med glukos används akut vid hyperkalemi eftersom insulin snabbt stimulerar intracellulärt upptag av kalium och därigenom sänker plasmakalium; glukos ges för att motverka hypoglykemi. Andra elektrolytrubbningar kräver specifika åtgärder som natriumkorrigering, kaliumtillskott eller vätske- och läkemedelsbehandling.
+  id: med-aku-758466
+- type: multiple_choice
+  tags:
+  - Alkoholabstinens
+  - Krampanfall
+  question: 'Ulf, 61 år, kommer med ambulans efter ett bevittnat krampanfall på ungefär 2 minuter i en mataffär. Ambulanspersonalen rapporterar att han var förvirrad för 30 minuter sedan men blev gradvis klarare under transport. Vitalparametrar: POX 96%, AF 15, puls 108, BT 170/100, temp 37,8. Han luktar alkohol och uppger en flaska vin per dag den senaste veckan, sista intaget igår kväll. Han känner sig nu bra och vill gå hem. Vilken handläggning är mest korrekt?'
+  image: null
+  options:
+  - text: Inneliggande behandling med benzodiazepiner i nedtrappning
+    correct: true
+    feedback: Sannolikt alkoholabstinensutlöst krampanfall som kräver inläggning och bensodiazepintitrering/nedtrappning för att förebygga ytterligare och potentiellt livshotande abstinenskramper.
+  - text: Skickas hem med remiss och uppföljning på neurologen
+    correct: false
+    feedback: Utskrivning är olämplig vid misstänkt alkoholabstinens med nyligt krampanfall eftersom risken för recidiv är hög och akut behandling/övervakning krävs.
+  - text: Skickas hem med antiepileptika som krampskydd
+    correct: false
+    feedback: Antiepileptika är inte första linjen för akut alkoholabstinensseizure; bensodiazepiner är primär behandling och kräver inläggning och övervakad nedtrappning.
+  - text: Inneliggande CT hjärna. Om normala fynd påvisas kan Ulf sedan gå hem
+    correct: false
+    feedback: CT kan övervägas vid första krampanfall men enbart normal CT är inte skäl att skriva ut när risk för abstinenskramper kvarstår; behandling och observation behövs.
+  - text: Skickas hem med uppmaning att sluta dricka
+    correct: false
+    feedback: Rådgivning om alkohol är viktig men otillräcklig akut; patienten behöver omedelbar medicinsk behandling och övervakning för abstinensrisk.
+  explanation: Alkoholabstinens kan ge tonisk-kloniska kramper ofta inom 6–48 timmar efter sista intag, och behandlingen är bensodiazepiner i en kontrollerad nedtrappning under inläggning för att förebygga recidiv och allvarliga komplikationer. Bilddiagnostik och långsiktig utredning kan vara aktuella men får inte ersätta akut behandling och observation.
+  id: med-aku-8223aa
+- type: multiple_choice
+  tags:
+  - Tromboembolism
+  - Riskfaktorer
+  question: Vilken av följande är den starkaste riskfaktorn för venös tromboembolism (djup ventrombos och lungemboli)?
+  image: null
+  options:
+  - text: Rökning
+    correct: false
+    feedback: Rökning ger en måttlig ökning av trombosrisk genom endotelpåverkan, men är inte den starkaste riskfaktorn.
+  - text: Övervikt
+    correct: false
+    feedback: Övervikt ökar risken måttligt via inflammatoriska mekanismer och venös stas, men är inte den största enskilda faktorn.
+  - text: Fysisk aktivitet
+    correct: false
+    feedback: Fysisk aktivitet minskar snarare risken genom att förebygga venös stas och förbättra cirkulationen.
+  - text: Hög ålder
+    correct: false
+    feedback: Hög ålder ökar risken betydligt, men malignitet är en ännu starkare enskild riskfaktor.
+  - text: Malignitet
+    correct: true
+    feedback: Malignitet ger en markant hyperkoagulabel tillstånd och behandlingar (kirurgi, cytostatika, centralvenösa katetrar) och är därför den starkaste riskfaktorn.
+  explanation: Malignitet är den starkaste riskfaktorn för VTE eftersom cancer ger ökad koagulationsaktivitet, venstas och behandlingar som ytterligare höjer trombosrisken. Ålder, övervikt och rökning höjer risken måttligt medan regelbunden fysisk aktivitet är skyddande.
+  id: med-aku-191223
+- type: multiple_choice
+  tags:
+  - Opioidöverdos
+  - Toxikologi
+  question: En patient kommer till akutmottagningen medvetslös, andningsfrekvens 9/min, blodtryck 90/50 och små pupiller. Du ser flera små sticksår över venerna i fossa antecubitalis. Vilken är sannolikt den bästa specifika behandlingen?
+  image: null
+  options:
+  - text: Oralt metionin
+    correct: false
+    feedback: Metionin är inte en akut antidot vid opioidöverdos och används mycket sällan som antidot.
+  - text: Intravenös naloxon
+    correct: true
+    feedback: Naloxon är en opioidantagonist som snabbt reverserar andningsdepression vid opioidöverdos och ges intravenöst eller intranasalt.
+  - text: Aktivt kol
+    correct: false
+    feedback: Aktivt kol är kontraindicerat hos medvetslösa patienter utan skyddad luftväg på grund av aspirationsrisk.
+  - text: Intravenöst N-acetylcystein
+    correct: false
+    feedback: N-acetylcystein är antidot för paracetamolförgiftning, inte för opioidöverdos.
+  - text: Intravenös flumazenil
+    correct: false
+    feedback: Flumazenil antagoniserar bensodiazepiner och kan utlösa kramper vid blandförgiftning; inte lämplig vid misstänkt opioidöverdos.
+  explanation: Punktformiga sticksår, mios, andningsdepression och hypotoni talar starkt för opioidöverdos. Naloxon är förstahandsbehandling för att snabbt återställa andningen; upprepa doser kan behövas eftersom naloxon har kortare halveringstid än vissa opioider. Var försiktig med flumazenil och undvik aktivt kol hos medvetslösa utan skyddad luftväg.
+  id: med-aku-045305
+- type: multiple_choice
+  tags:
+  - Bröstsmärta
+  - Diagnostik
+  - Akutmedicin
+  question: Du går nattjour på medicinakuten. Elisabet, 67 år, söker för bröstsmärtor sedan tre veckor. Smärtan är lokaliserad strax ovanför vänster bröst, pekar med ett finger, huggande/stickande och förvärras inte vid ansträngning. Hon förnekar andningspåverkan, lägesberoende, kallsvett eller illamående. Status utan anmärkning. Troponin T <5 ng/L (ref <14), CRP 5 mg/L, normal blodgas och EKG utan ischemitecken. Vilken handläggning är mest adekvat?
+  image: null
+  options:
+  - text: Lungröntgen
+    correct: false
+    feedback: Ej indicerat utan kliniska tecken på pneumoni, pleuraexsudat eller hjärtsvikt; inte nödvändigt vid fokal muskuloskeletal bröstsmärta.
+  - text: CT aorta
+    correct: false
+    feedback: Inte motiverat då det saknas misstanke om aortadissektion (ingen plötslig rivande smärta, blodtrycksasymmetri eller cirkulatorisk påverkan).
+  - text: Inläggning med ischemi-övervakning och troponin-serie
+    correct: false
+    feedback: Onödigt när initialt troponin och EKG är normala och klinisk sannolikhet för akut koronarsjukdom är låg.
+  - text: Kontakt med kardiologjour för ställningstagande till akut PCI
+    correct: false
+    feedback: Inte indicerat utan ischemitecken eller markant troponinstegring; akut PCI kräver tydliga ischemiska fynd.
+  - text: Hemgång med lugnande besked
+    correct: true
+    feedback: Låg sannolikhet för kardiell orsak givet lokaliserad huggande smärta samt normal EKG och troponin; ge rådgivning och uppmana återbesök vid försämring.
+  explanation: Fokal, huggande bröstsmärta som är pekbar och oförändrad vid ansträngning talar för muskuloskelettalt/neuropatiskt ursprung. Normalt EKG och normalt troponin minskar sannolikheten för akut koronarsjukdom, varför ambulatorisk handläggning med information och återkontakt vid förändring är lämplig. Ytterligare bilddiagnostik eller inläggning krävs bara vid nya alarmtecken eller klinisk misstanke om annan allvarlig diagnos.
+  id: med-aku-cd9df7
+- type: multiple_choice
+  tags:
+  - Bröstsmärta
+  - Koronarsjukdom
+  - Diagnostik
+  question: En 62‑årig kvinna med hypertoni hade igår en övergående episod med vänstersidig bröstsmärta som strålade ut i båda armarna. Smärtan debuterade vid promenad, minskade i vila och återkom vid ansträngning. Nu söker hon åter p.g.a. bröstsmärta efter frukost. I vila är hon opåverkad; vitalparametrar, status, EKG och troponin‑T är normala. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Pleurit
+    correct: false
+    feedback: Pleuritsmärta är oftast andningskorrelerad och åtföljs av respiratoriska fynd/hosta, inte typiskt ansträngningsutlöst ischemisk bröstsmärta.
+  - text: Lungemboli
+    correct: false
+    feedback: Osannolik — lungemboli ger vanligen plötslig dyspné, pleuritsmärta och ofta avvikande vitalparametrar eller gasutbytespåverkan, inte återkommande ansträngningsutlösta smärtor utan andra fynd.
+  - text: Instabil angina pectoris
+    correct: true
+    feedback: Återkommande ansträngningsutlösta bröstsmärtor med lindring i vila och normala troponin/‑EKG tyder på ischemisk bröstsmärta utan biomarkörstegring (instabil angina).
+  - text: NSTEMI
+    correct: false
+    feedback: NSTEMI förväntas ge förhöjt troponin trots att EKG kan sakna ST‑höjningar.
+  - text: Pneumothorax
+    correct: false
+    feedback: Pneumothorax ger ofta plötslig sidoväldig bröstsmärta och andningspåverkan med fynd vid auskultation, inte typiskt återkommande ansträngningsutlösta symtom.
+  explanation: Presentation med ansträngningsutlöst bröstsmärta som lindras i vila och återkommer vid aktivitet, tillsammans med normala troponin och EKG, talar för ischemisk bröstsmärta utan myokardskada (instabil angina). Differentiellt ingår pleurit, lungemboli och pneumothorax som oftare har respiratoriska tecken eller avvikande vitalparametrar, medan NSTEMI ger troponinstegring.
+  id: med-aku-7d0824
+- type: multiple_choice
+  tags:
+  - Lungemboli
+  - Akut bröstsmärta
+  - Diagnostik
+  question: '69-årig man med hypertoni inkommer pga plötslig andfåddhet under en golfrunda. Han upplevde plötsligt att det svartnade framför ögonen samtidigt som det ”högg till i bröstet” och det blev svårt att andas. Nu något bättre men ont vid djupandning. AF 22/min, saturation 95 %, BT 145/68 mmHg, temp 37,8 °C. Hjärta/lungor utan anmärkning. EKG: sinustakykardi 113/min. Vilken diagnos bör misstänkas i första hand?'
+  image: null
+  options:
+  - text: Hjärttamponad
+    correct: false
+    feedback: Osannolikt — tamponad ger vanligen hypotension, halsvenstas och dämpade hjärtljud (Becks triad), vilket inte ses här.
+  - text: Pneumoni
+    correct: false
+    feedback: Mindre sannolikt — pneumoni brukar ge feber, hosta och fokala auskultationsfynd, inte akut insättande dyspné med enbart sinustakykardi.
+  - text: Lungemboli
+    correct: true
+    feedback: Plötslig dyspné, skarp pleuritisk bröstsmärta och sinustakykardi talar starkt för lungemboli, särskilt vid normal lungauskultation.
+  - text: Pleurit
+    correct: false
+    feedback: Mindre troligt som primär diagnos — pleuritisk smärta förekommer, men ensam pleurit utan underliggande orsak förklarar sällan plötslig dyspné och takykardi.
+  - text: Akut koronart syndrom
+    correct: false
+    feedback: Osannolikt — ACS ger oftast central, ihållande/pressande bröstsmärta och ischemiförändringar på EKG, vilket inte föreligger här.
+  explanation: Kliniken med plötslig andfåddhet, pleuritisk bröstsmärta och sinustakykardi är typisk för lungemboli. Utredning bör inkludera klinisk riskbedömning (t.ex. Wells), D-dimer och vid misstanke CT-pulmo; behandling är antikoagulation vid bekräftad eller stark misstanke.
+  id: med-aku-8c1918
+- type: multiple_choice
+  tags:
+  - Andningsljud
+  - Obstruktiv lungsjukdom
+  question: Vilket av följande orsakar INTE vanligtvis väsande andning (wheezing)?
+  image: null
+  options:
+  - text: Bronkiektasier
+    correct: false
+    feedback: Bronkiektasier ger sekretansamling och lokal luftvägsobstruktion som ofta ger wheeze.
+  - text: Kronisk obstruktiv lungsjukdom
+    correct: false
+    feedback: KOL involverar små luftvägar och emfysem vilket ofta ger väsande andning vid utandning.
+  - text: Astma
+    correct: false
+    feedback: Astma är en klassisk orsak till episodisk wheezing på grund av bronkokonstriktion och inflammation.
+  - text: Lungödem
+    correct: false
+    feedback: Lungödem kan ge wheeze när vätska och ödemtrådar smalnar de mindre luftvägarna.
+  - text: Trakealtumör
+    correct: true
+    feedback: En trakealtumör ger oftare central luftvägsstenos med stridor, heshet eller lokala symtom snarare än typisk wheeze.
+  explanation: Wheezing uppstår främst vid förträngning av små till mellanstora luftvägar (t.ex. astma, KOL, bronkiektasier) eller vid lungödem där vätska smalnar luftvägar. Central trakeal förträngning ger däremot oftare stridor och röstpåverkan snarare än det karakteristiska wheeze.
+  id: med-aku-08cace
+- type: multiple_choice
+  tags:
+  - Anafylaxi
+  - Adrenalin
+  - Akutbehandling
+  question: Vilken är den viktigaste omedelbara behandlingen vid en anafylaktisk reaktion?
+  image: null
+  options:
+  - text: Intravenöst adrenalin (epinefrin)
+    correct: false
+    feedback: IV-adrenalin används endast vid svår cirkulationspåverkan under övervakning på grund av risk för arytmier.
+  - text: Intravenös klorfenamin
+    correct: false
+    feedback: Antihistaminer är adjunktiva och inte livräddande i det akuta skedet.
+  - text: Intravenös hydrokortison
+    correct: false
+    feedback: Steroider ges som stödbehandling men verkar långsamt och är inte första åtgärd vid akut anafylaxi.
+  - text: Intramuskulärt adrenalin
+    correct: true
+    feedback: IM-adrenalin är första linjens omedelbara behandling och reverserar snabbt hypotension och bronkospasm.
+  - text: Ingen av ovannämnda
+    correct: false
+    feedback: IM-adrenalin är korrekt initialbehandling vid anafylaxi.
+  explanation: Vid anafylaxi är intramuskulärt adrenalin första åtgärd eftersom det snabbt reducerar luftvägssvullnad, bronkospasm och hypotension. IV-adrenalin reserveras för svåra fall under monitorering; antihistaminer och steroider är tilläggsbehandlingar och inte förstahandsval i det akuta skedet.
+  id: med-aku-0888b2
+- type: multiple_choice
+  tags:
+  - Aortadissektion
+  - Riskfaktorer
+  question: Vilken av nedanstående är INTE en riskfaktor för aortadissektion?
+  image: null
+  options:
+  - text: Ehler-Danlos syndrom (vaskulär typ)
+    correct: false
+    feedback: Vaskulär Ehlers–Danlos ger kollagendefekt och försvagad kärlvägg, vilket ökar risk för dissektion.
+  - text: Marfans syndrom
+    correct: false
+    feedback: Marfans (fibrillin-1) ger aortarotsdilatation och svag aortavägg, en etablerad riskfaktor.
+  - text: Hypertoni
+    correct: false
+    feedback: Långvarig högt blodtryck är den vanligaste riskfaktorn då det ökar mekanisk belastning på aortaväggen.
+  - text: Njurartärstenos
+    correct: true
+    feedback: Även om den kan ge sekundär hypertoni är den inte i sig en klassisk direkt riskfaktor för aortaväggens strukturella svaghet.
+  - text: Rökning
+    correct: false
+    feedback: Rökning associeras med kärlsjukdom och ökad risk för aortasjukdomar, inklusive dissektion.
+  explanation: Aortadissektion är främst associerad med tillstånd som ger försvagad aortavägg (t.ex. Marfan, vaskulär Ehlers–Danlos) och med mekanisk belastning från hypertoni. Rökning bidrar också till risk, medan njurartärstenos endast indirekt kan påverka via sekundär hypertoni och inte är en klassisk direkt riskfaktor.
+  id: med-aku-8022a7
+- type: multiple_choice
+  tags:
+  - Graviditet
+  - Akutmedicin
+  - Diagnostik
+  question: En 29‑årig kvinna söker för några dagars trötthet, illamående och kräkningar. Hon är feberfri och ingen i hennes omgivning har liknande symtom. Vilken undersökning/test bör utföras först?
+  image: null
+  options:
+  - text: Test för Calici‑infektion
+    correct: false
+    feedback: Inte första steg — calicivirusutredning är mer aktuell vid misstänkt smittspridning och kräver riktad provtagning; graviditet måste uteslutas först.
+  - text: CT buk
+    correct: false
+    feedback: Inte indicerat som första undersökning — CT är resurskrävande och innebär strålningsrisk, används vid lokala bukfynd eller misstanke om akut buk.
+  - text: CT hjärna
+    correct: false
+    feedback: Inte relevant utan neurologiska symtom — CT hjärna görs vid misstanke om neurologisk påverkan, inte vid isolerat illamående/kräkningar.
+  - text: CRP
+    correct: false
+    feedback: Ej förstahandsval — CRP är ospecifikt och påverkar inte primärt handläggningen innan graviditet uteslutits.
+  - text: Graviditetstest
+    correct: true
+    feedback: Snabbt, icke‑invasivt och avgörande för fortsatt utredning eftersom graviditet eller hyperemesis kraftigt påverkar handläggningen.
+  explanation: Hos kvinnor i reproduktiv ålder med illamående och kräkningar ska graviditet alltid uteslutas först eftersom det är en snabb test som påverkar vidare diagnostik och behandling. Positivt graviditetstest riktar utredningen mot graviditetskomplikationer och undviker onödig exponering för strålning eller läkemedel.
+  id: med-aku-6dd8cd
+- type: multiple_choice
+  tags:
+  - Kardiogen chock
+  - Hyperkalemi
+  - Arytmi
+  question: 'Du tjänstgör på en mindre akutmottagning och kallas till akutrummet: en tidigare väsentligen frisk man insatt på enalapril för en månad sedan har senaste veckan haft återkommande yrsel och hittas nu medvetslös av ambulanspersonalen. Initialt EKG visar ventrikulär ersättningsrytm ~20/min, manuell HLR påbörjas och atropin ges med pulsökning till 40/min och patienten vaknar (RLS 2). Vid ankomst: saturation 100% på 10 L, AF 12/min, BT systoliskt 80 mmHg, puls 32/min, P-glukos 16 mmol/L. EKG: breddökad ventrikulär rytm. A-punktionsblodgas: pH 7,25, PaO2 18 kPa, PaCO2 9 kPa, BE +2. P-laktat 8 mmol/L. Vilken är den mest sannolika förklaringen till patientens tillstånd?'
+  image: null
+  options:
+  - text: Obstruktiv chock pga stor lungemboli med högerkammarsvikt
+    correct: false
+    feedback: Stor lungemboli ger oftast hypoxi, takykardi och tecken till högerkammarpåverkan, inte bred QRS-ventrikulär ersättningsrytm med uttalad bradykardi.
+  - text: Distributiv chock pga bakteriell infektion med sepsis
+    correct: false
+    feedback: Sepsis/distributiv chock kännetecknas ofta av vasodilatation och takykardi; det förklarar inte breddökad QRS och uttalad bradyarytmi.
+  - text: Anafylaktisk chock pga läkemedelsallergi mot enalapril
+    correct: false
+    feedback: ACE-hämmare ger främst angioödem via bradykinin och anafylaxi ger vanligen hals/andningssymtom och takykardi snarare än isolerade breda QRS och bradykardi.
+  - text: Kardiogen chock pga hyperkalemi med bradykardi
+    correct: true
+    feedback: ACE-hämmare kan ge hyperkalemi som orsakar breddökade QRS, ventrikulära escape-rytmer och uttalad bradykardi med nedsatt hjärtminutvolym och hypotension.
+  - text: Hypovolem chock pga diabetes med ketoacidos
+    correct: false
+    feedback: DKA ger metabol acidos med kompensatorisk hyperventilation och uttorkning, men förklarar inte breddökad QRS och kraftig bradyarytmi; blodgasens BE +2 talar heller inte för uttalad ketoacidos.
+  explanation: Hyperkalemi kan uppstå vid ACE-hämmare och ger successiva EKG-förändringar med smala till breddade QRS, ventrikulära rytmer och svår bradykardi som leder till nedsatt hjärtoutput och kardiogen chock. Hög laktat och hypotension speglar dålig vävnadsprefusion; andra chockorsaker ger typiskt andra kliniska tecken (hypoxi/takykardi vid lungemboli, vasodilatation/takykardi vid sepsis, respiratoriska/allergiska tecken vid anafylaxi, och respiratorisk kompensation vid DKA).
+  id: med-aku-ec4c7e
+- type: multiple_choice
+  tags:
+  - Medvetslöshet
+  - Intrakraniell blödning
+  - CT-hjärna
+  question: 'En man i ca 30 år, okänd identitet, påträffas medvetslös och inkommer med ambulans. Enligt ABCDE: fri luftväg med kantarell, SpO2 96 %, liksidiga andningsljud, normala hjärttoner, BT 186/93 och puls 59. Under D noterar du olikstora pupiller och RLS 6. P-glukos 5,5 mmol/L, temp 36,7 °C. Vilken åtgärd är mest rimlig att gå vidare med?'
+  image: null
+  options:
+  - text: 30 ml 30 %-ig glukos IV
+    correct: false
+    feedback: P-glukos är normalt (5,5 mmol/L), därför är rutinell IV-glukos inte indicerad.
+  - text: Naloxon
+    correct: false
+    feedback: Naloxon prövas vid misstanke om opioidöverdos, men opioider ger oftast små, inte olikstora, pupiller och förklarar inte fokala neurologiska fynd.
+  - text: Lumbalpunktion
+    correct: false
+    feedback: Lumbalpunktion vid misstanke om subaraknoidalblödning görs först efter avbildning för att utesluta mass-effekt.
+  - text: CT hjärna
+    correct: true
+    feedback: Olikstora pupiller och nedsatt medvetandegrad talar för intrakraniell process; akut CT‑hjärna är snabbast för att upptäcka blödning eller annan fokal patologi.
+  - text: Förebygga hypotermi
+    correct: false
+    feedback: Patientens temperatur är normal och hypotermiförebyggande är inte prioriterat jämfört med att omedelbart utreda misstänkt intrakraniell skada.
+  explanation: Olikstora pupiller och nedsatt medvetandegrad tyder på fokal intrakraniell sjukdom eller ökat intrakraniellt tryck, vilket kräver snabb avbildning med CT för att identifiera blödning eller annan masspåverkan. Blodsocker och luftväg ska kontrolleras men normalt p‑glukos gör IV‑glukos onödigt. Lumbalpunktion kan användas vid misstanke om subaraknoidalblödning men först efter CT.
+  id: med-aku-2a67b6
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - Osmotiskt demyeliniseringssyndrom
+  question: Vilken fruktad komplikation kan uppstå om plasmanatrium höjs för snabbt hos en patient med symptomgivande kronisk hyponatremi?
+  image: null
+  options:
+  - text: Reyes syndrom
+    correct: false
+    feedback: Reyes syndrom är en sällsynt pediatrisk komplikation associerad med acetylsalicylsyra, inte snabb natriumkorrigering.
+  - text: Lungödem
+    correct: false
+    feedback: Lungödem är inte en typisk direkt följd av snabb höjning av plasmanatrium.
+  - text: Akut njursvikt
+    correct: false
+    feedback: Akut njursvikt är inte den klassiska komplikationen av snabb natriumkorrektion vid kronisk hyponatremi.
+  - text: QTc-förlängning
+    correct: false
+    feedback: QTc‑förlängning är inte den huvudsakliga risken vid för snabb natriumökning.
+  - text: Pontin myelinolys (Osmotiskt demyeliniseringssyndrom)
+    correct: true
+    feedback: Snabb korrigering av kronisk hyponatremi kan orsaka pontin myelinolys med svåra och ofta bestående neurologiska bortfall.
+  explanation: Vid kronisk hyponatremi har hjärnan anpassat sig genom förlust av osmoler; snabb höjning av natrium orsakar vattenutflöde från nervceller och kan leda till osmotiskt demyeliniseringssyndrom, särskilt i pons. Tillståndet kan ge dysfagi, dysartri, tetraplegi och koma och kan vara permanent eller dödligt, varför natriumkorrigering måste ske långsamt (vanligtvis begränsad till ≈8 mmol/L första 24 timmarna eller ännu långsammare vid hög risk).
+  id: med-aku-5de8eb
+- type: multiple_choice
+  tags:
+  - Toxikologi
+  - Antidot
+  - Paracetamol
+  question: Vilken av följande behandlingar kan vara aktuell vid förgiftning med paracetamol?
+  image: null
+  options:
+  - text: Acetylcystein
+    correct: true
+    feedback: Acetylcystein är antidot som återställer glutation och förebygger leverskada vid paracetamolförgiftning.
+  - text: Flumazenil
+    correct: false
+    feedback: Flumazenil är antidot för bensodiazepiner, inte för paracetamol.
+  - text: Desferal (deferoxamin)
+    correct: false
+    feedback: Deferoxamin används vid järnförgiftning, inte vid paracetamol.
+  - text: Naloxon
+    correct: false
+    feedback: Naloxon är antidot för opioider, inte för paracetamol.
+  - text: Cyanokit (hydroxokobalamin)
+    correct: false
+    feedback: Hydroxokobalamin används vid cyanidförgiftning, inte vid paracetamol.
+  explanation: Paracetamol metaboliseras till den levertoxiska metaboliten NAPQI som förbrukar glutation. Acetylcystein återställer glutation och minskar risken för leversvikt, och är mest effektiv om given tidigt efter intaget.
+  id: med-aku-f4f45f
+- type: multiple_choice
+  tags:
+  - Synkope
+  - Vasovagal synkope
+  question: Vilken orsak till svimning bör misstänkas i första hand när patienten har återkommande svimningsepisoder före 40 års ålder, episoderna utlöses av obehag, måltid eller hög värme och föregås av svettning, illamående och/eller kräkningar?
+  image: null
+  options:
+  - text: Sinus caroticus-syndrom
+    correct: false
+    feedback: Ses oftast hos äldre och utlöses av halsmanipulation eller huvudrotation snarare än av obehag, måltid eller värme.
+  - text: Ortostatisk synkope
+    correct: false
+    feedback: Uppträder vid ställningsändring (stående) och har annan klinisk kontext än prodromala autonoma symptom vid värme eller måltid.
+  - text: Epilepsi
+    correct: false
+    feedback: Epileptiska anfall kännetecknas ofta av tonisk-kloniska rörelser eller postiktal förvirring, inte typiska prodromala svettningar och illamående.
+  - text: Hypoglykemi (diabetes mellitus)
+    correct: false
+    feedback: Hypoglykemi kan ge autonoma symptom men är vanligare hos diabetiker och ger ofta även neuroglykopena tecken och annan kontext.
+  - text: Vasovagal synkope
+    correct: true
+    feedback: Typiskt hos yngre patienter, utlöses av emotionellt obehag, värme eller måltid och föregås ofta av svettning, illamående eller kräkning.
+  explanation: Vasovagal synkope är en reflexmedierad förlust av medvetande orsakad av ökad vagal ton och/eller vasodilatation, vilket ger hypotension och ibland bradykardi. Den drabbar ofta yngre personer och triggas av emotionell stress, smärta, uttorkning, värme eller postprandialt, med uttalade prodromala autonoma symtom.
+  id: med-aku-d10c89
+- type: multiple_choice
+  tags:
+  - Anafylaxi
+  - Luftvägssvikt
+  - Akutbehandling
+  question: En 19-årig kvinna inkommer plötsligt andningspåverkad. Du finner stridor, biljud över båda lungor med långt inspirium/expirium, AF 25, SpO2 92 %, blodgas med lågt pCO2 och lågt pO2. Hon har utbrett nässelutslag över hals, bål och extremiteter. Vilken är den viktigaste initiala åtgärden?
+  image: null
+  options:
+  - text: Antihistamin per os
+    correct: false
+    feedback: Peroralt antihistamin är för långsamt och otillräckligt vid livshotande luftvägs- eller cirkulationspåverkan.
+  - text: 0,5 mg adrenalin, intramuskulärt
+    correct: true
+    feedback: Intramuskulär adrenalin är förstahandsåtgärd vid svår anafylaxi för att snabbt motverka luftvägsödem och cirkulatorisk påverkan.
+  - text: Tillkalla IVA-jour för intubation
+    correct: false
+    feedback: Intubation kan bli nödvändig men bör inte ersätta omedelbar adrenalinbehandling då luftvägssvullnad kan försvåra intubationen.
+  - text: Bolus-infusion, 500 ml ringer-acetat
+    correct: false
+    feedback: Vätskebolus ges vid cirkulatorisk instabilitet, men är inte förstahandsåtgärd vid primär luftvägspåverkan vid anafylaxi.
+  - text: 8 mg betapred intravenöst
+    correct: false
+    feedback: IV steroid är en adjunctbehandling som inte ger omedelbar effekt och kan inte ersätta adrenalin i akutskedet.
+  explanation: Patienten uppvisar tecken på svår anafylaxi med akut luftvägspåverkan och utbrett nässelutslag; intramuskulärt adrenalin (0,5 mg vuxen) är livräddande och ska ges omedelbart. Antihistaminer och steroider är stödbehandlingar och vätska eller intubation övervägs vid cirkulatorisk kollaps eller svår luftvägspåverkan efter adrenalin.
+  id: med-aku-f398e1
+- type: multiple_choice
+  tags:
+  - Dehydrering
+  - Vätsketerapi
+  - Elektrolytrubbningar
+  question: Vilket av följande påståenden är felaktigt rörande vätskeförluster?
+  image: null
+  options:
+  - text: Hypovolemi innebär att den cirkulerade plasmavolymen är reducerad.
+    correct: false
+    feedback: Korrekt — hypovolemi definieras som minskad cirkulerande plasmavolym.
+  - text: Vid svår dehydrering med hypotension och hypovolemi ska behandling med infusion Ringer‑Acetat påbörjas omgående.
+    correct: false
+    feedback: Korrekt — akut volymsubstitution med kristalloider (t.ex. Ringer‑Acetat) ges snabbt vid hypovolem chock.
+  - text: Blodprover visar som regel stigande värden av bl.a. Hb, Na, urea och kreatinin vid dehydrering.
+    correct: false
+    feedback: Korrekt — hemokoncentration och nedsatt njurperfusion ger ofta förhöjda Hb, Na, urea och kreatinin.
+  - text: Dehydrering innebär vattenbrist och leder till hypernatremi.
+    correct: false
+    feedback: Korrekt — relativ vattenbrist kan ge förhöjt serumnatrium (hypernatremi).
+  - text: Vid behandling av hypernatremi bör man särskilt beakta risken för osmotiskt demyeliniseringssyndrom.
+    correct: true
+    feedback: ODS är främst en risk vid snabb korrigering av kronisk hyponatremi; snabb sänkning av hypernatremi riskerar i stället cerebralt ödem.
+  explanation: 'Dehydrering är relativ vattenbrist som ofta ger hypovolemi och hemokoncentration med förhöjda Hb, Na, urea och kreatinin. Vid hypovolemisk hypotension ska snabb volymsubstitution med kristalloider ges. Korrigering av natriumrubbningar kräver olika försiktighetsåtgärder: snabb korrigering av kronisk hyponatremi kan ge osmotiskt demyeliniseringssyndrom, medan snabb sänkning av hypernatremi snarare riskerar cerebralt ödem.'
+  id: med-aku-3eea4f
+- type: multiple_choice
+  tags:
+  - Acidobasbalans
+  - Ventilation
+  question: Vilka blodgasförändringar kännetecknar bäst en akut respiratorisk acidos?
+  image: null
+  options:
+  - text: Lågt pCO2 och normalt Base excess/bikarbonat
+    correct: false
+    feedback: Lågt pCO2 tyder på respiratorisk alkalos, inte respiratorisk acidos.
+  - text: Högt pCO2 och lågt Base excess/bikarbonat
+    correct: false
+    feedback: Lågt BE/bikarbonat talar för samtidig metabolisk acidos eller annan blandning, inte ren akut respiratorisk acidos.
+  - text: Högt pCO2 och normalt Base excess/bikarbonat
+    correct: true
+    feedback: Akut respiratorisk acidos ger förhöjt pCO2 medan BE/bikarbonat är normalt initialt eftersom njurarna inte hunnit kompensera.
+  - text: Lågt pCO2 och lågt Base excess/bikarbonat
+    correct: false
+    feedback: Kombinationen med lågt pCO2 indikerar respiratorisk alkalos och eventuellt samtidig metabolisk acidos, inte akut respiratorisk acidos.
+  - text: Högt pCO2 och högt Base excess/bikarbonat
+    correct: false
+    feedback: Förhöjt BE/bikarbonat tyder på metabol alkalos eller kronisk njurkompensation, vilket inte stämmer för en ren akut respiratorisk acidos.
+  explanation: Akut respiratorisk acidos orsakas av hypoventilation som leder till förhöjt pCO2. I akut skede är BE/bikarbonat i stort sett normaal eftersom njurarnas metabola kompensation kräver timmar–dygn för att utvecklas.
+  id: med-aku-78147f
+- type: multiple_choice
+  tags:
+  - Toxikologi
+  - Akutmedicin
+  question: Vilken av följande intoxikationer kan behandlas med naloxon?
+  image: null
+  options:
+  - text: Tricykliska antidepressiva
+    correct: false
+    feedback: TCA‑intoxikation kräver annat stöd och ofta natriumbikarbonat vid kardiotoxisk påverkan; naloxon påverkar inte TCA.
+  - text: Paracetamol
+    correct: false
+    feedback: Paracetamolorsakad leverskada förebyggs/ behandlas med acetylcystein, inte naloxon.
+  - text: Etylenglykol
+    correct: false
+    feedback: Etylenglykol behandlas med antidoter som fomepizol eller etanol och metabolsk stöd; naloxon är ineffektivt.
+  - text: Opioider
+    correct: true
+    feedback: Naloxon är en opioidreceptorantagonist som snabbt reverserar opioidinducerad andningsdepression och medvetslöshet.
+  - text: Bensodiazepiner
+    correct: false
+    feedback: Bensodiazepinöverdos kan i vissa fall reverseras med flumazenil, inte med naloxon.
+  explanation: Naloxon är en opioidreceptorantagonist som används akut för att snabbt häva opioidinducerad andningsdepression och medvetslöshet. Det har ingen klinisk effekt vid intoxikationer med TCA, paracetamol eller etylenglykol; bensodiazepiner reverseras istället med flumazenil.
+  id: med-aku-1fab92
+- type: multiple_choice
+  tags:
+  - Syra-bas
+  - Metabolacidos
+  question: Vad kännetecknar en primär metabol acidos i arteriell blodgas?
+  image: null
+  options:
+  - text: Högt pCO2 och högt base excess/bikarbonat
+    correct: false
+    feedback: Högt pCO2 och högt HCO3- talar för respiratorisk acidos eller metabol alkalos, inte metabol acidos.
+  - text: Lågt pCO2 och normalt base excess/bikarbonat
+    correct: false
+    feedback: Normalt BE utesluter en primär metabol acidos; lågt pCO2 kan vara kompensation men BE måste vara lågt.
+  - text: Högt pCO2 och normalt base excess/bikarbonat
+    correct: false
+    feedback: Högt pCO2 tyder på respiratorisk acidos, och normalt BE utesluter primär metabol acidos.
+  - text: Högt pCO2 och lågt base excess/bikarbonat
+    correct: false
+    feedback: Lågt BE med högt pCO2 indikerar en samtidig metabol acidos och respiratorisk acidos (blandstörning), inte en ren metabol acidos med kompensation.
+  - text: Lågt pCO2 och lågt base excess/bikarbonat
+    correct: true
+    feedback: Korrekt — primär minskning av HCO3-/BE med kompensatorisk hyperventilation leder till sänkt pCO2.
+  explanation: Metabol acidos innebär primär minskning av bikarbonat/base excess. Kroppen kompenserar via hyperventilation vilket sänker pCO2; högt pCO2 tyder istället på respiratorisk acidos eller otillräcklig kompensation.
+  id: med-aku-00987e
+- type: multiple_choice
+  tags:
+  - EKG
+  - Ischemi
+  - Vänstergrenblock
+  question: Vilket av följande EKG-fynd är mest förknippat med kardiell ischemi?
+  image: null
+  options:
+  - text: Högerställd elaxel
+    correct: false
+    feedback: Högerställd elaxel är ospecifikt och ses vid bl.a. lungemboli, högerkammarhypertrofi eller anatomisk variation, inte typiskt för ischemi.
+  - text: Vänstergrenblock
+    correct: true
+    feedback: Vänstergrenblock är ofta tecken på strukturell hjärtsjukdom och kan spegla ledningshinder vid myokardskada, ofta ischemisk.
+  - text: Sinustakykardi
+    correct: false
+    feedback: Sinustakykardi är ett ospecifikt tecken på stress, feber eller hypovolemi och inte ett specifikt tecken på ischemisk myokardskada.
+  - text: Vänsterställd elaxel
+    correct: false
+    feedback: Vänsterställd elaxel är oftast relaterad till vänsterkammarhypertrofi eller anatomisk variation och är inte specifik för ischemi.
+  - text: AV-block 1
+    correct: false
+    feedback: Förlängt PR (AV-block I) är oftast benign eller läkemedelsinducerat och indikerar sällan akut ischemisk skada.
+  explanation: Vänstergrenblock (LBBB) speglar ledningshinder i vänster skänkel och är ofta associerat med strukturell hjärtsjukdom, inklusive ischemisk hjärtsjukdom. Andra fynd som axelavvikelser, sinustakykardi eller AV-block I är mer ospecifika och kan ha många andra orsaker; EKG måste alltid tolkas i klinisk kontext och kompletteras med troponin och klinisk bedömning.
+  id: med-aku-2610ee
+- type: multiple_choice
+  tags:
+  - Andningssvikt
+  - Sepsis
+  question: '69-årig man med diabetes, hypertoni och schizofreni inkommer med feber, allmänpåverkan, dyspné och yrsel. Status: fria luftvägar, AF 32, SpO2 89 %, arteriell blodgas med lågt pO2 och lågt pCO2 samt metabol acidos med hög laktat; HF 121, BT 80/40, blek och kladdig hud, rodnad och svullnad över vänster ben (misstänkt cellulit). Enligt ABCDE-algoritmen, vad bör vara din första åtgärd på akutrummet?'
+  image: null
+  options:
+  - text: Diuretika
+    correct: false
+    feedback: Ej lämpligt — patienten visar tecken till hypovolemi/sepsis och hypotension; diuretika riskerar att förvärra cirkulatorisk instabilitet.
+  - text: Trombolys
+    correct: false
+    feedback: Inte indicerat akut — inga tydliga tecken på tromboembolism och trombolys är inte första åtgärd i en hypoxisk sepsispatient.
+  - text: Bolusdos ringer-acetat, 400 ml
+    correct: false
+    feedback: Vätska kan vara nödvändig vid sepsis, men ges efter att luftväg och andning stabiliserats; 400 ml är dessutom en liten volym vid septisk chock.
+  - text: Antibiotika
+    correct: false
+    feedback: Antibiotika är viktiga vid misstänkt cellulit/sepsis men bör ges efter initial stabilisering av andning och syresättning enligt ABCDE.
+  - text: Syrgas, 10 L/minut
+    correct: true
+    feedback: Patienten är hypoxisk (SpO2 89 %, låg pO2) och enligt ABCDE ska andningen/syresättningen omedelbart förbättras med högflödesoxygen.
+  explanation: Enligt ABCDE prioriteras Airway och Breathing; akut hypoxemi (SpO2 89 % och lågt pO2) kräver omedelbar syrgas för att förbättra syresättningen. Därefter hanteras circulation (vätska/vasopressor vid behov) och empirisk antibiotika vid misstänkt sepsis från cellulit.
+  id: med-aku-ed3f2c
+- type: multiple_choice
+  tags:
+  - Hjärtstopp
+  - Återupplivning
+  - Etik
+  question: Du är AT-läkare på nattjour. En 92-årig man med avancerad KOL och tidigare kranskärlsoperationer från ett äldreboende hittades medvetslös efter tilltagande andningssvårigheter. Personal påbörjade omedelbart HLR. Ambulans anländer 10 minuter senare och konstaterar asystoli; en intraosseös nål sätts. Under transport och på akuten har kontinuerliga kompressioner (LUCAS) pågått i minst 30–40 minuter och totalt sex doser adrenalin har givits. Patienten är fortsatt i asystoli, intuberad utan koldioxidutbyte, blåmarmorerad och med ljusstela pupiller. Vad är mest rimligt nu?
+  image: null
+  options:
+  - text: Inhalation av salbutamol och ipratropium
+    correct: false
+    feedback: Inhalationsbronkodilatatorer hjälper inte vid asystoli och kommer inte återställa cirkulationen i detta läge.
+  - text: Defibrillering
+    correct: false
+    feedback: Defibrillering är indicerad för defibrillerbara rytmer (VF/VT), inte för asystoli.
+  - text: Avbryta återupplivningsförsöket
+    correct: true
+    feedback: Långvarig asystoli trots omfattande HLR och adrenalin, frånvaro av ETCO2 och ljusstela pupiller talar för irreversibel skada och mycket dålig prognos, så avbrytande är rimligt.
+  - text: Kontroll av ett fullständigt EKG
+    correct: false
+    feedback: Ett fullständigt EKG ändrar inte bedömningen när det redan föreligger ihållande asystoli efter långvarig HLR och inga tecken på återställbar rytm.
+  - text: Amiodarone intraosseöst
+    correct: false
+    feedback: Amiodaron används vid refraktär VF/VT, inte vid asystoli; dessutom har patienten redan fått upprepade adrenalin-doser utan respons.
+  explanation: Avbrytande av återupplivningsförsök övervägs vid långvarig, icke-reversibel asystoli trots adekvat HLR och läkemedel, särskilt om ETCO2 saknas och pupiller är ljusstela. Defibrillering och amiodaron är endast för defibrillerbara rytmer; andra åtgärder som inhalationer eller ytterligare EKG kommer inte att förbättra prognosen i detta scenario.
+  id: med-aku-f99f04
+- type: multiple_choice
+  tags:
+  - Hyperkapni
+  - Respirationssvikt
+  question: En mager 70-årig man i ambulans anländer andfådd och försämrad. Ambulanspersonal noterade SpO2 ~89% och gav 15 L syrgas. Under transporten sjönk hans medvetandegrad och andningsfrekvens. Vad är den mest sannolika förklaringen till försämringen under transporten?
+  image: null
+  options:
+  - text: Stroke
+    correct: false
+    feedback: Stroke kan ge medvetandepåverkan men förklarar inte den samtidiga minskningen av andningsfrekvens efter syrgasbehandling.
+  - text: Hypoglykemi
+    correct: false
+    feedback: Hypoglykemi kan orsaka nedsatt medvetande men ger inte typiskt en akut respirationsdepression utlöses av syrgastillförsel.
+  - text: Hypoxi
+    correct: false
+    feedback: Ren hypoxi skulle sannolikt förbättras av syrgas, inte leda till försämring med minskad andningsfrekvens och medvetande.
+  - text: Arytmi
+    correct: false
+    feedback: Allvarlig arytmi kan ge plötslig medvetandeförlust men förklarar inte den direkta respirationsdepressionen efter högt syrgasflöde.
+  - text: Koldioxidnarkos (hyperkapni)
+    correct: true
+    feedback: Hos kroniska lungsjuka kan högflödesoxygen undertrycka hypoxidriven respiration och leda till CO2-retention, sjunkande andningsfrekvens och medvetandepåverkan.
+  explanation: Hos patienter med kronisk CO2-retention (t.ex. svår KOL) kan hypoxisk stimulans bidra till andningen. Hög koncentration syrgas minskar denna stimulans och orsakar hypoventilation med ökad PaCO2 (hyperkapni), respiratorisk acidos och medvetandepåverkan.
+  id: med-aku-de117b
+- type: multiple_choice
+  tags:
+  - Sepsis
+  - Akut omhändertagande
+  question: 'En 73-årig rökande kvinna med 3 dagars hosta och uttalad trötthet kommer med ambulans. Status: fri luftväg; takypné 28/min med ansträngt andningsarbete; SpO2 96% på 8 L syrgas; spridda ronki och rassel basalt vänster; puls 120/min; blodtryck 86/60 mmHg; kapillär återfyllnad 4 s, kalla extremiteter; RLS 2; temp 35.9°C; P-glukos 12 mmol/L. Artärgas: pH 7.25, pO2 8.9 kPa, pCO2 11.8 kPa, BE -8. P-laktat 7.6 mmol/L. Ambulans har satt en tunn, blå nål på handryggen. Vad är lämpligaste initiala handläggningen?'
+  image: null
+  options:
+  - text: Konsultera kardiolog- eller PCI-jour
+    correct: false
+    feedback: Fel; EKG visar sinustakykardi utan tecken på STEMI och prioritet är cirkulationsstabilisering vid misstänkt septisk chock.
+  - text: Behandling med CPAP
+    correct: false
+    feedback: Fel; respiratorisk support kan bli aktuell men patient är cirkulatoriskt instabil och behöver först vätskebolus, access och antibiotika.
+  - text: Akut lungröntgen med frågeställning om infiltrat kan ses
+    correct: false
+    feedback: Fel; lungröntgen är diagnostiskt användbar men får inte fördröja omedelbar sepsisresuscitering med vätska och antibiotika.
+  - text: Ordination av två grövre nålar + vätskebolus 500 ml + antibiotika
+    correct: true
+    feedback: Rätt; patientens fynd talar för septisk chock och initial åtgärd är snabb IV-access, vätskebolus och tidig bredspektrumantibiotika.
+  - text: 'CT-hjärna med frågeställning: Blödning? Infarkt?'
+    correct: false
+    feedback: Fel; ingen tydlig fokalneurologi eller misstanke om intracerebralt tillstånd och CT får inte fördröja akuta sepsisåtgärder.
+  explanation: Fynden är förenliga med septisk chock (hypotension, takykardi, kalla extremiteter, hög laktat). Initial behandling enligt 'golden hour' är snabb etablering av stora IV-accesser, vätskebolus och tidig bredspektrumantibiotika samt utredning (blododlingar) och ev. vasopressor om hypotension kvarstår.
+  id: med-aku-9b6d31
+- type: multiple_choice
+  tags:
+  - Lungemboli
+  - Diagnostik
+  - Antikoagulantia
+  question: 'En svårt sjuk man söker för plötsligt påkommen andfåddhet. Vid ankomst: sat 82% samt AF 32/min, syrgas 8 L gav sat 96%. AT: framåtlutad, kallsvettig; BT 150/95; puls 120/min; inga rassel eller ronki över lungor. Höger underben är rodnat och något svullet jämfört med vänster. EKG: HF 120/min (bild saknas). Vilken åtgärd är mest lämplig?'
+  image: null
+  options:
+  - text: Adrenalin 0,5 mg intramuskulärt + Antihistamin intramuskulärt + Kortison intravenöst
+    correct: false
+    feedback: Detta är behandling vid anafylaxi; patienten har tecken på DVT/PE och inte typisk allergisk reaktion.
+  - text: CPAP-behandling + Nitroglycerin sublingualt + Furosemid intravenöst
+    correct: false
+    feedback: Denna kombination riktar sig mot kardiogent lungödem/akut hjärtsvikt, vilket inte stämmer med normala lungauskultationer och tecken på DVT.
+  - text: Lågmolekylärt heparin + CT thorax med kontrast
+    correct: true
+    feedback: 'Misstänkt lungemboli: utred med CT-pulmonalangiografi vid stabil patient och påbörja omedelbar antikoagulation (LMWH) före bilddiagnostik om möjligt.'
+  - text: Laddningsdos ASA + Omedelbar kontakt med sjukhusets kardiolog- eller PCI-jour
+    correct: false
+    feedback: ASA och akut PCI-mobilisering är för ST-höjningsinfarkt; här finns inga tydliga ischemiska hjärtsymtom eller EKG-fynd för detta.
+  - text: Blododling + Bredspektrumantibiotika + 500 ml vätskebolus med Ringer-acetat
+    correct: false
+    feedback: Detta är initial sepsishantering; patienten är afebril och fynden talar mer för tromboembolisk händelse än sepsis.
+  explanation: Klinisk bild med plötslig andnöd, takykardi, hypoxi som förbättras med syrgas och tecken till DVT talar starkt för lungemboli. Hos hemodynamiskt stabil patient är förstahandsutredning CT-pulmonalangiografi och samtidig påbörjad antikoagulation (t.ex. LMWH); om instabil, överväg trombolys.
+  id: med-aku-4efe30
+- type: multiple_choice
+  tags:
+  - Toxikologi
+  - Akutmedicin
+  - Antidot
+  question: En 25-årig man inkommer med nedsatt medvetande, långsam andning och små (miotiska) pupiller. Du misstänker en intoxikation. Vilken behandling är mest lämplig för snabb reversering?
+  image: null
+  options:
+  - text: Diazepam
+    correct: false
+    feedback: Diazepam är en bensodiazepin och skulle förvärra sedation; det är ingen antidot.
+  - text: Acetylcystein
+    correct: false
+    feedback: Acetylcystein är antidot mot paracetamolförgiftning, inte mot opioider.
+  - text: Etanol
+    correct: false
+    feedback: Etanol är inte en lämplig behandling och skulle förvärra CNS‑depression.
+  - text: Flumazenil
+    correct: false
+    feedback: Flumazenil reverserar bensodiazepiner men kan ge allvarliga biverkningar vid okänd co‑intoxikation.
+  - text: Naloxon
+    correct: true
+    feedback: Naloxon är en opioidantagonist som snabbt reverserar andningsdepression och medvetandesänkning vid opioidöverdos.
+  explanation: Kliniken med miotiska pupiller, respirationsdepression och nedsatt medvetande är typisk för opioidöverdos. Naloxon är en specifik opioidantagonist som snabbt återställer respiration och medvetande och kan ges intravenöst eller intranasalt. Andra nämnda preparat är antidoter för andra toxikologiska tillstånd eller kan förvärra situationen.
+  id: med-aku-d1ddbe
+- type: multiple_choice
+  tags:
+  - Elektrokardiografi
+  - Hyperkalemi
+  - Akutmedicin
+  question: Vid hyperkalemi kan man få en rad EKG-förändringar. Vilka EKG-förändringar stämmer bäst överens med hyperkalemi?
+  image: null
+  options:
+  - text: ST-sänkningar och T-negativiseringar
+    correct: false
+    feedback: Dessa fynd är mer typiska för ischemi eller andra tillstånd, inte hyperkalemi.
+  - text: T-negativiseringar och ST-höjningar
+    correct: false
+    feedback: ST-höjningar och T-negativiseringar tyder oftare på infarkt/ischemi än på hyperkalemi.
+  - text: Höga T-vågor och breddökade QRS-komplex
+    correct: true
+    feedback: Hyperkalemi ger karakteristiskt spetsiga/uppstickande T-vågor och kan vid högre kaliumhalter leda till breddökat QRS.
+  - text: ST-sänkningar och breddökade QRS-komplex
+    correct: false
+    feedback: QRS-breddning kan förekomma vid hyperkalemi men ST-sänkningar är inte typiska för hyperkalemi.
+  - text: ST-sänkningar och U-vågor
+    correct: false
+    feedback: U-vågor är klassiskt för hypokalemi, inte hyperkalemi.
+  explanation: Hyperkalemi visar tidigt spetsiga, uppstickande T‑vågor och kan progrediera till PR‑förlängning och breddökat QRS med ökande kaliumkoncentration, vilket kan utvecklas till sine‑wave‑mönster och arytmi. U‑vågor ses vid hypokalemi och ST/T‑förändringar i första hand vid ischemiska tillstånd.
+  id: med-aku-e1e001
+- type: multiple_choice
+  tags:
+  - Medvetslöshet
+  - Blodprov
+  - Hypoglykemi
+  question: Vilket blodprov bör kontrolleras omedelbart hos en medvetslös patient som inkommer till akutmottagningen?
+  image: null
+  options:
+  - text: Kalium
+    correct: false
+    feedback: Elektrolytavvikelser kan ge arytmier och påverka medvetandet vid extrema nivåer, men kalium är inte det mest akuta testet för att snabbt vända medvetslöshet.
+  - text: CRP
+    correct: false
+    feedback: CRP visar inflammation eller infektion men ger inte snabb vägledning för akut reversibel orsak till medvetslöshet.
+  - text: Glukos
+    correct: true
+    feedback: Hypoglykemi är en snabbt behandlingsbar och potentiellt livshotande orsak till medvetslöshet och ska kontrolleras omedelbart.
+  - text: Hb
+    correct: false
+    feedback: Hb kan indikera anemi eller blödning men är sällan den mest omedelbara och reversibla förklaringen till plötslig medvetslöshet.
+  - text: Natrium
+    correct: false
+    feedback: Allvarliga natriumrubbningar kan påverka medvetandet, men de är mindre troliga att vara snabbt reversibla jämfört med hypoglykemi.
+  explanation: Glukosmätning ska göras omedelbart hos medvetslösa patienter eftersom hypoglykemi är en vanlig, snabbt reversibel och potentiellt livshotande orsak. Andra prover (elektrolyter, Hb, CRP) är viktiga för vidare utredning men har lägre omedelbar prioritet.
+  id: med-aku-7ad2d2
+- type: multiple_choice
+  tags:
+  - ABCDE
+  - Neurologi
+  question: Du genomför ett strukturerat omhändertagande enligt ABCDE på en kritiskt sjuk patient. Under vilken bokstav hör fyndet "dilaterad ljusstel pupill" hemma?
+  image: null
+  options:
+  - text: E — Exposure (avklädning/inspektion)
+    correct: false
+    feedback: Exposure avser helkroppsinspektion och temperatur, inte specifik pupillbedömning.
+  - text: C — Circulation (cirkulation/blödning)
+    correct: false
+    feedback: C bedömer blodcirkulation och blödning, inte neurologiska pupillreaktioner.
+  - text: B — Breathing (andning/ventilation)
+    correct: false
+    feedback: B gäller andningsstatus och ventilationsstöd, inte pupillreaktioner.
+  - text: A — Airway (luftväg)
+    correct: false
+    feedback: A fokuserar på fri luftväg och skydd av denna, inte neurologisk undersökning.
+  - text: D — Disability (medvetande/neurologi)
+    correct: true
+    feedback: D innefattar snabb neurologisk bedömning inklusive medvetandegrad och pupillreaktioner; dilaterad ljusstel pupill tyder på allvarlig intrakraniell påverkan.
+  explanation: Disability i ABCDE avser snabb neurologisk bedömning (t.ex. AVPU/GCS, pupiller, motorik). En dilaterad ljusstel pupill är ett tecken på allvarlig hjärnskada eller oculomotoriuspares och kräver omedelbar utredning och åtgärd.
+  id: med-aku-5cb8c2
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - SIADH
+  question: Ambulansen kommer in med en löpare från Göteborgsvarvet en solig dag i maj. Patienten krampar på larmrummet och blodgas visar s‑Na 117 mmol/L. Vilken typ av hyponatremi är mest sannolik?
+  image: null
+  options:
+  - text: Kronisk hypovolem hyponatremi
+    correct: false
+    feedback: Hypovolem hyponatremi visar tecken på vätskeförlust och utvecklas ofta över tid, inte akut under ett lopp.
+  - text: Kronisk hypervolem hyponatremi
+    correct: false
+    feedback: Hypervolem hyponatremi ses vid hjärtsvikt/lever- eller njursvikt med ödem, inte vid en akut krampande löpare.
+  - text: Akut hyponatremi
+    correct: true
+    feedback: Snabbt sjunkande s‑Na vid överdrivet intag av hypotona vätskor och löpar‑SIADH ger akut symptom som kramper.
+  - text: Inget av alternativen
+    correct: false
+    feedback: Scenariot är typiskt för akut hyponatremi, så ett alternativ är korrekt.
+  - text: Kronisk euvolem hyponatremi
+    correct: false
+    feedback: Kronisk euvolem hyponatremi utvecklas över dagar–veckor och ger inte vanligen plötsliga svåra neurologiska symptom.
+  explanation: Akut hyponatremi hos långdistanslöpare orsakas ofta av överdrivet intag av hypotona vätskor och otillräcklig vattenutsöndring (löpar‑SIADH), vilket snabbt kan ge cerebral ödem och kramper. Kroniska former utvecklas gradvis och kännetecknas av andra kliniska fynd och mindre uttalade akuta neurologiska symtom.
+  id: med-aku-c10fe5
+- type: multiple_choice
+  tags:
+  - Pneumothorax
+  - Lungstatus
+  - Perkussion
+  question: Du undersöker en patient med misstänkt pneumothorax. Vilka statusfynd skulle stärka misstanken?
+  image: null
+  options:
+  - text: Nedsatta andningsljud och rassel
+    correct: false
+    feedback: Rassel talar för parenkympåverkan som pneumoni eller ödem, inte luft i pleurarummet.
+  - text: Nedsatta andningsljud och hypersonora perkussionstoner
+    correct: true
+    feedback: Luft i pleurarummet dämpar andningsljuden och ger hyperresonans (hypersonor ton) vid perkussion.
+  - text: Vesikulära andningsljud och ronki
+    correct: false
+    feedback: Vesikulära ljud med ronki tyder på luftvägsljud eller sekret, inte pneumothorax.
+  - text: Vesikulära andningsljud och dämpade perkussionstoner
+    correct: false
+    feedback: Dämpad perkussionton tyder snarare på pleuravätska eller konsolidering, och vesikulära ljud talar inte för pneumothorax.
+  - text: Nedsatt andningsljud och dämpade perkussionstoner
+    correct: false
+    feedback: Kombinationen tyder på pleuravätska eller massiv atelectas snarare än pneumothorax.
+  explanation: Pneumothorax ger luft i pleurarummet som dämpar ljudöverföring (nedsatta andningsljud) och ger en hypersonor/tympanisk perkussionston. Rassel och dämpad perkussionton pekar istället på parenkym- eller vätskeorsakad lungsjukdom.
+  id: med-aku-926735
+- type: multiple_choice
+  tags:
+  - Djup ventrombos
+  - Diagnostik
+  question: 82-årig patient som nyligen varit gipsad efter fraktur i vänster fotled inkommer pga kraftig svullnad av vänster underben. Vid undersökning ses ensidig rodnad, ytliga kollateraler, värmeökning, ömhet längs vaden och pittingödem. Vad bör du göra eller beställa härnäst?
+  image: null
+  options:
+  - text: D-dimer
+    correct: false
+    feedback: D-dimer är ofta positivt hos äldre eller efter trauma/immobilisation och är därför för ospecifikt vid hög klinisk misstanke.
+  - text: Ultraljudsundersökning
+    correct: true
+    feedback: Kompressionsultraljud av benen är förstahandsmetod för att påvisa en djup ventrombos vid hög klinisk misstanke.
+  - text: Slätröntgen av benet
+    correct: false
+    feedback: Slätröntgen visar ben- och frakturläge men kan inte påvisa venös trombos.
+  - text: MR
+    correct: false
+    feedback: MR/MR-venografi kan visa tromboser men är inte förstahandsval vid akut DVT på grund av tillgänglighet och tid.
+  - text: CT
+    correct: false
+    feedback: CT-venografi används sällan för extremitets-DVT och är inte förstahandsmetod i denna situation.
+  explanation: Kliniska fynd (ensidig svullnad, rodnad, värmeökning, ömhet och nyligen immobilisering) talar för hög misstanke om DVT; då ska kompressionsultraljud utföras akut. D-dimer används främst för att utesluta DVT vid låg sannolikhet, medan slätröntgen, MR och CT inte är förstahandsval för akut diagnostik av extremitets-DVT.
+  id: med-aku-3fc6e0
+- type: multiple_choice
+  tags:
+  - Hyperkalemi
+  - Behandling
+  question: Vilken av dessa behandlingar är inte ett behandlingsalternativ vid hyperkalemi?
+  image: null
+  options:
+  - text: Insulin-glukos-dropp
+    correct: false
+    feedback: Förflyttar kalium intracellulärt genom att stimulera Na+/K+-ATPas och sänker snabbt plasmakalium; används akut tillsammans med glukos.
+  - text: Hemodialys
+    correct: false
+    feedback: Tar bort kalium effektivt från kroppen och är behandling vid svår hyperkalemi eller vid njursvikt.
+  - text: Calciumglukonat (9mg/ml) 10ml iv
+    correct: false
+    feedback: Stabiliserar hjärtats membran och minskar risken för arytmi men sänker inte serumkalium.
+  - text: Bisfosfonat t.ex Zoledronsyra 4mg iv
+    correct: true
+    feedback: Används vid hyperkalcemi för att hämma osteoklaster och påverkar inte serumkalium, därför inte lämplig vid hyperkalemi.
+  - text: Jonbytare, t.ex Lokelma
+    correct: false
+    feedback: Binder kalium i tarmen och ökar fecal utsöndring; används för att reducera serumkalium över tid.
+  explanation: Akut hyperkalemi hanteras med membranstabilisering (IV kalcium), snabb intracellulär förflyttning av kalium (insulin+glukos, beta-2-agonister) och elimination (hemodialys eller tarmbundna jonbytare). Bisfosfonater behandlar hyperkalcemi och sänker inte serumkalium, därför är de inte ett behandlingsalternativ vid hyperkalemi.
+  id: med-aku-c649f1
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - Osmotiskt demyeliniseringssyndrom
+  - Vätsketerapi
+  question: Vid kronisk hyponatremi vill man undvika snabb korrektion på grund av risken för osmotiskt demyeliniseringssyndrom (ODS). Vilken takt bör målsättningen för natriumökning vara?
+  image: null
+  options:
+  - text: 1 mmol/h
+    correct: false
+    feedback: Motsvarar ≈24 mmol/dygn och är för snabbt; ökar risken för ODS.
+  - text: Hälften av bristen första dygnet
+    correct: false
+    feedback: Ospecifik och kan leda till överkorrigering; rekommendationen är en tydlig gräns (~8 mmol/dygn).
+  - text: 4 mmol/24h
+    correct: false
+    feedback: Mycket konservativ och ofta onödigt långsam, men har låg risk för ODS.
+  - text: 8 mmol/24h
+    correct: true
+    feedback: Målet är att öka natrium med högst cirka 8 mmol per 24 timmar för att minimera risken för ODS.
+  - text: 16 mmol/24h
+    correct: false
+    feedback: ≈16 mmol/dygn är för snabbt och ökar risken för ODS.
+  explanation: Vid kronisk hyponatremi har hjärnan adapterat och snabb korrektion kan orsaka osmotiskt demyeliniseringssyndrom. Därför rekommenderas en långsam korrektion, vanligen högst cirka 8 mmol/L per 24 timmar, med tät monitorering och försiktighet vid behandling.
+  id: med-aku-7b45a4
+- type: multiple_choice
+  tags:
+  - Hjärtsvikt
+  - Dyspné
+  - Förmaksflimmer
+  question: 'Agda, 87 år, inkommer med ökande andfåddhet under några dagar. Har hypertoni, diabetes och är ex-rökare. Nu: AF 30, SpO2 87% på luft, bilaterala rassel, svårt att ligga plant (ortopné), uttalade pittingödem till knänivå, oregelbunden puls (förmaksflimmer) och BT 170/90. Vilken diagnos är mest sannolik orsak till hennes andfåddhet?'
+  image: null
+  options:
+  - text: Hjärtsvikt
+    correct: true
+    feedback: Korrekt — ortopné, bilaterala rassel, uttalade pittingödem och förmaksflimmer tyder på akut hjärtsvikt/pulmonellt ödem.
+  - text: KOL
+    correct: false
+    feedback: Osannolikt — saknar långvarig svår tobaksdos och de kliniska fynden (utbredda rassel, pittingödem, ortopné) är mer förenliga med kardiell orsak.
+  - text: Pneumoni
+    correct: false
+    feedback: Osannolikt — pneumoni ger oftast feber och fokala auskultationsfynd snarare än bilaterala rassel och generaliserat ödem.
+  - text: Pneumothorax
+    correct: false
+    feedback: Osannolikt — pneumothorax ger typiskt plötslig ensidig andnöd och bortfall av andningsljud, inte bilateral lungstas och perifera ödem.
+  - text: Lungemboli
+    correct: false
+    feedback: Osannolikt — lungemboli ger ofta plötslig pleuritisk smärta och takykardi utan uttalat pittingödem eller ortopné som huvudfynd.
+  explanation: Fynden (ortopné, hypoxi, bilaterala rassel, pittingödem och förmaksflimmer) är typiska för akut hjärtsvikt med lungstas/pulmonellt ödem. Initial behandling inkluderar syrgas, loopdiuretika och hemodynamisk stabilisering samt rytm/frekvenskontroll vid förmaksflimmer.
+  id: med-aku-a597f6
+- type: multiple_choice
+  tags:
+  - KOL
+  - Diagnostik
+  - Respirationssvikt
+  question: '73-årig man med 60 paketår söker för tilltagande andfåddhet — ''orkar inte ens röka mer''. Hostar mycket. Status: A: fritt. B: AF 30, SpO2 87 % på luft. Inga rassel. Förlängt expirium, bronkiella andningsljud och distansronki bilateralt; symmetriska andningsrörelser. C: Puls 99, BT 140/90, regelbunden rytm. D: RLS 1, ingen nackstelhet, glukos 6,5 mmol/L. E: Temp 37,2, hud ua, kapillärt CRP 5 mg/L. Vilken diagnos är mest sannolik?'
+  image: null
+  options:
+  - text: KOL-exacerbation
+    correct: true
+    feedback: Korrekt — långdragen expirium, distansronki, kraftig rökexposition och hypoxi utan feber/CRP-stegring talar för exacerbation av KOL.
+  - text: Pneumothorax
+    correct: false
+    feedback: Pneumothorax ger oftast plötslig ensidig andningsnedsättning, ensidigt dämpade andningsljud och ofta bröstsmärta, vilket saknas här.
+  - text: Lungemboli
+    correct: false
+    feedback: Lungemboli ger ofta plötslig dyspné, pleuritsmärta och markant takykardi/hypoxi eller DVT-tecken, inte det progressiva obstruktiva bilden här.
+  - text: Hjärtsvikt
+    correct: false
+    feedback: Hjärtsvikt ger typiskt basal rassel, tecken till vätskeansamling (ödem) och volymöverbelastning, vilket inte noteras här.
+  - text: Pneumoni
+    correct: false
+    feedback: Pneumoni brukar ge fokala rassel, feber och förhöjt CRP, vilket inte föreligger i detta fall.
+  explanation: Patientens långvariga rökning, förlängt expirium, utbredda ronki och hypoxi utan feber eller CRP-stegring talar för en exacerbation av KOL. Pneumoni, pneumothorax, lungemboli och hjärtsvikt har ofta andra typiska kliniska tecken som saknas här.
+  id: med-aku-51fff6
+- type: multiple_choice
+  tags:
+  - Blodgas
+  - Acidos
+  - Respiratorisk acidos
+  question: 'Du är jour på akuten. Kollegan har tagit en blodgas på en patient: pH 7,19 (7,35–7,45), pCO2 9,2 kPa (4,6–6,0), pO2 6,9 kPa (10,6–13,8), HCO3 25 mmol/L (22–27), Base excess +2 (−3–3). Vilken tolkning stämmer bäst?'
+  image: null
+  options:
+  - text: Metabol acidos med respiratorisk kompensation
+    correct: false
+    feedback: Vid metabol acidos förväntas lågt HCO3 och negativ BE; här är HCO3 och BE normala och pCO2 är förhöjt, inte sänkt.
+  - text: Respiratorisk alkalos med metabol kompensation
+    correct: false
+    feedback: Respiratorisk alkalos ger låg pCO2 och ofta alkalisk pH, medan här är pCO2 högt och pH acidos.
+  - text: Metabol acidos utan kompensation
+    correct: false
+    feedback: HCO3 och BE är normala, vilket talar emot metabol acidos.
+  - text: Respiratorisk acidos med metabol kompensation
+    correct: false
+    feedback: Vid kompensation skulle HCO3/BE vara förhöjt; här är de normala, dvs ingen metabol kompensation.
+  - text: Respiratorisk acidos utan kompensation
+    correct: true
+    feedback: Sänkt pH tillsammans med kraftigt förhöjt pCO2 och normal HCO3/BE är typiskt för akut (icke-kompenserad) respiratorisk acidos.
+  explanation: Den låga pH-nivån och den höga pCO2 visar primär respiratorisk acidos. Normala HCO3 och BE visar att ingen metabol (renal) kompensation har utvecklats, vilket talar för en akut, icke-kompenserad respiratorisk acidos.
+  id: med-aku-ded3cf
+- type: multiple_choice
+  tags:
+  - Lungemboli
+  - Diagnostik
+  question: Vilka av följande kriterier ingår i Wells score för misstänkt lungemboli?
+  image: null
+  options:
+  - text: Takykardi >100/min, immobilisering, plötslig debut av dyspné, kliniska tecken på DVT
+    correct: false
+    feedback: Även om immobilisering, takykardi och kliniska tecken på DVT ingår i Wells saknar detta alternativ kriteriet 'lungemboli mer sannolik än annan diagnos' och innehåller istället 'plötslig dyspné' som inte är ett formellt Wells‑kriterium.
+  - text: Kliniska tecken på DVT, Takykardi > 100/min, Lungemboli mer sannolik än annan diagnos, Aktiv cancersjukdom inom 6 månader
+    correct: true
+    feedback: 'Detta listar centrala Wells‑kriterier: kliniska DVT‑tecken, takykardi >100/min, att lungemboli är mer sannolik än annan diagnos och aktiv cancer.'
+  - text: Takykardi >90/min, Pox < 90%, kliniska tecken på DVT
+    correct: false
+    feedback: Takykardigränsen i Wells är >100/min och saturationsnivå (SpO2) ingår inte i Wells‑poängen.
+  - text: Tidigare lungemboli/DVT, hereditet för lungemboli, hemoptys, lungemboli lika sannolik som annan diagnos
+    correct: false
+    feedback: Hereditet (ärftlighet) ingår inte och kriteriet ska vara att lungemboli är mer sannolik än annan diagnos, inte 'lika sannolik'.
+  - text: Förhöjd D-dimer, Takykardi >100/min, Hemoptys, AF > 30
+    correct: false
+    feedback: D‑dimer och förmaksflimmer är inte individuella Wells‑kriterier; hemoptys ingår men övriga poster gör detta alternativ felaktigt.
+  explanation: 'Wells score är ett kliniskt poängsystem för att uppskatta sannolikheten för lungemboli och består av: kliniska tecken på DVT, att PE är mer sannolik än annan diagnos, takykardi >100/min, immobilisering eller nylig kirurgi, tidigare DVT/PE, hemoptys och aktiv cancer. Poängen styr fortsatt diagnostik, t.ex. behov av D‑dimer eller bilddiagnostik.'
+  id: med-aku-3d4560
+- type: multiple_choice
+  tags:
+  - Aortadissektion
+  - Aortainsufficiens
+  question: En 60-årig man inkommer akut med bröstsmärta som började för en timme sedan. EKG visar inga avvikelser och du misstänker aortadissektion. Vid auskultation över höger andra interkostalrummet hörs ett tidigt diastoliskt, decrescendo-blåsljud. Vilket klaffel är mest sannolik orsak till blåsljudet hos denna patient?
+  image: null
+  options:
+  - text: Aortastenos
+    correct: false
+    feedback: Aortastenos ger ett systoliskt, ej tidigt diastoliskt, crescendo–decrescendo-blåsljud.
+  - text: Mitralisstenos
+    correct: false
+    feedback: Mitralisstenos ger en diastolisk rumlande ton med öppningsklick mest hörbar i apex, inte ett tidigt diastoliskt decrescendo över höger övre bröstkorg.
+  - text: Mitralisinsufficiens
+    correct: false
+    feedback: Mitralisinsufficiens ger ett systoliskt, pansystoliskt blåsljud maximal vid apex, inte ett tidigt diastoliskt decrescendo.
+  - text: Aortainsufficiens
+    correct: true
+    feedback: Aortainsufficiens ger ett tidigt diastoliskt decrescendo-blåsljud och kan uppstå akut vid aortadissektion som påverkar aortaklaffen.
+  - text: Tricuspidalisstenos
+    correct: false
+    feedback: Tricuspidalisstenos är sällsynt och ger ett annat diastoliskt blåsljud lokaliserat vid nedre vänstra sternalranden, ej typiskt här.
+  explanation: Aortainsufficiens ger ett tidigt diastoliskt decrescendo-blåsljud bäst hörbart vid aortaklaffen och kan uppträda akut vid aortadissektion när aortaroten eller klaffen engageras. Andra vanliga klafffel ger antingen systoliska blåsljud eller diastoliska karaktärer och lokalisationer som skiljer sig från detta fynd.
+  id: med-aku-b9dde4
+- type: multiple_choice
+  tags:
+  - Anafylaxi
+  - Akut luftväg
+  - Allergi
+  question: Du bedömer en patient med dyspné. Patienten har inspiratorisk stridor, svullen tunga och utbredd urtikaria. Vilken åtgärd är mest adekvat initialt?
+  image: null
+  options:
+  - text: Adrenalin intramuskulärt
+    correct: true
+    feedback: Intramuskulärt adrenalin är första linjens behandling vid anafylaxi med hot mot luftvägar och verkar snabbt mot bronkospasm, angioödem och cirkulationspåverkan.
+  - text: Betapred per os
+    correct: false
+    feedback: Perorala steroider kan vara tilläggsbehandling men har för långsam debut för initial behandling vid hotande luftväg.
+  - text: Antihistamin per os
+    correct: false
+    feedback: Perorala antihistaminer lindrar klåda/urtikaria men verkar för långsamt och behandlar inte akut luftvägspåverkan eller cirkulatorisk kollaps.
+  - text: Säkra venösa infarter
+    correct: false
+    feedback: I initialprioritering — venös infart är viktig men kommer efter att adrenalin ges; det är inte tillräckligt som första åtgärd vid hotande anafylaxi.
+  - text: Combivent inhalation
+    correct: false
+    feedback: Inhalationsberedningar kan hjälpa bronkospasm lokalt men är otillräckliga vid systemisk anafylaxi och ersätter inte adrenalin.
+  explanation: Patientens presentation är typisk för anafylaxi med hot mot luftvägarna; intramuskulärt adrenalin är förstahandsåtgärd och ska ges omedelbart. Steroider och antihistaminer är tilläggsbehandlingar med långsammare effekt, och venös infart/airwayåtgärder ordnas därefter; inhalationsmedel är inte tillräckliga vid systempåverkan.
+  id: med-aku-8d682c
+- type: multiple_choice
+  tags:
+  - Agitation
+  - Antipsykotika
+  - Akutbehandling
+  question: En ung man med känd bipolär sjukdom har varit kraftigt agiterad och hotfull på psykakuten och har behövt fastspänning för att förhindra skada. Han har inte tagit droger och intagningsbeslut är ännu inte fattat. Vilket av följande läkemedelsalternativ är mest lämpligt och säkert för akut behandling av denna patient?
+  image: null
+  options:
+  - text: Aripiprazol 15 mg intravenöst + Oxazepam 15 mg peroralt
+    correct: false
+    feedback: IV-aripiprazol är inte standard vid akut agitation och oral oxazepam har för långsam/osäker administrering till kraftigt agiterad patient.
+  - text: Sertralin 100 mg peroralt + Propranolol 40 mg peroralt
+    correct: false
+    feedback: SSRI har fördröjd effekt och är olämpligt vid akut agitation; propranolol ger inte snabb sedativ effekt.
+  - text: Haloperidol 5–10 mg intramuskulärt + Diazepam 10 mg intramuskulärt
+    correct: true
+    feedback: IM haloperidol kombinerat med diazepam ger snabb, etablerad och säker sedation vid svår akut agitation.
+  - text: Quetiapin 300 mg peroralt + Litium 400 mg peroralt
+    correct: false
+    feedback: Orala antipsykotika och litium har långsammare insättande effekt och litium kräver monitorering, inte lämpligt för omedelbar kontroll.
+  - text: Olanzapin 20 mg peroralt + Mirtazapin 30 mg peroralt
+    correct: false
+    feedback: Kombinationen är oral och antidepressiva/perorala preparat har för långsam effekt för att hantera allvarlig, omedelbar agitation.
+  explanation: Vid kraftig akut agitation är parenteral behandling med ett snabbt verkande antipsykotikum (t.ex. IM haloperidol) ofta kombinerat med en bensodiazepin rekommenderad för snabb sedation och minskad skaderisk. Orala antidepressiva eller litium har fördröjd insättande effekt och IV-aripiprazol används inte rutinmässigt i detta sammanhang.
+  id: med-aku-1c9929
+- id: med-gen-ac58-001
+  type: multiple_choice
+  tags:
+  - Ventilation
+  - Akutmedicin
+  question: En 62-årig patient med svår ARDS är intuberad och satt på volymkontrollerad ventilation med tidalvolym 6 ml/kg PBW, PEEP 8 cmH2O och inspiratoriskt plateautryck (Pplat) 34 cmH2O. PaO2/FiO2 är <100. Vilken åtgärd minskar mest risken för ventilatorinducerad lungskada i detta läge?
+  image: null
+  options:
+  - text: Öka PEEP till 14 cmH2O för att förbättra rekrytering och minska atelectrauma.
+    correct: false
+    feedback: Ökad PEEP kan förbättra syresättning men ökar inte Pplat och kan förvärra överdistension om Pplat redan är hög.
+  - text: Sänka tidalvolym till 4–5 ml/kg PBW för att sänka plateautrycket under 30 cmH2O.
+    correct: true
+    feedback: Reducerat tidalvolym minskar Pplat och minimerar volymskade vid svår ARDS.
+  - text: Byta till tryckkontrollerad ventilation med oförändrat måltidalvolym för att begränsa peak-trycket.
+    correct: false
+    feedback: Byte till tryckkontroll påverkar inte den alveolära överdistensionen om plateautrycket och tidalvolymen förblir höga.
+  - text: Utföra en rekryteringsmanöver följt av högre PEEP och bibehållen tidalvolym.
+    correct: false
+    feedback: Rekrytering + högre PEEP kan förbättra syresättning men adresserar inte det höga plateautrycket och risken för överdistension.
+  explanation: Vid svår ARDS är lungprotective ventilation med lågt tidalvolym prioriterad för att minska ventilatorinducerad lungskada; målet är att hålla plateautryck <30 cmH2O. Om Pplat är för högt minskar man först tidalvolym (till ~4–6 ml/kg PBW) och accepterar permissiv hyperkapni innan man ökar PEEP som kan öka överdistension.
+- id: med-gen-ac58-002
+  type: multiple_choice
+  tags:
+  - Variceal blödning
+  - Transfusionsstrategi
+  - Akutmedicin
+  question: En 55-årig man med cirros och aktiv esofagusvaricesblödning anländer till akuten. Vilken hemoglobintröskel rekommenderas i akut skede för transfusion av erytrocytkoncentrat enligt modern evidens vid variceal blödning?
+  image: null
+  options:
+  - text: Transfusion om Hb <9 g/dl (restriktiv men måttligt hög nivå).
+    correct: false
+    feedback: 9 g/dl är högre än vad randomiserade studier visat som optimal tröskel vid variceal blödning.
+  - text: Transfusion om Hb <7 g/dl (restriktiv strategi).
+    correct: true
+    feedback: En restriktiv transfusionsstrategi med målnivå omkring 7 g/dl rekommenderas vid variceal blödning.
+  - text: Transfusion om Hb <5 g/dl (mycket restriktiv nivå).
+    correct: false
+    feedback: Denna nivå är farligt låg och inte rekommenderad i akutblödning med cirros.
+  - text: Transfusion rutinmässigt oavsett Hb vid aktiv varicealblödning för att säkerställa cirkulationen.
+    correct: false
+    feedback: Rutintransfusion utan tröskel ökar portaltryck och risk för återblödning och rekommenderas inte.
+  explanation: Evidence från randomiserade studier visar att en restriktiv transfusionsstrategi med transfusion vid Hb <7 g/dl är associerad med lägre mortalitet och färre återblödningar vid variceal blödning. Övertransfusion höjer portaltrycket och kan förvärra blödningsrisken.
+- id: med-gen-ac58-003
+  type: multiple_choice
+  tags:
+  - Sepsis
+  - Akutbehandling
+  question: En hypotensiv patient med misstänkt sepsisutlöstad chock har fått 20 ml/kg kristalloid utan adekvat respons och visar tecken till lungödem. Vad är nästa mest korrekt initiala åtgärd enligt överlevnadsriktlinjerna för sepsis?
+  image: null
+  options:
+  - text: Fortsätta vätsketerapin tills ett totalt 30 ml/kg uppnåtts innan vasopressorer.
+    correct: false
+    feedback: Om tecken på vätsödem föreligger bör fortsatt obegränsad vätsketillförsel undvikas och vasopressor övervägas tidigare.
+  - text: Påbörja noradrenalin tidigt, även via perifer venkateter, samtidigt som centralvenkateter förbereds.
+    correct: true
+    feedback: Tidig noradrenalin ska övervägas vid kvarstående hypotension eller tecken på vätsöverskott och kan ges perifert kortvarigt medan central access ordnas.
+  - text: Administrera en extra bolus albumin 5% för snabbare intravaskulär effekt.
+    correct: false
+    feedback: Albumin kan användas senare men är inte förstahandsåtgärd vid persistent hypotension med vätsödem.
+  - text: Ge bolus med kortikosteroid intravenöst som primär åtgärd för att förbättra blodtrycket.
+    correct: false
+    feedback: Steroider övervägs först vid vasopressorberoende chock som inte svarar tillfredsställande, inte som initial ersättning för vasopressorer.
+  explanation: Om patienten inte svarar på initial vätsketerapi och visar tecken på vätseregeleringsproblem bör vasopressorer (vanligen noradrenalin) initieras tidigt för att säkra perfusion. Noradrenalin kan ges via perifer ven i väntan på centralvenös access och minskar risken för vätselastighetsskada och organhypoperfusion.
+- id: med-gen-ac58-004
+  type: multiple_choice
+  tags:
+  - Pneumothorax
+  - Akutmedicin
+  question: Vid misstänkt spänd pneumothorax i en vuxen patient med cirkulationspåverkan i fältsituation, vilket ställe ger bäst chans till framgångsrik akut avlastning med nåldekompression?
+  image: null
+  options:
+  - text: 2:a interkostalrummet i medioklavikulärlinjen på den drabbade sidan.
+    correct: false
+    feedback: 2:a ICS MCL är klassiskt men kan misslyckas vid tjock bröstkorg och har fallande framgångsrater.
+  - text: 5:e interkostalrummet i mid-axillärlinjen på den drabbade sidan (lateralt).
+    correct: true
+    feedback: Lateralt i 5:e ICS är ofta mer framgångsrikt hos vuxna p.g.a. tunnare vägg och större chans att nå pleuran.
+  - text: 4:e interkostalrummet i sternallinjen (parasternalt).
+    correct: false
+    feedback: Parasternalt är inte en etablerad plats för akut nåldekompression av pneumothorax.
+  - text: Högt subklavikulärt, strax under nyckelbenet medialt om den drabbade sidan.
+    correct: false
+    feedback: Subklavikulär introduktion är inte rekommenderad för akut nåldekompression och riskerar skador på kärl och nerv.
+  explanation: Vid akut spänd pneumothorax är snabb dekompression nödvändig; hos vuxna visar modern praxis att lateralt vid 4:e–5:e interkostalrummet i mid-axillärlinjen ofta ger bättre genomträngning än 2:a ICS medialt. Efter initial nåldekompression ska thoraxdrän om möjligt läggas in definitive.
+- id: med-gen-ac58-005
+  type: multiple_choice
+  tags:
+  - Syra-bas
+  - Metabolacidos
+  - Diagnostik
+  question: 'En patient har följande laboratorievärden: Na+ 140 mmol/l, Cl- 105 mmol/l och HCO3- 8 mmol/l. Beräkna anjongap (AG) och delta-ratio (delta AG / delta HCO3) och tolka fyndet. (Ange approximativa värden; referens-AG 12, normal HCO3 24.)'
+  image: null
+  options:
+  - text: AG ≈ 27 mmol/l, delta-ratio ≈ 0,5 — indikerar samtidig normal anjongap-metabolisk acidos.
+    correct: false
+    feedback: Beräkningarna ger inte dessa värden; delta-ratio nära 0,5 skulle kräva annan HCO3-skillnad.
+  - text: 'AG ≈ 27 mmol/l, delta-ratio ≈ 0,94 — tolkning: huvudsaklig hög anjongapmetabolisk acidos utan samtidig metabolisk alkalos.'
+    correct: true
+    feedback: Beräknat AG och delta-ratio ligger nära dessa värden och tolkningen följer etablerade cut-offs.
+  - text: 'AG ≈ 27 mmol/l, delta-ratio ≈ 2,5 — tolkning: hög anjongapacidos med samtidig metabolisk alkalos.'
+    correct: false
+    feedback: Delta-ratio ≈2,5 skulle kräva ett mycket större AG-relaterat HCO3-fall än i detta fall.
+  - text: 'AG ≈ 27 mmol/l, delta-ratio ≈ 0,2 — tolkning: blandad hög AG-metabolisk acidos och samtidig normal AG-metabolisk acidos.'
+    correct: false
+    feedback: De aritmetiska värdena i patientens data ger inte en så låg delta-ratio.
+  explanation: AG = 140 − (105 + 8) ≈ 27 mmol/l, delta AG ≈ 15; delta HCO3 = 24 − 8 = 16, vilket ger delta-ratio ≈15/16 ≈ 0,94. Ett delta-ratio kring 0,8–1,0 talar för en ren hög anjongapmetabolisk acidos utan betydande samtidig metabolisk alkalos eller normal-AG-acidos.
+- type: multiple_choice
+  tags:
+  - intoxikation
+  - opioider
+  - andningsdepression
+  question: En 23‑årig man hittas i en trappuppgång, svarar inte på tilltal, andas långsamt (8/min) och ytligt. Pupillerna är miotiska, huden kall och fuktig, puls 52, SpO2 84%. Färska nålstick ses. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Alkoholintoxikation
+    correct: false
+    feedback: Alkohol kan ge medvetslöshet men ger typiskt inte uttalad miotisk pupillbild eller de karakteristiska andningsdepressionen med nålstick som talar för opioid.
+  - text: Hypoglykemi
+    correct: false
+    feedback: Hypoglykemi orsakar medvetslöshet eller kramper men ger inte typiskt miotiska pupiller och förklarar inte färska nålstick och uttalad andningsdepression.
+  - text: Opioidintoxikation
+    correct: true
+    feedback: Klassisk presentation med nedsatt medvetande, kraftig respirationsdepression och miotiska pupiller; färska nålstick stödjer intravenöst opioidbruk.
+  - text: Sepsis
+    correct: false
+    feedback: Sepsis ger oftast takykardi och takypné samt varm/rodnad hud initialt, inte miotiska pupiller eller uttalad andningsdepression som här.
+  - text: Subarachnoidalblödning
+    correct: false
+    feedback: SAH ger oftast plötslig svår huvudvärk och kan ge fokala bortfall eller dilaterade pupiller, men inte typiskt miotiska pupiller eller bild som talar för intravenöst droganvändande.
+  explanation: 'Bildens triad av medvetslöshet, miotiska pupiller och andningsdepression är typisk för opioidöverdos; färska nålstick stärker misstanken. Akut behandling: säkra luftväg, syrgas och naloxon.'
+  id: imp-f46159c6
+- type: multiple_choice
+  tags:
+  - ABCDE
+  - Andningssvikt
+  - Akutvård
+  question: En 68-årig man kommer med plötslig andfåddhet. Han är blek, svettig, andas snabbt och har SpO2 82% på luft. Vilket steg i ABCDE ska prioriteras först?
+  image: null
+  options:
+  - text: Ta blodgas
+    correct: false
+    feedback: Blodgas kan ge information men är inte prioriterat före att säkra luftväg/andning i en akut hypoxisk patient.
+  - text: Säkerställa fri luftväg
+    correct: true
+    feedback: ABCDE börjar med Airway; en fri luftväg måste säkerställas innan man går vidare.
+  - text: Beställa EKG
+    correct: false
+    feedback: EKG kan vara viktigt men bör komma efter initiala A- och B-åtgärder vid akut andningspåverkan.
+  - text: Kontrollera medvetandegrad
+    correct: false
+    feedback: Medvetandegrad hör till D (disability) och undersöks efter att luftväg och andning bedömts/säkrats.
+  - text: Kontrollera cirkulation och blodtryck
+    correct: false
+    feedback: Cirkulation (C) är viktig men kommer efter A (airway) och B (breathing) i ABCDE-sekvensen.
+  explanation: ABCDE-principen föreskriver att man först bedömer och säkrar Airway (A) innan man går vidare till Breathing och övriga steg. Vid en patient med låg syrgasmättnad och andningspåverkan ska luftvägen kontrolleras och åtgärdas om behövligt, därefter ges syrgas och behandlas andningen.
+  id: imp-063949c1
+- type: multiple_choice
+  tags:
+  - perikardtamponad
+  - perikardiocentes
+  - akutbehandling
+  question: 50‑årig kvinna med perikardit som utvecklar hypotension, halsvenstas och dämpade hjärtljud. Vilken åtgärd är bäst?
+  image: null
+  options:
+  - text: Observation
+    correct: false
+    feedback: Kliniska tecken på tamponad kräver omedelbar åtgärd, inte väntande observation.
+  - text: Kirurgisk perikardial resektion
+    correct: false
+    feedback: Perikardiektomi är inte akut första åtgärd vid tamponad utan övervägs vid kronisk/recidiverande sjukdom.
+  - text: Perikardiocentes
+    correct: true
+    feedback: Akut perikardiocentesis avlastar hjärtat vid tamponad och är livräddande.
+  - text: Start av betablockerare
+    correct: false
+    feedback: Betablockerare kan förvärra hypotension genom att hämma kompensatorisk takykardi.
+  - text: Infusion av diuretika
+    correct: false
+    feedback: Diuretika minskar preload och kan försämra cirkulationen vid tamponad.
+  explanation: Symtomen (hypotension, halsvenstas, dämpade hjärtljud) utgör Becks triad och indikerar hjärttamponad. Akut behandling är perikardiocentes för att avlasta hjärtat; andra åtgärder kan vara skadliga eller är reserverade för icke-akuta situationer.
+  id: imp-d65337aa
+- type: multiple_choice
+  tags:
+  - Diabetes typ 1
+  - DKA
+  - Akut omhändertagande
+  question: 18-årig kvinna med typ 1‑diabetes (HbA1c 48) inkommer med buksmärtor, kräkningar och högt glukos på CGM; kan inte behålla mat eller dryck. Vilken är viktigast som första åtgärd?
+  image: null
+  options:
+  - text: Minska insulindoserna eftersom hon inte får i sig någon mat
+    correct: false
+    feedback: Vid misstanke på DKA ska insulin inte reduceras utan ofta ges kontinuerlig insulinbehandling trots att patienten inte äter.
+  - text: CT buk för att utesluta tarmvred
+    correct: false
+    feedback: CT kan bli aktuell vid misstanke på kirurgisk buk men är inte första åtgärd vid hög glukos och kräkningar där metabol dysbalans bör utredas först.
+  - text: Blodgas för bedömning av syra‑basbalans och blodsocker
+    correct: true
+    feedback: Blodgas (venös är oftast tillräcklig) snabbbedömer pH/bikarbonat och tillsammans med glukos/ketoner avgör misstanke om DKA och styr initial behandling.
+  - text: Blodstatus och CRP
+    correct: false
+    feedback: Blodstatus/CRP kan vara relevanta men är inte prioriterade för att avgöra metabol status vid misstänkt DKA.
+  - text: Avföringsprov för att utesluta gastroenterit
+    correct: false
+    feedback: Avföringsprov har låg akutprioritet och fördröjer nödvändig snabb metabol bedömning och behandling.
+  explanation: Presentation med typ 1‑diabetes, kräkningar och högt glukos talar för risk för DKA; första åtgärd är snabb bedömning av syra‑basstatus och blodsocker (blodgas, ketoner) för att avgöra behov av vätska, insulin och elektrolytbehandling. Andra prover och bilddiagnostik kan planeras efter stabilisering eller vid misstanke om alternativ orsak.
+  id: imp-15cc0984

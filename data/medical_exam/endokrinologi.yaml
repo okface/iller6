@@ -1,0 +1,467 @@
+- type: multiple_choice
+  tags:
+  - Binjure
+  - Hormoner
+  question: Vilket eller vilka av följande hormoner produceras i binjuremärgen (medulla)?
+  image: null
+  options:
+  - text: adrenalin & noradrenalin
+    correct: true
+    feedback: Binjuremärgen (medulla) producerar katekolaminerna adrenalin och noradrenalin.
+  - text: testosteron
+    correct: false
+    feedback: Huvudsaklig testosteronproduktion sker i testiklarna; binjurebarken ger endast små mängder androgener.
+  - text: kortison
+    correct: false
+    feedback: Kortison är en inaktiv form relaterad till kortisol; ursprunget är binjurebarken och leverns metabolism, inte märgen.
+  - text: kortisol
+    correct: false
+    feedback: Kortisol bildas i binjurebarkens zona fasciculata, inte i märgen.
+  - text: aldosteron
+    correct: false
+    feedback: Aldosteron syntetiseras i binjurebarkens zona glomerulosa, inte i märgen.
+  explanation: Binjuremärgen (medulla) producerar katekolaminerna adrenalin och noradrenalin. Binjurebarken (cortex) står för steroidhormoner som aldosteron, kortisol (och indirekt kortison) samt vissa androgener.
+  id: med-end-86e8ca
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - SIADH
+  question: Hur behandlas en patient med hyponatremi orsakad av SIADH (syndrome of inappropriate ADH/vasopressin secretion)?
+  image: null
+  options:
+  - text: Vätskerestriktion; eventuellt tolvaptan och behandling av bakomliggande orsak
+    correct: true
+    feedback: Förstahand är vätskerestriktion; vaptaner som tolvaptan kan användas vid otillräcklig effekt och bakomliggande orsak ska åtgärdas.
+  - text: Natrium via dropp (0,9% NaCl)
+    correct: false
+    feedback: Isoton NaCl kan förvärra dilutionen vid SIADH; endast hypertonisk NaCl ges vid livshotande akut symtomgivande hyponatremi.
+  - text: Diuretika
+    correct: false
+    feedback: Diuretika är inte förstahandsval; loopdiuretika kan ibland användas i särskilda fall men inte rutinmässigt.
+  - text: Natriumklorid tabletter per oralt
+    correct: false
+    feedback: Oralt NaCl har begränsad effekt om inte vätskerestriktion samtidigt tillämpas och korrigerar inte vattenöverskottet effektivt.
+  - text: Ringer Acetat dropp
+    correct: false
+    feedback: Isoton kristalloid som Ringer kan förvärra hyponatremin vid SIADH och är därför inte lämplig.
+  explanation: SIADH ger dilutionell hyponatremi genom otillbörlig ADH-aktivering och vattenretention. Behandling är främst vätskerestriktion och vid behov vaptaner (tolvaptan); hypertonisk NaCl reserveras för akut, allvarligt symtomgivande hyponatremi medan isoton vätska eller enbart oralt NaCl ofta är olämpligt.
+  id: med-end-239a81
+- type: multiple_choice
+  tags:
+  - Tyreoidea
+  - Toxikos
+  question: Vilken/vilka av följande kan orsaka tyreotoxikos?
+  image: null
+  options:
+  - text: behandling med amiodaron
+    correct: false
+    feedback: Amiodaron kan utlösa tyreotoxikos, men svaret är inte fullständigt eftersom även litium och jodkontrast kan göra det.
+  - text: behandling med litium
+    correct: false
+    feedback: Litium kan ibland ge tyreoidea-störningar inklusive övergående tyreotoxikos, men alternativet utesluter andra orsaker.
+  - text: tillförsel av jodkontrast
+    correct: false
+    feedback: Jodkontrast kan inducera tyreotoxikos (jodinducerad), men svaret är inte komplett utan de övriga alternativen.
+  - text: samtliga ovannämnda
+    correct: true
+    feedback: Amiodaron, litium och jodkontrast kan alla utlösa tyreotoxikos via olika mekanismer.
+  - text: TPO antikroppar
+    correct: false
+    feedback: TPO-antikroppar är framför allt associerade med Hashimoto och hypotyreos, inte en vanlig orsak till tyreotoxikos.
+  explanation: Amiodaron, litium och jodkontrast kan utlösa tyreotoxikos antingen genom direkt tyreoideaskada med frisättning av lagrat hormon eller via jodinducerad överproduktion hos predisponerade individer. TPO-antikroppar hör i första hand ihop med autoimmun hypotyreos (Hashimoto).
+  id: med-end-7d7249
+- type: multiple_choice
+  tags:
+  - Hypofystumör
+  - Diagnostik
+  question: Vilken är den vanligast förekommande hypofystumören?
+  image: null
+  options:
+  - text: Hyperprolaktinom
+    correct: false
+    feedback: Prolaktinom är en vanlig hormonproducerande tumör men icke‑hormonproducerande adenomer är vanligare totalt.
+  - text: TSH‑producerande
+    correct: false
+    feedback: TSH‑producerande hypofystumörer är mycket sällsynta.
+  - text: Icke hormonproducerande hypofystumör
+    correct: true
+    feedback: Icke‑hormonproducerande (non‑functioning) hypofysadenom är de vanligaste och upptäcks ofta som makroadenom via masseffekter.
+  - text: Cushings sjukdom
+    correct: false
+    feedback: ACTH‑producerande adenomer som ger Cushings sjukdom är mindre vanliga än non‑functioning adenomer.
+  - text: GH‑producerande
+    correct: false
+    feedback: GH‑producerande adenomer (akromegali) förekommer men är mindre frekventa än icke‑hormonproducerande tumörer.
+  explanation: Icke‑hormonproducerande hypofysadenom är de vanligaste hypofystumörerna och upptäcks ofta först när de blivit stora och ger masseffekter (t.ex. synfältsinskränkning). Hormonproducerande tumörer (prolaktinom, GH, ACTH, TSH) ger specifika hormonella syndrom och är mindre vanliga som grupp.
+  id: med-end-2f7dfd
+- type: multiple_choice
+  tags:
+  - Cushingssyndrom
+  - Kortisol
+  - Diagnostik
+  question: När används diagnostiskt dexametasonhämningstest?
+  image: null
+  options:
+  - text: vid misstänkt hyperprolaktinemi
+    correct: false
+    feedback: Dexametasonhämningstest påverkar inte prolaktinnivåer; utredning av hyperprolaktinemi görs med prolaktinmätning och hypofysutredning.
+  - text: vid misstänkt hyperkortisolism
+    correct: true
+    feedback: Testet används för att utreda Cushing/hyperkortisolism genom att se om dexametason undertrycker endogent kortisol; utebliven undertryckning talar för patologisk kortisolproduktion.
+  - text: vid misstänkt hypokortisolism/binjurebarksvikt
+    correct: false
+    feedback: Vid misstänkt binjurebarksvikt används basal kortisol/ACTH och stimuleringstest (t.ex. synachten), inte dexametasonhämning.
+  - text: vid misstänkt astma
+    correct: false
+    feedback: Astma är en luftvägssjukdom och utreds kliniskt samt med lungfunktionsprov; dexametasonhämningstest är ej relevant.
+  - text: vid misstänkt polymyalgia reumatika
+    correct: false
+    feedback: Polymyalgia rheumatica diagnostiseras utifrån klinik, CRP/ESR och svar på lågdos kortison, inte med dexametasonhämningstest.
+  explanation: Dexametasonhämningstest används för att utreda hyperkortisolism/Cushing genom att ge dexametason som normalt hämmar ACTH och därmed kortisol; utebliven suppression tyder på autonom kortisolproduktion. Testet är inte användbart för utredning av prolaktinrubbningar, binjurebarksvikt, astma eller polymyalgia rheumatica.
+  id: med-end-eb4b9d
+- type: multiple_choice
+  tags:
+  - Insulin
+  - Glukosmetabolism
+  question: Vilket hormon är främst ansvarigt för att främja lagring av glukos som glykogen i skelettmuskulatur och som triglycerider i fettvävnad?
+  image: null
+  options:
+  - text: Testosteron
+    correct: false
+    feedback: Testosteron är ett könshormon som påverkar muskelmassa men är inte huvudregulator för glukoslagring.
+  - text: Glukagon
+    correct: false
+    feedback: Glukagon höjer blodglukos genom att stimulera glykogenolys och glukoneogenes, motsatt effekt.
+  - text: Östrogen
+    correct: false
+    feedback: Östrogen påverkar många metabola processer men är inte det primära hormonet för glukoslagring.
+  - text: Aldosteron
+    correct: false
+    feedback: Aldosteron reglerar salt- och vätskebalans, inte glukoslagring.
+  - text: Insulin
+    correct: true
+    feedback: Korrekt — insulin ökar cellernas glukosupptag och främjar glykogensyntes i muskel samt lagring som fett i adipocyter.
+  explanation: Insulin är det huvudsakliga anabola hormonet efter måltid som stimulerar GLUT4-medierat glukosupptag i skelettmuskulatur och fettväv, och främjar glykogensyntes och lipogenes. Glukagon har motsatt katabol effekt och ökar blodglukosnivån.
+  id: med-end-0d3b50
+- type: multiple_choice
+  tags:
+  - Aldosteron
+  - Diagnostik
+  question: Hur screenas patienter med misstänkt primär aldosteronism?
+  image: null
+  options:
+  - text: aldosteron/renin kvot i plasma
+    correct: true
+    feedback: En förhöjd plasma aldosteron/renin-kvot (ARR) indikerar autonom aldosteronproduktion och är rekommenderat screeningtest.
+  - text: kalium i plasma
+    correct: false
+    feedback: Plasmakalium bör mätas eftersom hypokalemi kan förekomma, men det är inte ett känsligt eller tillförlitligt screeningtest för PAD.
+  - text: aldosteron i urin
+    correct: false
+    feedback: Urinmätning påverkas av dygnsvariation och natriumintag och används inte som primärt screeningtest.
+  - text: aldosteron i plasma
+    correct: false
+    feedback: Enskild plasmakoncentration av aldosteron varierar mycket och måste relateras till renin (ARR) för att vara diagnostiskt användbar.
+  - text: renin i urin
+    correct: false
+    feedback: Renin mäts i plasma vid screening; renin i urin är inte standard för PAD-screening.
+  explanation: Screening för primär aldosteronism görs med plasma aldosteron/renin-kvot (ARR). En hög ARR — högt aldosteron i förhållande till lågt renin — tyder på autonom aldosteronproduktion; plasmakalium bör kontrolleras men enskilda aldosteron- eller reninmätningar utan kvot är mindre tillförlitliga.
+  id: med-end-4253f3
+- type: multiple_choice
+  tags:
+  - Binjurebarksinsufficiens
+  - Diagnostik
+  question: När används diagnostiskt Synacthentest (syntetisk ACTH-stimulering)?
+  image: null
+  options:
+  - text: vid misstänkt polymyalgia reumatika
+    correct: false
+    feedback: Polymyalgia reumatika utreds främst med inflammationsprover och klinisk steroidrespons, inte ACTH-stimulering.
+  - text: vid misstänkt hypokortisolism/binjurebarksvikt
+    correct: true
+    feedback: Synacthentest bedömer binjurebarkens kortisolproduktion efter syntetisk ACTH och används vid misstanke om hypokortisolism.
+  - text: vid misstänkt astma
+    correct: false
+    feedback: Astma utreds med lungfunktionstester och provokation/bronkdilatation, inte med ACTH-stimulering.
+  - text: vid misstänkt hyperkortisolism
+    correct: false
+    feedback: Hyperkortisolism utreds med dämpartester (t.ex. dexametason), saliv- eller urin-kortisolmätning snarare än Synacthentest.
+  - text: vid misstänkt hyperprolaktinemi
+    correct: false
+    feedback: Hyperprolaktinemi utreds med serumprolaktin och ofta hypofysbild (MR), inte ACTH-stimulering.
+  explanation: Synacthentest mäter kortisolrespons efter administrering av syntetiskt ACTH för att utvärdera binjurebarkens funktion och upptäcka primär eller sekundär binjurebarksinsufficiens. För misstanke om hyperkortisolism används istället dämpartester eller mätning av saliv-/urinkortisol, medan andra tillstånd utreds med relevanta riktade prover och bilddiagnostik.
+  id: med-end-f5260d
+- type: multiple_choice
+  tags:
+  - Hypertyreos
+  - Diagnostik
+  - Graves
+  question: Vilket är det första steget i etiologisk utredning av en patient med biokemisk hypertyreos (högt fT4 och lågt TSH)?
+  image: null
+  options:
+  - text: T3-hormon
+    correct: false
+    feedback: T3-mätning kan visa T3-toksikos men avgör inte den underliggande orsaken vid initial utredning.
+  - text: TPO-antikroppar
+    correct: false
+    feedback: TPO-antikroppar är mest associerade med autoimmun hypotyreos och är inte första valet för att särskilja orsaker till hypertyreos.
+  - text: Ultraljud av tyreoidea med biopsi
+    correct: false
+    feedback: Ultraljud och finnål används primärt vid misstanke om nodös sjukdom eller malignitet, inte rutinmässigt för etiologisk utredning av diffus hypertyreos.
+  - text: Tyreoideaskintigrafi
+    correct: false
+    feedback: Skintigrafi är användbart för att skilja diffus från autonoma upptag men görs vanligen först om TRAK är negativ eller vid misstanke om autonoma noduli.
+  - text: TRAK (TSH-receptorantikroppar)
+    correct: true
+    feedback: TRAK påvisar TSH-receptorstimulerande antikroppar och är första steget för att snabbt identifiera Graves sjukdom som orsak till hypertyreos.
+  explanation: Vid biokemisk hypertyreos är mätning av TRAK första testet för att snabbt skilja Graves sjukdom från andra orsaker; en positiv TRAK talar för Graves och styr vidare handläggning. Om TRAK är negativ används tyreoideaskintigrafi för att avgöra diffus upptag kontra autonoma noduli, medan ultraljud/finnål är indicerat vid suspekta noduli; TPO är främst kopplat till Hashimoto och T3 påverkar inte initial etiologisk bedömning.
+  id: med-end-a5292f
+- type: multiple_choice
+  tags:
+  - Hirsutism
+  - Androgener
+  question: Vilken av följande sjukdomar är inte associerad med hirsutism?
+  image: null
+  options:
+  - text: PCOS (Polycystiskt Ovarialsyndrom)
+    correct: false
+    feedback: PCOS orsakar ofta hyperandrogenism och är en vanlig orsak till hirsutism.
+  - text: Ovarialcancer
+    correct: false
+    feedback: Vissa ovariala tumörer producerar androgener och kan ge hirsutism/virilisering.
+  - text: Cushings syndrom
+    correct: false
+    feedback: Cushing kan ge ökad androgenproduktion från binjurebarken och leda till hirsutism tillsammans med andra cushingoida tecken.
+  - text: Addisons sjukdom
+    correct: true
+    feedback: Primär binjurebarksvikt ger minskad produktion av kortisol och ofta androgener, vilket ger minskad kroppsbehåring snarare än hirsutism.
+  - text: Kongenital binjurebarkshyperplasi
+    correct: false
+    feedback: CAH (t.ex. 21-hydroxylasbrist) ger ökad androgenproduktion och kan orsaka hirsutism.
+  explanation: Hirsutism beror på ökad androgenexponering från ovarier eller binjurebarken, vilket ses vid PCOS, androgenproducerande ovarialtumörer, Cushing och kongenital binjurebarkshyperplasi. Vid Addisons sjukdom är binjurebarkfunktionen nedsatt med låg androgenproduktion, vilket snarare ger minskad behåring.
+  id: med-end-bb67d8
+- type: multiple_choice
+  tags:
+  - Tyreoidea
+  - Diagnostik
+  - Nuklearmedicin
+  question: Varför bör man undvika att utföra tyreoideabiopsi innan tyreoideaskintigrafi?
+  image: null
+  options:
+  - text: Det är långa köer till tyreoideabiopsi
+    correct: false
+    feedback: Felaktigt — väntetider är en organisatorisk fråga och påverkar inte sköldkörtelns radiojodupptag.
+  - text: Upptaget av jod blir hämmad
+    correct: true
+    feedback: Biopsi kan introducera jod via antiseptika eller kontrast, vilket hämmar radiojodupptaget och ger falskt låga signaler.
+  - text: Skadan av biopsin försämrar bedömning av tyreoideaskintigrafibilderna
+    correct: false
+    feedback: Delvis felaktigt — blödning kan påverka bilden något, men den viktigaste orsaken till felaktig skintigrafi är jodexponering.
+  - text: Samtliga ovannämnda
+    correct: false
+    feedback: Inte alla påståenden är korrekta; långa köer och ökat jodupptag är inte relevanta eller riktiga orsaker.
+  - text: Upptaget av jod stiger
+    correct: false
+    feedback: Biopsi riskerar att introducera jod som konkurrerar om upptaget och därmed minskar, inte ökar, radiojodupptaget.
+  explanation: Biopsi kan föra in jod från antiseptika eller kontrast vilket konkurrerar med radioaktivt jod och reducerar sköldkörtelns upptag, vilket ger falskt låga skintigrafisignaler. Utför skintigrafi före invasiva ingrepp eller vänta tills externt jod eliminerats.
+  id: med-end-db89e4
+- type: multiple_choice
+  tags:
+  - Hypertyreos
+  - Diagnostik
+  - Behandling
+  question: '35-årig i övrigt opåverkad man med hjärtklappning och stresskänsla. EKG: sinustakykardi 115/min, handtremor. Tyreoideastatus: TSH 0,004 mIE/L, fT4 36 pmol/L. Vad är mest korrekt nästa steg för effektivt och patientsäkert handläggande?'
+  image: null
+  options:
+  - text: Komplettera med TRAK, sätta in β‑blockare och skicka patienten till Akuten för fortsatt utredning/behandling inom 24 timmar
+    correct: false
+    feedback: Akutvård krävs inte om patienten är hemodynamiskt stabil och saknar tecken på thyreotoxisk kris; poliklinisk utredning räcker.
+  - text: Skicka patienten hem med nya tyreoideaprover efter 3 månader
+    correct: false
+    feedback: Avvakta utan behandling är olämpligt vid tydliga symptom och förhöjt fT4; symtomlindring och snabb utredning behövs.
+  - text: Komplettera med TRAK‑antikroppar, sätta in β‑blockare och skicka patienten hem med uppföljning via Endokrin/Tyreoideimottagning
+    correct: true
+    feedback: Bekräfta autoimmun genes med TRAK, ge β‑blockad för symtomlindring och ordna snabb poliklinisk endokrin uppföljning.
+  - text: Remittera patienten till Endokrinmottagning för poliklinisk utredning/uppföljning
+    correct: false
+    feedback: Delvis rätt men ofullständigt — remiss är korrekt men bör kompletteras med TRAK‑prov och akut symtomlindring med β‑blockare.
+  - text: Remittera för radioaktiv jodbehandling då patienten har hypertyreos
+    correct: false
+    feedback: Radiojod är inte första steget innan etiologi och lämplig behandlingsstrategi är utredd; först fastställs orsak och behövlig akutbehandling.
+  explanation: Vid lågt TSH och högt fT4 hos en stabil patient ska autoimmun genes utredas med TRAK och symtom som takykardi och tremor behandlas med β‑blockare. Akut inläggning eller radiojodbehandling behövs inte initialt om patienten inte är hemodynamiskt påverkad eller i thyreotoxisk kris; vidare utredning och behandling sköts polikliniskt av endokrinolog.
+  id: med-end-141faa
+- type: multiple_choice
+  tags:
+  - Hypokalcemi
+  - Paratyreoidea
+  - Vitamin D
+  question: Det finns flera orsaker till hypokalcemi. Vilket av följande ger INTE hypokalcemi?
+  image: null
+  options:
+  - text: Malabsorption
+    correct: false
+    feedback: Malabsorption minskar upptaget av kalcium och/eller vitamin D och kan ge hypokalcemi.
+  - text: Hypomagnesemi
+    correct: false
+    feedback: Hypomagnesemi hämmar PTH-frisättning och PTH-effekt och kan leda till hypokalcemi.
+  - text: Primär hyperparatyreoidism
+    correct: true
+    feedback: Primär hyperparatyreoidism ger ökad PTH-frisättning och brukar leda till hyperkalcemi, inte hypokalcemi.
+  - text: Hypoparatyreoidism efter tyreoidektomi
+    correct: false
+    feedback: Postoperativ hypoparatyreoidism ger låg PTH och därmed hypokalcemi.
+  - text: Bristande intag av kalcium eller vitamin D
+    correct: false
+    feedback: Otillräckligt intag av kalcium eller vitamin D minskar serumkalcium och kan orsaka hypokalcemi.
+  explanation: Hypokalcemi orsakas ofta av låg PTH (t.ex. efter tyreoidektomi), vitamin D-brist eller malabsorption samt hypomagnesemi som hämmar PTH. Primär hyperparatyreoidism medför däremot förhöjt PTH och vanligtvis hyperkalcemi.
+  id: med-end-0bbfb7
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - SIADH
+  - Behandling
+  question: Hur behandlas en patient med hyponatremi orsakad av SIADH (syndrome of inappropriate ADH/vasopressin secretion)?
+  image: null
+  options:
+  - text: natrium via dropp (0,9% NaCl)
+    correct: false
+    feedback: Isotoniskt NaCl kan förvärra hyponatremin vid SIADH eftersom njuren utsöndrar salt och behåller vatten, vilket ofta inte höjer serum‑Na.
+  - text: diuretika
+    correct: false
+    feedback: Diuretika är inte förstahandsbehandling; loopdiuretika kan dock användas selektivt i vissa fall, oftast i kombination med saltgivning.
+  - text: natriumklorid tabletter per oralt
+    correct: false
+    feedback: NaCl‑tabletter ensamma hjälper sällan vid SIADH eftersom problemet är vattenretention, inte primär saltbrist.
+  - text: vätskerestriktion eller tolvaptan plus eventuellt behandling av bakomliggande orsaken
+    correct: true
+    feedback: Vätskerestriktion är förstahandsbehandling; vid otillräcklig effekt kan vasopressinreceptorantagonister (t.ex. tolvaptan) och behandling av bakomliggande orsak övervägas.
+  - text: Ringer Acetat dropp
+    correct: false
+    feedback: Ringer Acetat är isotonisk lösning och kan likt NaCl dropp förvärra utspädningshyponatremi vid SIADH.
+  explanation: SIADH ger euvolem hyponatremi genom ADH‑medierad vattenretention. Förstahandsåtgärd är vätskerestriktion; om det inte räcker kan vaptaner (t.ex. tolvaptan) eller i utvalda fall loopdiuretika + salt övervägas och bakomliggande orsak ska behandlas.
+  id: med-end-fbbe83
+- type: multiple_choice
+  tags:
+  - Endokrinologi
+  - Akromegali
+  - Diagnostik
+  question: En 55-årig kvinna söker pga svettningar, svullna fingrar så att ringar inte längre passar, samt att hon de senaste åren gått upp tre skostorlekar. Hon har även hypertoni och planeras för utredning av förhöjt faste-p-glukos. Vilket blodprov är mest lämpligt som screening för den misstänkta diagnosen?
+  image: null
+  options:
+  - text: Fritt T4 och TSH
+    correct: false
+    feedback: Utreds vid tyreotoxikos men förklarar inte progressiv skelett- och mjukdelsförstoring.
+  - text: LH, FSH, östradiol och testosteron
+    correct: false
+    feedback: Riktat mot gonadal dysfunktion och förklarar inte ökade ring-/skostorlekar eller svettningar.
+  - text: Prolaktin
+    correct: false
+    feedback: Avser hyperprolaktinemi/galaktorré; symtombilden talar mer för GH‑överskott än för hyperprolaktinemi.
+  - text: LH, FSH och östradiol
+    correct: false
+    feedback: Undersöker gonadal status men förklarar inte den progressiva skelett- och mjukdelsförstoringen.
+  - text: IGF-I
+    correct: true
+    feedback: IGF‑I är första steget i screeningen för akromegali då det speglar kroniskt GH‑överskott och är stabilt över dygnet.
+  explanation: Symtomen (ökad ring- och skostorlek, svettningar, hypertoni, nedsatt glukosreglering) är typiska för akromegali. IGF‑I är bästa screeningtestet eftersom det reflekterar långvarigt GH‑överskott; vid förhöjt IGF‑I följer GH‑suppressionsprov (oral glukostoleranstest) och hypofys‑MRI. Andra prover som TSH/T4 eller prolaktin utreds vid misstanke om tyreotoxikos eller hyperprolaktinemi men förklarar inte den progressiva skelettförstoringen.
+  id: med-end-b5103c
+- type: multiple_choice
+  tags:
+  - Tyreoidea
+  - TSH
+  - Sick euthyroid
+  question: En 72‑årig man vårdas för pneumoni. Under vårdtiden har han haft hög puls och svettningar, och underläkaren har beställt tyreoideaprover som visar TSH 0,2 mIE/L och fritt T4 18 pmol/L. Vad är nästa steg i utredningen?
+  image: null
+  options:
+  - text: Att beställa tyreoideascintigrafi.
+    correct: false
+    feedback: Inte indicerat i akutskedet; scintigrafi används för att klargöra orsak till tyreotoxikos men bör vänta tills avvikande prover bekräftats.
+  - text: Att beställa ultraljud av tyreoidea
+    correct: false
+    feedback: Ultraljud ger anatomisk information om knölar men avgör inte funktion under akut sjukdom och är inte förstahandsåtgärd här.
+  - text: Att komplettera proverna med TSH-receptorantikroppar (TRAK)
+    correct: false
+    feedback: TRAK kan påvisa Graves men vid pågående akut sjukdom kan prover vara falskt förändrade; upprepa funktionstester först.
+  - text: Att komplettera proverna med antikroppar mot thyreoperoxidas (anti-TPO)
+    correct: false
+    feedback: Anti‑TPO visar autoimmunitet men påverkar inte akut handläggning; lämpligare att avvakta och ompröva efter återhämtning.
+  - text: Att ta om proverna om 3 veckor, efter att patienten har blivit frisk igen.
+    correct: true
+    feedback: Akut sjukdom kan ge temporärt sänkt TSH eller förändrat fritt T4 (sick euthyroid); upprepa prover efter återhämtning innan vidare utredning.
+  explanation: Akut allvarlig sjukdom kan ge ”sick euthyroid” med sänkt TSH och varierande fritt T4 utan sann tyreotoxikos. Därför bör avvikande tyreoideaprover upprepas efter klinisk återhämtning; immunologiska tester och bilddiagnostik görs först om avvikelsen kvarstår eller om klinisk misstanke om primär tyreotoxikos finns.
+  id: med-end-d1f020
+- type: multiple_choice
+  tags:
+  - hypertoni
+  - hypokalemi
+  - aldosteron
+  question: Man 55 år med svårbehandlad hypertoni och hypokalemi (K+ 3,2 mmol/L) trots peroral kaliumsupplement. Ingen diuretika. Vad bör utredas i första hand?
+  image: null
+  options:
+  - text: Cushings syndrom
+    correct: false
+    feedback: Cushing kan ge hypertension men ger oftast inte uttalad hypokalemi och är mindre sannolik än primär hyperaldosteronism i detta scenario.
+  - text: njurartärstenos
+    correct: false
+    feedback: Njurartärstenos ger reninberoende hypertoni men associeras normalt inte med hypokalemi i frånvaro av sekundär hyperaldosteronism; kliniken talar mer för aldosteronöverskott.
+  - text: feokromocytom
+    correct: false
+    feedback: Feokromocytom ger paroxysmala symtom och adrenerg hypertension snarare än kronisk hypokalemi, därför mindre sannolikt här.
+  - text: primär hyperaldosteronism
+    correct: true
+    feedback: Primär hyperaldosteronism (Conns syndrom) orsakar resistent hypertoni och hypokalemi och bör utredas först, initialt med aldosteron/renin-kvot.
+  - text: tyreotoxikos
+    correct: false
+    feedback: Tyreotoxikos kan ge ökad blodtryck men leder inte typiskt till uttalad hypokalemi och är mindre sannolik för denna bild.
+  explanation: Kombinationen svårbehandlad hypertoni och persistenta låga kaliumvärden utan diuretika är klassisk för primär hyperaldosteronism. Utredningen inleds med mätning av serumaldosteron och plasma reninaktivitet (aldosteron/renin-kvot) följt av bekräftande tester och bilddiagnostik vid indikation.
+  id: imp-a37b2959
+- type: multiple_choice
+  tags:
+  - Hypotyreos
+  - Levotyroxin
+  - Geriatrik
+  question: Elsa, 78 år, har uttalad hypotyreos och ska starta Levaxin (levotyroxin). Vilket påstående är mest korrekt vid insättning?
+  image: null
+  options:
+  - text: Snabb upptrappning minskar risken för biverkningar
+    correct: false
+    feedback: Snabb upptrappning ökar risken för biverkningar som hjärtarytmier och ischemiska episoder, särskilt hos äldre.
+  - text: Levotyroxin bör kombineras med kalciumtillskott
+    correct: false
+    feedback: Kalcium minskar absorptionen av levotyroxin och bör inte ges samtidigt; tillskott är inte rutin vid insättning.
+  - text: Vid upptrappning bör patienten vara restriktiv med jodberikat salt
+    correct: false
+    feedback: Det finns normalt ingen generell rekommendation att undvika jodberikat salt vid levotyroxininsättning.
+  - text: Äldre och hjärtsjuka bör starta med låg dos och långsam upptrappning
+    correct: true
+    feedback: Hos äldre eller vid hjärtsjukdom startas låg dos och titreras långsamt för att undvika kardiovaskulära biverkningar.
+  - text: Vid uttalad hypotyreos bör T4 kombineras med T3 direkt.
+    correct: false
+    feedback: Standardbehandling är T4-monoterapi; kombination med T3 rekommenderas inte rutinmässigt.
+  explanation: Hos äldre och personer med hjärtsjukdom rekommenderas "start low, go slow" med levotyroxin för att undvika hjärtkomplikationer. Levotyroxin ges vanligen som monoterapi; absorption påverkas av kalcium (separera dosering) och dosjustering görs med TSH-kontroller var 6–8 vecka.
+  id: imp-66f26af8
+- type: multiple_choice
+  tags:
+  - tyreotoxikos
+  - amiodaron
+  - klinisk kemi
+  question: 'Man 70 år med förmaksflimmer och hjärtsvikt, behandlad med amiodaron (Cordarone). Lab: TSH 0,08 (lågt), fT4 22 (förhöjt). Trolig diagnos?'
+  image: null
+  options:
+  - text: Graves tyreotoxikos
+    correct: false
+    feedback: Mindre sannolikt — Graves ger visserligen tyreotoxikos men amiodaronbehandlingen gör amiodaron‑utlöst tyreotoxikos mer trolig.
+  - text: Hashimotos tyreoidit
+    correct: false
+    feedback: Hashimoto leder oftast till hypotyreos; transient hyperfunktion förekommer men är ovanligt och inte kopplat till amiodaron.
+  - text: Cordarone-utlöst tyreotoxikos
+    correct: true
+    feedback: Amiodaron kan inducera tyreotoxikos (amiodaron‑utlöst tyreotoxikos) och förklarar lågt TSH och förhöjt fT4.
+  - text: Subakut tyreoidit
+    correct: false
+    feedback: Mindre sannolikt — subakut tyreoidit ger ofta smärta i tyreoidea och föregående infektion, inte typiskt kopplat till amiodaron.
+  - text: Non thyreoideal illness
+    correct: false
+    feedback: NTI ger oftast lågt T3 och normalt/lågt fT4, inte ett tydligt förhöjt fT4 som här.
+  explanation: Amiodaron innehåller mycket jod och kan ge amiodaron‑utlöst tyreotoxikos (AIT, typ 1 eller 2). Hos en patient på amiodaron med undertryckt TSH och förhöjt fT4 är amiodaron‑inducerad tyreotoxikos mest sannolik; utredning med antikroppar, ultraljud och internationell uptake/testr är ofta nästa steg för att skilja typ 1 från typ 2.
+  id: imp-569cd851

@@ -1,0 +1,518 @@
+- type: multiple_choice
+  tags:
+  - HLA-B27
+  - Spondylartrit
+  question: Vilket sjukdomstillstånd är starkt associerat med HLA‑B27?
+  image: null
+  options:
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Psoriasisartrit kan ibland kopplas till HLA‑B27, särskilt vid axial involvering, men associationen är inte så stark eller konsekvent.
+  - text: Sjögrens syndrom
+    correct: false
+    feedback: Sjögrens är inte associerat med HLA‑B27 utan har andra immunogenetiska markörer och autoantikroppar.
+  - text: Systemisk skleros
+    correct: false
+    feedback: Systemisk skleros har inte en stark koppling till HLA‑B27 utan ofta andra HLA-typer och autoantikroppar.
+  - text: Reumatoid artrit
+    correct: false
+    feedback: Reumatoid artrit är främst kopplad till HLA‑DRB1 ("shared epitope"), inte HLA‑B27.
+  - text: Ankyloserande spondylit
+    correct: true
+    feedback: Ankyloserande spondylit har en stark genetisk association med HLA‑B27 och karakteriseras av sakroiliit och axial inflammation.
+  explanation: HLA‑B27 är starkt associerat med ankyloserande spondylit och andra spondylartriter, vilket ökar risken för axial involvering och sacroiliit. Andra reumatiska sjukdomar har i allmänhet andra HLA- eller autoantikroppsassociationer och därför saknar samma starka HLA‑B27-koppling.
+  id: med-ort-40ec38
+- type: multiple_choice
+  tags:
+  - Daktylit
+  - Psoriasisartrit
+  question: Vad kallas tillståndet när ett finger är svullet över hela dess längd och ser 'korvliknande' ut (se pilen)?
+  image: null
+  options:
+  - text: Raynaud fenomen
+    correct: false
+    feedback: Raynaud ger episodiska färgförändringar och kärlspasm i fingrar, inte diffus korvliknande svullnad.
+  - text: Entesit
+    correct: false
+    feedback: Entesit är inflammation vid senfästen och ger lokal smärta, inte generell svullnad av hela fingret.
+  - text: Artros
+    correct: false
+    feedback: Artros ger degenerativa förändringar i lederna och lokaliserade knölar, inte diffus hela-finger-svullnad.
+  - text: Synovit
+    correct: false
+    feedback: Synovit innebär ledinflammation som ger lednära svullnad, men inte typiskt en korvformad svullnad av hela fingret.
+  - text: Daktylit
+    correct: true
+    feedback: Daktylit är diffus svullnad av hela ett finger eller en tå och ger det karakteristiska 'korvfingret'.
+  explanation: Daktylit är en jämn, diffus svullnad av ett helt finger eller tå som ger ett 'korvliknande' utseende. Det ses oftast vid psoriasisartrit och andra spondylartriter och beror på inflammatoriska förändringar i leder, senor och mjukdelar.
+  id: med-ort-8825af
+- type: multiple_choice
+  tags:
+  - Artros
+  - Diagnostik
+  - Knä
+  question: Äldre kvinna med kronisk, bilateral knäsmärta som förvärras vid aktivitet och förbättras i vila. Knäna är lätt svullna och ömma. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Reumatoid artrit
+    correct: false
+    feedback: RA ger oftare symmetriska småledssymtom, uttalad morgonstelhet och systemiska tecken snarare än en ren mekanisk knäartropati.
+  - text: Psoriasisartrit
+    correct: false
+    feedback: Psoriasisartrit är ofta kopplat till hudpsoriasis och kan ha annan ledfördelning eller entesopatier, inte typiskt bilateral belastningssmärta i knän hos äldre.
+  - text: Gikt
+    correct: false
+    feedback: Gikt ger vanligen en akut, intensiv monoartrit med plötslig svullnad och smärta, inte en långsamt förlöpande bilateral mekanisk smärta.
+  - text: Septisk artrit
+    correct: false
+    feedback: Septisk artrit ger oftast akut svår lokal smärta och allmänpåverkan/feber och är inte en kronisk, belastningsberoende process.
+  - text: Osteoartrit
+    correct: true
+    feedback: Artros är en degenerativ ledsjukdom som ger belastningsberoende smärta, förbättring i vila och är vanlig i knä hos äldre.
+  explanation: Osteoartrit (artros) är en degenerativ ledsjukdom som ger mekanisk, belastningsberoende smärta och ibland måttlig svullnad, särskilt i knä och höft hos äldre. Diagnosen baseras främst på klinisk bild och kompletteras med röntgen; behandling är i första hand konservativ (träning, viktminskning, analgetika) med kirurgi vid svåra besvär.
+  id: med-ort-973407
+- type: multiple_choice
+  tags:
+  - Psoriasisartrit
+  - Spondyloartrit
+  - Entesit
+  question: Psoriasisartrit är en inflammatorisk ledsjukdom associerad med psoriasis. Vilket av nedanstående förknippas med psoriasisartrit?
+  image: null
+  options:
+  - text: Entesit
+    correct: false
+    feedback: Entesit är typiskt för psoriasisartrit, men det är inte det mest fullständiga svaret; "Alla ovanstående" är korrekt.
+  - text: Daktylit
+    correct: false
+    feedback: Daktylit ("korvfinger/tå") förekommer vid psoriasisartrit, men inte det bästa enskilda svaret eftersom "Alla ovanstående" omfattar detta.
+  - text: Artit i DIP och/eller PIP-leder fingrar/tår
+    correct: false
+    feedback: Perifer DIP-engagemang är typiskt och skiljer från RA, men inte det bästa svaret ensam; välj "Alla ovanstående".
+  - text: Inflammatorisk ryggvärk som förbättras av aktivitet och försämras i vila
+    correct: false
+    feedback: Axial involvering med inflammatorisk ryggvärk förekommer vid psoriasisartrit, men rätt alternativ är "Alla ovanstående".
+  - text: Alla ovanstående
+    correct: true
+    feedback: Psoriasisartrit kan ge entesit, daktylit, perifer artrit (ofta DIP) och axial sjukdom med inflammatorisk ryggvärk.
+  explanation: Psoriasisartrit är en form av spondyloartrit som kan ge både perifer och axial involvering, inklusive entesit och daktylit. Till skillnad från RA drabbas ofta DIP-leder och senfästen, och inflammatorisk ryggvärk förbättras vid aktivitet.
+  id: med-ort-c6425c
+- id: med-gen-c8a7-0001
+  type: multiple_choice
+  tags:
+  - Osteoporos
+  - Diagnostik
+  question: Vilket fynd talar mest för att en höftfraktur hos en äldre patient orsakas av osteoporos snarare än högenergitrauma?
+  image: null
+  options:
+  - text: Fraktur efter ett självmant fall från stående höjd och en radiologisk låg bentäthet vid kontrallateral höft
+    correct: true
+    feedback: Kombinationen av lågenergifraktur och låg bentäthet pekar mot osteoporosrelaterad fraktur.
+  - text: Fraktur genom en tidigare höftprotesimplanteringskanal
+    correct: false
+    feedback: En periprotetisk fraktur antyder implantatrelaterad mekanik snarare än primär osteoporos.
+  - text: Multipla revbensfrakturer med högenergimekanism
+    correct: false
+    feedback: Multipla frakturer vid hög energi är mer typiskt för trauma än osteoporos.
+  - text: Segmentell fraktur med kraftig mjukdelsskada och open wound
+    correct: false
+    feedback: Öppen, högenergifraktur med mjukdelsskada talar för trauma snarare än fragilitetsfraktur.
+  explanation: Fragilitetsfrakturer vid osteoporos uppstår ofta efter lågenergivåld, t.ex. fall från stående, och är associerade med nedsatt bentäthet. Radiologisk bedömning av motsatt sida och DXA ger stöd för osteoporosdiagnos i denna kontext.
+- id: med-gen-c8a7-0002
+  type: multiple_choice
+  tags:
+  - Fraktur
+  - Hand
+  question: Vilken åtgärd är mest korrekt initialt vid misstänkt scaphoidfraktur med normalt röntgenutfall?
+  image: null
+  options:
+  - text: Immobilisera i tum-gips och omröntgen/uppföljning efter 10–14 dagar eller MRI akut om tillgängligt
+    correct: true
+    feedback: Tidig immobilisering och uppföljning eller MRI är standard för att undvika AVN och sent upptäckt fraktur.
+  - text: Ingen immobilisering behövs om initial röntgen är normal
+    correct: false
+    feedback: Uteslutning av scaphoidfraktur kräver uppföljning eftersom röntgen initialt kan vara falskt negativ.
+  - text: Operativ fixation omedelbart vid varje misstänkt scaphoidfraktur
+    correct: false
+    feedback: Operativ behandling är inte förstahandsval om frakturen inte påvisas eller är instabil; konservativ behandling är vanlig.
+  - text: Ge NSAID och tillåt rörelse för att snabba på läkning
+    correct: false
+    feedback: Tidig rörlighet utan immobilisering riskerar fördröjd läkning eller icke-union vid scaphoidfraktur.
+  explanation: Scaphoidfrakturer kan vara röntgennegativa initialt och riskerar icke-union och osteonekros om oupptäckta; därför immobiliseras misstänkta fall och tas om för kontrollröntgen eller utreds med MRI som har hög känslighet. Akut MRI är indicerat vid hög misstanke för att påskynda diagnostik och behandling.
+- id: med-gen-c8a7-0003
+  type: multiple_choice
+  tags:
+  - Infektion
+  - Diagnostik
+  question: Vilket fynd i ledpunktion är mest talande för septisk artrit hos en vuxen patient?
+  image: null
+  options:
+  - text: Ledvätska med glukos <40% av plasmaglukos, leukocyter >50 x10^9/L och neutrofildominans
+    correct: true
+    feedback: Mycket hög leukocytmängd med neutrofildominans och sänkt glukos är typiskt för septisk artrit.
+  - text: Ledvätska med klar färg och leukocyter 2 x10^9/L
+    correct: false
+    feedback: Låga leukocyter och klar vätska talar snarare för icke-infektiös etiologi.
+  - text: Ledvätska med hög viskositet och kristaller synliga i polariserat ljus
+    correct: false
+    feedback: Kristaller tyder mer på kristallartrit (t.ex. gikt) än bakteriell septisk artrit.
+  - text: Ledvätska med neutrofildominans men normal glukos och låg leukocytos
+    correct: false
+    feedback: Neutrofildominans med låg total leukocytos och normal glukos är mindre förenligt med akut bakteriell artrit.
+  explanation: Bakteriell septisk artrit karakteriseras av hög cellhalt i ledvätskan (>50 x10^9/L ofta), neutrofildominans och sänkt glukos jämfört med plasma. Snabb odling och empirisk antibiotikabehandling efter provtagning är avgörande för prognosen.
+- id: med-gen-c8a7-0004
+  type: multiple_choice
+  tags:
+  - Knä
+  - Skada
+  question: Vilket kliniskt test är mest specifikt för främre korsbandsruptur (ACL)?
+  image: null
+  options:
+  - text: Lachmans test (slapphet vid 20–30° flektion)
+    correct: true
+    feedback: Lachmans test är mest sensitivt och specifikt för ACL-ruptur i klinisk undersökning.
+  - text: McMurray-test (snäppning vid rotation och extension)
+    correct: false
+    feedback: McMurray-test riktar sig mot meniskskador snarare än ACL.
+  - text: Valgusstress-test vid 30° (medial kollateralligament)
+    correct: false
+    feedback: Valgustest undersöker MCL, inte främre korsbandet.
+  - text: Apleys grinding-test (axial kompression i bukläge)
+    correct: false
+    feedback: Apleys test används för att bedöma menisk- eller kapselskada, inte primärt ACL.
+  explanation: 'Lachmans test bedömer anterior translation av tibia i lätt flekterad knäled och har hög sensitivitet och specificitet för ACL-ruptur. Andra tester undersöker olika strukturer: McMurray och Apley för menisk, valgus för MCL.'
+- id: med-gen-c8a7-0005
+  type: multiple_choice
+  tags:
+  - Knä
+  - Menisk
+  question: Vilket fynd vid MR-undersökning av knä är mest förenligt med en meniskrotisk eller reumatoid degenerativ meniskskada hos en medelålders patient?
+  image: null
+  options:
+  - text: Horizontal skulder- eller komplexa intrameniskiska signallinjer som når ledytan
+    correct: true
+    feedback: Horizontella eller komplexa bristningar som når ledytan är typiska för degenerativa meniskskador.
+  - text: Vertikal longitudinell fullt genomgående ruptur hos ung idrottare
+    correct: false
+    feedback: Vertikal longitudinell ruptur är mer typisk för traumatisk meniskskada hos yngre.
+  - text: Normal meniskstruktur utan signallinje men med omfattande benmärgsödem i femurkondylen
+    correct: false
+    feedback: Benmärgsödem talar mer för kontusion eller osteoartikulär skada än isolerad meniskskada.
+  - text: Cystisk förändring i meniskhorisonten utan kontakt med ledytan
+    correct: false
+    feedback: Intramenisk cysta utan kontakt med ledytan indikerar degenerativ förändring men inte typisk rotisk skada som når ledytan.
+  explanation: Degenerativa meniskskador hos medelålders patienter ger ofta horizontella eller komplexa bristningar som sträcker sig till ledytan, vilket påverkar behandlingsvalet. Traumatiska longitudinella bristningar hos unga är mer amenabla för sutur, medan degenerativa skador ofta hanteras mer konservativt eller med partiel meniskektomi beroende på symtom.
+- id: med-gen-c8a7-0006
+  type: multiple_choice
+  tags:
+  - Höft
+  - Barnortopedi
+  question: Vilket är mest karakteristiskt debuttecken vid slipped capital femoral epiphysis (SCFE) hos en tonåring?
+  image: null
+  options:
+  - text: Smärta i låret eller knät med utåtroterad och kortad extremitet vid gång
+    correct: true
+    feedback: SMärta som ofta utstrålar till knät tillsammans med utåtrotation och kortning är typiskt för SCFE.
+  - text: Plötslig kraftig axelsmärta utan tidigare knä- eller höftsymtom
+    correct: false
+    feedback: Axelsmärta är inte relevant för SCFE som är en höftsjukdom.
+  - text: Intermittent röd, svullen och varm höft utan rörelseinskränkning
+    correct: false
+    feedback: Akut inflammatorisk höft (t.ex. septisk artrit) ger ofta värme och utbredd svullnad, inte typiskt SCFE.
+  - text: Hög feber och allmänpåverkan som första symtom
+    correct: false
+    feedback: Systemisk infektion med feber tyder snarare på infektiös orsak än SCFE.
+  explanation: SCFE presenterar ofta med smärta i höften som refereras till knät och förändrad gångbild med utåtrotation och relativ förkortning av benet. Tidig röntgen och snabb ortopedisk bedömning är nödvändig för att minska risken för avancerad slipning och samtidiga komplikationer.
+- id: med-gen-c8a7-0007
+  type: multiple_choice
+  tags:
+  - Tumör
+  - Onkologi
+  question: Vilken utredning är mest relevant som första steg vid misstanke om primär malign benmetastas eller primärt bensarkom?
+  image: null
+  options:
+  - text: Slätröntgen av hela det drabbade benet inklusive lednivå och lungstatus (thoraxröntgen)
+    correct: true
+    feedback: Riktad slätröntgen av lesionen och lungöversikt är första steg för att karaktärisera lesionen och utesluta lungmetastaser.
+  - text: Direkt biopsi utan bildvägledning
+    correct: false
+    feedback: Biopsi utan adekvat bildvägledning och planering kan leda till felplacerade snitt och försvåra senare behandling.
+  - text: Helkropps PET-CT som primär undersökning innan lokal röntgen
+    correct: false
+    feedback: PET-CT kan vara värdefullt i staging men ersätter inte initial lokal radiografi vid första misstanke.
+  - text: Laboratoriepanel med SR, CRP och PSA som enda utredning
+    correct: false
+    feedback: Blodprover kompletterar men kan inte ersätta bilddiagnostik vid första misstanke om bensarkom/metastas.
+  explanation: Initialt utförs ofta slätröntgen av det drabbade benet för att bedöma lesionens karaktär (lytic/ sclerotic / periostealreaktion) och en thoraxröntgen för att screena för lungmetastaser. Biopsi planeras därefter i samråd med ortopedsarkomcentrum och måste göras med bildvägledning för att undvika kontamination av friska vävnader.
+- id: med-gen-c8a7-0008
+  type: multiple_choice
+  tags:
+  - Infektion
+  - Protes
+  question: Vilket är mest sannolikt etiologiskt agens vid tidig (inom 3 månader) periprotetisk höftinfektion efter operation?
+  image: null
+  options:
+  - text: Staphylococcus aureus eller gramnegativa tarmbakterier
+    correct: true
+    feedback: Tidiga periprotetiska infektioner orsakas ofta av S. aureus eller gramnegativa bakterier introducerade perioperativt.
+  - text: Cutibacterium acnes (Propionibacterium)
+    correct: false
+    feedback: Cutibacterium acnes förknippas oftare med sena, lågvirulenta periprotetiska infektioner särskilt kring axelproteser.
+  - text: Beta-hemolytiska streptokocker orsakar nästan uteslutande sena infektioner
+    correct: false
+    feedback: Beta-hemolytiska streptokocker kan orsaka tidiga infektioner men är inte exklusiva för sena infektioner.
+  - text: Svampinfektioner (Candida) är vanligaste tidiga agens
+    correct: false
+    feedback: Svampinfektioner är ovanliga och förekommer oftare hos immunosupprimerade och som sena eller komplexa infektioner.
+  explanation: Tidiga periprotetiska infektioner (inom 3 månader) orsakas ofta av högvirulenta hud- eller sjukhusbakterier som Staphylococcus aureus och gramnegativa organismer som introducerats vid operation. Senare infektioner kan vara orsakade av lågvirulenta organismer såsom Cutibacterium acnes eller koagulasnegativa stafylokocker.
+- id: med-gen-c8a7-0009
+  type: multiple_choice
+  tags:
+  - Trombos
+  - Kirurgi
+  question: Vilken profylaktisk strategi minskar mest risken för postoperativ djup ventrombos hos äldre patienter efter höftfrakturkirurgi?
+  image: null
+  options:
+  - text: Låg-molekylärt heparin (LMWH) startad tidigt och fortsättningsvis i minst 28–35 dagar postoperativt
+    correct: true
+    feedback: LMWH i upp till 4–5 veckor efter höftfraktur minskar signifikant risken för DVT och lungemboli.
+  - text: Endast tidig mobilisering utan farmakologisk profylax
+    correct: false
+    feedback: Tidigt mobilisering är viktigt men otillräckligt som ensam profylax hos högriskpatienter.
+  - text: Helplastsockor (TED-strumpor) utan farmaka
+    correct: false
+    feedback: Kompression ökar säkerheten men ger inte samma effekt som kombination med farmakologisk profylax hos högriskpatienter.
+  - text: Aspirin som ensam profylax direkt post-op för alla patienter
+    correct: false
+    feedback: Aspirin används i vissa protokoll men LMWH har bättre evidens hos högriskgrupper efter höftfraktur.
+  explanation: Patienter efter höftfraktur har hög trombembolirisk och rekommendationer stöder tidig start av LMWH eller likvärdigt antikoagulans, ofta i 28–35 dagar efter operation för att minska DVT/PE. Mekaniska åtgärder och tidig mobilisering kompletterar farmakologisk profylax men ersätter den inte hos högriskpatienter.
+- id: med-gen-c8a7-0010
+  type: multiple_choice
+  tags:
+  - Osteonekros
+  - Riskfaktorer
+  question: Vilken kombination av faktorer ger störst risk för avaskulär nekros (osteonekros) i caput femoris?
+  image: null
+  options:
+  - text: Högdos glukokortikoidbehandling och alkoholmissbruk
+    correct: true
+    feedback: Kortikosteroider och alkohol är välkända och synergistiska riskfaktorer för osteonekros i höften.
+  - text: Hypertension och hyperkolesterolemi utan andra riskfaktorer
+    correct: false
+    feedback: Dessa är kardiovaskulära riskfaktorer men inte de starkaste för osteonekros i caput femoris.
+  - text: Tidigare anterior höftluxation i barndomen utan aktuell steroid- eller alkoholexponering
+    correct: false
+    feedback: Trauma kan orsaka osteonekros men kronisk steroidbruk och alkohol är vanligare orsaker i vuxna.
+  - text: Låg fysisk aktivitet och vitamin D-brist ensam
+    correct: false
+    feedback: Instruktionsmässiga faktorer som D-vitaminbrist påverkar benmassa mer än att orsaka osteonekros.
+  explanation: Kortikosteroider och tungt alkoholintag är de vanligaste icke-traumatiska orsakerna till avaskulär nekros i caput femoris och kan verka synergistiskt. Traumatiska orsaker förekommer men i kliniska sammanhang med steroidbruk eller alkohol bör osteonekros övervägas tidigt.
+- id: med-gen-c8a7-0011
+  type: multiple_choice
+  tags:
+  - Kompartmentsyndrom
+  - Akut
+  question: Vilken parameter anses oftast indikera behov av omedelbar fasciotomi vid misstänkt kompartmentsyndrom i underbenet?
+  image: null
+  options:
+  - text: Delta pressure (diastoliskt tryck minus intracompartmentellt tryck) <30 mmHg tillsammans med kliniska fynd
+    correct: true
+    feedback: En delta pressure <30 mmHg i kombination med kliniska tecken är en väl använd indikation för fasciotomi.
+  - text: Intracompartmentellt tryck 20 mmHg utan kliniska symtom
+    correct: false
+    feedback: Isolerat tryck på ~20 mmHg utan klinik är ospecifikt och kräver klinisk korrelation.
+  - text: Endast svag perifer puls som enda fynd
+    correct: false
+    feedback: Närvaro eller frånvaro av puls är sen parameter och otillräcklig som ensam indikation.
+  - text: CRP-stegring och feber
+    correct: false
+    feedback: Inflammationsvärden och feber är inte relevanta för diagnostik av kompartmentsyndrom.
+  explanation: Beslut om fasciotomi bygger på kliniska tecken (intensiv smärta, ökad smärta vid passiv stretch, parestesier, svaghet) och mätning av intracompartmentellt tryck; en delta pressure <30 mmHg är en etablerad tröskel där fasciotomi oftast indikeras. Pulsar kan vara bevarade även vid allvarligt kompartmentsyndrom och bör inte användas ensamt.
+- id: med-gen-c8a7-0012
+  type: multiple_choice
+  tags:
+  - Axel
+  - Skada
+  question: Vilket kliniskt test har högst specificitet för komplett supraspinatusruptur vid rotatorkuffskada?
+  image: null
+  options:
+  - text: Drop-arm-test (patient kan inte kontrollera långsam adduktion från abduktion)
+    correct: true
+    feedback: Drop-arm-test är specifikt för stor, komplett supraspinatusruptur med funktionsbortfall.
+  - text: Neers impingement-test (smärta vid passiv flexion)
+    correct: false
+    feedback: Neers test påvisar impingement men är mindre specifikt för komplett ruptur.
+  - text: Hawkins-Kennedy test (smärta vid intern rotation i 90° flexion)
+    correct: false
+    feedback: Hawkins-Kennedy indikerar subakromiellt impingement men inte specifikt fullt genomträngande supraspinatusruptur.
+  - text: Yergason-test (smärta vid supination mot resistans)
+    correct: false
+    feedback: Yergason testar bicepssenan och är inte relevant för supraspinatusruptur.
+  explanation: Drop-arm-test är ett funktionellt test med hög specificitet för större eller kompletta supraspinatusrupturer där patienten inte kan sänka armen kontrollerat. Impingementtester ger information om subakromiell irrita­tion men ger inte samma specificitet för fullständiga rotatorkufftår.
+- id: med-gen-c8a7-0013
+  type: multiple_choice
+  tags:
+  - Nerv
+  - Hand
+  question: Vilka fynd på neurofysiologisk undersökning bekräftar karpaltunnelsyndrom (medianuskompression)?
+  image: null
+  options:
+  - text: Förlängd distal latens i medianusmotoriska/nervus medianus sensoriska ledningshastighet över karpaltunneln
+    correct: true
+    feedback: Förlängd distal latens och nedsatt ledningshastighet över karpaltunneln är diagnostiskt för medianuskompression.
+  - text: Normal medianusledningshastighet men förlängd ulnariskomponent
+    correct: false
+    feedback: Fynd i ulnarisnerven pekar inte på karpaltunnelsyndrom utan snarare ulnarislesion.
+  - text: Endast EMG-fibrillationspotentialer i bicepsmuskulatur
+    correct: false
+    feedback: Fibrillationer i proximala muskulatur reflekterar inte medianuskompression vid karpaltunnel.
+  - text: Allmän polyneuropati utan fokal distal fördröjning
+    correct: false
+    feedback: Polyneuropati ger diffusa förändringar och skiljer sig från den fokala medianusförändringen i karpaltunneln.
+  explanation: Diagnosen karpaltunnelsyndrom stödjs av nervledningsstudier som visar förlängd distal latens och sänkt ledningshastighet för medianusnerven över karpaltunneln. EMG kan komplettera för att bedöma graden av axonalt bortfall, medan normal NCS talar emot signifikant kompression.
+- id: med-gen-c8a7-0014
+  type: multiple_choice
+  tags:
+  - Neoplasma
+  - Metastaser
+  question: Vilken tumörtyp är statistiskt sett den vanligaste orsaken till osteolytiska benmetastaser hos vuxna män?
+  image: null
+  options:
+  - text: Prostatacancer ger oftast osteoblastiska snarare än osteolytiska lesioner
+    correct: false
+    feedback: Prostatacancer karakteriseras vanligen av osteoblastiska (sclerotiska) metastaser, inte primärt osteolytiska.
+  - text: Njurcancer (renal cell carcinoma)
+    correct: true
+    feedback: Njurcellscancer ger ofta solitära eller multipla osteolytiska benmetastaser.
+  - text: Kolorektalcancer orsakar primärt mjukdelsmetastaser och är ovanlig som osteolytisk källa
+    correct: false
+    feedback: Kolorektalcancer metastaserar visserligen till skelett men är inte den vanligaste orsaken till osteolytiska lesioner.
+  - text: Bröstcancer är den vanligaste orsaken hos män
+    correct: false
+    feedback: Bröstcancer är vanligare hos kvinnor; hos män är njurcancer en vanlig orsak till osteolytiska metastaser.
+  explanation: Hos män är njurcellscancer en av de tumörtyper som ofta ger osteolytiska benmetastaser och kan uppträda som solitära lesioner i skelettet. Prostatacancer ger i stället ofta osteoblastiska förändringar, vilket skiljer sig radiologiskt och påverkar utredning och behandling.
+- id: med-gen-c8a7-0015
+  type: multiple_choice
+  tags:
+  - Onkologi
+  - Myelom
+  question: Vilket fynd talar mest för multipelt myelom vid utredning av skelettsmärta och anemi?
+  image: null
+  options:
+  - text: Lytiska 'punched-out' lesioner på skelett-röntgen och monoklonal gammopati i serumproteinfraktionering
+    correct: true
+    feedback: Kombinationen av lytiska lesioner och monoklonal M-komponent är typisk för myelom.
+  - text: Sclerotiska benförändringar och normal serumkalcium
+    correct: false
+    feedback: Sclerotiska förändringar är mer förenliga med metastaser från prostata än med myelom.
+  - text: Ökat antal osteoblaster i biopsi och högt ben-specifikt alkalinfosfatas
+    correct: false
+    feedback: Myelom orsakar oftast osteoklastisk aktivitet och lytiska lesioner, inte osteoblast-proliferation.
+  - text: Multipla subkondrala cystor i indirekt MR utan plasmacellsavvikelse i blodet
+    correct: false
+    feedback: Subkondrala cystor utan hematologiska fynd är icke-specifikt och inte säkert myelom.
+  explanation: Multipelt myelom ger karakteristiska lytiska 'punched-out' benförändringar samt en monoklonal M-komponent i serum- eller urinproteinfraktionering; hematologiska avvikelser som anemi är vanliga. Diagnosen bekräftas med benmärgsbiopsi och ytterligare laboratorieprover (kreatinin, kalcium, fria lätta kedjor).
+- id: med-gen-c8a7-0016
+  type: multiple_choice
+  tags:
+  - Fraktur
+  - Axel
+  question: Vid luxationsfraktur av proximala humerus hos äldre med osteoporos, vilket behandlingsmål är allra viktigast för att optimera funktion?
+  image: null
+  options:
+  - text: Återetablera tuberculum major/minor-funktion för att möjliggöra rotatorkuffens mekanik
+    correct: true
+    feedback: Tuberkelrepositionen är avgörande för rotatorkuffens funktion och därmed axelfunktionen.
+  - text: Endast anatomisk reduction av kirurgiskt halsfrakturen oavsett tuberkelstatus
+    correct: false
+    feedback: Anatomisk reduction utan tuberkelåterställning kan ge kvarstående funktionsnedsättning vid rotatorkuffpåverkan.
+  - text: Primär total axelprotes för alla äldre patienter oavsett frakturtyp
+    correct: false
+    feedback: Totalprotes är inte alltid nödvändigt och bör övervägas utifrån frakturtyp och patientens funktionskrav.
+  - text: Kort immobilisering och tidig intensiv överkroppsträning för maximal rörelseomfång
+    correct: false
+    feedback: Tidiga intensiva rörelser riskerar icke-läkning och försvårar tuberkelreposition och rotatorkuffrehabilitering.
+  explanation: I proximala humerusfrakturer är tuberculum major/minor och deras relation viktiga för att återupprätta rotatorkuffens vridmoment och därmed axelns funktion, särskilt hos osteoporotiska äldre. Behandlingsval (konservativ, osteosyntes, hemi- eller reverse-protes) bestäms utifrån frakturtyp, tuberkelstatus och patientens funktionella behov.
+- id: med-gen-c8a7-0017
+  type: multiple_choice
+  tags:
+  - Rättpsykologi
+  - Sekundär
+  question: Vilket av följande påståenden om sekundär frakturprevention efter en distal radiusfraktur hos en 68-årig kvinna är mest korrekt?
+  image: null
+  options:
+  - text: Utvärdera för osteoporos med DXA och starta behandling enligt FRAX och riskprofil; överväg kalcium/D-vitamin och antiresorptiva läkemedel vid indikationskriterier
+    correct: true
+    feedback: Efter fragilitetsfraktur ska patienten utredas för osteoporos och erbjudas sekundärprevention enligt riskbedömning.
+  - text: Ingen ytterligare utredning eller behandling behövs om patienten redan får NSAID för smärtan
+    correct: false
+    feedback: Analgetika ersätter inte behovet av osteoporosutredning och sekundärprevention efter fragilitetsfraktur.
+  - text: Endast fysioterapi rekommenderas eftersom läkemedel inte påverkar framtida frakturrisk
+    correct: false
+    feedback: Fysioterapi är viktig men farmakologisk sekundärprevention minskar framtida frakturrisk och bör övervägas.
+  - text: Ange högdos kalcium som ensam behandling för att förebygga nya frakturer
+    correct: false
+    feedback: Kalcium/D-vitamin kan komplettera men är inte tillräckligt som ensam behandling vid hög frakturrisk.
+  explanation: En distal radiusfraktur hos en äldre kvinna ska betraktas som en fragilitetsfraktur och utlösa osteoporosutredning (DXA) samt riskbedömning (t.ex. FRAX) för att avgöra behov av antiresorptiv eller anabol behandling. Både farmakologisk sekundärprevention och nondrogåtgärder (vitamin D, fallprevention, fysio) är centrala för att minska framtida frakturrisk.
+- id: med-gen-c8a7-0018
+  type: multiple_choice
+  tags:
+  - Hand
+  - Nerv
+  question: Vid en distal radiusfraktur utvecklar patienten progressiva domningar i tummens radialt lokaliserade fingrar postoperativt — vilket är den mest sannolika förklaringen?
+  image: null
+  options:
+  - text: Akut karpaltunnelsyndrom på grund av blod- eller svullnadsrelaterad medianuskompression
+    correct: true
+    feedback: Svullnad eller hematom efter radiusfraktur kan ge akut medianuskompression i karpaltunneln.
+  - text: Ulnarisnervens kompression i Guyons kanal
+    correct: false
+    feedback: Ulnarisnerven påverkar ulnara fingrar och tummen påverkas inte primärt av Guyons kanal-påverkan.
+  - text: Radialisnervens skada vid distal radiusfraktur
+    correct: false
+    feedback: Radialisnerven försörjer dorsala extensorer och sensibilitet dorsalt av handryggen, inte volara tummens fingrar.
+  - text: Complex regional pain syndrome utan nervpåverkan
+    correct: false
+    feedback: CRPS kan orsaka sensoriska störningar men uppträder typiskt senare och inte som akut fokal medianussymtombild.
+  explanation: Efter distal radiusfraktur är akut karpaltunnelsyndrom en välkänd komplikation till följd av svullnad eller blödning som ökar trycket i karpaltunneln och komprimerar medianusnerven, vilket ger dominanta domningar i tummens radialt lokaliserade fingrar. Tidig diagnos och fasciotomi/karpaltunneldekompression kan vara nödvändig för att förhindra permanent nervskada.
+- id: med-gen-c8a7-0019
+  type: multiple_choice
+  tags:
+  - Barnortopedi
+  - Scolios
+  question: Vilken grad av strukturell thorakal idiopatisk skolios (Cobb-vinkel) hos en 14‑årig flicka indikerar vanligen behov av ortopedisk korsettbehandling?
+  image: null
+  options:
+  - text: 25–40° med kvarvarande tillväxtpotential
+    correct: true
+    feedback: Korsetbehandling rekommenderas ofta vid 25–40° hos växande patienter för att hindra progression.
+  - text: <10° som observation endast
+    correct: false
+    feedback: Kurvor <10° klassificeras som skoliosinsufficiens eller varianter och kräver oftast endast observation.
+  - text: '>70° där korsettbehandling är effektiv och första linjens terapi'
+    correct: false
+    feedback: Kurvor >70° är ofta kirurgiskt indikativa; korsettbehandling är ineffektiv i denna svårighetsgrad hos växande patienter.
+  - text: 15–20° alltid kräver omedelbar kirurgi på grund av hög progressionsrisk
+    correct: false
+    feedback: Lätta kurvor (15–20°) övervakas och korsettbehandling övervägs istället för omedelbar kirurgi.
+  explanation: Korsetbehandling (bracing) är indicerat för växande patienter med Cobb-vinkel vanligen mellan 25–40° för att förhindra kurvprogression. Mindre kurvor observeras och stora kurvor (>45–50° beroende på källa) övervägs för kirurgi beroende på mognad och progression.
+- id: med-gen-c8a7-0020
+  type: multiple_choice
+  tags:
+  - Fraktur
+  - Barn
+  question: Vilken initial handläggning är mest lämplig vid misstänkt 'nursemaid's elbow' (radial head subluxation) hos ett litet barn?
+  image: null
+  options:
+  - text: Utförning av snabb rekonstruktionsteknik (supination följt av flexion) eller alternativt hyperpronation, följt av omedelbar funktionstest
+    correct: true
+    feedback: Snabb reponering med supination + flexion eller hyperpronation är standard och återställer oftast funktionen omedelbart.
+  - text: Immobilisera armen i gips i två veckor och avvakta spontan reduktion
+    correct: false
+    feedback: Gipsning fördröjer återställning; reponering utförs akut med hög framgång.
+  - text: Akut röntgen innan någon reponering eftersom fraktur är det vanligaste tillståndet
+    correct: false
+    feedback: Fraktur är mindre sannolik; klinisk bedömning och försök till reponering är förstahandsåtgärd om presentationen är typisk.
+  - text: Ge opioida analgetika och följ upp nästa dag för eventuell reponering under narkos
+    correct: false
+    feedback: Unödig smärta och fördröjning; enkel reponering utan narkos brukar vara framgångsrik.
+  explanation: Radial head subluxation ('nursemaid's elbow') hos småbarn behandlas akut med reponeringsteknik (supination + flexion eller hyperpronation) som ofta återställer normal funktion omedelbart. Röntgen behövs endast vid atypisk presentation eller om reponering misslyckas eller misstanke om fraktur kvarstår.

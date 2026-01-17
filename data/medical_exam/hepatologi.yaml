@@ -1,0 +1,247 @@
+- type: multiple_choice
+  tags:
+  - Levertransplantation
+  - Kolangiocarcinom
+  question: Primär skleroserande kolangit (PSC) är en vanlig indikation för levertransplantation i Norden. Vilken av följande komplikationer är i regel inte en indikation för att genomgå levertransplantation vid PSC?
+  image: null
+  options:
+  - text: Återkommande bakteriella infektioner i gallvägarna
+    correct: false
+    feedback: Upprepade biliära infektioner ger svår morbiditet och kan motivera transplantation.
+  - text: Klåda som inte svarar på medicinsk behandling
+    correct: false
+    feedback: Refraktär klåda kan ge allvarligt nedsatt livskvalitet och är en indikation till transplantation.
+  - text: Utveckling av intrahepatisk kolangiocellulär cancer
+    correct: true
+    feedback: Etablerad intrahepatisk kolangiocellulär cancer hos vuxna ger oftast dåliga posttransplantationsresultat och hög recidivrisk, så transplantation rekommenderas vanligen inte.
+  - text: Utveckling av dekompenserad cirros
+    correct: false
+    feedback: Dekompenserad cirros är en klassisk och tydlig indikation för levertransplantation.
+  - text: Tecken till dysplasi i gallvägarna
+    correct: false
+    feedback: Påvisad dysplasi kan innebära hög malignitetsrisk och motivera transplantation eller annan kurativ åtgärd.
+  explanation: PSC leder till cholestatiska skador, återkommande cholangit, klåda och risk för cirros och malignitet. Transplantation övervägs vid dekompensation, svår refraktär klåda, återkommande infektioner eller höggradig dysplasi, medan etablerad intrahepatisk kolangiocellulär cancer vanligtvis inte är en transplantationsindikation hos vuxna p.g.a. sämre överlevnad och hög recidivrisk.
+  id: med-hep-b334a6
+- type: multiple_choice
+  tags:
+  - Kolestatiska sjukdomar
+  - Läkemedelsbehandling
+  question: Primär biliär kolangit är en autoimmun kolestatisk leversjukdom som drabbar de små gallvägarna. Vilket läkemedel används som förstahandsbehandling?
+  image: null
+  options:
+  - text: Bezafibrat (Bezalip)
+    correct: false
+    feedback: Bezafibrat är ett fibrat som studerats för PBC men är inte etablerad förstahandsbehandling.
+  - text: Elafibranor (Iqirvo)
+    correct: false
+    feedback: Elafibranor är ett nyare preparat under utredning och inte standard förstahandsbehandling.
+  - text: Seladelpar (Livdelzi)
+    correct: false
+    feedback: Seladelpar är under utvärdering och används inte som rutinmässig förstahandsbehandling.
+  - text: Ursodeoxycholsyra, UDCA (Ursofalk)
+    correct: true
+    feedback: UDCA är etablerad förstahandsbehandling som förbättrar kolestatisk leverbiokemi och långsiktig prognos.
+  - text: Obeticholsyra (Ocaliva)
+    correct: false
+    feedback: Obeticholsyra används som tillägg eller andrahandsval vid otillräckligt svar på UDCA.
+  explanation: Ursodeoxycholsyra (UDCA) är förstahandsbehandling vid primär biliär kolangit och förbättrar kolestatiska laboratorievärden samt prognos. Om svar på UDCA är otillräckligt kan obeticholsyra eller andra terapier övervägas; flera fibrater och nya läkemedel utvärderas i studier.
+  id: med-hep-1959d8
+- type: multiple_choice
+  tags:
+  - Hepatologi
+  - Leversvikt
+  - Intensivvård
+  question: 'En patient med känd dekompenserad levercirros och ascites blir inlagd med encefalopati grad 2. Inom några dagar försämras hon snabbt: kreatinin 216 µmol/L, bilirubin >400 µmol/L, PK-INR 5,3, CRP stiger från 12 till 90 mg/L. Hon intuberas för att säkra luftvägarna vid encefalopati grad 3–4 och behöver vasopressorbehandling. Vilken diagnos är mest korrekt?'
+  image: null
+  options:
+  - text: Akut dekompenserad levercirros
+    correct: false
+    feedback: Beskriver akut försämring av cirros men fångar inte multipel organsvikt och hög mortalitet som ses vid ACLF.
+  - text: Akut-på-kronisk leversvikt (ACLF)
+    correct: true
+    feedback: Akut försämring hos en patient med kronisk leversjukdom med flera organsvikt (lever, njure, koagulation, encefalopati) och ofta utlösts av infektion.
+  - text: Akut leversvikt (ALF)
+    correct: false
+    feedback: ALF innebär akut leversvikt utan tidigare kronisk leversjukdom.
+  - text: Hepatorenalt syndrom
+    correct: false
+    feedback: Hepatorenalt syndrom är primärt en funktionell njursvikt sekundärt till avancerad leversjukdom, inte ett tillstånd med flertalet organsvikt inklusive svår koagulopati och hyperbilirubinemi.
+  - text: Svår sepsis
+    correct: false
+    feedback: Sepsis kan utlösa ACLF men termen beskriver inte specifikt akut försämring av kronisk leversjukdom med multipla organsvikt.
+  explanation: ACLF är en akut försämring hos patienter med kronisk leversjukdom som leder till dysfunktion i ett eller flera organ och hög mortalitet; vanliga fynd är mycket högt bilirubin, stigande kreatinin, koagulopati och svår encefalopati. Tillståndet skiljer sig från ALF (ingen kronisk sjukdom) och från hepatorenalt syndrom (isoleringränkt njursvikt).
+  id: med-hep-7efd5d
+- type: multiple_choice
+  tags:
+  - Portahypertension
+  - Diagnostik
+  - Levercirros
+  question: Vilken är den lägsta HVPG-nivån (hepatic venous pressure gradient) som definieras som kliniskt signifikant portahypertension (CSPH) hos patienter med levercirros?
+  image: null
+  options:
+  - text: ≥ 10 mmHg
+    correct: true
+    feedback: CSPH definieras kliniskt som HVPG ≥10 mmHg.
+  - text: ≥ 20 mmHg
+    correct: false
+    feedback: Detta är mycket högre än definitionsgränsen; höga värden (≥12–20 mmHg) ökar blödnings- och komplikationsrisk.
+  - text: ≥ 6 mmHg
+    correct: false
+    feedback: För lågt; normalt HVPG är <5 mmHg och 6 mmHg räknas inte som CSPH.
+  - text: ≥ 12 mmHg
+    correct: false
+    feedback: ≥12 mmHg är kopplat till ökad risk för varixblödning men gränsen för CSPH är 10 mmHg.
+  - text: ≥ 16 mmHg
+    correct: false
+    feedback: Indikerar svår portalhypertension men är högre än den kliniskt signifikanta tröskeln.
+  explanation: CSPH definieras som HVPG ≥10 mmHg och är tröskeln vid vilken komplikationer som ascites och varixblödning blir sannolika. HVPG mäts invasivt och värden ≥12 mmHg särskilt associeras med ökad risk för esofagusvarixblödning, medan normalt HVPG är <5 mmHg.
+  id: med-hep-58a1de
+- type: multiple_choice
+  tags:
+  - Ikterus
+  - Hemolys
+  - Leverprover
+  question: En patient har förhöjd totalbilirubin med normala S‑ASAT, S‑ALAT och S‑ALP. Samtidigt ses sänkt serumhaptoglobin och förhöjt antal retikulocyter. Vilket tillstånd talar analysresultaten mest för?
+  image: null
+  options:
+  - text: Gallsten
+    correct: false
+    feedback: Gallsten ger ofta kolestas med förhöjt ALP och konjugerat bilirubin, inte sänkt haptoglobin/retikulocytos.
+  - text: Gilberts sjukdom
+    correct: false
+    feedback: Ger okonjugerad hyperbilirubin men normalt haptoglobin och ingen uttalad retikulocytos.
+  - text: Crigler–Najjar syndrom
+    correct: false
+    feedback: Är en medfödd svår okonjugerad hyperbilirubinemi med tidig debut, men saknar tecken på hemolys (sänkt haptoglobin/retikulocytos).
+  - text: Levercirrhos
+    correct: false
+    feedback: Cirrhos ger ofta avvikande leverprover och tecken på kronisk leverpåverkan snarare än isolerad hemolysbild.
+  - text: Hemolys
+    correct: true
+    feedback: Sänkt haptoglobin och ökad retikulocytproduktion är typiska tecken på intravasal hemolys som förklarar hyperbilirubinemin.
+  explanation: Sänkt haptoglobin beror på att fritt hemoglobin binds och förbrukas vid intravasal hemolys, och retikulocytos är benmärgens kompensation för ökad erytrocyt‑destruktion. Isolerad okonjugerad hyperbilirubinemi vid Gilbert eller Crigler–Najjar saknar typiskt dessa hemolysmarkörer, medan gallstenspåverkan och cirrhos ofta ger avvikande ALAT/ASAT/ALP eller kolestatiska tecken.
+  id: med-hep-91e23e
+- type: multiple_choice
+  tags:
+  - Portahypertension
+  - Varixblödning
+  - Farmakologi
+  question: Icke-selektiva betablockerare används som profylax mot esofagusvaricer. Enligt Baveno-rekommendationerna, vilken betablockerare rekommenderas i första hand för att sänka portatrycket och minska risken för varixkomplikationer och död?
+  image: null
+  options:
+  - text: Carvedilol
+    correct: true
+    feedback: Carvedilol är icke-selektiv och har extra alfa‑1‑blockad, vilket ger större reduktion av portatrycket och bättre prevention av varixblödning.
+  - text: Nadolol
+    correct: false
+    feedback: Nadolol är icke-selektiv och kan användas men saknar alfa‑1‑blockad och ger mindre portatrycksreduktion än carvedilol.
+  - text: Propranolol
+    correct: false
+    feedback: Propranolol är icke-selektiv och ett etablerat alternativ men saknar alfa‑1‑effekt, vilket gör det mindre effektivt än carvedilol för portatryckssänkning.
+  - text: Metoprolol
+    correct: false
+    feedback: Metoprolol är β1‑selektiv och saknar den β2‑ och alfa‑1‑blockad som krävs för effektiv sänkning av portatrycket.
+  - text: Bisoprolol
+    correct: false
+    feedback: Bisoprolol är β1‑selektiv och är därför inte lämplig för att reducera portatrycket och förebygga varixblödning.
+  explanation: Carvedilol rekommenderas i första hand vid portahypertension eftersom dess kombinerade icke‑selektiva beta‑blockad och alfa‑1‑blockad ger en större reduktion av portatrycket och bättre prevention av varixblödning. Nadolol och propranolol är icke‑selektiva och kan användas som alternativ men saknar alfa‑1‑effekt. Betablockerare selektiva för β1 (t.ex. metoprolol, bisoprolol) är inte effektiva för att sänka portatrycket.
+  id: med-hep-14bf47
+- type: multiple_choice
+  tags:
+  - Leversyntes
+  - Leverfunktionsprover
+  question: Vilket laboratorievärde är mest specifikt för leverns syntesförmåga?
+  image: null
+  options:
+  - text: Bilirubin
+    correct: false
+    feedback: Bilirubin speglar främst utsöndring och konjugation samt påverkas av hemolys, inte leverns synteskapacitet.
+  - text: ASAT
+    correct: false
+    feedback: ASAT indikerar hepatocellulär skada och är inte ett mått på syntesförmåga.
+  - text: ALAT
+    correct: false
+    feedback: ALAT är en markör för levercellsödem/skada snarare än syntetisk funktion.
+  - text: PK (INR)
+    correct: true
+    feedback: PK/INR reflekterar leverns produktion av vitamin K‑beroende koagulationsfaktorer och förlängs vid nedsatt syntes.
+  - text: ALP
+    correct: false
+    feedback: ALP stiger vid kolestas eller benpåverkan och är inte ett direkt mått på syntes.
+  explanation: PK/INR är det mest specifika provet för leverns syntes eftersom det mäter produktionen av koagulationsfaktorer som bildas i levern. Bilirubin, ASAT/ALAT och ALP speglar i stället utsöndring, hepatocellulär skada respektive kolestas.
+  id: med-hep-319fe2
+- type: multiple_choice
+  tags:
+  - Primär skleroserande kolangit
+  - Kolestas
+  - Ulcerös kolit
+  question: En 52-årig man med 15 års anamnes på ulcerös kolit har ikterus, klåda och förhöjt alkaline phosphatase (ALP). Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Alkoholorsakad leverskada
+    correct: false
+    feedback: Alkoholskada ger ofta förhöjda transaminaser (AST/ALT) och kräver en relevant alkoholanamnes; bilden är inte typisk för långvarig UC med cholestas.
+  - text: Primär biliär kolangit (PBC)
+    correct: false
+    feedback: PBC drabbar huvudsakligen medelålders kvinnor och är inte typiskt associerad med ulcerös kolit.
+  - text: Autoimmun hepatit
+    correct: false
+    feedback: Autoimmun hepatit ger oftast en hepatocellulär bild med markant förhöjda transaminaser snarare än en cholestatisk bild.
+  - text: Gallsten
+    correct: false
+    feedback: Gallstenssjukdom ger ofta episodisk biliär smärta och kan orsaka akut obstruktion, men förklarar inte kronisk cholestas kopplad till UC.
+  - text: Primär skleroserande kolangit (PSC)
+    correct: true
+    feedback: PSC är starkt associerad med ulcerös kolit och ger cholestatiska leverprover (förhöjt ALP), ikterus och klåda.
+  explanation: Primär skleroserande kolangit är en kronisk inflammatorisk sjukdom i intra- och extrahepatiska gallgångar, ofta hos män med samtidig ulcerös kolit. Den ger en cholestatisk labsbild (högt ALP), ikterus och klåda, och utreds med MRCP/ERCP samt riskerar progress till cirros och behov av levertransplantation.
+  id: med-hep-0551a0
+- type: multiple_choice
+  tags:
+  - Hepatologi
+  - Leversvikt
+  - Encefalopati
+  question: En 60-årig man med känd leversjukdom utvecklar konfusion, asterixis och somnolens. Vilket tillstånd är mest sannolikt?
+  image: null
+  options:
+  - text: Hyponatremi
+    correct: false
+    feedback: Hyponatremi kan ge förvirring men förklarar mindre väl asterixis och är inte typiskt kopplat till leversjukdomens neurotoxiska mekanismer.
+  - text: Leverencefalopati
+    correct: true
+    feedback: Konfusion, asterixis och somnolens är kliniska kännetecken för hepatisk encefalopati vid leverns oförmåga att avgifta ammoniak och andra toxiner.
+  - text: Hypoglykemi
+    correct: false
+    feedback: Hypoglykemi ger ofta snabbinsättande symtom och autonoma tecken och orsakar vanligen inte asterixis.
+  - text: Subaraknoidalblödning
+    correct: false
+    feedback: Subaraknoidalblödning ger typiskt akut svår huvudvärk och fokala neurologiska tecken snarare än asterixis.
+  - text: Sepsis
+    correct: false
+    feedback: Sepsis kan ge encefalopati men brukar föregås av feber och systemiska inflammatoriska tecken och förklarar inte specifikt asterixis.
+  explanation: Hepatisk encefalopati uppstår när levern inte kan avgifta ämnen som ammoniak, vilket leder till neuropsykiatriska och neuromuskulära symtom såsom konfusion, somnolens och asterixis. Behandling riktas mot att identifiera precipitans och minska ammoniakproduktionen (t.ex. laktulos, antibiotika).
+  id: med-hep-14901d
+- type: multiple_choice
+  tags:
+  - Primär biliär kolangit
+  - AMA
+  - Kolestatiska levervärden
+  question: Kvinna 79 år med trötthet och klåda. Förhöjt ALP (5,2× övre normalgräns), normal bilirubin, ASAT och ALAT, samt rivmärken. Vilket prov bekräftar sannolik diagnos?
+  image: null
+  options:
+  - text: Antinukleära antikroppar (ANA) och IgG
+    correct: false
+    feedback: ANA och förhöjt IgG talar snarare för autoimmun hepatit, inte det typiska mönstret vid primär biliär kolangit.
+  - text: Magnetresonanstomografi av gallvägar (MRC)
+    correct: false
+    feedback: MRC visar biliära stenos/obstruktion men bekräftar inte autoimmun primär biliär kolangit.
+  - text: Antimitokondrieantikroppar (AMA) och IgM
+    correct: true
+    feedback: AMA förekommer hos majoriteten med primär biliär kolangit och förhöjt IgM stödjer diagnosen.
+  - text: Ultraljud av lever och gallvägar
+    correct: false
+    feedback: Ultraljud är bra för att utesluta extrahepatisk obstruktion men bekräftar inte primär biliär kolangit.
+  - text: HFE-mutationstest
+    correct: false
+    feedback: HFE-mutation utreds vid hemokromatos, som ger annan laboratoriebild (järnöverskott), inte typisk kolestas med klåda.
+  explanation: Kliniken med markant ALP-stegring, klåda och rivmärken är typisk för kolestatisk leversjukdom; primär biliär kolangit (PBC) bekräftas i första hand med antimitokondrieantikroppar (AMA) och ofta förhöjt IgM. Avbildning (ultraljud/MRC) används för att utesluta extrahepatisk obstruktion, och ANA/IgG pekar istället mot autoimmun hepatit medan HFE är för hemokromatos.
+  id: imp-995ac1ec

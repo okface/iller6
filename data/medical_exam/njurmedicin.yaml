@@ -1,0 +1,566 @@
+- type: multiple_choice
+  tags:
+  - Postrenal
+  - Akut njurskada
+  - Retroperitoneal fibros
+  question: Vilket av nedanstående tillstånd klassificeras som en postrenal orsak till akut njurskada (AKI)?
+  image: null
+  options:
+  - text: Trombotisk mikroangiopati
+    correct: false
+    feedback: Trombotisk mikroangiopati orsakar intrarenal vaskulär skada genom mikrotromboser, inte mekanisk ureterobstruktion.
+  - text: Sklerodermi
+    correct: false
+    feedback: Sklerodermisk renal kris ger oftast intrarenal vaskulär skada och hypertension, inte postrenal obstruktion.
+  - text: Tubulointerstitiell nefrit
+    correct: false
+    feedback: Tubulointerstitiell nefrit är en intrarenal skada som drabbar tubuli och interstitium, inte uretrerobstruktion.
+  - text: Malign hypertoni
+    correct: false
+    feedback: Malign hypertoni orsakar primärt intrarenal vaskulär skada och njurischemi snarare än postrenal obstruktion.
+  - text: Retroperitoneal fibros
+    correct: true
+    feedback: Retroperitoneal fibros kan ge mekanisk kompression av ureter och därmed postrenal akut njurskada.
+  explanation: Postrenal AKI beror på hinder i urinvägarna som leder till bakomliggande tryckpåverkan på njurarna; vanlig mekanism är ureterobstruktion. Retroperitoneal fibros kan orsaka sådan mekanisk obstruktion av ureter och därmed ge postrenal njurskada, medan de andra alternativen huvudsakligen ger intrarenal eller vaskulär skada.
+  id: med-nju-39097d
+- type: multiple_choice
+  tags:
+  - Njurmedicin
+  - Diabetes
+  - Kronisk njursvikt
+  question: Vilken är den vanligaste orsaken till terminal njursvikt (ESRD) i Sverige och globalt?
+  image: null
+  options:
+  - text: Infektions-orsakade njurskador
+    correct: false
+    feedback: Infektioner kan orsaka akut eller kronisk skada men är inte den vanligaste orsaken till terminal njursvikt.
+  - text: Glomerulonefriter
+    correct: false
+    feedback: Vissa glomerulonefriter leder till terminal svikt men dessa är mindre frekventa än diabetisk njursjukdom.
+  - text: Hypertoni
+    correct: false
+    feedback: Hypertoni är en vanlig riskfaktor och kan orsaka kronisk njurskada, men diabetes är vanligare som orsak till terminal svikt.
+  - text: Autosomalt dominant polycystisk njursjukdom (ADPKD)
+    correct: false
+    feedback: ADPKD är en betydande ärftlig orsak till njursvikt men förekomsten i befolkningen är mindre än för diabetes.
+  - text: Diabetisk njursjukdom
+    correct: true
+    feedback: Diabetes (särskilt typ 2) är idag den vanligaste orsaken till terminal njursvikt på grund av hög prevalens och långsiktiga mikrovasculära skador.
+  explanation: Diabetisk njursjukdom är den ledande orsaken till terminal njursvikt globalt och i Sverige, främst p.g.a. den höga förekomsten av typ 2‑diabetes och dess skador på glomeruli och mikrovasculatur. Hypertoni bidrar ofta som riskfaktor och ADPKD är en viktig ärftlig orsak, medan glomerulonefriter och infektioner är mindre frekventa som slutlig orsak.
+  id: med-nju-ea7010
+- type: multiple_choice
+  tags:
+  - Hematuri
+  - Urinmikroskopi
+  question: 42-årig man, tidigare DVT och stående på Xarelto, söker för återkommande makroskopisk hematuri i samband med infektioner. Ingen dysuri, blodtryck 140/85, kreatinin 82 µmol/l, U-sticka 2+ för blod och U-alb/krea 34 g/mol. Du misstänker IgA-nefropati och remitterar till njurmedicin. Vilken annan åtgärd är viktig att göra nu?
+  image: null
+  options:
+  - text: Tar urinprov för analys av u-sediment (urin-mikroskopering)
+    correct: true
+    feedback: U-sediment kan visa dysmorfa erytrocyter eller röda blodkroppscylindrar som talar för glomerulär blödning (t.ex. IgA-nefropati).
+  - text: Säger åt honom att sluta äta rödbetor
+    correct: false
+    feedback: Rödbetor kan färga urinen men är en osannolik förklaring vid återkommande makroskopisk hematuri med positiv U-sticka.
+  - text: Skriver remiss enligt SVF cancer i urinblåsa och urinvägar
+    correct: false
+    feedback: Cancerutredning är mindre prioriterad hos en yngre patient med episodisk hematuri, normal njurfunktion och klinik som talar för glomerulär orsak.
+  - text: Rekommenderar att hans barn lämnar urinprov
+    correct: false
+    feedback: Barnens urinprov är irrelevanta för utredning av denna patients hematuri.
+  - text: Avråder från NSAID
+    correct: false
+    feedback: Delvis rätt men otillräckligt — undvikande av NSAID är rimligt som stödåtgärd men viktigast är att analysera u-sediment för att differentiera glomerulär från urologisk blödning.
+  explanation: Vid misstänkt IgA-nefropati är mikroskopering av urin (u-sediment) avgörande för att påvisa dysmorfa erytrocyter eller RBC-cylindrar och därmed bekräfta glomerulär hematuri. Andra åtgärder som att undvika NSAID är rimliga men sekundära; cancerutredning är mindre sannolik i denna kliniska kontext.
+  id: med-nju-af0121
+- type: multiple_choice
+  tags:
+  - Njurmedicin
+  - Diagnostik
+  - AKI
+  question: Vilket av följande ingår INTE i definitionen av akut njurskada (acute kidney injury, AKI)?
+  image: null
+  options:
+  - text: Ökning av serumkreatinin ≥0,3 mg/dl inom 48 timmar
+    correct: false
+    feedback: En ökning av s-kreatinin ≥0,3 mg/dl inom 48 timmar är ett av de diagnostiska kriterierna för AKI.
+  - text: Ökning av serumkreatinin ≥1,5 gånger från baslinjevärdet inom 7 dagar
+    correct: false
+    feedback: En ökning till ≥1,5 gånger baslinjen inom 7 dagar ingår i AKI-definitionen.
+  - text: Urinproduktion <0,5 ml/kg/timme under de senaste 6 timmarna
+    correct: false
+    feedback: Oliguri (<0,5 ml/kg/timme under 6 timmar) är ett av kriterierna för AKI.
+  - text: Blodtryck >140/90 mmHg under det senaste dygnet
+    correct: true
+    feedback: Förhöjt blodtryck är inte ett diagnostiskt kriterium för AKI, även om det kan vara associerat med njursjukdom.
+  - text: Ingen av ovanstående ingår i definitionen av AKI
+    correct: false
+    feedback: Flera av alternativen (s-kreatinin-ökningar och oliguri) ingår i definitionen av AKI.
+  explanation: AKI definieras av ökning i serumkreatinin (≥0,3 mg/dl inom 48 timmar eller ≥1,5 gånger baslinjen inom 7 dagar) och/eller oliguri (<0,5 ml/kg/timme under 6 timmar). Förhöjt blodtryck kan förekomma vid njursjukdom men är inte ett diagnostiskt kriterium för AKI.
+  id: med-nju-91dbc3
+- type: multiple_choice
+  tags:
+  - Nefrotiskt syndrom
+  - Proteinuri
+  - Diagnostik
+  question: Vilket av följande ingår INTE i definitionen av nefrotiskt syndrom?
+  image: null
+  options:
+  - text: Hypoalbuminemi
+    correct: false
+    feedback: Hypoalbuminemi är ett huvudkriterium vid nefrotiskt syndrom och beror på massiv albuminförlust i urinen.
+  - text: Hyperlipidemi
+    correct: false
+    feedback: Hyperlipidemi är typiskt vid nefrotiskt syndrom som kompensation för albuminbrist och förändrad lipoproteinmetabolism.
+  - text: Albuminuri > 3g/dag
+    correct: false
+    feedback: Massiv albuminuri (>3 g/dag) är ett obligatoriskt kriterium för nefrotiskt syndrom.
+  - text: Ödem
+    correct: false
+    feedback: Perifera och ofta generella ödem uppstår sekundärt till hypoalbuminemi och minskat kolloidosmotiskt tryck.
+  - text: Enstaka hyalina cylindrar i urinsediment
+    correct: true
+    feedback: Enstaka hyalina cylindrar är ospecifika och kan ses hos friska eller vid mild dehydrering, ingår inte i definitionen.
+  explanation: Nefrotiskt syndrom definieras av massiv albuminuri (>3 g/dag), sekundär hypoalbuminemi, hyperlipidemi och ödem. Urinsediment kan visa olika fynd, men enstaka hyalina cylindrar är icke-specifika och ingår inte i definitionen.
+  id: med-nju-406963
+- type: multiple_choice
+  tags:
+  - Nefrotiskt syndrom
+  - Proteinuri
+  - Diagnostik
+  question: Du träffar en tidigare frisk 20-årig man på akuten som på en vecka gått upp 5 kg och har uttalade pittingödem bilateralt upp till låren. Du misstänker nefrotiskt syndrom. Vilket prov är viktigast för att fastställa ett nefrotiskt syndrom?
+  image: null
+  options:
+  - text: U-sediment
+    correct: false
+    feedback: U‑sediment visar celler och cylindrar men kvantifierar inte proteinuri.
+  - text: P-albumin
+    correct: false
+    feedback: Lågt P‑albumin är en konsekvens av kraftig proteinuri men inte ett direkt mått på proteinmängd i urinen.
+  - text: U-albumin/kreatinin-kvot
+    correct: true
+    feedback: Spot‑urinalbumin/kreatininkvot ger snabb, kvantitativ uppskattning av proteinuri och korrelerar med 24‑timmarsprotein.
+  - text: U-sticka
+    correct: false
+    feedback: Urinsticka är användbar för screening men saknar noggrann kvantifiering vid massiv proteinuri.
+  - text: P-kreatinin
+    correct: false
+    feedback: P‑kreatinin speglar njurfunktion, inte mängden protein i urinen.
+  explanation: Nefrotiskt syndrom karakteriseras av massiv proteinuri (>3,5 g/24 h), hypoalbuminemi, ödem och hyperlipidemi. Den bästa initiala kvantifieringen av proteinuri är u‑albumin/kreatininkvot i spoturin eller 24‑timmarsurin; P‑albumin är en följd och urinsticka är endast screening.
+  id: med-nju-126fd8
+- type: multiple_choice
+  tags:
+  - Anemi
+  - Kronisk njursjukdom
+  - Erytropoetin
+  question: Vilket av följande påståenden om renal anemi är FELAKTIGT?
+  image: null
+  options:
+  - text: Renal anemi är sällsynt vid GFR > 30 ml/min/1,73 m².
+    correct: false
+    feedback: Anemi uppstår oftare vid GFR < 30; det är ovanligt vid bättre njurfunktion.
+  - text: För att ställa diagnosen krävs analys av serumerytropoetin.
+    correct: true
+    feedback: EPO-analys kan vara vägledande men krävs inte; diagnosen baseras på CKD, hemoglobinvärde och uteslutning av andra orsaker.
+  - text: Blodtransfusioner bör undvikas hos patienter som är på väntelistan för njurtransplantation.
+    correct: false
+    feedback: Transfusioner kan orsaka alloimmunisering och bör i möjligaste mån undvikas hos transplantationskandidater.
+  - text: Renal anemi är som regel normocytär och normokrom.
+    correct: false
+    feedback: Typiskt är normocytär, normokrom anemi vid renal anemi, särskilt i tidiga och medelsvåra stadier.
+  - text: Renal anemi är en uteslutningsdiagnos.
+    correct: false
+    feedback: Andra orsaker till anemi måste uteslutas och diagnosen ställs i samband med dokumenterad CKD och lågt Hb.
+  explanation: Renal anemi beror främst på nedsatt erytropoetinproduktion vid kronisk njursvikt och ger oftast normocytär, normokrom anemi. Diagnos baseras på CKD-status, hemoglobinmätning och uteslutning av andra orsaker; EPO-nivåer kan informera behandling men är inte nödvändiga. Transfusioner undviks hos transplantationskandidater för att minska risken för immunisering.
+  id: med-nju-9f1c81
+- type: multiple_choice
+  tags:
+  - Hyperkalemi
+  - Akutbehandling
+  question: En 65-årig man med terminal njursvikt som står på hemodialys M, O, F och är anurisk söker på akuten för muskelsvaghet en söndagskväll. P‑Kalium är 7,6 mmol/l och standardbikarbonat 22 mmol/l. EKG visar något höga, toppiga T‑vågor men ej breddökade QRS. Vilken av nedanstående behandlingar kan effektivt sänka P‑Kalium inom 1–2 timmar?
+  image: null
+  options:
+  - text: Insulin‑glukos dropp
+    correct: true
+    feedback: Insulin flyttar kalium intracellulärt snabbt (30–60 min) när det ges med glukos och sänker plasmakalium inom 1–2 timmar.
+  - text: Pulver Resonium per oralt
+    correct: false
+    feedback: Resinbinder i tarmen verkar långsamt och ger inte snabb sänkning inom 1–2 timmar.
+  - text: Furosemid intravenöst
+    correct: false
+    feedback: Loopdiuretika sänker kalium endast om patienten har diures; vid anuri är det verkningslöst.
+  - text: Infusion Natriumbikarbonat
+    correct: false
+    feedback: Bikarbonat kan ibland skifta K intracellulärt men effekten är osäker och ofta svag när bikarbonatet är normalt.
+  - text: Kalcium intravenöst
+    correct: false
+    feedback: Iv kalcium stabiliserar hjärtcellernas membranproteiner och förebygger arytmi men sänker inte plasmakalium.
+  explanation: Akut hyperkalemi behandlas snabbt med åtgärder som flyttar K intracellulärt (insulin+glukos, β2‑agonister) eller stabiliserar hjärtat (iv kalcium); definitiv eliminering sker med hemodialys. Perorala resinpreparat är långsamma och diuretika kräver urinproduktion för effekt.
+  id: med-nju-71a706
+- type: multiple_choice
+  tags:
+  - CKD
+  - Elektrolyter
+  - Anemi
+  question: Vilken laboratoriebild ses typiskt vid terminal njursvikt (CKD stadium 5)?
+  image: null
+  options:
+  - text: normalt s-Ca, högt p-fosfat, högt p-PTH, mikrocytär anemi, metabol acidos
+    correct: false
+    feedback: Kalcium brukar vara lågt eller lågt-normalt och anemin vid CKD är typiskt normocytär, inte mikrocytär.
+  - text: lågt s-Ca, högt p-fosfat, högt p-PTH, normocytär anemi, metabol alkalos
+    correct: false
+    feedback: Bilden stämmer för Ca, fosfat, PTH och anemi men metabol alkalos är osannolik; CKD ger oftast metabol acidos.
+  - text: högt s-Ca, högt p-fosfat, högt p-PTH, mikrocytär anemi, metabol acidos
+    correct: false
+    feedback: Samtidigt förhöjt Ca och fosfat är ovanligt vid vanlig sekundär hyperparatyreoidism, och anemin är inte mikrocytär.
+  - text: högt s-Ca, högt p-fosfat, högt p-PTH, normocytär anemi, metabol acidos
+    correct: false
+    feedback: Hyperkalcemi är inte typiskt vid CKD stadie 5 (vanligtvis lågt Ca pga fosfatretention och minskat aktivt vitamin D).
+  - text: lågt s-Ca, högt p-fosfat, högt p-PTH, normocytär anemi, metabol acidos
+    correct: true
+    feedback: Fosfatretention och minskat aktivt vitamin D ger lågt Ca och sekundär hyperparatyreoidism; EPO-brist ger normocytär anemi och minskad syrautskiljning ger metabol acidos.
+  explanation: Vid avancerad njursvikt ses fosfatretention och minskad omvandling till aktivt vitamin D vilket sänker serumkalcium och stimulerar PTH (sekundär hyperparatyreoidism). Nedsatt EPO ger normocytär, normokrom anemi och nedsatt syrautsöndring leder till metabol acidos.
+  id: med-nju-673899
+- type: multiple_choice
+  tags:
+  - Hyponatremi
+  - Diagnostik
+  question: Vilket av följande påståenden är FELAKTIGT om hyponatremi?
+  image: null
+  options:
+  - text: Hyponatremi kan orsakas av läkemedel
+    correct: false
+    feedback: Vissa läkemedel (t.ex. SSRI, tiazider, karbamazepin) kan ge SIADH eller natriumförluster.
+  - text: Kronisk hyponatremi skall korrigeras långsamt
+    correct: false
+    feedback: Snabb korrektion ökar risken för osmotic demyelinisationssyndrom.
+  - text: De flesta patienter med hyponatremi har nedsatt förmåga att koncentrera urinen
+    correct: true
+    feedback: Många patienter har istället oförmåga att utsöndra fritt vatten och uppvisar inapproprierat koncentrerad urin (högt U-osmolalitet).
+  - text: Vid utredning av hyponatremi bör man kontrollera U-osmolalitet
+    correct: false
+    feedback: U-osmolalitet är viktigt för att skilja mellan oförmåga att utsöndra vatten och överdrivet vattenintag.
+  - text: Hyponatremi kan leda till hjärnödem
+    correct: false
+    feedback: Akut svår hyponatremi kan ge vatteninflux i hjärnan och orsaka hjärnödem.
+  explanation: Hyponatremi speglar ofta störd vattenhantering där kroppen inte kan utsöndra fritt vatten, vilket ger inapproprierat hög U-osmolalitet. Utredning innefattar U-osmolalitet och volymsbedömning; kronisk hyponatremi korrigeras långsamt för att undvika demyelinisering medan akut svår hyponatremi kan orsaka hjärnödem.
+  id: med-nju-e0b8c3
+- type: multiple_choice
+  tags:
+  - GFR
+  - Diagnostik
+  - Kreatinin
+  question: Vilket av följande påståenden är felaktigt?
+  image: null
+  options:
+  - text: eGFR baserat på plasma-kreatinin blir falskt för högt på patienter med liten muskelmassa
+    correct: false
+    feedback: Sant — låg muskelmassa minskar kreatininsyntesen och ger därmed ett övervärderat eGFR.
+  - text: En dubblering av plasma-kreatinin motsvarar ungefär en halvering av GFR
+    correct: false
+    feedback: Sant — inom kliniska intervall är sambandet grovt omvänt proportionellt, så fördubblat kreatinin tyder på ungefär halverat GFR.
+  - text: För att kunna beräkna eGFR måste man veta patientens längd och vikt
+    correct: true
+    feedback: Felaktigt — vanliga eGFR‑formler (CKD‑EPI, MDRD) använder kreatinin, ålder och kön (ibland ras) men inte längd/vikt; Cockcroft‑Gault kräver vikt.
+  - text: Cystatin C‑koncentrationen stiger vid behandling med kortison
+    correct: false
+    feedback: Sant — glukokortikoider kan öka cystatin C-nivåer och därmed påverka eGFR beräknat från cystatin C.
+  - text: Plasmaclearance av iohexol ger ett exakt värde på GFR
+    correct: false
+    feedback: Sant — plasma‑iohexolclearance är en pålitlig mätmetod för GFR och används som referensmetod.
+  explanation: eGFR-estimaten baseras oftast på serumkreatinin med formler som CKD‑EPI eller MDRD (kräver ålder och kön, ej längd/vikt). Kreatinin påverkas av muskelmassa, cystatin C kan påverkas av kortison, och mätningar med exogena markörer som iohexol ger ett mer precist GFR.
+  id: med-nju-9d091c
+- type: multiple_choice
+  tags:
+  - Hematuri
+  - Diagnostik
+  question: En 42-årig rökande man söker för återkommande makroskopisk hematuri. Han tar Xarelto (rivaroxaban) efter tidigare DVT. Två episodier av synlig hematuri, en i samband med influensa för några veckor sedan och en vid lätt luftvägsinfektion nyligen. Ingen dysuri, opåverkad vid undersökning, U-sticka 2+ för blod, U-alb/krea 34 g/mol och P-kreatinin 82 µmol/l. Du misstänker IgA-nefrit och remitterar till njurmedicin — vilken annan initial åtgärd är viktig att göra nu?
+  image: null
+  options:
+  - text: Rekommenderar att hans barn lämnar urinprov
+    correct: false
+    feedback: Irrelevant för utredning av patientens egen hematuri; barnens urinprov påverkar inte diagnostiken hos honom.
+  - text: Skriver remiss enligt SVF cancer i urinblåsa och urinvägar
+    correct: false
+    feedback: En urologisk cancerutredning kan bli aktuell men bör inte vara första steg innan man utrett hematuriens ursprung med u-sediment och klinisk bedömning.
+  - text: Avråder från Xarelto
+    correct: false
+    feedback: Att stoppa antikoagulantia kan vara skadligt utan klar indikation; först utred hematuriens orsak och rådgör med läkare som handlägger antikoagulantia.
+  - text: Säger åt honom att sluta äta rödbetor
+    correct: false
+    feedback: Rödbetor kan ge rödaktig urin men detta antas sällan orsaka återkommande makroskopisk hematuri och är inte en rimlig förklaring här.
+  - text: Tar urinprov för analys av u-sediment (urin-mikroskopering)
+    correct: true
+    feedback: Korrekt initial åtgärd för att avgöra om blödningen är glomerulär (dysmorfa erytrocyter, röda cellcylindrar) vilket styr vidare handläggning.
+  explanation: U-sediment är en enkel och viktig första undersökning vid makroskopisk hematuri för att skilja glomerulär från icke‑glomerulär blödning; fynd som dysmorfa erytrocyter eller röda cellcylindrar talar för glomerulär sjukdom som IgA‑nefrit. Denna undersökning bör göras innan man ändrar antikoagulation eller initierar andra utredningar såsom cancerutredning.
+  id: med-nju-d8a914
+- type: multiple_choice
+  tags:
+  - Njurmedicin
+  - Diagnostik
+  - Albuminuri
+  question: På vilken patient med nyupptäckt njurskada kan vi sätta diagnosen kronisk njursjukdom? (U-ACR = urinalbumin/kreatininkvot)
+  image: null
+  options:
+  - text: Patient med eGFR 40 ml/min/1.73 m² och U-ACR 40 g/mol vid ett och samma provtillfälle.
+    correct: false
+    feedback: Enstaka avvikelse räcker ej; kronisk njursjukdom kräver bestående förändring ≥3 månader.
+  - text: Patient med eGFR 25 och 32 ml/min/1.73 m² mätta med 2 månaders intervall.
+    correct: false
+    feedback: Trots nedsatt funktion krävs dokumentation över ≥3 månader för att kalla det kroniskt.
+  - text: Patient med U-ACR 100 g/mol mätt vid ett tillfälle.
+    correct: false
+    feedback: Enstaka förhöjd albuminuri kan vara tillfällig och måste upprepas över tid för att påvisa kronicitet.
+  - text: Patient med U-ACR 20 och 30 g/mol mätt med 4 månaders intervall.
+    correct: true
+    feedback: Upprepade förhöjda U-ACR över ≥3 månader visar persistent albuminuri och uppfyller kriteriet för kronisk njursjukdom.
+  - text: Patient med eGFR 13 ml/min/1.73 m² mätt vid ett tillfälle.
+    correct: false
+    feedback: Mycket låg eGFR enbart vid ett tillfälle visar nedsatt funktion men kronicitet kräver observation ≥3 månader.
+  explanation: Diagnosen kronisk njursjukdom ställs vid nedsatt njurfunktion eller tecken på njurskada som kvarstår ≥3 månader. Persistenta avvikelser i U-ACR (upprepade mätningar över tid) eller en bestående nedsatt eGFR dokumenterar kronicitet; enstaka mätningar är otillräckliga.
+  id: med-nju-73262e
+- type: multiple_choice
+  tags:
+  - Nefritiskt syndrom
+  - Hematuri
+  question: 'Du bedömer en 75‑årig kvinna remitterad från primärvården för nyupptäckta avvikande njurvärden. Hon behandlas för hypertoni med candesartan/hydroklortiazid 16/12.5 mg 1+0. Status: måttliga pittingödem bilateralt, blodtryck 167/92 mmHg. Lab: P‑kreatinin 165 µmol/L. Urinsticka: albumin 2+, blod 3+. U‑albumin/kreatinin ~100 (förhöjt). Vad misstänker du i första hand?'
+  image: null
+  options:
+  - text: Nefrotiskt syndrom
+    correct: false
+    feedback: Nefrotiskt syndrom ger massiv proteinuri och hypoalbuminemi snarare än framträdande hematuri.
+  - text: Njurartärstenos
+    correct: false
+    feedback: Njurartärstenos ger oftast gradvis försämring och svårbehandlad hypertoni, inte akut hematuri och aktivt urin‑sediment.
+  - text: Prerenal akut njurskada
+    correct: false
+    feedback: Prerenal AKI förknippas med hypovolemi/låg perfusion; här finns hypertoni och aktivt urin‑sediment vilket talar emot detta.
+  - text: Nefritiskt syndrom
+    correct: true
+    feedback: Hypertoni, hematuri på urinsticka, måttlig proteinuri och stigande kreatinin är typiskt för ett nefritiskt syndrom.
+  - text: Avflödeshinder
+    correct: false
+    feedback: Avflödeshinder ger ofta urinretention/hydronefros och är mindre förenligt med aktivt urin‑sediment med hematuri.
+  explanation: Nefritiskt syndrom kännetecknas av hematuri (ofta med röda blodkroppscylindrar), måttlig proteinuri, hypertension och nedsatt njurfunktion. Akut/subakut hematuri tillsammans med förhöjt kreatinin och ödem hos denna patient gör nefritiskt syndrom mest sannolikt.
+  id: med-nju-ed5c4e
+- type: multiple_choice
+  tags:
+  - Postrenal obstruktion
+  - Benign prostatahyperplasi
+  - Hyperkalemi
+  question: 'Peter, 69 år med känd benign prostatahyperplasi, söker pga några dagars snabbt tilltagande trötthet och lätt flanksmärta. Afebril och opåverkad i status. Blodtryck 152/87 mmHg. Lab: plasma-kreatinin 356 µmol/L (tidigare 84), kalium 5,9 mmol/L, CRP 9. Urinsticka helt negativ. Bladderscan visar residualurin 700 ml. Vilken är den mest sannolika diagnosen?'
+  image: null
+  options:
+  - text: Glomerulonefrit
+    correct: false
+    feedback: Osannolikt — glomerulonefrit ger vanligen hematuri och/eller proteinuri och ibland sänkt komplementnivå, vilket saknas här.
+  - text: Akut interstitiell nefrit
+    correct: false
+    feedback: Osannolikt — AIN föregås ofta av feber, utslag eller pyuri/eosinofili, vilket inte ses här.
+  - text: Prerenal akut njurskada
+    correct: false
+    feedback: Osannolikt — prerenal skada är kopplad till hypovolemi eller nedsatt perfusion, inte uttalad residualurin eller akut urinretention.
+  - text: Avflödeshinder (postrenal akut njurskada)
+    correct: true
+    feedback: Snabbt stigande kreatinin, stor residualurin och hyperkalemi hos en patient med BPH talar för postrenalt avflödeshinder.
+  - text: Akut tubulär nekros
+    correct: false
+    feedback: Osannolikt — ATN uppvisar typiska urinsedimentförändringar (granulära 'muddy brown' casts) och följer ischemisk/toxisk skada, vilket inte framgår här.
+  explanation: 'Fynden talar för postrenal njurskada sekundärt till avflödeshinder från BPH: snabb kreatininstigning, stor residualurin och hyperkalemi med i övrigt blank urinsticka. Differentielldiagnoser (prerenal, ATN, glomerulonefrit, AIN) bedöms utifrån anamnes, status och typiska urinfynd.'
+  id: med-nju-7a995b
+- type: multiple_choice
+  tags:
+  - Njurartärstenos
+  - Hypertoni
+  - Diagnostik
+  question: Vilket påstående om njurartärstenos är felaktigt?
+  image: null
+  options:
+  - text: Den vanligaste orsaken är ateroskleros
+    correct: false
+    feedback: Ateroskleros hos äldre är den vanligaste orsaken till njurartärstenos.
+  - text: Typiskt vid njurartärstenos är förekomst av erytrocyturi och ökad albuminuri
+    correct: true
+    feedback: Signifikant erytrocyturi eller uttalad albuminuri är inte typiska fynd vid RAS; proteinuri är oftast låg till måttlig.
+  - text: Njurdoppler är en bra screening-undersökning
+    correct: false
+    feedback: Duplexnjurdoppler är en lämplig icke-invasiv screeningmetod för RAS vid erfaren operatör.
+  - text: En stegring av p-kreatinin >50% efter start av ACE-hämmare kan tyda på njurartärstenos
+    correct: false
+    feedback: Ett markant kreatininstegring efter ACE-hämmare talar för bilateral RAS eller RAS i ensam fungerande njure.
+  - text: Unga individer utan ateroskleros kan drabbas av njurartärstenos
+    correct: false
+    feedback: Fibromuskulär dysplasi ger RAS hos yngre personer, särskilt kvinnor.
+  explanation: Ateroskleros är vanligast hos äldre medan fibromuskulär dysplasi orsakar RAS hos yngre. Njurdoppler är ett bra förstahandsval för screening och en >50% stegring av kreatinin efter ACE-hämmare bör väcka misstanke om bilateral RAS eller RAS i ensam fungerande njure. Uttalad erytrocyturi eller albuminuri är däremot inte typiska för RAS.
+  id: imp-7f29d50d
+- type: multiple_choice
+  tags:
+  - Nefrotiskt syndrom
+  - Proteinuri
+  question: Vilket av följande påståenden är felaktigt om nefrotiskt syndrom?
+  image: null
+  options:
+  - text: Patienterna har som regel pittingödem
+    correct: false
+    feedback: Hypoalbuminemi och vätskeansamling ger oftast generaliserat pittingödem.
+  - text: Patienterna har höggradig albuminuri
+    correct: false
+    feedback: Nefrotiskt syndrom definieras av massiv proteinuri (vanligtvis >3,5 g/dygn), huvudsakligen albumin.
+  - text: Patienterna kan behöva behandling med antikoagulantia
+    correct: false
+    feedback: Förlust av antikoagulanter som antitrombin III ger ökad trombosrisk och kan motivera antikoagulation.
+  - text: Patienterna har ökad infektionsrisk
+    correct: false
+    feedback: Förlust av immunglobuliner i urinen och ödem ökar risken för infektioner, till exempel pneumokockperitonit.
+  - text: Patienterna har som regel erytrocytcylindrar i urinen
+    correct: true
+    feedback: Erytrocytcylindrar är typiska för nefritiskt syndrom/aktiv glomerulonefrit och förekommer inte i typisk nefros.
+  explanation: Nefrotiskt syndrom karakteriseras av massiv proteinuri, hypoalbuminemi, hyperlipidemi och ödem. Komplikationer inkluderar trombos och ökad infektionskänslighet på grund av urinförluster av antikoagulanter och immunglobuliner. Hematuri med erytrocytcylindrar är typiskt för nefritiskt snarare än nefrotiskt syndrom.
+  id: imp-78ad7cbc
+- type: multiple_choice
+  tags:
+  - Diabetes typ 2
+  - Njurskydd
+  - SGLT2-hämmare
+  question: Ibrahim har hypertoni och typ 2‑diabetes. eGFR 53 ml/min/1,73 m2 och U-alb/krea 70 (mikroalbuminuri). Medicinerar metformin, atorvastatin, candesartan/hydroklortiazid och amlodipin. Vilket läkemedel lägger du till för att minska risken för njursvikt?
+  image: null
+  options:
+  - text: insulin
+    correct: false
+    feedback: Insulin förbättrar glykemin men har inte visat sig specifikt minska risken för progress av njursvikt jämfört med SGLT2‑hämmare.
+  - text: SGLT2-hämmare
+    correct: true
+    feedback: SGLT2‑hämmare minskar risken för progression av kronisk njursjukdom och njursvikt hos T2D‑patienter med albuminuri, utöver RAS‑blockad.
+  - text: MRA
+    correct: false
+    feedback: Nonsteroida MRA (t.ex. finerenon) kan ge njur- och kardiovaskulär nytta vid kvarstående albuminuri men används oftast som tillägg efter RAS‑blockad och är inte förstaval här.
+  - text: GLP-1 receptor agonist
+    correct: false
+    feedback: GLP‑1‑agonister minskar kardiovaskulär risk och kan sänka albuminuri, men evidensen för att förebygga njursvikt är svagare än för SGLT2‑hämmare.
+  - text: ACE-hämmare
+    correct: false
+    feedback: Patienten står redan på en ARB (candesartan); att kombinera ACE‑hämmare med ARB är kontraindicerat på grund av ökad risk för hyperkalemi och njurskada.
+  explanation: SGLT2‑hämmare har i stora studier visat minskad progression av kronisk njursjukdom och lägre risk för terminal njursvikt hos personer med typ 2‑diabetes och albuminuri, och rekommenderas som tillägg till RAS‑blockad. Patienten står redan på ARB, varför ACE‑hämmare inte ska kombineras; nonsteroid MRA kan övervägas vid kvarstående albuminuri.
+  id: imp-5b01517d
+- type: multiple_choice
+  tags:
+  - akut njurskada
+  - proteinuri
+  - glomerulonefrit
+  question: Bengt, 78 år. Tidigare BT 125/75 och kreatinin 100 µmol/L. Nu BT 165/90, kreatinin 170 µmol/L, urinsticka 3+ albumin/hemoglobin och perifera ödem. Vilken är den mest sannolika orsaken till sänkt GFR?
+  image: null
+  options:
+  - text: 1. akut interstitiell nefrit
+    correct: false
+    feedback: Osannolikt — AIN ger oftare feber, hudutslag, eosinofili och pyuri snarare än kraftig albuminuri/hematuri och ödem.
+  - text: 2. glomerulonefrit
+    correct: true
+    feedback: Akut försämring med markant albumin- och blodreaktion på urinsticka tillsammans med ödem talar för en glomerulär sjukdom.
+  - text: 3. prerenal njurskada
+    correct: false
+    feedback: Prerenal njurskada ger vanligen liten eller ingen proteinuri och koncentrerad urin, och förbättras ofta snabbt med volymåterställande.
+  - text: 4. hypertoni-orsakad njurskada
+    correct: false
+    feedback: Hypertensiv njurskada utvecklas vanligen långsamt och ger inte plötsligt höggradig albuminuri och hematuri.
+  - text: 5. avflödeshinder
+    correct: false
+    feedback: Avflödeshinder (postrenal) ger oftast hydronefros och varierande urinfynd men inte typiskt massiv albuminuri och akut ödembildning.
+  explanation: Kombinationen av snabbt stigande kreatinin, uttalad albumin/hemoglobin på urinsticka och perifera ödem är mest förenlig med en glomerulär sjukdom (glomerulonefrit). Andra orsaker (prerenal, AIN, kronisk hypertensiv njurskada eller postrenal obstruktion) ger vanligen ett annat kliniskt mönster.
+  id: imp-1358f012
+- type: multiple_choice
+  tags:
+  - Hyperkalemi
+  - Akutbehandling
+  question: Vilket läkemedel sänker plasmakalium snabbast vid kronisk njursvikt med acidos och K+ 7,8 mmol/L?
+  image: null
+  options:
+  - text: furosemid intravenöst
+    correct: false
+    feedback: Loopdiuretika ökar renal utsöndring men kräver fungerande diures och verkar långsammare, särskilt vid njursvikt.
+  - text: pulver Resonium per os
+    correct: false
+    feedback: Jonbytare i tarmen verkar över timmar till dygn och sänker inte snabbt plasmakalium.
+  - text: insulin-glukos-infusion
+    correct: true
+    feedback: Insulin (med glukos) förflyttar snabbt kalium in i cellerna, med effekt inom 10–20 minuter.
+  - text: natriumbikarbonat-infusion
+    correct: false
+    feedback: Kan hjälpa vid uttalad acidos men effekten på plasmakalium är variabel och långsammare än insulin.
+  - text: kalcium-glukonat i.v.
+    correct: false
+    feedback: Kalcium stabiliserar hjärtcellernas membran men sänker inte plasmakalium.
+  explanation: Insulin med glukos är snabbast för att sänka plasmakalium genom att öka intracellulärt upptag av kalium (effekt inom 10–20 minuter). Kalcium ges för att stabilisera hjärtat utan att påverka kaliumkoncentrationen, medan diuretika, jonbytare och bikarbonat har långsammare eller variabel effekt.
+  id: imp-8755229a
+- type: multiple_choice
+  tags:
+  - Njurmedicin
+  - Akutmedicin
+  question: Vilket fynd ses inte vid pre-renal akut njurskada?
+  image: null
+  options:
+  - text: U-sediment med akantocyter och röda blodkroppscylindrar
+    correct: true
+    feedback: Akantocyter och RBC-cylindrar tyder på glomerulär (intrarenal) skada, inte pre-renal azotemi.
+  - text: U-Natrium < 10 mmol/L
+    correct: false
+    feedback: Lågt urin-natrium (<10–20 mmol/L) är typiskt för pre-renal skada pga avid natriumretention.
+  - text: normal U-albumin/kreatinin-kvot
+    correct: false
+    feedback: Normalt eller endast lätt förhöjt albumin/kreatinin ses ofta vid pre-renal då glomerulär läckage saknas.
+  - text: blodtryck 90/55 mmHg
+    correct: false
+    feedback: Hypotoni är en vanlig orsak till pre-renal njurskada och förekommer ofta.
+  - text: systoliskt blodtryck sjunker >20 mmHg efter 3 minuter i stående
+    correct: false
+    feedback: Ortostatisk blodtrycksfall tyder på hypovolemi och stödjer en pre-renal orsak.
+  explanation: 'Pre-renal akut njurskada karakteriseras av hypoperfusion: lågt urin-natrium, koncentrerat urin och ett relativt blajjinkande sediment utan betydande proteinuri. Förekomst av akantocyter och röda blodkroppscylindrar talar för intrarenal/glomerulär skada och utesluter i praktiken en ren pre-renal orsak.'
+  id: imp-fbbe0004
+- type: multiple_choice
+  tags:
+  - njurfunktion
+  - kreatinin
+  question: Vilket påstående beskriver bäst vad eGFR är?
+  image: null
+  options:
+  - text: GFR beräknat från ålder, kön, kroppsyta och vikt
+    correct: false
+    feedback: EGFR beräknas inte primärt från vikt/kroppsyta; vanliga ekvationer använder endogena markörer plus ålder och kön.
+  - text: GFR beräknat från endogena filtrationsmarkörer som kreatinin
+    correct: true
+    feedback: EGFR är en uppskattning av njurens filtrationshastighet baserat på endogena markörer (t.ex. kreatinin eller cystatin C) i ekvationer.
+  - text: En uppskattning av GFR baserad på iohexolnivåer
+    correct: false
+    feedback: Iohexol är en exogen markör som används för mätning av GFR (mGFR), inte för eGFR.
+  - text: En uppskattning baserad på kön, muskelmassa och ålder
+    correct: false
+    feedback: Ålder och kön ingår i ekvationer, men muskelmassa används inte direkt som indata även om den påverkar kreatinin.
+  - text: En direkt mätning av GFR
+    correct: false
+    feedback: EGFR är en uppskattning, medan direkt mätning (mGFR) kräver exogena markörer och clearance-mätning.
+  explanation: eGFR (estimated glomerular filtration rate) är en uppskattning av njurens filtrationshastighet beräknad från endogena markörer såsom serumkreatinin och/eller cystatin C med hjälp av standardiserade formler (t.ex. CKD-EPI). Exakt mätning av GFR kräver exogena markörer som iohexol eller inulin.
+  id: imp-1380c950
+- type: multiple_choice
+  tags:
+  - njurfunktion
+  - åldrande
+  - läkemedelsomsättning
+  question: Vilket alternativ är mest korrekt beträffande äldre och njurfunktion?
+  image: null
+  options:
+  - text: Njurfunktionen (GFR) är ofta halverad vid 80 års ålder
+    correct: true
+    feedback: GFR minskar med åldern och är hos många 80‑åringar på ungefär halva värdet jämfört med ung vuxen på grund av minskat antal nefron.
+  - text: Läkemedel elimineras i ökad omfattning via levern
+    correct: false
+    feedback: Leverns läkemedelsmetabolism minskar ofta eller förändras med åldern, den ökar inte generellt.
+  - text: Måttligt nedsatt njurfunktion ger hög risk för grav njursvikt
+    correct: false
+    feedback: Måttlig nedsättning är vanligt hos äldre och leder inte nödvändigtvis till svår njursvikt; progression är oftast långsam och varierande.
+  - text: S-kreatinin är ett bra mått på njurfunktion
+    correct: false
+    feedback: S‑kreatinin kan vara normalt hos äldre pga minskad muskelmassa; eGFR är ett bättre mått.
+  - text: Risken för förgiftning minskar med åldern.
+    correct: false
+    feedback: Risken för läkemedelsansamling och förgiftning ökar med åldern pga nedsatt elimination och polyfarmaci.
+  explanation: Njurfunktionen minskar normalt med åldern och många 80‑åringar har en GFR som är markant lägre än hos unga vuxna (ofta cirka halverad). S‑kreatinin är missvisande ensam i äldre på grund av minskad muskelmassa, och risk för läkemedelsansamling ökar snarare än minskar.
+  id: imp-e871e462

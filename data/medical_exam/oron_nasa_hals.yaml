@@ -1,0 +1,130 @@
+- type: multiple_choice
+  tags:
+  - Akut otitis media
+  - Diagnostik
+  - Pediatrik
+  question: Akut otitis media (AOM) är en infektion i mellanörat, vanligast hos små barn. Vilket påstående stämmer bäst för diagnos och initial handläggning av AOM?
+  image: null
+  options:
+  - text: Om antibiotikabehandling inte hjälpt efter tre dygn ska patienten remitteras akut till öronläkare
+    correct: false
+    feedback: Akut remiss efter 3 dygn antibiotika är inte rutin; remiss övervägs vid komplikationer eller utebliven förbättring efter klinisk bedömning.
+  - text: Diagnos AOM ställs vid varig flytning ur mellanörat, eller när trumhinnan buktar och är färgförändrad (ogenomskinglig eller chagrinerad) och orörlig
+    correct: true
+    feedback: Varig otorré eller utspänd, färgförändrad och orörlig trumhinna visar på mellanöreinflammation med exsudat och ger diagnosen AOM.
+  - text: Barn i åldrarna 1–12 år ska alltid behandlas med antibiotika på grund av risk för mastoidit
+    correct: false
+    feedback: Barn i denna åldersgrupp behandlas inte alltid; många fall spontanläker och behandlingsindikation beror på ålder, svårighetsgrad och klinisk status.
+  - text: Diagnos AOM ställs när hela trumhinnan är röd
+    correct: false
+    feedback: Enbart röd trumhinna är ospecifikt och kan ses vid flera tillstånd; tecken på exsudat/utspänd och orörlig trumhinna är mer diagnostiska.
+  - text: Vuxna ska inte behandlas med antibiotika men rekommenderas återbesök efter en vecka
+    correct: false
+    feedback: Vuxna med uttalade symtom eller riskfaktorer kan behöva antibiotika; rutinmässigt avstå och endast återbesök är inte korrekt handläggning.
+  explanation: AOM diagnostiseras vid varig flytning ur mellanörat eller när trumhinnan är utspänd, färgförändrad och orörlig, vilket indikerar mellanöreinflammation med exsudat. Behandling styrs av ålder, symtom och svårighetsgrad; många fall kan avvakta medan andra kräver antibiotika eller uppföljning. Remiss till öronläkare görs vid komplikationer eller vid utebliven förbättring efter klinisk bedömning.
+  id: med-oro-0fb7fd
+- id: med-gen-orn1-1a2b
+  type: multiple_choice
+  tags:
+  - Otorhinolaryngologi
+  - Akut
+  question: En 78-årig man inkommer med kraftig näsblödning från båda näsborrarna som inte kontrolleras med tryck, lokal vasokonstriktion och anterior tamponad. Han är hemodynamiskt stabil men blöder fortsatt och blöder djupt vid endoskopi. Vilken åtgärd är mest indicerad nästa steg?
+  image: null
+  options:
+  - text: Upprepad anterior tamponad och observation ytterligare 24 timmar
+    correct: false
+    feedback: Vid misstänkt posterior blödning är anterior tamponad ofta otillräcklig och fördröjning kan förvärra situationen.
+  - text: Posterior nasalpackning (bakre tamponad) och samtidig kontakt med öron‑näsa‑hals (ÖNH) för övervägande av endoskopisk ligatur
+    correct: true
+    feedback: Vid persistent posterior blödning är bakre tamponad en effektiv akutåtgärd och ÖNH-konsult för endoskopisk ligation bör involveras.
+  - text: Intravenös tranexamsyra som ensam åtgärd för att stoppa blödningen
+    correct: false
+    feedback: Tranexamsyra kan hjälpa som adjuvans men är sällan tillräckligt utan lokal åtgärd vid kraftig posterior epistaxis.
+  - text: Akut bed-side endoskopisk sphenopalatina artärligatur utan första tamponad
+    correct: false
+    feedback: Definitiva kirurgiska åtgärder såsom ligatur övervägs efter initial hemostas (t.ex. bakre tamponad) och planering med ÖNH.
+  explanation: Posterior epistaxis hos äldre orsakas ofta av grenar från sphenopalatina artären och svarar då sämre på enkel anterior tamponad; bakre tamponad ger temporär hemostas och möjliggör stabilisering inför endoskopisk ligation eller embolisering. Endoskopisk ligatur av sphenopalatina artären är en effektiv definitiv behandling när tamponad inte är tillräcklig eller blödningen recidiverar.
+- id: med-gen-orn2-3b7c
+  type: multiple_choice
+  tags:
+  - Infektion
+  - Pediatrik
+  question: Vilket fynd på otoskopi är mest specifikt för en förvärvad cholesteatom i mellanörat hos ett barn med upprepade otiter?
+  image: null
+  options:
+  - text: Central typ av tympanic membranperforation med kantfri öppning
+    correct: false
+    feedback: Central perforation ses vid kronisk otitis media men är inte specifik för cholesteatom.
+  - text: Retraktionsficka i pars flaccida med synlig pärlvit keratiniserad massa bakom trumhinnan
+    correct: true
+    feedback: En retractionsficka innehållande keratiniserande epitel (pärlvit massa) är typisk för cholesteatom.
+  - text: Tympaniskt membran med diffus hyperemi och bulning
+    correct: false
+    feedback: Hyperemi och bulning är tecken på akut otitis media, inte cholesteatom.
+  - text: Seröst vätskeutgjutning utan tecken till kronisk inflammation
+    correct: false
+    feedback: Serös otitis media ger vätska i mellanörat men saknar tecken på keratinbildande massa som vid cholesteatom.
+  explanation: Förvärvad cholesteatom uppstår genom retraktion av trumhinnan med ackumulering av keratiniserat epitel i en retractionsficka, ofta i pars flaccida, och kan synas som en pärlvit massa eller lateraliserad opacitet. Detta skiljer sig från enkla perforationer eller serösa effusioner som saknar keratiniserad massa.
+- id: med-gen-orn3-9d4e
+  type: multiple_choice
+  tags:
+  - Akut
+  - Behandling
+  question: En 22‑årig patient söker med ensidig svår halsont, feber, svalgsmärta, mufflad röst och asymmetrisk tonsillär svullnad som skjuter uvula bort från den drabbade sidan. Vilken är den mest lämpliga initiala handläggningen?
+  image: null
+  options:
+  - text: Oral peroral amoxicillin i 10 dagar och ambulant uppföljning om >48 timmar
+    correct: false
+    feedback: Antibiotika utan dränering räcker inte vid etablerat peritonsillärt abscess (quinsy).
+  - text: Omedelbar nåldränage eller incision‑dränage av peritonsillärt abscess och samtidig antibiotikabehandling samt smärtlindring
+    correct: true
+    feedback: Lokal dränering (nåladränage eller incision) plus antibiotika är förstahandsbehandling vid peritonsillärt abscess.
+  - text: Akut tonsillektomi (quinsy‑tonsillectomi) som rutinbehandling vid alla peritonsillära abscesser
+    correct: false
+    feedback: Akut tonsillektomi är en möjlighet i särskilda fall men inte rutin; dränering är oftast förstahandsåtgärd.
+  - text: CT‑skalle med kontrast för att utesluta djupare cervikalt abscess innan någon dränering utförs
+    correct: false
+    feedback: Bilddiagnostik behövs endast vid misstanke om djupare eller komplicerad infektion; enkla peritonsillära abscesser behandlas med dränering i första hand.
+  explanation: Peritonsillärt abscess kräver ofta akut dränering (nåldränage eller incision och dränage) för att avlasta och förbättra symtom, kombinerat med adekvat antibiotika och stödbehandling. Akut tonsillektomi reserveras för recidiv eller svåra fall, medan CT används vid misstanke om djupare spridning.
+- id: med-gen-orn4-4f6a
+  type: multiple_choice
+  tags:
+  - Diagnostik
+  - Neurologi
+  question: En patient utvecklar plötslig svår rotatorisk yrsel i flera dagar, spontan unidirektionell horizontal nystagmus som ökar när blicken riktas åt ena sidan, och nyligen uppkommet ensidigt nedsatt hörsel. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Vestibulär migrän
+    correct: false
+    feedback: Vestibulär migrän ger episodisk yrsel och sällan ensidigt nedsatt hörsel med ihållande spontaneous nystagmus.
+  - text: Perifer vestibulopati (vestibularisneurit) utan cochleärt engagemang
+    correct: false
+    feedback: Vestibularisneurit ger akut perifer yrsel men saknar vanligtvis samtidig hörselnedsättning.
+  - text: Labyrintit (involvering av cochlea och vestibularisorganet)
+    correct: true
+    feedback: Kombinationen av ihållande perifer yrsel, unidirektionell nystagmus och ny hörselnedsättning talar för labyrintit.
+  - text: Hjärnstamsinfarkt
+    correct: false
+    feedback: Central patologi kan ge nystagmus men ofta med riktningsväxling, andra hjärnstamsfynd och normalt hörselstatus.
+  explanation: När cochleära symptom (ny hörselnedsättning eller tinnitus) ses tillsammans med ihållande perifer vertigo och ensidigt unidirektionellt nystagmus, indikerar detta ofta labyrintit med både vestibulära och auditiva strukturer engagerade. Central orsaker måste övervägas vid atypiska nystagmusmönster eller fokala neurologiska tecken, men här pekar fynden på perifer inneröraengagemang.
+- id: med-gen-orn5-8c2d
+  type: multiple_choice
+  tags:
+  - Diagnostik
+  - Behandling
+  question: En vuxen patient har purulent snor och nästäppa sedan 8 dagar, måttlig feber och måttlig ansiktssmärta; symtomen debuterade gradvis och har inte förbättrats. Vad är den mest evidensbaserade initiala handläggningen?
+  image: null
+  options:
+  - text: Starta omedelbart peroral antibiotikakur (amoxicillin) utan vidare observation
+    correct: false
+    feedback: Antibiotika indikeras först vid symtom ≥10 dagar, mycket svåra symtom eller försämring efter initial förbättring.
+  - text: Symtomatisk behandling (analgetika, nasal avsvällning kort tid) och väntande strategi med uppföljning om symtom kvarstår >10 dagar eller förvärras
+    correct: true
+    feedback: Vid 7–10 dagars förlopp utan svåra tecken rekommenderas initialt konservativ behandling och noggrann uppföljning.
+  - text: Omedelbar CT‑sinus för att bekräfta bakteriell sinuit och guida behandling
+    correct: false
+    feedback: Bilddiagnostik är ej rutin vid okomplicerad sinuit och påverkar sällan initial behandling.
+  - text: Intranasal kortikosteroid som enda behandling är kontraindicerat vid purulent snor
+    correct: false
+    feedback: Intranasala steroider kan vara ett rimligt symtomlindrande alternativ och är inte generellt kontraindicerade.
+  explanation: Akut bakteriell sinuit bör endast behandlas med antibiotika vid längre än 10 dagars ihållande symtom, mycket svåra symtom eller försämring efter initial förbättring; annars rekommenderas symtomlindring och kort uppföljning. Rutinmässig bilddiagnostik eller omedelbar antibiotikabehandling saknar stöd i okomplicerade fall och bör reserveras för särskilda indikationer.

@@ -1,0 +1,1418 @@
+- type: multiple_choice
+  tags:
+  - SSRI
+  - Biverkningar
+  question: Vilket av följande är INTE en vanlig biverkning av SSRI-läkemedel?
+  image: null
+  options:
+  - text: Huvudvärk
+    correct: false
+    feedback: Vanlig biverkning vid SSRI, ofta övergående vid fortsatt behandling.
+  - text: Sexuell dysfunktion
+    correct: false
+    feedback: Mycket vanlig biverkning som kan påverka libido och orgasm/funktion.
+  - text: Sömnstörningar
+    correct: false
+    feedback: Vanligt förekommande; SSRI kan ge både sömnlöshet och trötthet.
+  - text: Illamående
+    correct: false
+    feedback: Vanlig tidig biverkning i samband med uppstart eller dosändring.
+  - text: Viktminskning
+    correct: true
+    feedback: Inte typisk; viktförändringar kan förekomma men oftare ses liten viktökning eller ingen uttalad viktminskning.
+  explanation: SSRI ger ofta huvudvärk, gastrointestinala symtom, sömnstörningar och sexuell dysfunktion. Uttalad viktminskning är inte en typisk eller vanlig biverkning, även om individuella variationer kan förekomma.
+  id: med-psy-634def
+- type: multiple_choice
+  tags:
+  - Bipolär sjukdom
+  - Behandling
+  - Farmakoterapi
+  question: Vilket av följande alternativ är INTE en typisk behandling för bipolär sjukdom?
+  image: null
+  options:
+  - text: Valproat som monoterapi
+    correct: false
+    feedback: Valproat är ett etablerat stämningsstabiliserande läkemedel och används ofta vid mani och som underhållsbehandling.
+  - text: Electrokonvulsiv behandling
+    correct: false
+    feedback: ECT är ett välkänt och effektivt alternativ vid svår eller behandlingsresistent bipolär sjukdom.
+  - text: Quetiapin som monoterapi
+    correct: false
+    feedback: Quetiapin, ett atypiskt antipsykotikum, har dokumenterad effekt i både mani och bipolär depression och kan användas som monoterapi.
+  - text: Litium som monoterapi
+    correct: false
+    feedback: Litium är förstahandsval för stämningsstabilisering och förebyggande av återfall vid bipolär sjukdom.
+  - text: Fluoxetin som monoterapi
+    correct: true
+    feedback: SSRI i monoterapi kan utlösa mani eller snabb cykling; antidepressiva ges vanligen tillsammans med en stämningsstabiliserare.
+  explanation: Behandling av bipolär sjukdom baseras främst på stämningsstabiliserande läkemedel (t.ex. litium, valproat), vissa atypiska antipsykotika (t.ex. quetiapin) och ECT vid svåra fall. Antidepressiva, särskilt SSRI, används inte i monoterapi eftersom de kan inducera mani eller snabba växlingar och därför kombineras med stämningsstabiliserare.
+  id: med-psy-1070dd
+- type: multiple_choice
+  tags:
+  - Tvångsvård
+  - Rättspsykiatri
+  question: Vilket av följande kriterier är det ENDA som i sig motiverar att frivillig psykiatrisk vård omvandlas till tvångsvård?
+  image: null
+  options:
+  - text: Patienten samtycker inte till erbjuden vård
+    correct: false
+    feedback: Nekande till vård är inte ensamt tillräckligt för tvångsvård utan måste förenas med verklig fara.
+  - text: Oundgängligt behov av psykiatrisk dygnetruntvård
+    correct: false
+    feedback: Behov av heldygnsvård kan vara en förutsättning men ensam motiverar det inte tvångsåtgärder utan farlighet.
+  - text: Allvarlig psykisk störning i lagens mening
+    correct: false
+    feedback: Diagnos/psykisk störning är ofta närvarande men i sig inte tillräcklig för omvandling till tvångsvård.
+  - text: Risk att skada sig själv eller andra
+    correct: true
+    feedback: Påtaglig fara för patienten själv eller andra är det avgörande kriteriet för att konvertera frivillig vård till tvångsvård.
+  - text: Patienten vill bli utskriven från sjukhuset
+    correct: false
+    feedback: Önskan om utskrivning i sig ger inte rätt till tvångsåtgärder utan kräver att det finns fara.
+  explanation: Endast när patienten utgör en påtaglig risk för sig själv eller andra kan frivillig psykiatrisk vård omvandlas till tvångsvård. Allvarlig psykisk störning och behov av dygnetruntvård är vanliga förutsättningar men räcker inte utan förekomst av farlighet. Patientens vägran eller önskan om utskrivning är inte i sig grund för tvång.
+  id: med-psy-6c8d88
+- type: multiple_choice
+  tags:
+  - Depression
+  - Psykos
+  - Farmakologi
+  question: Vilken av följande kombinationsbehandlingar är mest lämplig vid depression med psykotiska symtom?
+  image: null
+  options:
+  - text: Fluoxetin och buspiron
+    correct: false
+    feedback: Både fluoxetin och buspiron saknar antipsykotisk verkan och behandlar inte psykotiska symtom.
+  - text: Duloxetin och risperidon
+    correct: true
+    feedback: Duloxetin är ett antidepressivt medel och risperidon är ett antipsykotikum, vilket behövs vid psykotisk depression.
+  - text: Venlafaxin och bupropion
+    correct: false
+    feedback: Båda är antidepressiva och ger ingen antipsykotisk effekt mot psykotiska symtom.
+  - text: Sertralin och mirtazapin
+    correct: false
+    feedback: Kombinationen består av två antidepressiva och saknar antipsykotikum för att behandla psykos.
+  - text: Olanzapin och propiomazin
+    correct: false
+    feedback: Olanzapin är antipsykotikum men propiomazin är ett sederande antihistamin, inte ett antidepressivt medel.
+  explanation: Depression med psykotiska symtom kräver behandling som täcker både depressiva och psykotiska komponenter, vanligen en antidepressiv plus ett antipsykotikum eller ECT vid svår sjukdom. Enbart kombination av antidepressiva eller sedativa antihistaminer är inte tillräckligt för att behandla psykos.
+  id: med-psy-170563
+- type: multiple_choice
+  tags:
+  - Delirium
+  - Akutbedömning
+  - Geriatri
+  question: En 84‑årig kvinna kommer med ambulans till psykiatriakuten på grund av akut förvirring som uppstått under det senaste dygnet. Vilken åtgärd är mest lämplig?
+  image: null
+  options:
+  - text: Planera hemgång för patienten samt ny psykiatrisk bedömning om en vecka
+    correct: false
+    feedback: Akut förvirring kan vara delirium med potentiellt livshotande orsaker; hemgång är olämpligt utan akut medicinsk utredning.
+  - text: Remittera till primärvården för kognitiv utredning
+    correct: false
+    feedback: Primärvård fördröjer nödvändig akut medicinsk utredning; patienten behöver sjukhusbedömning för att utesluta akuta orsaker.
+  - text: Behandla med Olanzapin och utvärdera effekt
+    correct: false
+    feedback: Antipsykotika ska inte ges som första åtgärd utan medicinsk bedömning eftersom de kan maskera orsaker och ge allvarliga biverkningar hos äldre.
+  - text: Remittera till medicinakuten för medicinsk bedömning
+    correct: true
+    feedback: Misstänkt delirium kräver omedelbar medicinsk utredning för att identifiera och behandla utlösande orsaker (infektion, hypoxi, läkemedel, mm).
+  - text: Behandla med Oxazepam och utvärdera effekt
+    correct: false
+    feedback: Bensodiazepiner kan förvärra delirium hos äldre och ska inte ges utan att först utreda bakomliggande orsaker.
+  explanation: Akut insättande konfusion hos äldre ska betraktas som delirium tills motsatsen är bevisad och kräver snabb medicinsk utredning för infektion, hypoxi, läkemedel eller metabol störning. Behandling riktas mot underliggande orsak; sedativa läkemedel och antipsykotika ges inte rutinmässigt utan noggrann bedömning.
+  id: med-psy-aa0e6c
+- type: multiple_choice
+  tags:
+  - ECT
+  - Elektrodplacering
+  question: Vilken är den vanligaste placeringen av elektroder vid ECT (elektrokonvulsiv terapi) i Sverige?
+  image: null
+  options:
+  - text: Unilateral placering på ena sidan av huvudet
+    correct: true
+    feedback: Unilateral (oftast höger) används i Sverige för att ge god antidepressiv effekt med mindre kognitiva biverkningar än bilateral stimulering.
+  - text: Occipital placering på bakhuvudet
+    correct: false
+    feedback: Occipital placering är inte en standard- eller vanlig position vid klinisk ECT.
+  - text: Frontal placering på pannan
+    correct: false
+    feedback: Direkt frontal placering används inte som standard vid ECT i Sverige.
+  - text: Bilateral placering på båda sidor av huvudet
+    correct: false
+    feedback: Bilateral används ibland och är effektiv, men är mindre vanlig i Sverige på grund av högre risk för kognitiva biverkningar.
+  - text: Vertex placering på hjässan
+    correct: false
+    feedback: Vertex-placering är inte en vanlig standardplacering vid ECT.
+  explanation: I Sverige föredras oftast unilateral placering (vanligen höger) vid ECT eftersom den ger god antidepressiv effekt samtidigt som risken för minnespåverkan och andra kognitiva biverkningar är lägre än vid bilateral stimulering. Bilateral stimulering kan ha hög effekt men är förknippad med större kognitiv påverkan.
+  id: med-psy-accef0
+- type: multiple_choice
+  tags:
+  - Delirium
+  - Medvetandestörning
+  question: Vilket av följande är ett typiskt symtom vid delirium (akut förvirringstillstånd)?
+  image: null
+  options:
+  - text: Katatoni
+    correct: false
+    feedback: Katatoni är ett motoriskt tillstånd som associeras med vissa psykiatriska tillstånd (t.ex. kataton schizofreni) och är inte karakteristiskt för delirium.
+  - text: Vanföreställningar
+    correct: false
+    feedback: Vanföreställningar kan förekomma vid delirium men är inte ett typiskt eller diagnostiskt kärntecken för tillståndet.
+  - text: Panikattacker
+    correct: false
+    feedback: Panikattacker är typiska för ångestsyndrom och inte ett karakteristiskt tecken på delirium.
+  - text: Tvångshandlingar
+    correct: false
+    feedback: Tvångshandlingar hör främst till tvångssyndrom (OCD) och är inte typiska för det akuta, fluktuerande tillståndet delirium.
+  - text: Fluktuerande medvetandegrad
+    correct: true
+    feedback: Delirium kännetecknas av snabbt insättande och fluktuerande medvetandestörning med nedsatt uppmärksamhet och orientering.
+  explanation: Delirium är ett akut insättande, ofta fluktuerande tillstånd med nedsatt medvetandegrad och uppmärksamhet, vanligtvis utlösts av somatisk sjukdom, läkemedel eller abstinens. Fluktuerande medvetandegrad är det centrala symtomet och särskiljer delirium från många andra psykiatriska tillstånd.
+  id: med-psy-c790cc
+- type: multiple_choice
+  tags:
+  - Schizofreni
+  - Symtom
+  question: Vilket av följande är ett typiskt symtom vid schizofreni?
+  image: null
+  options:
+  - text: Tankestörningar
+    correct: true
+    feedback: Tankestörningar, inklusive formella tankestörningar och tankepåverkan, är kärnsymtom vid schizofreni och förekommer ofta tillsammans med vanföreställningar och hallucinationer.
+  - text: Maniska episoder
+    correct: false
+    feedback: Maniska episoder är typiska för bipolär sjukdom och inte ett primärt tecken på schizofreni.
+  - text: Fobier
+    correct: false
+    feedback: Fobier är specifika ångeststörningar och inte ett typiskt symtom vid schizofreni.
+  - text: Tvångshandlingar
+    correct: false
+    feedback: Tvångshandlingar är karakteristiska för tvångssyndrom (OCD) snarare än för schizofreni.
+  - text: Panikattacker
+    correct: false
+    feedback: Panikattacker hör i första hand till panik- och ångeststörningar, inte till kärnsymtomen vid schizofreni.
+  explanation: Schizofreni kännetecknas av positiva symtom som vanföreställningar, hallucinationer och tankestörningar samt negativa symtom som affektavplaning och social tillbakadragenhet. Tankestörningar är centrala för sjukdomsbilden och kan innefatta formella störningar i tänkandet och tankepåverkan.
+  id: med-psy-861ac4
+- type: multiple_choice
+  tags:
+  - Alkoholabstinens
+  - Delirium
+  question: En 55-årig man inkommer akut med förvirring, visuella hallucinationer och skakningar. Hans fru uppger att han druckit stora mängder alkohol dagligen under flera år men slutade tvärt för tre dagar sedan. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Alkoholdemens
+    correct: false
+    feedback: Alkoholdemens utvecklas gradvis över tid, inte i form av ett akut förvirringstillstånd 2–3 dagar efter utsättande.
+  - text: Korsakoffs psykos
+    correct: false
+    feedback: Korsakoff ger kronisk minnesstörning och konfabulering, inte ett akut delirium med hallucinationer och tremor efter abstinens.
+  - text: Alkoholintoxikation
+    correct: false
+    feedback: Intoxikation ger symtom medan patienten dricker, inte typiskt 48–72 timmar efter plötslig utsättning.
+  - text: Svår krisreaktion
+    correct: false
+    feedback: En krisreaktion saknar det typiska tidssambandet och de karakteristiska abstinensskakningarna/hallucinationerna.
+  - text: Alkoholabstinens med delirium
+    correct: true
+    feedback: Förvirring, hallucinationer och tremor som uppkommer 48–72 timmar efter plötslig utsättning hos långvarig tungdrickare är typiska för delirium tremens.
+  explanation: Delirium tremens uppträder oftast 48–72 timmar efter abrupt alkoholkonsumtionsstopp hos långvariga tunga drickare och kännetecknas av förvirring, hallucinationer, tremor och autonoma symtom. Behandling innefattar bensodiazepiner, vätska, näringsstöd (inkl. tiamin) och övervakning.
+  id: med-psy-5d9d3d
+- type: multiple_choice
+  tags:
+  - Bipolär sjukdom
+  - Differentialdiagnostik
+  - Självmordsrisk
+  question: En 40-årig man kommer till akuten efter ett självmordsförsök. Han beskriver återkommande perioder med flera veckors duration av nedstämdhet och energiförlust, alternerande med perioder av förhöjt stämningsläge och ökad aktivitet. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Borderline personlighetsstörning
+    correct: false
+    feedback: Borderline ger snabba affektsvängningar och relationsdysreglering snarare än tydliga veckolånga maniska och depressiva episoder.
+  - text: Schizofreni
+    correct: false
+    feedback: Schizofreni präglas av psykotiska symtom som vanföreställningar och hallucinationer, inte växlande mani och depression.
+  - text: Kroniskt trötthetssyndrom
+    correct: false
+    feedback: Kroniskt trötthetssyndrom orsakar ihållande utmattning utan maniska eller hypomaniska perioder.
+  - text: Recidiverande depression
+    correct: false
+    feedback: Recidiverande depression innebär upprepade depressiva skov utan historik av mani eller hypomani.
+  - text: Bipolär sjukdom
+    correct: true
+    feedback: Växlingen mellan depressiva episoder och perioder med förhöjt stämningsläge/överaktivitet talar för bipolär sjukdom.
+  explanation: Bipolär sjukdom kännetecknas av återkommande episoder av depression och mani eller hypomani. Maniska episoder innebär förhöjt stämningsläge, ökad energi och ofta minskat sömnbehov, medan depressiva episoder ger nedstämdhet och energiförlust; förekomst av mani/hypomani skiljer detta från recidiverande depression.
+  id: med-psy-d291cb
+- type: multiple_choice
+  tags:
+  - Ångest
+  - Differentialdiagnos
+  question: Vilket av följande är ett typiskt symtom vid generaliserat ångestsyndrom (GAD)?
+  image: null
+  options:
+  - text: Panikattacker
+    correct: false
+    feedback: Panikattacker är mer typiska för paniksyndrom än för GAD.
+  - text: Flashbacks
+    correct: false
+    feedback: Flashbacks är karaktäristiska för PTSD, inte för GAD.
+  - text: Tvångshandlingar
+    correct: false
+    feedback: Tvångshandlingar hör till tvångssyndrom (OCD) snarare än GAD.
+  - text: Fobier
+    correct: false
+    feedback: Fobier innebär specifika rädslor och utgör andra ångestdiagnoser än GAD.
+  - text: Överdriven oro
+    correct: true
+    feedback: GAD kännetecknas av kronisk, svårkontrollerad och överdriven oro över flera livsområden.
+  explanation: GAD innebär långvarig och överdriven oro och ängslan som är svår att kontrollera och ofta åtföljs av symtom som sömnsvårigheter, muskelspänning och koncentrationssvårigheter. Andra ångesttillstånd har mer specifika symptom som panikattacker, flashbacks eller tvångshandlingar.
+  id: med-psy-f82eab
+- type: multiple_choice
+  tags:
+  - Depression
+  - DSM-5
+  question: Vilket av följande är ett kardinalsymtom vid egentlig depression enligt DSM-5?
+  image: null
+  options:
+  - text: Ångest
+    correct: false
+    feedback: Ångest kan förekomma vid depression men är inte ett av DSM‑5:s två kärnsymtom.
+  - text: Aptitförändringar
+    correct: false
+    feedback: Aptitförändringar är ett vanligt kompletterande symtom, inte ett kardinalsymtom enligt DSM‑5.
+  - text: Anhedoni
+    correct: true
+    feedback: Anhedoni (minskat intresse eller förmåga att känna glädje) är ett av DSM‑5:s två kardinalsymtom för egentlig depression.
+  - text: Koncentrationssvårigheter
+    correct: false
+    feedback: Koncentrationssvårigheter är ett kompletterande symtom och inte ett obligatoriskt kärnkriterium.
+  - text: Sömnstörningar
+    correct: false
+    feedback: Sömnstörningar är vanliga vid depression men utgör inte ett av DSM‑5:s kardinalsymtom.
+  explanation: Enligt DSM‑5 är de två kardinalsymtomen för egentlig (major) depression nedstämdhet och anhedoni. Övriga symtom (sömnstörningar, aptitförändringar, koncentrationssvårigheter, ångest etc.) är vanliga kompletterande kriterier; minst fem symtom under två veckor krävs för diagnosen.
+  id: med-psy-fe0b0d
+- type: multiple_choice
+  tags:
+  - Schizofreni
+  - Diagnostik
+  question: Vilket av följande tillstånd ingår INTE i ICD-10:s definition av schizofreni?
+  image: null
+  options:
+  - text: Dissociativa symtom
+    correct: true
+    feedback: Dissociativa symtom ingår inte i ICD‑10:s kärncriteria för schizofreni utan talar oftare för dissociativa eller trauma‑relaterade störningar.
+  - text: Desorganiserat tal
+    correct: false
+    feedback: Desorganiserat tal räknas som ett av de centrala symtomen i ICD‑10 för schizofreni.
+  - text: Vanföreställningar
+    correct: false
+    feedback: Vanföreställningar är ett klassiskt och definierande symtom vid schizofreni enligt ICD‑10.
+  - text: Negativa symtom
+    correct: false
+    feedback: Negativa symtom (t.ex. avtrubbning, apati) ingår bland kärnsymtomen i ICD‑10.
+  - text: Hallucinationer
+    correct: false
+    feedback: Hallucinationer är ett av de typiska symtomen som ingår i ICD‑10:s definition av schizofreni.
+  explanation: ICD‑10 definierar schizofreni utifrån kärnsymtom såsom vanföreställningar, hallucinationer, desorganiserat tal/beteende och negativa symtom. Dissociativa symtom ingår inte i denna definition och bör väcka misstanke om andra diagnoser som dissociativa störningar eller trauma‑relaterade tillstånd.
+  id: med-psy-f40ae5
+- type: multiple_choice
+  tags:
+  - LPT
+  - Vårdintyg
+  - Legitimation
+  question: En patient kommer frivilligt till en vårdcentral efter att familjen larmat. Vårdcentralsläkaren bedömer att patienten behöver vård enligt Lagen om psykiatrisk tvångsvård (LPT). Vilken förutsättning måste uppfyllas för att den undersökande läkaren själv ska kunna utfärda ett vårdintyg?
+  image: null
+  options:
+  - text: Läkaren måste ha delegation från en chefsöverläkare från en psykiatrisk verksamhet
+    correct: false
+    feedback: Delegation från psykiatrisk chefsöverläkare är inte ett lagkrav för att utfärda vårdintyg.
+  - text: Läkaren måste vara specialistläkare i psykiatri
+    correct: false
+    feedback: Specialistkompetens i psykiatri kan vara kliniskt värdefullt men är inte ett formellt krav enligt LPT.
+  - text: Läkaren måste vara specialistläkare i allmänmedicin
+    correct: false
+    feedback: Att vara specialist i allmänmedicin är inte ett lagstadgat krav för att skriva vårdintyg.
+  - text: Läkaren måste ha tillräcklig psykiatrisk kompetens eftersom psykiatriplacering ingick i AT
+    correct: false
+    feedback: Erfarenhet från AT-placering i psykiatri kan vara nyttigt men är inte en juridisk förutsättning.
+  - text: Läkaren måste ha en svensk läkarlegitimation
+    correct: true
+    feedback: Giltig svensk läkarlegitimation är en formell förutsättning för att läkaren själv ska kunna utfärda vårdintyg enligt lagen.
+  explanation: För att en läkare ska kunna utfärda ett vårdintyg enligt LPT krävs som formellt villkor att läkaren har svensk läkarlegitimation. Klinisk erfarenhet och specialiststatus påverkar bedömningens kvalitet men är inte i sig lagkrav.
+  id: med-psy-3cf841
+- type: multiple_choice
+  tags:
+  - Social ångest
+  - Differentialdiagnostik
+  question: En 21-årig man söker på vårdcentralen för ångest och oro sedan han börjat en ny utbildning. Ångesten uppstår främst i samband med att redovisa i grupp och han sover dåligt flera nätter före presentationer. Han har också slutat gå till skolan eftersom han undviker matsalen då han känner sig obekväm att äta tillsammans med andra. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Agorafobi
+    correct: false
+    feedback: Agorafobi innebär rädsla för platser/situationer där flykt är svår eller hjälp inte finns, inte situationsbunden prestations- eller ätångest.
+  - text: Autismspektrumstörning
+    correct: false
+    feedback: Autism ger tidiga, genomgripande socialkommunikativa svårigheter snarare än situationsbunden prestationsångest och anticipatorisk oro.
+  - text: Social ångest
+    correct: true
+    feedback: Stark rädsla för att bli granskad vid presentationer, tydligt undvikande (hoppar över skolan för att slippa äta offentligt) och anticipatorisk oro med sömnstörning talar för social ångeststörning.
+  - text: Schizofreni
+    correct: false
+    feedback: Schizofreni kännetecknas av psykotiska symptom (villor, hallucinationer) som inte förekommer i denna bild.
+  - text: ADHD
+    correct: false
+    feedback: ADHD handlar främst om uppmärksamhets- och impulsivitetsproblem, inte prestationsrelaterad social rädsla och undvikande.
+  explanation: Social ångeststörning innebär en stark rädsla för sociala situationer där man riskerar att bli granskad, vilket leder till undvikande eller uthärdande med intensiv ångest. Symtom som prestationsångest, anticipatorisk oro och att undvika att äta offentligt är typiska för diagnosen.
+  id: med-psy-303d93
+- type: multiple_choice
+  tags:
+  - Bipolär sjukdom
+  - Hypomani
+  question: 'Peter, 22 år, kommer med sin syster som beskriver att han förändrats de senaste två veckorna: skickar meddelanden dygnet runt med storslagna idéer, verkar disträ och lättirriterad, har minskat sömnbehov men är pigg och beskriver entusiastiskt affärsplaner. Han förnekar droganvändning, har ingen tidigare psykiatrikontakt, hade en nedstämd period för två år sedan och en släkting med psykiatrisk inläggning. Vilken diagnos är mest sannolik?'
+  image: null
+  options:
+  - text: Anpassningsstörning
+    correct: false
+    feedback: Anpassningsstörning ger ofta nedstämdhet eller ångest kopplat till stressor, inte en episod med förhöjt stämningsläge och ökad målinriktad aktivitet.
+  - text: ADHD
+    correct: false
+    feedback: ADHD är ett genomgripande, långvarigt funktionsnedsättande tillstånd; akut förändring över veckor med storslagna idéer och minskat sömnbehov talar snarare för ett affektivt skov.
+  - text: Reaktiv depression
+    correct: false
+    feedback: Reaktiv depression innebär nedstämdhet efter stressor, medan patienten uppvisar ett förhöjt stämningsläge och ökad energi, inte depression.
+  - text: Autismspektrumtillstånd
+    correct: false
+    feedback: Autismspektrumtillstånd förklarar inte en akut tvåveckorsperiod med förhöjd stämning, minskat sömnbehov och plötsliga storslagna idéer.
+  - text: Hypomani
+    correct: true
+    feedback: Symtombilden med förhöjt stämningsläge, ökad målinriktad aktivitet, minskat sömnbehov, distraktion och bristande insikt under veckor talar för hypomani, särskilt med tidigare depressiv episod i anamnesen.
+  explanation: Hypomani kännetecknas av ett förhöjt eller irritabelt stämningsläge och ökad aktivitet/energi under en avgränsad period, ofta med minskat sömnbehov och nedsatt bedömning; det är en del av bipolära sjukdomsspektrumet. Differentiering från ADHD, anpassningsstörning eller autism görs utifrån episodiskt förlopp och förändring från patientens tidigare funktion.
+  id: med-psy-4dd504
+- type: multiple_choice
+  tags:
+  - Dysmorfobi
+  - Differentialdiagnos
+  question: Vilket av följande kännetecknar dysmorfofobi?
+  image: null
+  options:
+  - text: Återkommande och påträngande tankar om att ha en allvarlig sjukdom
+    correct: false
+    feedback: Detta beskriver sjukdomsångest/hypokondri, inte dysmorfofobi.
+  - text: Överdriven upptagenhet av upplevda utseendemässiga defekter
+    correct: true
+    feedback: Central egenskap vid dysmorfofobi är överdriven oro för upplevda kroppsliga defekter som orsakar stort lidande.
+  - text: Överdrivet undvikande av människor med bisarrt utseende
+    correct: false
+    feedback: Dysmorfofobi innebär egen kroppsfixering och undvikande av sociala situationer pga egen utseenderädsla, inte undvikande av andra.
+  - text: Rädsla för att vara i sociala situationer där man kan bli bedömd av andra
+    correct: false
+    feedback: Detta är typiskt för social ångest/social fobi, inte specifikt för dysmorfofobi.
+  - text: Överdriven oro för kroppsvikt och form
+    correct: false
+    feedback: Detta kännetecknar ätstörningar (t.ex. anorexi/ bulimi), inte dysmorfofobi.
+  explanation: Dysmorfobi (body dysmorphic disorder) innebär en överdriven och tvångsmässig upptagenhet av ett eller flera upplevda utseendemässiga fel som ofta är små eller osynliga, och leder till betydande lidande och funktionsnedsättning. Patienter utför ofta repetitiva beteenden (spegelkontroll, kamning, skönhetsbehandlingar) och måste skiljas från sjukdomsångest, social fobi och ätstörningar.
+  id: med-psy-c033af
+- type: multiple_choice
+  tags:
+  - Tvångsåtgärder
+  - LPT
+  - Etik
+  question: Vilken av följande tvångsåtgärder kan INTE ordineras med stöd av lagen om psykiatrisk tvångsvård (LPT)?
+  image: null
+  options:
+  - text: ECT (elektrokonvulsiv terapi) under tvång
+    correct: false
+    feedback: Kan i särskilda och strikt reglerade fall ges utan samtycke enligt LPT, men kräver noggranna rättsliga och medicinska prövningar.
+  - text: Inskränkning i rätten att använda elektroniska kommunikationstjänster och övervakning av försändelser
+    correct: false
+    feedback: Sådana begränsningar kan beslutas som säkerhetsåtgärder enligt LPT under särskilda förutsättningar och med dokumentation.
+  - text: Avskiljning
+    correct: false
+    feedback: Avskiljning (separering) är en möjlig tvångsåtgärd enligt LPT för att avvärja omedelbar fara och ska användas restriktivt.
+  - text: Kroppsvisitation
+    correct: false
+    feedback: Kroppsvisitation kan utföras som tvångsåtgärd för att förhindra att patienten bär farliga föremål, under lagstadgade rutiner.
+  - text: Abort under tvång (fram till vecka 18+0)
+    correct: true
+    feedback: Abort kan inte genomföras som tvångsåtgärd enligt LPT; abort regleras av andra lagar och kräver patientens samtycke.
+  explanation: LPT listar vilka tvångsåtgärder som kan användas i psykiatrisk tvångsvård och ställer krav på proportionalitet, dokumentation och rättsliga prövningar. Som huvudregel omfattar LPT säkerhetsåtgärder och medicinska ingrepp i psykiatrisk vård, medan somatiska ingrepp som abort regleras av annan lagstiftning och kräver samtycke.
+  id: med-psy-2c28a7
+- type: multiple_choice
+  tags:
+  - Antipsykotika
+  - Bensodiazepiner
+  question: Vid intramuskulär behandling av psykotisk agitation, vilken kombination av läkemedel bör undvikas?
+  image: null
+  options:
+  - text: Haldol + Phenergan (Lergigan)
+    correct: false
+    feedback: Denna kombination kan ge extrapyramidala symtom, sedering och QT-förlängning men är inte primärt förbjuden av risk för synergistisk respirationsdepression.
+  - text: Lorazepam + Olanzapin
+    correct: true
+    feedback: Samtidig intramuskulär lorazepam och olanzapin ger hög risk för överdriven sedering, respirationsdepression och hypotension och bör undvikas.
+  - text: Lorazepam + Phenergan (Lergigan)
+    correct: false
+    feedback: Kombinationen kan kraftigt öka sedering och risk för andningsdepression, men är inte specifikt förbjuden på samma grund som IM lorazepam+olanzapin.
+  - text: Phenergan (Lergigan) + Olanzapin
+    correct: false
+    feedback: Kan ge uttalad sedering och hypotension men utgör inte samma välkända, farliga synergism mot andningscentrat som IM lorazepam+olanzapin.
+  - text: Lorazepam + Haldol
+    correct: false
+    feedback: Denna kombination ökar sedering och kräver övervakning, men är inte särskilt kontraindicerad av risk för massiv respirationsdepression som vid lorazapin+olanzapin.
+  explanation: Samtidig intramuskulär administration av benzodiazepin (lorazepam) och olanzapin bör undvikas på grund av kraftigt ökad risk för överdriven sedering, respirationsdepression och hypotension. Andra kombinationer med neuroleptika eller antihistamin kan ge EPS, QT-förlängning eller kraftig sedering och kräver försiktighet och övervakning.
+  id: med-psy-5f9ab3
+- type: multiple_choice
+  tags:
+  - Depression
+  - Psykometri
+  - Screening
+  question: Vilka två bedömningsinstrument används främst för att kvantifiera depressiva symtom och följa förändring över tid?
+  image: null
+  options:
+  - text: GDS-20 och AUDIT
+    correct: false
+    feedback: GDS är en geriatrisk depressionsskala och AUDIT är ett alkoholscreeningsinstrument, inte två longitudinella depressionsskalor.
+  - text: MADRS-S och HDRS
+    correct: true
+    feedback: MADRS‑S (självskattning) och HDRS (klinisk skattning) är validerade för att kvantifiera depressionssvårighetsgrad och följa förändringar över tid.
+  - text: SCID-1 och Suicidstegen
+    correct: false
+    feedback: SCID är en diagnostisk intervju och Suicidstegen är ett suicidbedömningsverktyg, inte primära skalor för uppföljning av depressiva symtom.
+  - text: HAD och MINI
+    correct: false
+    feedback: HADS (HAD) och MINI är främst korta screening-/diagnostiska verktyg med begränsad användning som longitudinella mått jämfört med MADRS/HDRS.
+  - text: EPDS och DUDIT
+    correct: false
+    feedback: EPDS är en screeningskala för postpartumdepression och DUDIT screenar drogbruk, inte två verktyg för generell uppföljning av depressiva symtom över tid.
+  explanation: MADRS‑S (självskattad) och HDRS (klinikerbedömd) är etablerade skalor för att mäta depressionssvårighetsgrad och är känsliga för förändring, vilket gör dem lämpliga för klinisk uppföljning och forskning. Andra nämnda instrument används för diagnostik, screening eller för andra områden som missbruk eller suicidrisk.
+  id: med-psy-9f542b
+- type: multiple_choice
+  tags:
+  - SSRI
+  - Indikationer
+  - Bipolär sjukdom
+  question: Vilket av följande tillstånd bör INTE behandlas med SSRI?
+  image: null
+  options:
+  - text: GAD (Generaliserat ångestsyndrom)
+    correct: false
+    feedback: SSRI är förstahandsbehandling vid GAD, ofta tillsammans med psykologisk behandling.
+  - text: Blandskov i bipolär sjukdom
+    correct: true
+    feedback: SSRI kan utlösa mani eller förvärra cyklisk instabilitet; stämningsstabiliserare och/eller antipsykotika är förstahandsval.
+  - text: Paniksyndrom
+    correct: false
+    feedback: SSRI är etablerad förstahandsbehandling för paniksyndrom.
+  - text: Tvångssyndrom
+    correct: false
+    feedback: SSRI är effektiva vid tvångssyndrom, ofta i högre doser än vid depression.
+  - text: Premenstruellt dysforiskt syndrom (PMDS)
+    correct: false
+    feedback: SSRI är väl dokumenterade och ofta effektiva vid PMDS, ibland ges intermittenta doser.
+  explanation: SSRI är förstahandsläkemedel för GAD, paniksyndrom, tvångssyndrom och PMDS. Vid bipolär sjukdom ska man undvika antidepressiva monoterapier då de kan utlösa mani eller öka cyklisk instabilitet; behandling sker främst med stämningsstabiliserare och/eller antipsykotika.
+  id: med-psy-1da745
+- type: multiple_choice
+  tags:
+  - ECT
+  - Katatoni
+  - Indikationer
+  question: Vid vilket av följande tillstånd är elektrokonvulsiv terapi (ECT) indicerat?
+  image: null
+  options:
+  - text: Derealisation
+    correct: false
+    feedback: Inte en standardindikation — ECT används inte för isolerad derealisation.
+  - text: Demens
+    correct: false
+    feedback: Demens i sig är vanligtvis inte en indikation; ECT kan övervägas först om det finns samtidig svår depressiv sjukdom eller behandlingsresistent psykos.
+  - text: Generaliserat ångestsyndrom
+    correct: false
+    feedback: Inte en standardindikation — GAD behandlas primärt med psykoterapi och läkemedel.
+  - text: Trichotillomani
+    correct: false
+    feedback: Inte en indikation — trichotillomani behandlas oftast med KBT och ibland läkemedel.
+  - text: Katatoni
+    correct: true
+    feedback: ECT är ofta effektiv och kan vara livräddande vid katatoni med uttalade motoriska symtom eller mutism.
+  explanation: ECT är särskilt indicerat vid katatoni och vid svår, behandlingsresistent depression samt vissa psykoser. Vid katatoni ger ECT ofta snabb förbättring och kan rädda liv. Isolerade ångesttillstånd, derealisation, trichotillomani eller demens utan samtidig svår depressiv sjukdom är normalt inte indikationer.
+  id: med-psy-abba38
+- type: multiple_choice
+  tags:
+  - Melankoli
+  - Depression
+  - Diagnostik
+  question: 'Melankoliska inslag: Vilken av följande symtombilder är förenlig med melankoli?'
+  image: null
+  options:
+  - text: Uttalad intresseförlust och glädjelöshet
+    correct: true
+    feedback: Kärnsymtom vid melankoli är stark minskning av intresse/avsaknad av glädje och pessimistisk stämning.
+  - text: Förhöjd ångest och dysfori
+    correct: false
+    feedback: Ångest och dysfori kan förekomma men är inte det typiska kärnfenomenet vid melankoli.
+  - text: Hyperfagi och anhedoni
+    correct: false
+    feedback: Hyperfagi (ökad aptit) är typiskt för atypisk depression, inte melankoli, även om anhedoni kan förekomma.
+  - text: Bättre mående på morgonen som försämras under kvällen
+    correct: false
+    feedback: Detta diurnala mönster är motsatt mot melankoli, som ofta är värre på morgonen (morgonförsämring).
+  - text: Hypersomni och anhedoni
+    correct: false
+    feedback: Hypersomni är mer karakteristiskt för atypisk depression; melankoli förknippas snarare med tidigt uppvaknande/insomni.
+  explanation: Melankoli kännetecknas av uttalad intresseförlust och oförmåga att känna glädje, ofta med pessimistisk stämning, tidig uppvakning och aptit- och viktminskning. Symtom som hyperfagi eller hypersomni tyder istället på atypisk depression, och diurnala variationer är vanligen värre på morgonen vid melankoli.
+  id: med-psy-b03774
+- type: multiple_choice
+  tags:
+  - Psykos
+  - Substansutlöst
+  - Behandling
+  question: Vilket av följande påståenden stämmer bäst avseende substansutlösta psykoser?
+  image: null
+  options:
+  - text: Substansutlösta psykoser har skyddande effekt mot depressiva symtom.
+    correct: false
+    feedback: Substansutlösta psykoser ger inte skydd mot depression; droger kan snarare orsaka eller förvärra stämningsstörningar.
+  - text: Substansutlösta psykoser är oftast relativt snabbt övergående efter avslutat drogintag.
+    correct: true
+    feedback: Symtomen är ofta direkt kopplade till substansens akuta eller subakuta effekter och förbättras vanligtvis när intaget upphör.
+  - text: Substansutlösta psykoser ska inte behandlas inom psykiatrisk heldygnsvård.
+    correct: false
+    feedback: Svåra eller agiterade fall kan kräva heldygnsvård för säkerhet och akut behandling.
+  - text: Substansutlösta psykoser ska inte behandlas med bensodiazepiner.
+    correct: false
+    feedback: Bensodiazepiner kan ofta användas för att behandla ångest och agitation vid substansutlösta psykoser, med försiktighet vid missbruk.
+  - text: Substansutlösta psykoser är mer svårbehandlade än primära psykoser såsom schizofreni.
+    correct: false
+    feedback: De är inte nödvändigtvis svårare; många är mer kortvariga och förbättras när substansen avklingar, även om vissa kan bli långdragna.
+  explanation: Substansutlösta psykoser orsakas av drogens akuta eller subakuta effekter och förbättras ofta efter att intaget upphört, men kan kräva akutpsykiatrisk vård vid allvarlig agitation eller risk. Behandling inriktas på säkerhet, symtomlindring (t.ex. bensodiazepiner vid agitation) och uppföljning för att skilja från primära psykossjukdomar.
+  id: med-psy-71ad5d
+- type: multiple_choice
+  tags:
+  - Vanföreställningssyndrom
+  - Erotomani
+  - Differentialdiagnostik
+  question: Maria, 50 år, har under det senaste året utvecklat ett intensivt intresse för sin granne Thomas, 45. Trots att Thomas aldrig visat romantiskt intresse och uttryckt obehag tolkar Maria hans dagliga rutiner som hemliga kärleksbudskap. Hon följer efter honom till hans arbetsplats, skickar otaliga kärleksbrev och gåvor, och väntar ofta utanför hans lägenhet. Hon avfärdar alla försök från familj och vänner att diskutera situationen. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Obsessiv-kompulsiv störning (OCD)
+    correct: false
+    feedback: OCD innebär tvångstankar och ritualer snarare än en bestående erotomanisk vanföreställning och ihållande tolkning av andras beteenden som kärleksbevis.
+  - text: Bipolär sjukdom, manisk episod
+    correct: false
+    feedback: Mani kännetecknas av förhöjd/irriterad sinnesstämning, ökad energi och impulsivitet, inte av en isolerad oföränderlig tro att någon är förälskad i en.
+  - text: Schizoaffektivt syndrom
+    correct: false
+    feedback: Schizoaffektivt syndrom kräver betydande stämningssymtom samtidigt med psykotiska symtom; här dominerar en enkel erotomanisk vanföreställning utan uttalad stämningsbild.
+  - text: Vanföreställningssyndrom, erotomanisk typ
+    correct: true
+    feedback: Patienten har en bestående, oföränderlig tro att en annan person är förälskad trots tydliga motbevis och uppvisar ihållande förföljelsebeteende.
+  - text: Borderline personlighetsstörning
+    correct: false
+    feedback: Borderline ger instabila relationer, identitets- och affektdysreglering snarare än en enkel, konstant erotomanisk vanföreställning.
+  explanation: Erotomanisk vanföreställning (de Clérambaults syndrom) innebär en ihållande tro att någon, ofta av högre status, är förälskad i patienten trots klara motbevis; det leder ofta till brevskrivande, gåvor och förföljelsebeteende. Diagnosen skiljs från OCD, affektiva störningar, schizoaffektivt syndrom och personlighetsstörningar genom vanföreställningens stabilitet och brist på genomgripande stämnings- eller personlighetsmönster.
+  id: med-psy-761c2a
+- type: multiple_choice
+  tags:
+  - LPT
+  - Akutpsykiatri
+  question: Du är olegitimerad läkare och arbetar på psykiatriakuten. En patient kommer med ett vårdintyg som är utfärdat idag kl. 13:35 på medicinakuten av en legitimerad läkare; patienten anländer till psykiatriakuten kl. 16:15. Vad är korrekt?
+  image: null
+  options:
+  - text: Du fattar ett kvarhållningsbeslut och patienten ska bedömas av en specialist innan kl 13:35 imorgon
+    correct: false
+    feedback: Specialistbedömning ska ske inom 24 timmar från kvarhållningsbeslutet (alltså senast kl. 16:15 nästa dag), inte kl. 13:35.
+  - text: Du gör inget eftersom vårdintyget är ogiltigt
+    correct: false
+    feedback: Vårdintyget är giltigt och ger grund för kvarhållning; det är inte ogiltigt bara för att du är olegitimerad.
+  - text: Du fattar ett intagningsbeslut och patienten ska bedömas av en specialist innan kl 16:15 imorgon
+    correct: false
+    feedback: Intagningsbeslut kräver ofta annan behörighet/formalitet; som olegitimerad läkare fattar du i första hand ett kvarhållningsbeslut.
+  - text: Du fattar ett intagningsbeslut och patienten ska bedömas av en specialist innan kl 13:35
+    correct: false
+    feedback: Både beslutstypen och tidsangivelsen är fel; intagningsbeslut kräver annan behörighet och bedömningstiden är felaktig.
+  - text: Du fattar ett kvarhållningsbeslut och patienten ska bedömas av en specialist innan kl 16:15 imorgon
+    correct: true
+    feedback: Vårdintyget är giltigt och olegitimerad läkare kan fatta kvarhållningsbeslut; specialistbedömning måste ske inom 24 timmar (senast kl. 16:15 nästa dag).
+  explanation: Ett giltigt vårdintyg ger grund för kvarhållning på akuten även om läkaren är olegitimerad. Patienten ska bedömas av specialist inom 24 timmar från kvarhållningsbeslutet; intagningsbeslut kräver oftast annan behörighet och formalia.
+  id: med-psy-d01097
+- type: multiple_choice
+  tags:
+  - Agorafobi
+  - Paniksyndrom
+  - Diffdiagnostik
+  question: En 35‑årig man som arbetar som chaufför söker på vårdcentralen. Sedan några månader får han stark ångest när han ska köra över broar av rädsla för att få en panikattack mitt på bron och behöva stanna bilen, vilket skulle kunna orsaka en olycka. Han har börjat ta omvägar för att undvika broar, vilket påverkar hans arbete negativt. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Specifik fobi (brofobi)
+    correct: false
+    feedback: Specifik fobi är vanligtvis begränsad till en situation utan den uttalade flykt- och panikrädslan som leder till omfattande funktionsnedsättande undvikande.
+  - text: Generaliserat ångestsyndrom
+    correct: false
+    feedback: GAD innebär diffus och långvarig oro över flera områden, inte en situationsbunden rädsla för platser där flykt är svår.
+  - text: Social fobi
+    correct: false
+    feedback: Social fobi handlar om rädsla för negativ bedömning i sociala situationer, inte rädsla för att få panik på platser med svår flykt.
+  - text: Tvångssyndrom (OCD)
+    correct: false
+    feedback: OCD kännetecknas av tvångstankar och ritualer, inte situationsbunden ångest och undvikande kopplat till flyktmöjligheter.
+  - text: Agorafobi med paniksyndrom
+    correct: true
+    feedback: Rädsla för situationer där flykt kan vara svår tillsammans med undvikande efter panikattacker är typiskt för agorafobi ofta i samband med paniksyndrom.
+  explanation: Agorafobi innebär rädsla för platser eller situationer där flykt är svår eller hjälp svårt att få, ofta med panikattacker och efterföljande undvikande som försämrar funktion. Paniksyndrom kännetecknas av återkommande panikattacker och kan leda till sekundär agorafobi när patienten undviker situationer där attacker kan inträffa.
+  id: med-psy-9eb7c5
+- type: multiple_choice
+  tags:
+  - Antidepressiva
+  - Bensodiazepiner
+  question: Vilket av följande läkemedel används INTE som antidepressivt medel?
+  image: null
+  options:
+  - text: Venlafaxin (Efexor)
+    correct: false
+    feedback: Venlafaxin är en SNRI som används vid depression.
+  - text: Fluoxetin (Prozac)
+    correct: false
+    feedback: Fluoxetin är en SSRI och används som antidepressiv.
+  - text: Klonazepam (Iktorivil)
+    correct: true
+    feedback: Klonazepam är en bensodiazepin med ångestdämpande och antiepileptisk verkan, inte ett antidepressivt medel.
+  - text: Duloxetin (Cymbalta)
+    correct: false
+    feedback: Duloxetin är en SNRI som används vid depression.
+  - text: Escitalopram (Cipralex)
+    correct: false
+    feedback: Escitalopram är en SSRI och används vid depression och ångest.
+  explanation: SSRI (t.ex. fluoxetin, escitalopram) och SNRI (t.ex. venlafaxin, duloxetin) är vanliga antidepressiva klasser. Klonazepam tillhör bensodiazepiner och används främst för ångest och epilepsi, inte som förstahandsmedel vid depression.
+  id: med-psy-bba44d
+- type: multiple_choice
+  tags:
+  - LVM
+  - Socialtjänst
+  question: Vem kan fatta beslut om omedelbart akut omhändertagande enligt 13 § LVM (Lag om vård av missbrukare i vissa fall)?
+  image: null
+  options:
+  - text: Legitimerad läkare med särskild delegation
+    correct: false
+    feedback: Läkare kan intyga medicinskt behov och ge underlag, men har inte ensam rätt att fatta LVM-beslut enligt lagen.
+  - text: Beredskapsjour
+    correct: false
+    feedback: Beredskapsjouren saknar formell befogenhet att utfärda LVM-beslut; ansvar och beslut ligger hos socialnämnden/socialtjänsten.
+  - text: Verksamhetschef inom psykiatri
+    correct: false
+    feedback: Verksamhetschefer inom psykiatri har inte lagstadgad rätt att besluta om omedelbart omhändertagande enligt 13 § LVM.
+  - text: Socialnämnden/socialtjänsten
+    correct: true
+    feedback: Socialnämnden/socialtjänsten har enligt 13 § LVM det formella ansvaret och beslutsrätten för omedelbart omhändertagande vid allvarligt missbruk.
+  - text: Chefsöverläkare inom psykiatri
+    correct: false
+    feedback: Chefsöverläkare kan bedöma och intyga behov men saknar ensam befogenhet att fatta LVM-beslut enligt lagen.
+  explanation: Enligt 13 § LVM är det socialnämnden/socialtjänsten som formellt beslutar om omedelbart omhändertagande vid allvarligt missbruk. Läkare och psykiatrisk personal kan lämna medicinska intyg och underlag men har inte ensam beslutsrätt enligt LVM.
+  id: med-psy-0135b4
+- type: multiple_choice
+  tags:
+  - Social fobi
+  - Ångeststörning
+  - Diffdiagnostik
+  question: En 24‑årig student söker till studenthälsan för intensiv ångest i sociala situationer på campus. Hon undviker att äta i matsalen, har svårt att tala i seminarier och blir extremt obekväm vid gruppresentationer av rädsla för att andra ska uppfatta henne som dum eller inkompetent. Hon får hjärtklappning, svettningar och rodnad i dessa situationer vilket påverkar hennes studier och sociala kontakter. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Specifik fobi
+    correct: false
+    feedback: Specifik fobi avser en avgränsad rädsla för ett särskilt objekt eller en situation (t.ex. djur, höjder), inte bred rädsla för social bedömning.
+  - text: Social fobi
+    correct: true
+    feedback: Karakteriseras av intensiv rädsla för negativ social bedömning i prestations- och interaktionssituationer med undvikande och fysiska ångestsymtom.
+  - text: Paniksyndrom
+    correct: false
+    feedback: Paniksyndrom innebär återkommande oväntade panikattacker och oro för dem snarare än en situationsbunden rädsla för social bedömning.
+  - text: Generaliserat ångestsyndrom
+    correct: false
+    feedback: GAD ger diffus, överdriven oro över flera områden istället för fokuserad rädsla för social bedömning och prestationssituationer.
+  - text: Agorafobi
+    correct: false
+    feedback: Agorafobi handlar om rädsla för att vara fast eller svårt att få hjälp i vissa platser/situationer, inte primärt rädsla för social evaluering.
+  explanation: Social ångeststörning (social fobi) innebär ihållande rädsla för negativ bedömning i sociala eller prestationssituationer, leder ofta till undvikande och ger fysiologiska symtom som hjärtklappning och rodnad. Diagnosen skiljs från specifik fobi, paniksyndrom, GAD och agorafobi utifrån vad patienten fruktar och i vilka situationer ångesten uppstår.
+  id: med-psy-61df1f
+- type: multiple_choice
+  tags:
+  - Tvångssyndrom
+  - Diffdiagnostik
+  question: En 25-årig man söker på psykiatrin och beskriver återkommande, påträngande tankar om att han skulle kunna skada barn sexuellt. Tankarna är ego-dystona, väcker stark ångest och äckelkänslor. Han undviker att vistas i parker och på familjesammankomster och försöker neutralisera tankarna genom att upprepa vissa fraser för sig själv och undvika nyheter om barn. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: Vanföreställningssyndrom
+    correct: false
+    feedback: Vanföreställningar är fasta, sannolikhetskonstanta övertygelser utan insikt, inte ego‑dystona inträngande tankar med ritualer.
+  - text: Generaliserat ångestsyndrom
+    correct: false
+    feedback: GAD ger diffus, utbredd oro över flera områden snarare än specifika inträngande obsessions med kompulsioner.
+  - text: Pedofili
+    correct: false
+    feedback: Pedofili innebär varaktig sexuell attraktion till barn, inte ovälkomna ångestfyllda tankar som personen förnekar vilja agera på.
+  - text: Tvångssyndrom (OCD)
+    correct: true
+    feedback: Ego‑dystona inträngande tankar (obsessioner) tillsammans med ritualer/neutraliserande beteenden och undvikande är typiskt för OCD.
+  - text: Pedofobi
+    correct: false
+    feedback: Pedofobi är en irrationell rädsla och undvikande av barn, men saknar de tvångsmässiga, återkommande tankarna och ritualerna som ses vid OCD.
+  explanation: Tvångssyndrom kännetecknas av upprepade, inträngande ego‑dystona tankar (obsessioner) som orsakar ångest och kompenseras med ritualer eller neutraliserande beteenden (kompulsioner) samt ofta undvikande. Differentiellt skiljer man det från pedofili (sexuell attraktion), vanföreställningssyndrom (fasta falska övertygelser), GAD (diffus oro) och fobier (rädsla utan tvångsritualer).
+  id: med-psy-ea0bcc
+- type: multiple_choice
+  tags:
+  - Amfetamin
+  - Abstinens
+  question: Vilket av följande symtom är vanligt vid amfetaminabstinens?
+  image: null
+  options:
+  - text: Trötthet och utmattning
+    correct: true
+    feedback: Kraftig trötthet och utmattning med ökat sömnbehov är typiska vid amfetaminabstinens.
+  - text: Förhöjd kroppstemperatur och agitation
+    correct: false
+    feedback: Hypertermi och agitation är vanligen tecken på intoxikation, inte abstinens.
+  - text: Vidgade pupiller och agitation
+    correct: false
+    feedback: Mydriasis och agitation tyder på aktiv stimulantiaeffekt (intoxikation).
+  - text: Ökad energi och eufori
+    correct: false
+    feedback: Eufori och ökad energi är karakteristiska för intoxikation, inte abstinens.
+  - text: Minskad aptit och kramper i magen
+    correct: false
+    feedback: Minskad aptit är mer typisk vid intoxikation; magkramper är inte ett karakteristiskt abstinenssymtom.
+  explanation: Amfetaminabstinens ger ofta uttröttning, ökat sömnbehov och depressiva symtom medan intoxikation ger motsatta tecken som eufori, hyperaktivitet, agitation, hypertermi och mydriasis. Behandling är i första hand stödjande och symtomatisk.
+  id: med-psy-ddfb8f
+- type: multiple_choice
+  tags:
+  - Antipsykotika
+  - Agranulocytos
+  question: Vilken av följande är en anledning till att behandling med klozapin måste följas upp med regelbundna prover?
+  image: null
+  options:
+  - text: Risk för levercirros
+    correct: false
+    feedback: Levercirros är inte en vanlig eller primär anledning till de obligatoriska blodkontrollerna vid klozapin.
+  - text: Risk för elektrolytrubbningar
+    correct: false
+    feedback: Uttalade elektrolytrubbningar är inte huvudskälet till rutinmässiga prover vid klozapin.
+  - text: Risk för diabetes typ 2
+    correct: false
+    feedback: Delvis korrekt men fel svar — klozapin ökar risken för viktuppgång och diabetes, men metabola risker övervakas separat och är inte skälet till de specifika blodräkningarna.
+  - text: Risk för njursvikt
+    correct: false
+    feedback: Njursvikt är inte en vanlig indikation för de regelbundna blodprover som krävs vid klozapinbehandling.
+  - text: Risk för agranulocytos
+    correct: true
+    feedback: Klozapin kan ge allvarlig agranulocytos (livshotande neutropeni) vilket kräver regelbundna blodprover för tidig upptäckt.
+  explanation: Klozapin kan orsaka agranulocytos med kraftigt minskade neutrofiler, därför krävs frekventa leukocyt- och neutrofilkontroller för att upptäcka cytopeni tidigt. Klozapin har även metabola biverkningar (viktuppgång, ökad diabetesrisk) som övervakas separat, men levercirros, uttalade elektrolytrubbningar och njursvikt är inte huvudorsaker till de obligatoriska blodkontrollerna.
+  id: med-psy-4db0d3
+- type: multiple_choice
+  tags:
+  - Tvångsvård
+  - Etik
+  - Autonomi
+  question: I medicinetisk litteratur anses det särskilt svårt att motivera tvångsvård av en vuxen, beslutskapabel individ även om övriga rekvisit för tvångsvård (t.ex. allvarlig psykisk störning) är uppfyllda. Vilken medicinetisk princip ligger bakom denna ståndpunkt?
+  image: null
+  options:
+  - text: Göra gott-principen
+    correct: false
+    feedback: Fokuserar på vårdgivarens skyldighet att främja patientens välmående, men motiverar inte i första hand att respektera en beslutskapabel individs vägran.
+  - text: Autonomiprincipen
+    correct: true
+    feedback: Betonar patientens självbestämmande och rätt att fatta egna behandlingsbeslut, vilket gör tvångsvård mot en beslutskapabel vuxen svår att etiskt motivera.
+  - text: Proportionalitetsprincipen
+    correct: false
+    feedback: Handlar om att väga intrångets styrka mot nyttan; relevant för utformning av tvångsåtgärder men rättfärdigar inte i sig respekten för en kompetent individs vägran.
+  - text: Rättviseprincipen
+    correct: false
+    feedback: Berör fördelning av resurser och rättvis behandling i populationen, inte primärt rätten till självbestämmande hos en beslutskapabel individ.
+  - text: Icke skada-principen
+    correct: false
+    feedback: Syftar till att undvika att åstadkomma skada; kan tala för eller emot tvångsvård i olika situationer men är inte huvudgrunden för att respektera beslutskompetent vägran.
+  explanation: Autonomiprincipen skyddar individens rätt att bestämma över sin kropp och behandling; en beslutskapabel vuxen kan därför vägra vård även vid svår psykisk störning. Tvångsvård innebär ett betydande intrång i självbestämmandet, varför den etiska bördan för att överskrida autonomi är hög. Andra principer som göra-gott, icke skada, proportionalitet och rättvisa är relevanta men ger inte samma skydd för vägran som autonomiprincipen.
+  id: med-psy-b6a46e
+- type: multiple_choice
+  tags:
+  - Psykos
+  - Missbruk
+  question: Vilket av följande påståenden stämmer bäst avseende substansutlösta psykoser?
+  image: null
+  options:
+  - text: Substansutlösta psykoser är oftast relativt snabbt övergående efter avslutat drogintag
+    correct: true
+    feedback: Symptom avklingar ofta när intoxikation eller abstinens upphör, även om observation kan behövas.
+  - text: Substansutlösta psykoser ska inte behandlas inom psykiatrisk heldygnsvård
+    correct: false
+    feedback: Svåra fall med agitation, suicidrisk eller oklarhetsgrad kan kräva heldygnsvård.
+  - text: Substansutlösta psykoser är mer svårbehandlade än primära psykoser såsom schizofreni
+    correct: false
+    feedback: De är vanligtvis inte svårare att behandla än primära psykoser och är ofta brått förlöpande.
+  - text: Substansutlösta psykoser ska inte behandlas med bensodiazepiner
+    correct: false
+    feedback: Bensodiazepiner kan användas vid agitation eller ångest (särskilt vid alkohol/benzo-abstinens) med försiktighet.
+  - text: Substansutlösta psykoser har skyddade effekt mot depressiva symtom
+    correct: false
+    feedback: De ger inget skydd mot depression; risk för depressiva symtom kan kvarstå eller uppstå.
+  explanation: Substansutlösta psykoser uppträder i samband med intoxikation eller abstinens och är ofta relativt snabbt övergående efter avslutat drogintag. Vid svår agitation, suicidrisk eller oklar diagnostik kan heldygnsvård och symptomatic behandling (t.ex. antipsykotika eller bensodiazepiner vid behov) vara nödvändigt.
+  id: med-psy-39be1b
+- type: multiple_choice
+  tags:
+  - Social ångest
+  - Differentialdiagnos
+  question: Du misstänker social ångest som primär diagnos hos en patient på vårdcentralen. Vilket av följande alternativ talar mest för social ångest?
+  image: null
+  options:
+  - text: Rädsla att få panikattack framför andra
+    correct: false
+    feedback: Talar mer för paniksyndrom där fokuset är rädsla för panikattacker och deras konsekvenser snarare än granskning.
+  - text: Rädsla för att tappa andan
+    correct: false
+    feedback: Typiskt vid panikattacker och fysiologisk ångest, inte ett karaktärsdrag för social fobi.
+  - text: Rädsla för att vara granskad av andra
+    correct: true
+    feedback: Kärnsymtom vid social ångest är överdriven rädsla för granskning och förödmjukelse i sociala situationer.
+  - text: Rädsla för att vara på öppna platser
+    correct: false
+    feedback: Talar mer för agorafobi, där rädsla gäller platser eller situationer där flykt kan vara svår.
+  - text: Rädsla för att tappa kontroll
+    correct: false
+    feedback: Vanligare vid paniksyndrom eller generell ångest; det är inte det mest framträdande symptomet vid social fobi.
+  explanation: Social ångest (social fobi) präglas av uttalad rädsla för att bli granskad eller förödmjukad i sociala situationer. Symtomen skiljer sig från paniksyndrom (rädsla för panikattacker) och agorafobi (rädsla för situationer där flykt är svår).
+  id: med-psy-c3b5a0
+- type: multiple_choice
+  tags:
+  - Schizofreni
+  - Neurotransmission
+  question: Vilka två signalsubstanser tror man har störst betydelse vid psykossjukdomen schizofreni?
+  image: null
+  options:
+  - text: Noradrenalin och glutamat
+    correct: false
+    feedback: Glutamat kan vara viktig men noradrenalin ses inte som en huvudorsak i schizofrenins patofysiologi.
+  - text: Dopamin och glutamat
+    correct: true
+    feedback: Dopamin- och glutamatsystemen anses centrala; dopaminrubbningar förklarar positiva/negativa symptom och glutamathypofunktion bidrar till kognitiva störningar.
+  - text: Dopamin och serotonin
+    correct: false
+    feedback: Serotonin spelar viss roll och påverkar atypiska antipsykotikas effekt, men kombinationen förklarar inte sjukdomen lika heltäckande som dopamin+glutamat.
+  - text: Serotonin och noradrenalin
+    correct: false
+    feedback: Denna kombination är främst relevant för depression snarare än grundläggande mekanismer vid schizofreni.
+  - text: GABA och dopamin
+    correct: false
+    feedback: Dopamin är central men GABA-dysfunktion är inte lika framträdande som glutamathypofunktion i dagens huvudteorier.
+  explanation: 'Dopamin- och glutamatteorierna är mest framträdande: dopaminöveraktivitet i mesolimbiska banor ger positiva symtom medan dopaminbrist i mesokortikala banor bidrar till negativa och kognitiva symtom. Hypofunktion i glutamaterga NMDA-receptorer kan bidra till både dopaminobalans och kognitiva problem.'
+  id: med-psy-ba0524
+- type: multiple_choice
+  tags:
+  - Rättspsykiatri
+  - Psykiatrisk tvångsvård
+  question: Vem kan, enligt 11 § lagen om psykiatrisk tvångsvård (LPT), fatta konverteringsbeslutet från frivillig psykiatrisk vård till sluten tvångsvård?
+  image: null
+  options:
+  - text: Verksamhetschefen
+    correct: false
+    feedback: Verksamhetschefen kan inte ensam fatta ett medicinskt konverteringsbeslut som enligt LPT kräver specialistbedömning.
+  - text: Legitimerad läkare
+    correct: false
+    feedback: En legitimerad läkare utan specialistkompetens i psykiatri saknar formell behörighet för detta beslut.
+  - text: Olegitimerad läkare
+    correct: false
+    feedback: Olegitimerad läkare har inte rätt att fatta sådana tvångsmedicinska beslut.
+  - text: Förvaltningsrätten
+    correct: false
+    feedback: Förvaltningsrätten prövar ärenden i efterhand, den fattar inte det initiala konverteringsbeslutet i vården.
+  - text: Specialistläkare i psykiatri
+    correct: true
+    feedback: 11 § LPT kräver att konverteringsbeslut fattas av en specialistläkare i psykiatri eftersom bedömningen kräver specialistkompetens.
+  explanation: Enligt 11 § LPT ska beslut om övergång från frivillig psykiatrisk vård till sluten tvångsvård fattas av en specialistläkare i psykiatri eftersom det kräver specialistbedömning. Andra aktörer kan inte ersätta denna medicinska kompetens, och förvaltningsrätten prövar beslutet i efterhand vid överklagande.
+  id: med-psy-e9beb3
+- type: multiple_choice
+  tags:
+  - Postpartumpsykos
+  - Elektrokonvulsiv behandling
+  - Akutpsykiatri
+  question: Postpartumpsykos är ett allvarligt akutpsykiatriskt tillstånd. Vilken behandling är förstahandsval?
+  image: null
+  options:
+  - text: SSRI-läkemedel
+    correct: false
+    feedback: SSRI kan hjälpa vid postpartumdepression men verkar långsamt och är inte förstahandsval vid allvarlig psykos.
+  - text: Elektrokonvulsiv behandling (ECT)
+    correct: true
+    feedback: ECT är förstahandsval vid svår postpartumpsykos eftersom den ger snabb och pålitlig förbättring av psykotiska symtom och suicidrisk.
+  - text: Propofol
+    correct: false
+    feedback: Propofol är ett anestesimedel och används inte som behandling för psykos.
+  - text: Opioider
+    correct: false
+    feedback: Opioider är analgetika och saknar evidens för behandling av psykos; de är olämpliga här.
+  - text: Transkraniell magnetstimulering (TMS)
+    correct: false
+    feedback: TMS saknar evidens och snabb effekt för akuta, svåra postpartumpsykoser jämfört med ECT.
+  explanation: Vid svår postpartumpsykos rekommenderas ECT som förstahandsval eftersom den verkar snabbt och effektivt på psykotiska symtom och suicidrisk. Antipsykotiska läkemedel och SSRI kan användas adjunctivt eller vid mildare tillstånd, men har långsammare insättande effekt.
+  id: med-psy-ffca51
+- type: multiple_choice
+  tags:
+  - Lithium
+  - Biverkningar
+  - Njurpåverkan
+  question: Vilken av följande är inte en känd långtidsbiverkan av litium?
+  image: null
+  options:
+  - text: Njurpåverkan
+    correct: false
+    feedback: Litium kan ge nefrogen diabetes insipidus och långsam nedsättning av GFR vid långvarig behandling.
+  - text: Tremor
+    correct: false
+    feedback: Finmotorisk tremor är en vanlig biverkan av litium och kan bestå över tid.
+  - text: Bisköldkörtelpåverkan
+    correct: false
+    feedback: Litium är associerat med hyperparatyreoidism och sekundär hyperkalcemi vid långvarig behandling.
+  - text: Leverpåverkan
+    correct: true
+    feedback: Uttalad leverskada är inte en typisk långtidsbiverkan av litium; hepatisk toxicitet är ovanlig.
+  explanation: Litium kan ge långsiktig njurpåverkan (inklusive nefrogen diabetes insipidus och gradvis GFR‑sänkning), tremor och bisköldkörtelpåverkan med hyperparatyreoidism. Leverskada är däremot ovanlig och inte ett typiskt långtidsproblem vid litiumbehandling.
+  id: med-psy-f6cef5
+- type: multiple_choice
+  tags:
+  - Akutpsykiatri
+  - Tvångsvård
+  - Akutbedömning
+  question: En 30-årig kvinna kommer till psykiatriska akutmottagningen med sin pappa. Hon blev ”utbränd” för några år sedan och har inte återgått i arbete. Under det senaste året har hon isolerat sig, avskedat vänskapsrelationer och stannat hemma. Hon beskriver en speciell roll som spridare av inre frid och har under ett år hörselhallucinationer (ibland grannar, ibland föräldrar). De senaste månaderna har hon gått ned i vikt eftersom hon uppfattar många maträtter och ingredienser som orena. Vad är det allra viktigaste du som jourläkare måste ta ställning till just nu?
+  image: null
+  options:
+  - text: Om patienten behöver inneliggande vård och om hon uppfyller kriterier för psykiatrisk tvångsvård
+    correct: true
+    feedback: Akutprioritet är att bedöma säkerhet och vårdbehov eftersom psykos, social isolering och betydande viktförlust kan innebära omedelbar risk eller nedsatt egenvård.
+  - text: Vilken behandling som patienten ska rekommenderas.
+    correct: false
+    feedback: Behandlingsval är viktigt men sekundärt tills det är fastställt om patienten behöver inneliggande eller tvångsvård.
+  - text: Om patienten har tagit några substanser som kan orsaka hennes symtombild.
+    correct: false
+    feedback: Substansutredning är relevant men kommer efter akutbedömning av säkerhet och vårdnivå.
+  - text: Vilka närstående som ska informeras om din bedömning.
+    correct: false
+    feedback: Informationsbehov till närstående är viktigt men mindre akut än att först säkerställa patientens omedelbara säkerhet och behov av vård.
+  - text: Var patienten är folkbokförd.
+    correct: false
+    feedback: Folkbokföringsadress är inte akut relevant för den omedelbara medicinska bedömningen.
+  explanation: Vid akuta psykiatriska tillstånd ska man först avgöra om patienten behöver inneliggande vård eller om kriterier för tvångsvård är uppfyllda, särskilt vid psykotiska symtom, svår social isolering eller betydande viktförlust. Detta beslut avgör omedelbara skyddsåtgärder och vårdnivå; övriga utredningar och behandlingsplanering kommer därefter.
+  id: med-psy-5c3ede
+- type: multiple_choice
+  tags:
+  - Tvångsvård
+  - Somatisk behandling
+  - Samtycke
+  question: Får man under psykiatrisk tvångsvård (LPT) behandla ett somatiskt tillstånd mot patientens vilja?
+  image: null
+  options:
+  - text: Nej, man får aldrig behandla somatisk sjukdom mot patientens egen vilja.
+    correct: false
+    feedback: Det finns undantag; akuta livräddande åtgärder kan vid behov ges om patienten saknar beslutsförmåga.
+  - text: Ja, akut livräddande åtgärder får vidtas mot patientens vilja om patienten inte bedöms kunna ta ett grundat ställningstagande.
+    correct: true
+    feedback: LPT tillåter akuta, livräddande somatiska insatser när patienten saknar förmåga att fatta ett grundat beslut.
+  - text: Ja, all allvarlig sjukdom kan behandlas mot patientens egen önskan.
+    correct: false
+    feedback: Icke-akuta, allvarliga tillstånd kräver normalt samtycke och får inte rutinmässigt behandlas mot patientens vilja.
+  - text: Ja, mindre akuta åtgärder får alltid utföras mot patientens vilja om läkaren anser det nödvändigt.
+    correct: false
+    feedback: Icke-brådskande eller mindre åtgärder kräver i regel samtycke och får inte alltid genomföras utan patientens godkännande.
+  - text: Ja, livräddande åtgärder får vidtas mot patientens vilja även om det är ett känt långvarigt, grundat ställningstagande baserat på ideologiska skäl, som att inte ta emot blodprodukter.
+    correct: false
+    feedback: Kända, välgrundade långvariga vägran (t.ex. av ideologiska skäl) ska i regel respekteras om patienten har beslutsförmåga; undantag kan förekomma endast om patienten saknar sådan förmåga i situationen.
+  explanation: Under LPT kan akuta, livräddande somatiska åtgärder utföras utan patientens samtycke om patienten bedöms sakna förmåga att ta ett grundat ställningstagande. Icke-akuta och mindre ingripande åtgärder kräver normalt samtycke, och uttryckliga, välgrundade långvariga vägran bör i regel respekteras.
+  id: med-psy-df6400
+- type: multiple_choice
+  tags:
+  - Bipolär sjukdom
+  - Mani
+  question: Vilken är den viktigaste skillnaden mellan bipolär sjukdom typ I och typ II?
+  image: null
+  options:
+  - text: Bipolär II innebär endast mani
+    correct: false
+    feedback: Bipolär II karaktäriseras inte av fullskalig mani utan av hypomana episoder, och kräver även depressiva episoder.
+  - text: Bipolär I innebär maniska episoder; bipolär II innebär hypomana episoder och återkommande depressiva episoder
+    correct: true
+    feedback: Bipolär I kännetecknas av fullskaliga maniska episoder, medan bipolär II har hypomani tillsammans med åtminstone en egentlig depressiv episod.
+  - text: Det finns ingen skillnad
+    correct: false
+    feedback: Typerna skiljer sig diagnostiskt i svårighetsgrad och typ av (hypo)mani samt förekomst av depressiva episoder.
+  - text: Bipolär I innebär endast depression
+    correct: false
+    feedback: Bipolär I definieras av minst en manisk episod, inte av enbart depression.
+  - text: Bipolär I innebär hypomana episoder; bipolär II innebär maniska episoder
+    correct: false
+    feedback: Påståendet är omvänt; bipolär I har maniska episoder medan bipolär II har hypomana episoder och inga fullskaliga maniska episoder.
+  explanation: Bipolär I kräver minst en fullskalig manisk episod, som kan vara allvarlig och kräva sjukhusvård eller ge psykotiska symtom. Bipolär II karakteriseras av hypomani tillsammans med återkommande egentliga depressiva episoder och saknar fullständig mani.
+  id: med-psy-0a40ce
+- type: multiple_choice
+  tags:
+  - Övervärdiga idéer
+  - Psykopatologi
+  question: Vilket påstående beskriver bäst en övervärdig idé?
+  image: null
+  options:
+  - text: En fullständigt verklighetsfrånvänd och orubblig föreställning som inte delas av andra i samma kultur
+    correct: false
+    feedback: Det beskriver en vanföreställning, som är mer orubblig och verklighetsfrånvänd än en övervärdig idé.
+  - text: En tillfällig och snabbt övergående tanke som inte påverkar individens beteende
+    correct: false
+    feedback: Övervärdiga idéer är mer långvariga och påverkar ofta beteendet.
+  - text: En tanke eller föreställning som är intensivt upptagande för individen, men där personen delvis kan ifrågasätta dess rimlighet
+    correct: true
+    feedback: Övervärdiga idéer upptar personen och påverkar beteendet men är inte helt orubbliga.
+  - text: En idé som är allmänt accepterad i samhället och delas av de flesta
+    correct: false
+    feedback: Det beskriver kulturellt eller socialt accepterade normer, inte en övervärdig idé.
+  - text: En tanke som endast förekommer vid psykotiska tillstånd och alltid kräver psykiatrisk vård
+    correct: false
+    feedback: Övervärdiga idéer kan förekomma utanför psykos och kräver inte alltid psykiatrisk vård.
+  explanation: En övervärdig idé är en starkt upptagande föreställning som påverkar tankar och beteende men där personen ofta behåller viss möjlighet att tvivla på dess rimlighet. Den skiljer sig från vanföreställningar genom att vara mindre orubblig och kan förekomma vid flera olika psykiatriska tillstånd eller i andra sammanhang.
+  id: med-psy-476a9b
+- type: multiple_choice
+  tags:
+  - Depression
+  - Psykos
+  - Differentialdiagnostik
+  question: Vid vilken av följande diagnoser kan det även förekomma stämningskongruenta (stämningsrelaterade) vanföreställningar?
+  image: null
+  options:
+  - text: Social ångest
+    correct: false
+    feedback: Social ångest ger normalt inte psykotiska, stämningskongruenta vanföreställningar; sådana symtom bör väcka misstanke om annan samsjuklighet.
+  - text: GAD (generaliserat ångestsyndrom)
+    correct: false
+    feedback: GAD karaktäriseras av överdriven oro och ångest men inte typiskt av psykotiska, stämningskongruenta vanföreställningar.
+  - text: Depression
+    correct: true
+    feedback: Vid svår depressiv episod med psykotiska inslag förekommer ofta stämningskongruenta vanföreställningar, t.ex. teman om skuld eller värdelöshet.
+  - text: Tvångssyndrom
+    correct: false
+    feedback: Tvångstankar kan vara starka men är oftast ego-dystona och skiljer sig från psykotiska, stämningskongruenta vanföreställningar.
+  - text: Utmattningssyndrom
+    correct: false
+    feedback: Utmattningssyndrom ger i regel inte psykotiska, stämningskongruenta vanföreställningar; om sådana finns bör annan psykiatrisk diagnos övervägas.
+  explanation: Stämningskongruenta vanföreställningar förekommer framförallt vid svåra depressiva episoder med psykotiska inslag och handlar ofta om skuld, värdelöshet eller katastrofala föreställningar i linje med den depressiva stämningen. Ångestsyndrom, tvångssyndrom och utmattningssyndrom saknar vanligen dessa psykotiska, stämningskongruenta inslag och bör utredas för samtidig depression eller primär psykos om sådana symtom uppträder.
+  id: med-psy-d956c7
+- type: multiple_choice
+  tags:
+  - Tvångsvård
+  - LPT
+  question: Vilken av följande tvångsåtgärder kan INTE ordineras med stöd av Lagen om psykiatrisk tvångsvård (LPT)?
+  image: null
+  options:
+  - text: Avskiljning
+    correct: false
+    feedback: Avskiljning kan användas enligt LPT som tillfällig säkerhetsåtgärd vid behov, men måste vara proportionerlig och dokumenterad.
+  - text: Inskränkning i rätten att använda elektroniska kommunikationstjänster och övervakning av försändelser
+    correct: false
+    feedback: Sådana inskränkningar kan beslutas i särskilda fall under LPT för att skydda patient eller andra, men kräver noggrann prövning och dokumentation.
+  - text: Kroppsvisitation
+    correct: false
+    feedback: Kroppsvisitation kan utföras enligt LPT för att förebygga skada eller upptäcka förbjudna föremål, med hänsyn till integritet.
+  - text: Abort under tvång (fram till vecka 18+0)
+    correct: true
+    feedback: Kan inte ordineras enligt LPT — kirurgisk abort kräver informerat samtycke och regleras av annan lagstiftning och rättsliga prövningar.
+  - text: ECT (elektrokonvulsiv terapi) under tvång
+    correct: false
+    feedback: ECT kan ges utan samtycke vid svår psykiatrisk sjukdom under LPT om det bedöms nödvändigt och rättsliga och medicinska krav är uppfyllda.
+  explanation: LPT reglerar vilka tvångsåtgärder som får användas i psykiatrisk vård för att skydda patienten eller andra och för vårdens genomförande. Kirurgiska ingrepp som abort omfattas inte av LPT utan kräver informerat samtycke eller särskild rättslig prövning, medan avskiljning, kroppsvisitation, begränsningar av kommunikation och i vissa fall ECT kan användas under strikta villkor.
+  id: med-psy-6fb809
+- type: multiple_choice
+  tags:
+  - Suicidrisk
+  - Riskfaktorer
+  question: Vilka är de två starkaste statistiska riskfaktorerna för suicid?
+  image: null
+  options:
+  - text: Att personen uttalat hot om att ta livet av sig och varit hotfull mot sin omgivning.
+    correct: false
+    feedback: Uttryckta hot kan indikera förhöjd risk men är inte bland de två starkaste statistiska prediktorerna.
+  - text: Förekomst av psykisk sjukdom (psykiatrisk diagnos) och tidigare genomfört suicidförsök.
+    correct: true
+    feedback: Psykiatriska diagnoser ökar självskaderisk och tidigare suicidförsök är en av de starkaste individuella prediktorerna för framtida suicid.
+  - text: Sexuellt övergrepp i tonåren och att ha vuxit upp på institution.
+    correct: false
+    feedback: Sådana trauman kan öka risk men är generellt mindre specifika och inte de två starkaste statistiska faktorerna.
+  - text: Våld i familjen och låg levnadsstandard.
+    correct: false
+    feedback: Dessa sociala faktorer kan bidra till risk men är oftast svagare och mer ospecifika än psykiatrisk diagnos och tidigare försök.
+  - text: Kvinnligt kön och ha haft en dålig anknytning till sin mamma.
+    correct: false
+    feedback: Kvinnor försöker oftare, men män har högre fullbordandefrekvens; anknytningssvårigheter kan vara riskfaktor men inte bland de starkaste statistiskt.
+  explanation: De två starkaste statistiska riskfaktorerna för suicid är närvaro av psykiatrisk sjukdom och tidigare suicidförsök. Psykiatriska störningar ökar självmordsrisk markant, och ett tidigare försök är en stark prediktor för framtida försök eller fullbordat suicid; andra faktorer kan bidra men är ofta mindre specifika.
+  id: med-psy-fdfdd8
+- type: multiple_choice
+  tags:
+  - PTSD
+  - trauma
+  - diagnostik
+  question: Vilka fyra symtomkluster ingår i PTSD-diagnosen hos vuxna (enligt DSM-5)?
+  image: null
+  options:
+  - text: Undvikande, negativa tankar/känslor, överspändhet (hyperarousal), återupplevande
+    correct: true
+    feedback: 'Detta motsvarar DSM‑5:s fyra huvudkluster: återupplevande, undvikande, negativa förändringar i kognitioner/känslor och ökad arousal.'
+  - text: Tvångstankar, dissociation, panikattacker
+    correct: false
+    feedback: Tvångstankar hör till OCD och panikattacker samt dissociation kan förekomma men utgör inte PTSD:s fyra huvudkluster.
+  - text: Dissociation, förföljelseidéer, somatisering
+    correct: false
+    feedback: Förföljelseidéer och somatisering är inte centrala för PTSD och speglar snarare psykos-/somatiska tillstånd.
+  - text: Ångest, tvångssyndrom, nedstämdhet, personlighetsförändring
+    correct: false
+    feedback: Detta är en ospecifik blandning av symtom och diagnostiska enheter som inte motsvarar PTSD:s fyra kluster.
+  - text: Undvikande, social fobi, kroppsliga symtom, automatisk tankeflykt
+    correct: false
+    feedback: Social fobi och kroppsliga symtom ingår inte i PTSD:s fyra definierande symtomkluster.
+  explanation: 'Enligt DSM‑5 består PTSD av fyra huvudkluster: 1) återupplevande (intrusioner), 2) undvikande av påminnelser, 3) negativa förändringar i kognitioner och känslor, och 4) förändrad arousal och reaktivitet (hyperarousal). Andra listor blandar symtom från olika störningar och är därför felaktiga.'
+  id: imp-694f3a86
+- type: multiple_choice
+  tags:
+  - Depression
+  - Psykossymtom
+  - Suicidrisk
+  question: Björn, 33 år, är nedstämd och isolerad. Han är övertygad om att han har cancer (säger att han "vet" det), vill ha assisterat suicid men vill egentligen inte dö och förstår inte varför han behöver psykiatrisk vård. Vilken diagnos passar bäst?
+  image: null
+  options:
+  - text: Hypokondriskt syndrom
+    correct: false
+    feedback: Hypokondri innebär överdriven oro för sjukdom utan psykotisk övertygelse och förklarar inte den uttalade nedstämdheten och suicidrisk.
+  - text: Somatiseringssyndrom
+    correct: false
+    feedback: Somatiseringssyndrom innebär multipla kroppsliga symtom över tid, inte en fixerad somatisk vanföreställning i samband med svår depression.
+  - text: Generaliserat ångestsyndrom
+    correct: false
+    feedback: GAD karakteriseras av utbredd oro och ångest, inte av en fast övertygelse om att ha cancer eller psykotiska depressiva symtom.
+  - text: Schizofreni
+    correct: false
+    feedback: Även om somatiska vanföreställningar förekommer vid schizofreni, talar den uttalade nedstämdheten och suicidala önskan mer för en depressiv störning med psykos.
+  - text: Svår egentlig depression med psykotiska symtom
+    correct: true
+    feedback: Svår depressiv episod med psykotiska (somatiska) vanföreställningar förklarar nedstämdhet, isolering, fast tro på att ha cancer och ökad suicidrisk.
+  explanation: Patienten har en uttalad depressiv bild med en fixerad somatisk vanföreställning ("vet" att han har cancer) och suicidönskan, vilket är typiskt för svår egentlig depression med psykotiska symtom; detta kräver akut psykiatrisk bedömning och behandling (antidepressiva, antipsykotika eller ECT beroende på allvar).
+  id: imp-d0ee3130
+- type: multiple_choice
+  tags:
+  - litium
+  - njure
+  - tyreoidea
+  question: Vilka två biverkningar vid litiumbehandling bör kontrolleras särskilt noga?
+  image: null
+  options:
+  - text: Hjärnblödning och hjärninfarkt
+    correct: false
+    feedback: Cerebrovaskulära händelser är inte typiska biverkningar av litium.
+  - text: Tromboembolism och njurfunktionspåverkan
+    correct: false
+    feedback: Delvis fel — njurpåverkan är relevant, men tromboembolism är inte en vanlig litiumbiverkning.
+  - text: Ämnesomsättningsrubbning (Tyreoidea) och gikt
+    correct: false
+    feedback: Delvis fel — tyreoidearubbningar är typiska, men gikt är inte en vanlig följd av litium.
+  - text: Leukopeni och tromobytopeni
+    correct: false
+    feedback: Hematologiska cytopenier är inte typiska för litium (litium kan ibland ge leukocytos, inte leukopeni).
+  - text: Njurfunktionspåverkan och ämnesomsättningsrubbning (Tyreoidea)
+    correct: true
+    feedback: Litium kan ge njurskada (inklusive nefrogen diabetes insipidus) och påverka tyreoideafunktionen, därför ska njurvärden och TSH kontrolleras regelbundet.
+  explanation: Litium ger välkända risker för njurfunktionspåverkan (nefrogen diabetes insipidus och kronisk tubulointerstitiell skada) och förtyreoideapåverkan (fr.a. hypotyreos och struma). Därför kontrolleras kreatinin/eGFR och TSH (med fri T4 vid behov) regelbundet tillsammans med litiumkoncentrationer.
+  id: imp-c2b7f776
+- type: multiple_choice
+  tags:
+  - Anpassningsstörning
+  - Stressreaktion
+  - Differentialdiagnos
+  question: Kvinna 24 år, juriststudent. Har prestationsångest efter att ha kuggat tentor; kan inte koncentrera sig, 'krisat'. Tidigare högpresterande. Gråter men har i övrigt normalt stämningsläge. Mest sannolika diagnos?
+  image: null
+  options:
+  - text: Anpassningsstörning
+    correct: true
+    feedback: Akut maladaptiv reaktion på identifierbar stressor (tentamensmisslyckande) med känslomässig belastning och funktionsnedsättning utan att uppfylla kriterier för egentlig depression.
+  - text: Egentlig depression
+    correct: false
+    feedback: Egentlig depression kräver uthålligt sänkt stämningsläge eller anhedoni i minst två veckor samt flera depressiva symtom, vilket inte framgår här.
+  - text: Intellektuell funktionsnedsättning
+    correct: false
+    feedback: Intellektuell funktionsnedsättning är en livslång nedsättning i intellekt och adaptiva förmågor, inte nydebuterad prestationsångest hos en tidigare högpresterande vuxen.
+  - text: Social ångest
+    correct: false
+    feedback: Social ångest är rädsla för sociala situationer eller att bli bedömd; patientens problem är knappast avgränsat till social framträdande utan följer ett konkret stressmoment.
+  - text: ADHD
+    correct: false
+    feedback: ADHD är en neurodevelopmental störning med symtom från barndomen och kronisk uppmärksamhetssvikt, medan här är symptomen nydebuterade i samband med stress.
+  explanation: 'Presentation talar för anpassningsstörning: nydebuterade koncentrationssvårigheter och gråt i samband med ett klart stressande livshändelse (kuggade tentor), med bevarat grundstämningsläge och utan kriterier för egentlig depression.'
+  id: imp-1e151ee0
+- type: multiple_choice
+  tags:
+  - Psykiatri
+  - Hallucinationer
+  - Differentialdiagnostik
+  question: Hallucinationer förekommer INTE vid vilket av följande tillstånd?
+  image: null
+  options:
+  - text: 1. Lewykroppsdemens
+    correct: false
+    feedback: Visuella hallucinationer är ett typiskt och ofta tidigt symtom vid Lewykroppsdemens.
+  - text: 2. Delirium tremens
+    correct: false
+    feedback: Delirium tremens ger ofta uttalade visuella (och ibland taktila) hallucinationer.
+  - text: 3. Vanföreställningssyndrom
+    correct: true
+    feedback: Vanföreställningssyndrom karakteriseras av bestående vanföreställningar; hallucinationer är sällsynta och om de förekommer är de oftast relaterade till vanföreställningen.
+  - text: 4. Schizofreni
+    correct: false
+    feedback: Hallucinationer, särskilt auditive, är vanliga och diagnostiskt viktiga vid schizofreni.
+  - text: 5. Drogutlöst psykos
+    correct: false
+    feedback: Droger kan framkalla livliga hallucinationer (auditiva, visuella eller taktila) beroende på substans.
+  explanation: Vanföreställningssyndrom domineras av långvariga, icke-bizarre vanföreställningar och saknar vanligen uttalade hallucinationer. De andra listade tillstånden är förknippade med frekventa eller typiska hallucinationer.
+  id: imp-42dc554b
+- type: multiple_choice
+  tags:
+  - Vanföreställningssyndrom
+  - Paranoid
+  - Psykiatri
+  question: Man, 28 år. Har blivit misstänksam och personlighetsförändrad under några månader och är nu rädd att anhöriga ska bli kidnappade. Vilken diagnos är mest sannolik?
+  image: null
+  options:
+  - text: 1. Personlighetssyndrom, paranoid
+    correct: false
+    feedback: Paranoid personlighetsstörning är ett långvarigt, genomgripande mönster av misstänksamhet som finns sedan tidig vuxenålder, inte en ny förändring över några månader.
+  - text: 2. Sjukdomsångest
+    correct: false
+    feedback: Sjukdomsångest handlar om överdriven oro för egen fysisk sjukdom, inte paranoida förföljelseidéer om att anhöriga ska kidnappas.
+  - text: 3. Personlighetssyndrom, schizoid
+    correct: false
+    feedback: Schizoid personlighetsstörning karakteriseras av känslomässig avskildhet och begränsade sociala intressen, inte förföljelseidéer.
+  - text: 4. Personlighetssyndrom, schizotyp
+    correct: false
+    feedback: Schizotyp personlighetsstörning ger udda tankar och perceptuella fenomen från tidig ålder; här föreligger en konkret, nytillkommen förföljelseidé.
+  - text: 5. Vanföreställningssyndrom
+    correct: true
+    feedback: En nytillkommen, fixerad förföljelseidé (rädsla för att anhöriga ska kidnappas) under flera månader talar för vanföreställningssyndrom (persecutory type).
+  explanation: Fyndet av nyupptagna, fixerade förföljelseidéer och misstänksamhet under några månader är mest förenligt med vanföreställningssyndrom (persecutory type). Personlighetsstörningar är genomgripande och långvariga med debut i tidig vuxenålder, medan sjukdomsångest rör oro för egen kroppssjukdom.
+  id: imp-22064da0
+- type: multiple_choice
+  tags:
+  - LVM
+  - Missbruk
+  - Socialtjänst
+  question: Vilken instans ansvarar för LVM-utredning av en person med substansberoende?
+  image: null
+  options:
+  - text: Socialnämnden
+    correct: true
+    feedback: Socialnämnden ansvarar för utredning och för att ansöka om LVM till förvaltningsrätten.
+  - text: Chefsöverläkaren vid aktuell psykiatrisk klinik
+    correct: false
+    feedback: Läkare kan lämna medicinskt yttrande men har inte huvudansvaret för LVM‑utredningen.
+  - text: Verksamhetschefen vid aktuell psykiatrisk klinik
+    correct: false
+    feedback: Verksamhetschef ansvarar för vårdenheten, inte för den formella LVM‑utredningen.
+  - text: Socialstyrelsen
+    correct: false
+    feedback: Socialstyrelsen är nationell tillsyns- och vägledande myndighet, inte handläggare av individuella LVM‑ärenden.
+  - text: Förvaltningsrätten
+    correct: false
+    feedback: Förvaltningsrätten beslutar om tvångsvård efter ansökan men genomför inte själva utredningen.
+  explanation: Enligt lagen är socialnämnden ansvarig för utredning om behov av tvångsvård enligt LVM och för att lämna in ansökan till förvaltningsrätten. Medicinska yttranden från psykiatri eller andra vårdgivare kan underbygga utredningen, och förvaltningsrätten prövar sedan ansökan.
+  id: imp-e468ee8d
+- type: multiple_choice
+  tags:
+  - Ätstörningar
+  - DSM-5
+  question: Vilket av följande är INTE ett diagnostiskt kriterium för anorexia nervosa?
+  image: null
+  options:
+  - text: Störd kroppsupplevelse (t.ex. överdriven betydelse av kroppsvikt/figur eller bristande insikt i allvaret av undervikt).
+    correct: false
+    feedback: Svarsalternativ — detta motsvarar kriterium C i diagnosen anorexia nervosa.
+  - text: Episodisk hetsätning med olämpligt kompensatoriskt beteende (t.ex. självframkallad kräkning, laxantia).
+    correct: true
+    feedback: Detta är ett huvudkriterium för bulimia nervosa; anorexia kan ha en binge–purge-subtyp, men detta är inte ett generellt diagnostiskt kriterium för anorexia.
+  - text: Signifikant låg kroppsvikt i förhållande till ålder, kön, utvecklingsnivå och fysisk hälsa.
+    correct: false
+    feedback: Signifikant låg kroppsvikt är ett centralt diagnostiskt kriterium för anorexia nervosa.
+  - text: Otillräckligt matintag som leder till undervikt.
+    correct: false
+    feedback: Restriktion av energiintag som resulterar i låg kroppsvikt utgör kriterium A för anorexia nervosa.
+  - text: Intensiv rädsla att gå upp i vikt eller bli tjock, eller ihållande beteende som hindrar viktuppgång.
+    correct: false
+    feedback: Intensiv rädsla för viktuppgång eller beteenden som motverkar viktuppgång är kriterium B i anorexia nervosa.
+  explanation: Anorexia nervosa definieras av (A) restriktion av energiintag som leder till betydande undervikt, (B) intensiv rädsla för viktuppgång eller beteenden som hindrar viktuppgång, och (C) störd kroppsupplevelse eller bristande insikt i allvaret av undervikten. Episodisk hetsätning med kompensatoriska beteenden är typiskt för bulimia nervosa, även om en binge–purge-subtyp förekommer inom anorexia.
+  id: imp-e2dab003
+- type: multiple_choice
+  tags:
+  - Psykiatri
+  - Tvångsvård
+  - LPT
+  question: Vilket kriterium är ensamt avgörande för att konvertera psykiatrisk vård från frivillig till tvångsvård?
+  image: null
+  options:
+  - text: 1. Risk att skada sig själv eller andra
+    correct: false
+    feedback: Risk för skada är ett av kraven för tvångsvård men ensam räcker det inte om patienten samtycker till vården.
+  - text: 2. Patienten samtycker inte till erbjuden vård
+    correct: true
+    feedback: Om patienten inte längre samtycker kan vården endast fortsätta genom beslut om tvångsvård, förutsatt att övriga rättighetskriterier är uppfyllda.
+  - text: 3. Patienten vill bli utskriven från sjukhuset
+    correct: false
+    feedback: Önskan om utskrivning innebär att patienten inte vill fortsätta vården frivilligt, men tvångsvård kräver även att övriga lagkrav är uppfyllda.
+  - text: 4. Allvarlig psykisk störning
+    correct: false
+    feedback: Allvarlig psykisk störning är ett nödvändigt krav för tvångsvård men avgör inte ensam konversion från frivillig vård om patienten samtycker.
+  - text: 5. Oundgängligt behov av dygnetruntvård
+    correct: false
+    feedback: Oumbärligt dygnetruntvård är också ett krav för tvångsvård men räcker inte ensam för att omvandla frivillig vård till tvångsvård.
+  explanation: Konversion från frivillig till tvångsvård kräver att patienten inte samtycker till fortsatt vård och att de ytterligare lagstadgade kriterierna är uppfyllda (allvarlig psykisk störning, oumbärligt behov av dygnetruntvård och riskbedömning). Om patienten samtycker kan vården fortgå som frivillig även vid svår sjukdom.
+  id: imp-38fd31f9
+- type: multiple_choice
+  tags:
+  - Missbruk
+  - Toxikologi
+  question: Vilket symtom är mest typiskt vid amfetaminabstinens?
+  image: null
+  options:
+  - text: Uttalad trötthet, nedstämdhet och ökat sömnbehov
+    correct: true
+    feedback: Amfetaminabstinens ger ofta kraftig trötthet, depressiv stämning och hypersomni.
+  - text: Kraftigt förhöjt stämningsläge och minskat sömnbehov
+    correct: false
+    feedback: Detta beskriver intoxikation eller maniska/uppvarvade tillstånd vid stimulantia, inte abstinens.
+  - text: Muskelsmärtor, diarré och gåshud
+    correct: false
+    feedback: Dessa symtom är typiska för opioidabstinens, inte amfetaminabstinens.
+  - text: Tremor, svettningar och perifera hallucinationer
+    correct: false
+    feedback: Sådana autonoma överaktivitets- och hallucinationssymtom ses oftare vid alkohol- eller sedativa abstinens.
+  - text: Kraftig salivation, illamående och kräkningar
+    correct: false
+    feedback: Uttalad salivation och kräkning är mer typiskt vid kolinerg överstimulering eller annan toxisk exponering, inte amfetaminabstinens.
+  explanation: Amfetaminabstinens kännetecknas framför allt av kraftig trötthet, nedstämdhet och ökat sömnbehov efter att drogbruk upphört. Psykiska symptom som irritabilitet och sug kan förekomma, medan autonoma och gastrointestina abstinenssymtom är mer förknippade med andra substanser som opioider eller alkohol.
+  id: imp-11e1fe7b
+- type: multiple_choice
+  tags:
+  - LPT
+  - psykiatri
+  - rättspsykiatri
+  question: Kan samma läkare som upprättar vårdintyg också fatta intagningsbeslut enligt lagen om psykiatrisk tvångsvård (LPT)?
+  image: null
+  options:
+  - text: Ja, om hen är specialistläkare inom psykiatri.
+    correct: true
+    feedback: Om läkaren är specialist i psykiatri får hen både upprätta vårdintyg och fatta intagningsbeslut enligt LPT.
+  - text: Ja, om hen är specialistläkare inom psykiatri och är ansvarig bakjour.
+    correct: false
+    feedback: Bakjoursstatus är inte ett lagkrav för undantaget; det som krävs är specialistkompetens i psykiatri.
+  - text: Ja, om hen har minst fem års erfarenhet.
+    correct: false
+    feedback: Antal års erfarenhet anges inte i lagen; undantaget grundas på specialistkompetens, inte tjänsteår.
+  - text: Nej, ett tvåläkarförfarande krävs.
+    correct: false
+    feedback: Normalt krävs två olika läkare, men det finns undantag när samma läkare är specialist i psykiatri.
+  - text: Ja, om hen har svensk läkarlegitimation.
+    correct: false
+    feedback: Svensk legitimation krävs för att verksamhetsutöva men i sig ger den inte rätt att ensamt fatta intagningsbeslut enligt LPT.
+  explanation: 'I regel gäller ett tvåläkarförfarande enligt LPT: ett vårdintyg och ett separat intagningsbeslut. Undantaget är om samma läkare är specialist i psykiatri — då kan hen även fatta intagningsbeslutet.'
+  id: imp-15642078

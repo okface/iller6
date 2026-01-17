@@ -1,0 +1,634 @@
+- type: multiple_choice
+  tags:
+  - Ulcerös kolit
+  - Indikationer
+  question: Vilka av nedanstående är INTE en klar indikation för inläggning av patienter med ulcerös kolit?
+  image: null
+  options:
+  - text: Antal blodtillblandade avföringar <4/dag
+    correct: true
+    feedback: Färre än fyra blodtillblandade avföringar per dag är inte i sig en klar indikation för inläggning; helhetsbedömning krävs.
+  - text: CRP >30 mg/L
+    correct: false
+    feedback: Förhöjt CRP (>30 mg/L) tyder på uttalad inflammation och ökad risk för komplikationer, vilket ofta motiverar inläggning.
+  - text: Hemoglobin <105 g/L
+    correct: false
+    feedback: Uttalad anemi (<105 g/L) indikerar betydande blodförlust eller systempåverkan och är en indikation för sjukhusvård.
+  - text: Sänka (SR) >30 mm
+    correct: false
+    feedback: Förhöjd sänka (>30 mm) talar för markant inflammatorisk aktivitet och bidrar till beslut om inläggning.
+  - text: Temperatur >37,8 °C
+    correct: false
+    feedback: Feber (>37,8 °C) är ett tecken på systempåverkan eller infektion och talar för behov av inläggning.
+  explanation: Beslut om inläggning vid ulcerös kolit baseras på sjukdomens svårighetsgrad, systempåverkan och laboratoriemarkörer. CRP >30 mg/L, Hb <105 g/L, SR >30 mm och feber (>37,8 °C) tyder på uttalad inflammation eller risk för komplikationer och talar för sjukhusvård, medan isolerat få blodtillblandade avföringar (<4/dag) utan systempåverkan ofta kan handläggas polikliniskt.
+  id: med-gas-7cfea9
+- type: multiple_choice
+  tags:
+  - Esofagus
+  - Motorik
+  question: Vilket av nedanstående är INTE ett symtom vid akalasi?
+  image: null
+  options:
+  - text: Dysfagi vid flytande och fast föda
+    correct: false
+    feedback: Progressiv dysfagi för både flytande och fast föda är typiskt vid akalasi på grund av förlorad peristaltik och oförmåga att relaxera nedre esofagussfinktern.
+  - text: Bröstsmärta
+    correct: false
+    feedback: Retrosternal/bröstsmärta förekommer ofta vid akalasi, orsakat av esofagal spasm eller tryckökning i esofagus.
+  - text: Blod i avföringen
+    correct: true
+    feedback: Blod i avföringen är inte typiskt för akalasi utan tyder på annan gastrointestinal blödningskälla, ofta lägre GI eller ulcera.
+  - text: Halsbränna
+    correct: false
+    feedback: Refluxliknande besvär och halsbränna kan uppstå sekundärt till stas och retrograd läckage i esofagus vid akalasi.
+  - text: Regurgitation
+    correct: false
+    feedback: Regurgitation av osmält föda eller saliv är ett vanligt symtom vid akalasi på grund av retention i esofagus.
+  explanation: Akalasi orsakas av degeneration av myenteriska ganglieceller med förlorad peristaltik och oförmåga att relaxera nedre esofagussfinktern. Typiska symtom är progressiv dysfagi för flytande och fast föda, regurgitation, retrosternal smärta och ibland refluxliknande besvär; blod i avföringen är inte ett karaktäristiskt fynd.
+  id: med-gas-eea9b6
+- type: multiple_choice
+  tags:
+  - Dyspepsi
+  - Gastroskopi
+  - NSAID
+  question: Vilket av nedanstående är INTE en indikation för snar gastroskopi?
+  image: null
+  options:
+  - text: Dyspepsi med debut <50 års ålder och resistens i buken
+    correct: false
+    feedback: Bukresistens är ett alarmtecken och ökar misstanken om organisk sjukdom, vilket motiverar gastroskopi.
+  - text: Dyspepsi med debut efter start av behandling med NSAID
+    correct: true
+    feedback: Initialt bör man försöka avbryta NSAID och ge syrahämning; gastroskopi görs om alarmtecken föreligger eller symtomen kvarstår.
+  - text: Dyspepsi med debut >50 års ålder
+    correct: false
+    feedback: Debut efter 50 år är ett alarmtecken som ökar sannolikheten för organisk orsak och motiverar gastroskopi.
+  - text: Dyspepsi trots två genomförda HP-eradikeringsbehandlingar
+    correct: false
+    feedback: Kvarstående symtom efter upprepad HP-eradikering kräver vidare utredning med gastroskopi.
+  - text: Dyspepsi med debut <50 års ålder och anemi
+    correct: false
+    feedback: Anemi är ett alarmtecken som kan tyda på blödning eller malignitet och kräver gastroskopi.
+  explanation: Snar gastroskopi indikeras vid alarmtecken som debut efter 50 år, anemi, bukresistens eller kvarstående symtom efter adekvat behandling (t.ex. upprepad HP-eradikering). Dyspepsi som uppstått i samband med NSAID hanteras initialt genom att avbryta NSAID och ge syrahämning; gastroskopi övervägs om symtomen kvarstår eller alarmtecken finns.
+  id: med-gas-8fc2ac
+- type: multiple_choice
+  tags:
+  - Esofaguscancer
+  - Alarmsymtom
+  question: Vilka av följande klassas INTE som alarmsymtom för esofaguscancer?
+  image: null
+  options:
+  - text: Tidig mättnadskänsla
+    correct: true
+    feedback: Tidig mättnad är oftare kopplat till ventrikelproblem eller funktionell dyspepsi och är inte ett typiskt alarmsymtom för esofaguscancer.
+  - text: Blödning/anemi
+    correct: false
+    feedback: Blödning eller anemi kan tyda på invasiv tumör eller blödande lesion och är ett alarmsymtom som kräver utredning.
+  - text: Sväljningsbesvär
+    correct: false
+    feedback: Nya eller progredierande dysfagi är ett klassiskt alarmsymtom för esofaguscancer eftersom det kan indikera tumörinducerad stenos.
+  - text: Viktminskning
+    correct: false
+    feedback: Oavsiktlig viktminskning är ett alarmsymtom som kan tyda på malignitet eller allvarlig sjukdom och behöver utredas.
+  - text: Debut av reflux efter 50 års ålder
+    correct: false
+    feedback: Nydebuterad reflux hos äldre kan vara associerad med Barretts esofagus eller adenocarcinom och betraktas som ett varningstecken.
+  explanation: Alarmsymtom för esofaguscancer inkluderar nya sväljningssvårigheter, ofrivillig viktminskning, blödning/anemi och nytillkommen reflux efter 50 år eftersom dessa kan tyda på malignitet. Tidig mättnadskänsla är däremot mer typisk för övre ventrikelproblem eller funktionell dyspepsi och kräver annan utredning. Vid alarmsymtom bör snabb endoskopisk bedömning övervägas.
+  id: med-gas-1bda4c
+- type: multiple_choice
+  tags:
+  - Inflammatorisk tarmsjukdom
+  - Etiologi
+  - Crohns sjukdom
+  question: Vad orsakar Crohns sjukdom?
+  image: null
+  options:
+  - text: Stress
+    correct: false
+    feedback: Stress kan förvärra symtom men är inte en etablerad primär orsak.
+  - text: Upprepade infektioner med tarmengagemang
+    correct: false
+    feedback: Infektioner kan utlösa eller efterlikna sjukdom hos predisponerade, men förklarar inte sjukdomens ursprung.
+  - text: Orsaken till sjukdomen är inte känd
+    correct: true
+    feedback: Crohns har okänd, sannolikt multifaktoriell etiologi med genetik, immunologi och miljöfaktorer.
+  - text: Brist på B12-vitamin
+    correct: false
+    feedback: B12-brist är en möjlig komplikation vid ileumengagemang, inte den bakomliggande orsaken.
+  - text: Toxin-inducerad inflammation av tarmen
+    correct: false
+    feedback: Toxiner kan orsaka akut enterit men är inte visad vara grundorsaken till Crohns sjukdom.
+  explanation: Crohns sjukdom är en kronisk inflammatorisk tarmsjukdom med okänd exakt orsak; man tror på en kombination av genetisk predisposition, dysreglerat immunsvar och miljöfaktorer (t.ex. rökning, mikrobiota). Enstaka faktorer som stress, infektioner eller B12-brist förklarar inte sjukdomens uppkomst även om de kan påverka sjukdomsaktivitet eller komplikationer.
+  id: med-gas-61dcbf
+- type: multiple_choice
+  tags:
+  - Inflammatorisk kolit
+  - Blodiga diarréer
+  question: '30-årig tidigare frisk kvinna söker för upp till 12 lösa blodtillblandade avföringar de senaste 2 veckorna, sista 3 dygnen också 3–4 nattliga trängningar. Återkommande spänningskänsla vänster i buken och ökad gasbildning. Ingen utlandsresa eller känd gastroenterit i omgivningen. Patienten är trött, yr och frusen. Vitalparametrar: puls 106/min, BT 115/55 mmHg, AF 18/min, temp 37,1°C. Lab: Hb 114 g/L, CRP 19 mg/L. Status: opåverkad i vila, lätt blek, ej uttalad dehydrering, diffus ömhet lågt i buken utan peritonittecken. Hur vill du handlägga patienten?'
+  image: null
+  options:
+  - text: Inläggning på kirurgkliniken
+    correct: false
+    feedback: Kirurgisk inläggning är inte indicerad utan peritonit eller massiv blödning/akut kirurgiskt fynd.
+  - text: Hänvisning till jourmottagningen på vårdcentralen
+    correct: false
+    feedback: Vårdcentralen saknar resurser för övervakning och snabba utredningsprover/endoskopi vid misstänkt uttalad colit.
+  - text: Inläggning på medicinkliniken
+    correct: true
+    feedback: Tecken på uttalad inflammatorisk/infektiös colit med takykardi, anemi och nattliga trängningar kräver snabb internmedicinsk övervakning och utredning.
+  - text: Avvaktar med inläggning och beställer CT buk inför ny bedömning
+    correct: false
+    feedback: Att enbart beställa CT och avvakta fördröjer nödvändig övervakning och initial behandling; CT är inte förstahandsutredning vid misstänkt colit.
+  - text: Inget av ovannstående
+    correct: false
+    feedback: Ett av alternativen (inläggning på medicinkliniken) är korrekt för denna presentationsbild.
+  explanation: Blodiga diarréer med takykardi, anemi och nattliga trängningar talar för uttalad inflammatorisk eller infektiös colit som behöver hospitalisering för vätskebalans, övervakning och snabb diagnostik (stolprover, faecal calprotectin, endoskopi). Kirurgisk bedömning krävs endast vid komplikationer som peritonit, toxisk megakolon eller massiv blödning.
+  id: med-gas-126ad7
+- type: multiple_choice
+  tags:
+  - Gastropares
+  - Symtom
+  question: Vilket av följande är ett kardinalsymtom vid gastropares?
+  image: null
+  options:
+  - text: Kräkning
+    correct: true
+    feedback: Kräkningar är typiska vid gastropares då fördröjd ventrikeltömning ofta ger illamående och upprepade kräkningar.
+  - text: Förstoppning
+    correct: false
+    feedback: Förstoppning är i första hand ett kolonproblem och inte ett kardinalsymtom för gastropares.
+  - text: Epigastralgi
+    correct: false
+    feedback: Epigastralgi kan förekomma men är ospecifikt och inte ett typiskt kardinalsymtom.
+  - text: Uppblåst buk
+    correct: false
+    feedback: Uppblåsthet är vanligt vid gastropares men mer ospecifikt än kräkning.
+  - text: Sur reflux
+    correct: false
+    feedback: Reflux kan ses sekundärt men är inte typiskt för primär gastropares.
+  explanation: Gastropares innebär fördröjd ventrikeltömning utan mekanisk obstruktion. Typiska symtom är illamående, tidig mättnad, uppblåsthet och framför allt återkommande kräkningar, varför kräkning räknas som ett kardinalsymtom.
+  id: med-gas-21cb85
+- type: multiple_choice
+  tags:
+  - Dyspepsi
+  - Alarmsymptom
+  question: Vilka av nedanstående anses vara alarmsymtom hos en patient med tidigare känd funktionell dyspepsi?
+  image: null
+  options:
+  - text: Frånvaro av klar periodicitet
+    correct: false
+    feedback: Typiskt för funktionell dyspepsi och inte i sig ett alarmsymptom.
+  - text: Variabel smärta från dag till dag
+    correct: false
+    feedback: Variation dag för dag är karaktäristiskt för funktionell dyspepsi, inte ett alarmtecken.
+  - text: Psykosocial problematik
+    correct: false
+    feedback: Psykosociala faktorer påverkar symtomens svårighetsgrad men är inte per automatik ett alarmsymptom.
+  - text: Syrahämmande farmaka medför ofullständig symtomlindring
+    correct: false
+    feedback: Bristande effekt kan tyda på fel diagnos eller otillräcklig behandling men är inte ensamt ett alarmsymptom.
+  - text: Anemi
+    correct: true
+    feedback: Anemi är ett alarmsymptom eftersom det kan tyda på blödning eller malignitet och kräver vidare utredning.
+  explanation: Alarmsymtom vid dyspepsi inkluderar tecken på blodförlust, viktnedgång, progressiva sväljsvårigheter eller misstanke om malignitet. Anemi är särskilt viktig då den kan indikera gastrointestinal blödning eller cancer och motiverar vidare diagnostik.
+  id: med-gas-00cf8e
+- type: multiple_choice
+  tags:
+  - Mikroskopisk kolit
+  - Diarré
+  - Diffdiagnostik
+  question: Vilket av nedanstående förknippas INTE primärt med mikroskopisk kolit?
+  image: null
+  options:
+  - text: Blodig diarré
+    correct: true
+    feedback: Mikroskopisk kolit ger typiskt icke-blodig, vattnig diarré; blod i avföringen talar snarare för ulcerös kolit, infektion eller annan IBD.
+  - text: Diffusa buksmärtor
+    correct: false
+    feedback: Diffusa buksmärtor är ett vanligt symtom vid mikroskopisk kolit.
+  - text: Viktnedgång
+    correct: false
+    feedback: Kronisk diarré kan leda till viktnedgång vid mikroskopisk kolit.
+  - text: Trötthet
+    correct: false
+    feedback: Trötthet är ett vanligt följdtillstånd vid kronisk diarré och inflammation.
+  - text: Nattlig diarré
+    correct: false
+    feedback: Nattliga diarréer är typiska för mikroskopisk kolit.
+  explanation: Mikroskopisk kolit kännetecknas av kronisk vattnig, icke-blodig diarré ofta förvärrad nattetid, samt diffusa buksmärtor, viktnedgång och trötthet. Förekomst av blod i avföringen bör utredas för andra diagnoser som ulcerös kolit eller infektiös kolit.
+  id: med-gas-811ef4
+- type: multiple_choice
+  tags:
+  - Inflammatorisk tarmsjukdom
+  - Crohns sjukdom
+  question: Vilken del av mag-tarmkanalen kan engageras hos en patient med Crohns sjukdom?
+  image: null
+  options:
+  - text: Ileum
+    correct: false
+    feedback: Ileum drabbas ofta vid Crohn men detta svar är ofullständigt eftersom sjukdomen kan engagera flera delar av GI-kanalen.
+  - text: Kolon
+    correct: false
+    feedback: Kolon kan vara drabbat vid Crohn, men att välja endast kolon missar att sjukdomen ofta är segmentell och kan förekomma på andra ställen.
+  - text: Jejunum
+    correct: false
+    feedback: Jejunum kan engageras vid Crohn, men detta är inte exklusivt — sjukdomen kan påverka flera nivåer i mag-tarmkanalen.
+  - text: Esofagus
+    correct: false
+    feedback: Esofagusengagemang är ovanligare men möjligt vid Crohn; att bara välja esofagus blir därför missvisande.
+  - text: Alla ovanstående
+    correct: true
+    feedback: Crohns sjukdom kan engagera hela mag-tarmkanalen från munhåla till anus, inklusive ileum, kolon, jejunum och i sällsynta fall esofagus.
+  explanation: Crohns sjukdom kan drabba hela GI-kanalen med segmentell ('skip') och transmural inflammation, vilket kan leda till strikturer, fistlar och abscesser. Till skillnad från ulcerös kolit är engagemanget oftast spritt och inte begränsat till kolon/rectum.
+  id: med-gas-641c0c
+- type: multiple_choice
+  tags:
+  - IBS
+  - Läkemedelsbehandling
+  question: Vilken av nedanstående mediciner bör inte användas vid irritabel tarm (IBS)?
+  image: null
+  options:
+  - text: Opioidpreparat
+    correct: true
+    feedback: Opioider förvärrar ofta förstoppning, kan ge rebound‑diarré, tolerans och beroende samt risk för narcotic bowel syndrome.
+  - text: Bulkmedel
+    correct: false
+    feedback: Bulkmedel (fiber) används vid IBS med förstoppningsdominans för att förbättra avföringsvolym och frekvens.
+  - text: Diarré‑stoppande mediciner (så som loperamid)
+    correct: false
+    feedback: Loperamid är indicerat vid diarrédominerad IBS för att minska avföringsfrekvens och hastighet.
+  - text: Probiotisk behandling
+    correct: false
+    feedback: Vissa probiotiska preparat kan minska symtom hos utvalda patienter med IBS.
+  - text: Neuromodulerande behandling med tricykliska antidepressiva eller SSRI
+    correct: false
+    feedback: TCA och SSRI används som neuromodulerande behandling vid smärta och komorbiditet vid IBS.
+  explanation: Opioider bör undvikas vid IBS eftersom de försämrar tarmmotiliteten och medför risk för förstoppning, rebound‑diarré, tolerans, beroende och narcotic bowel syndrome. Andra behandlingar (bulkmedel, loperamid, probiotika och neuromodulerande antidepressiva) väljs utifrån dominerande symtom.
+  id: med-gas-8a173d
+- type: multiple_choice
+  tags:
+  - Esofagus
+  - Reflux
+  - Diagnostik
+  question: Vid vilket av följande har syraexponering i esofagus inte någon central roll i patofysiologin?
+  image: null
+  options:
+  - text: Erosiv refluxsjukdom (GERD)
+    correct: false
+    feedback: Erosiv GERD orsakas av upprepad syraexponering som skadar esofagusslemhinnan.
+  - text: Funktionell halsbränna
+    correct: true
+    feedback: Beror på visceral överkänslighet och störd perceptionsbearbetning utan dominerande syraorsakad skada.
+  - text: Peptisk esofagusstriktur
+    correct: false
+    feedback: Peptiska strikturer är en följd av kronisk syrainducerad inflammation och fibros.
+  - text: Barretts esofagus
+    correct: false
+    feedback: Barretts utvecklas vid långvarig syraexponering som leder till kolumnar metaplasi.
+  - text: Icke-erosiv refluxsjukdom (NERD)
+    correct: false
+    feedback: NERD karakteriseras ofta av patologisk syrareflux på mätning trots avsaknad av synliga erosioner.
+  explanation: Funktionell halsbränna förklaras främst av visceral överkänslighet och störd central perceptionsbearbetning utan tydlig syraorsakad skada. Erosiv GERD, peptiska strikturer och Barretts esofagus orsakas eller underhålls av upprepad syraexponering, och NERD har ofta objektivt påvisbar patologisk syraexponering trots frånvaro av erosioner.
+  id: med-gas-31fe1a
+- type: multiple_choice
+  tags:
+  - Dysfagi
+  - Manometri
+  - Akalasi
+  question: 50-årig man med ett års progressiv sväljsvårigheter för både fasta och flytande födoämnen och 5 kg viktnedgång. Gastroskopi var normal. Esofagusmanometri visar utebliven peristaltik i kroppen och ofullständig relaxation av nedre esofagussfinktern. Vilken tolkning är mest förenlig med dessa fynd?
+  image: null
+  options:
+  - text: Esofagusspasm
+    correct: false
+    feedback: Esofagusspasm ger simultana spastiska kontraktioner, inte global frånvaro av peristaltik tillsammans med bristande LES-relaxation.
+  - text: Hypoperistaltisk esofagus
+    correct: false
+    feedback: Hypoperistaltik innebär svaga peristaltiska vågor men vanligen normal nedre esofagussfinkter-relaxation, till skillnad från fyndet här.
+  - text: Normal undersökning
+    correct: false
+    feedback: Manometrin visar patologiska avvikelser (avsaknad av peristaltik och ofullständig LES-relaxation).
+  - text: Akalasi
+    correct: true
+    feedback: Akalasi karakteriseras av utebliven esofagusperistaltik och ofullständig relaxion av nedre esofagussfinktern på manometri.
+  - text: Ineffektiv esofagusmotilitet
+    correct: false
+    feedback: Ineffektiv motilitet innebär svaga eller fragmenterade kontraktioner med oftast normal LES-relaxation, inte komplett peristaltikbortfall och LES-relaxationssvikt.
+  explanation: Akalasi kännetecknas av förlorad peristaltik i esofaguskroppen och ofullständig relaxation av nedre esofagussfinktern på manometri, vilket ger progressiv blandad dysfagi. Andra motilitetsrubbningar (spasm, hypomotilitet, ineffektiv motilitet) har andra mönster såsom simultana spastiska kontraktioner eller svaga vågor med normal sfinkterfunktion.
+  id: med-gas-6ac224
+- type: multiple_choice
+  tags:
+  - Celiaki
+  - Serologi
+  question: En 40-årig kvinna utreds för buksmärtor, viktnedgång och diarré. Tunntarmsbiopsi visar villusatrofi. Vilket blodprov är mest specifikt för celiaki?
+  image: null
+  options:
+  - text: IgM-anti-endomysium
+    correct: false
+    feedback: Endomysium-antikroppar mäts främst som IgA; IgM-positivitet är ovanligt och ger låg diagnostisk nytta.
+  - text: IgG-anti-gliadin
+    correct: false
+    feedback: Anti-gliadin i IgG-klass är mindre specifikt och kan ge fler falskt positiva svar än anti-tTG.
+  - text: IgA-anti-nukleära antikroppar
+    correct: false
+    feedback: ANA är ospecifikt för autoimmunitet i andra organsystem och används inte för celiakidiagnostik.
+  - text: IgA-anti-transglutaminas
+    correct: true
+    feedback: IgA-anti-tTG har hög specificitet för celiaki och används rutinmässigt vid serologisk diagnostik.
+  - text: IgA-anti-gliadin
+    correct: false
+    feedback: IgA-anti-gliadin är mindre specifikt än anti-tTG och ger fler falskt positiva fynd.
+  explanation: IgA-antikroppar mot vävnadstransglutaminas (anti-tTG) är mest specifika för celiaki och används i rutinmässig serologi. Total IgA bör också mätas eftersom IgA-brist kan ge falskt negativa resultat; tunntarmsbiopsi kan behövas för definitiv diagnos.
+  id: med-gas-f39467
+- type: multiple_choice
+  tags:
+  - Gastrointestinal blödning
+  - Divertikelblödning
+  question: Vilken av följande är den vanligaste orsaken till akut gastrointestinal blödning hos äldre patienter?
+  image: null
+  options:
+  - text: Hemorrojder
+    correct: false
+    feedback: Orsakar oftast ytliga, mindre rektala blödningar och är mindre sannolik som orsak till massiv akut blödning hos äldre.
+  - text: Koloncancer
+    correct: false
+    feedback: Ger vanligen kronisk, occult eller intermittent blödning snarare än plötslig, massiv akut blödning.
+  - text: Mallory-Weiss-syndrom
+    correct: false
+    feedback: Associerat med kraftig kräkning och övre GI-blödning, inte en vanlig orsak till akut blödning i äldre utan denna anamnes.
+  - text: Esofagusvaricer
+    correct: false
+    feedback: Kan ge massiv övre GI-blödning vid portal hypertension, men är mindre vanlig i den allmänna äldre populationen.
+  - text: Divertikelblödning
+    correct: true
+    feedback: Den vanligaste orsaken till akut nedre GI-blödning hos äldre; ofta plötslig och kan vara kraftig p.g.a. blödning från kolondivertiklar.
+  explanation: Divertikelblödning är den vanligaste orsaken till akut gastrointestinal (särskilt nedre) blödning hos äldre. Blödningen kommer ofta plötsligt och kan vara massiv eftersom små kärl i divertiklar kan erodera; diagnostik med koloskopi eller CT-angiografi och behandling varierar från observation till endovaskulär embolisation eller kirurgi beroende på blödningsintensitet.
+  id: med-gas-a76411
+- type: multiple_choice
+  tags:
+  - Inflammatorisk tarmsjukdom
+  - Diagnostik
+  question: Vilket av följande fynd talar mest för Crohns sjukdom snarare än ulcerös kolit?
+  image: null
+  options:
+  - text: Blodig diarré
+    correct: false
+    feedback: Blodig diarré är vanligare vid ulcerös kolit och är inte ett säkert tecken på Crohn.
+  - text: Granulom i biopsi
+    correct: true
+    feedback: Granulomatös inflammation är typisk för Crohns och förekommer inte vid ulcerös kolit.
+  - text: Kontinuerlig inflammation i kolon
+    correct: false
+    feedback: Kontinuerlig, ytlig inflammation är karakteristisk för ulcerös kolit, medan Crohn ger segmentell (diskontinuerlig) inflammation.
+  - text: Engagemang enbart i rektum
+    correct: false
+    feedback: Isolerat rektalengagemang (proktit) talar för ulcerös kolit snarare än Crohn.
+  - text: Avsaknad av fistelbildning
+    correct: false
+    feedback: Fistlar förekommer vid Crohn, men deras frånvaro är inte ett fynd som stöder Crohn framför ulcerös kolit.
+  explanation: Närvaro av icke-nekrotiserande granulom i tarmväggen är ett histologiskt stöd för Crohns sjukdom, även om granulom inte ses hos alla patienter. Ulcerös kolit visar oftast kontinuerlig mucosal inflammation med rektuminvolvering och blodig diarré, medan Crohn ofta är transmural och kan ge fistlar.
+  id: med-gas-bd681e
+- type: multiple_choice
+  tags:
+  - Pankreatit
+  - Etiologi
+  question: Vilken är den vanligaste orsaken till akut pankreatit?
+  image: null
+  options:
+  - text: Trauma
+    correct: false
+    feedback: Trauma kan orsaka pankreatit men är en ovanligare orsak jämfört med alkohol och gallsten.
+  - text: Läkemedelsbiverkan
+    correct: false
+    feedback: Vissa läkemedel kan utlösa pankreatit, men detta är mindre vanligt än alkohol- eller gallstensorsakad pankreatit.
+  - text: Alkohol
+    correct: true
+    feedback: Alkoholmissbruk är en av de vanligaste orsakerna till akut pankreatit och vanligast bland de givna alternativen (gallsten är också mycket vanlig).
+  - text: Virusinfektion
+    correct: false
+    feedback: Virusinfektioner kan orsaka pankreatit men är en mindre frekvent orsak.
+  - text: Hyperkalcemi
+    correct: false
+    feedback: Hyperkalcemi kan utlösa pankreatit men är relativt sällsynt som orsak.
+  explanation: De två vanligaste orsakerna till akut pankreatit är gallstenssjukdom och alkoholmissbruk; gallsten ger oftast distalt avflödeshinder i ductus pancreaticus medan alkohol har direkt toxisk effekt och ändrar pankreassekretionen. Andra orsaker (trauma, läkemedel, infektion, hyperkalcemi) förekommer men är mindre vanliga.
+  id: med-gas-0e88a0
+- type: multiple_choice
+  tags:
+  - Gastroesofageal reflux
+  - Barretts esofagus
+  - Dysfagi
+  question: En patient med långvarig gastroesofageal refluxsjukdom (GERD) utvecklar successivt tilltagande sväljningssvårigheter. Vilken komplikation är mest trolig?
+  image: null
+  options:
+  - text: Barretts esofagus med striktur
+    correct: true
+    feedback: Kronisk reflux kan leda till metaplasi (Barrett) och peptiska ärr som bildar strikturer och orsakar progressiv dysfagi.
+  - text: Esofagusvaricer
+    correct: false
+    feedback: Varicer är kopplade till portal hypertension och ger blödningsrisk snarare än reflux‑orsakad dysfagi.
+  - text: Esofagusdivertikel
+    correct: false
+    feedback: Divertiklar ger ofta regurgitation och hosta, inte typiskt progressiv lumenförträngning från reflux.
+  - text: Akalasi
+    correct: false
+    feedback: Akalasi är en motorikstörning med sväljssvårigheter men har annan patofysiologi och debuterar inte som följd av långvarig reflux.
+  - text: Mallory–Weiss-syndrom
+    correct: false
+    feedback: Mallory–Weiss innebär slemskadeläsioner och blödning efter kraftig kräkning, inte kronisk strikturbildning.
+  explanation: Långvarig GERD kan ge Barretts esofagus med intestinal metaplasi och peptisk ärrbildning som ger strikturer och progressiv sväljningssvårighet. Andra listade tillstånd har annan etiologi (portal hypertension, motilitetsstörning, divertikel eller akut mucosaskada) och är mindre sannolika vid kronisk reflux.
+  id: med-gas-1ec513
+- type: multiple_choice
+  tags:
+  - Esofagusvaricer
+  - Portalt tryck
+  - Levercirros
+  question: Vilket av följande tillstånd är mest direkt associerat med bildning av esofagusvaricer?
+  image: null
+  options:
+  - text: Autoimmun hepatit
+    correct: false
+    feedback: Autoimmun hepatit kan i förlängningen ge cirros och sekundär portal hypertension, men är inte den direkta mekanismen bakom varicer.
+  - text: Celiaki
+    correct: false
+    feedback: Celiaki påverkar tarmen och orsakar inte förhöjt portaltryck som leder till varicer.
+  - text: Funktionell dyspepsi
+    correct: false
+    feedback: Funktionell dyspepsi är en funktionell övre GI-störning utan koppling till portaltrycket eller varicer.
+  - text: Zollinger–Ellisons syndrom
+    correct: false
+    feedback: Zollinger–Ellison ger hypersekretion av syra och ulcus, inte portal hypertension eller esofagusvaricer.
+  - text: Portalt tryckökning (portal hypertension)
+    correct: true
+    feedback: Esofagusvaricer orsakas av förhöjt portaltryck, oftast sekundärt till levercirros, vilket dilaterar submukösa vener i matstrupen.
+  explanation: Esofagusvaricer är dilaterade submukösa vener i nedre matstrupen som uppstår vid förhöjt portaltryck, vanligtvis på grund av levercirros. De kan ge livshotande blödningar och hanteras genom att sänka portaltrycket och med endoskopiska eller radiologiska åtgärder vid blödning.
+  id: med-gas-c12559
+- type: multiple_choice
+  tags:
+  - Gallsten
+  - Diagnostik
+  question: Vilken undersökning är förstahandsval för att bekräfta misstanke om gallsten?
+  image: null
+  options:
+  - text: MR-gallvägar (MRCP)
+    correct: false
+    feedback: MRCP används främst när ultraljud är osäkert eller för att avbilda gallgångarna, inte som förstahandsmetod för gallblåse-stenar.
+  - text: Ultraljud buk
+    correct: true
+    feedback: Ultraljud är snabbt, icke-invasivt och känsligt för att påvisa stenar i gallblåsan samt tecken på kolecystit.
+  - text: CT buk
+    correct: false
+    feedback: CT är mindre känsligt för gallstenar och används främst för att påvisa komplikationer eller andra differentialdiagnoser.
+  - text: Gastroskopi
+    correct: false
+    feedback: Gastroskopi undersöker övre mag-tarmkanalen och är inte indicerat för diagnostik av gallsten.
+  - text: ERCP
+    correct: false
+    feedback: ERCP är en invasiv undersökning som främst används terapeutiskt för att ta bort stenar ur gallgångarna, inte som förstahandsdiagnostik.
+  explanation: Ultraljud buk är förstahandsval för misstänkt gallsten eftersom det är snabbt, icke-invasivt och har hög känslighet för stenar i gallblåsan. MRCP används senare om ultraljud är osäkert eller för detaljerad avbildning av gallgångarna, medan CT är mindre lämplig för små stenar och ERCP är en invasiv, terapeutisk procedur.
+  id: med-gas-c8e064
+- type: multiple_choice
+  tags:
+  - diarré
+  - mikroskopisk kolit
+  - gastroenterologi
+  question: 'Kvinna, 75 år, med ettårig tilltagande vattentunn diarré: började med 2 dagsfärska avföringar, nu 6–8 per dag och ibland även på natten. Inget blod i avföringen. Vilken diagnos är mest sannolik?'
+  image: null
+  options:
+  - text: Mikroskopisk kolit
+    correct: true
+    feedback: Typisk presentation hos äldre kvinnor med kronisk icke-blodig vattentunn diarré som ofta är nattlig; diagnostiseras med koloskopi + biopsier.
+  - text: Ulcerös kolit
+    correct: false
+    feedback: Ulcerös kolit ger oftast blod och slem i avföringen och mer tydliga inflammatoriska tecken.
+  - text: Infektiös gastroenterit
+    correct: false
+    feedback: Infektiös gastroenterit är vanligtvis akut med plötslig debut och ofta feber, inte ett års progressiv diarré.
+  - text: IBS-D (IBS med diarrédominans)
+    correct: false
+    feedback: IBS debuterar ofta tidigare och ger sällan nattliga symptom eller progressiv försämring i hög ålder.
+  - text: Kolorektal cancer
+    correct: false
+    feedback: Cancer kan ge avföringsförändring men ger ofta blod, viktnedgång eller alarmtecken; ändå bör äldre utredas noga vid nya förändringar.
+  explanation: Klinisk bild med kronisk, icke-blodig vattentunn diarré hos en äldre kvinna, ofta nattliga tarmtömningar, är typisk för mikroskopisk kolit. Koloskopi ser ofta normal ut makroskopiskt, diagnos säkerställs genom histologiska biopsier; behandling kan inkludera budesonid.
+  id: imp-d824940c
+- type: multiple_choice
+  tags:
+  - Ulcerös kolit
+  - Inflammatorisk tarmsjukdom
+  question: Man 29 år med ulcerös kolit sedan 17 års ålder söker för 3–4 veckor med lösa avföringar (≈4/dygn) och blod. Hb och CRP är normala. Rektoskopi visar måttlig inflammation upp till 10 cm. Vilken handläggning är korrekt?
+  image: null
+  options:
+  - text: Sätter in lokalbehandling med 5-ASA suppositorier och skriver remiss till mag-tarmmottagning för uppföljning.
+    correct: true
+    feedback: För distal mild–måttlig skov är topikal 5‑ASA förstahandsbehandling och uppföljning på gastroenterologisk mottagning är lämplig.
+  - text: Remiss till koloskopi enligt SVF för cancer i tjock- och ändtarm
+    correct: false
+    feedback: Akut cancerutredning enligt SVF är inte indikerad här; surveillance-koloskopi styrs av sjukdomslängd och utbredning, inte detta fynd.
+  - text: Sätter in Prednisolon per oralt och skriver remiss för koloskopi.
+    correct: false
+    feedback: Systemiska kortikosteroider är inte förstahandsval vid begränsat distal skov; koloskopi behövs inte akut.
+  - text: Sätter in Prednisolon per oralt och skriver remiss till mag-tarmmottagning för uppföljning.
+    correct: false
+    feedback: Oral prednisolon är för mer utbredda eller svårare skov; initial topikal 5‑ASA är att föredra vid distal inflammation.
+  - text: Remiss till akutmottagning för snabb handläggning av misstänkt akut skov av ulcerös kolit.
+    correct: false
+    feedback: Patienten visar inte tecken på akut svårt skov (få avföringar, normal Hb och CRP), så akutremiss är inte motiverad.
+  explanation: Patienten har ett mild–måttligt, distalt skov (rektal inflammation upp till 10 cm) utan systemisk påverkan; topikal 5‑ASA (suppositorier eller lavemang beroende på nivå) är förstahandsbehandling. Systemiska steroider och akut sjukhusvård reserveras för mer uttalade eller systemiska skov, och koloskopisk cancerutredning följer surveillancerekommendationer beroende på sjukdomslängd och utbredning.
+  id: imp-4142ebc9
+- type: multiple_choice
+  tags:
+  - Inflammatorisk tarmsjukdom
+  - Crohns sjukdom
+  - Ulcerös kolit
+  question: Vilket av följande påståenden om inflammatorisk tarmsjukdom är korrekt?
+  image: null
+  options:
+  - text: Ulcerös kolit kan ha segmentell utbredning i kolon med så kallade skip lesions.
+    correct: false
+    feedback: Ulcerös kolit ger vanligen kontinuerlig inflammation från rektum proximalt; skip-lesions är typiska för Crohns sjukdom.
+  - text: Behandlingsalternativen för Crohns sjukdom och ulcerös kolit skiljer sig inte åt.
+    correct: false
+    feedback: Behandlingarna skiljer sig, t.ex. 5-ASA är effektivare vid UC och kirurgi kan vara botande vid UC men inte vid Crohn.
+  - text: Crohns sjukdom kan orsaka fistlar och stenosering i mag-tarmkanalen
+    correct: true
+    feedback: Crohns ger transmural inflammation som kan leda till fistlar och strikturer/stenoser.
+  - text: Det finns en ökad risk för koloncancer vid Crohns sjukdom men inte vid ulcerös kolit
+    correct: false
+    feedback: Ulcerös kolit har en väldokumenterad ökad risk för kolorektalcancer; Crohn med kolonengagemang ökar också risken.
+  - text: Ulcerös kolit har alltid värst inflammationsgrad längst oralt i kolon.
+    correct: false
+    feedback: UC är oftast värst distalt (rektum) och sprider sig kontinuerligt proximalt, inte kraftigast oralt.
+  explanation: Crohns sjukdom är transmural och kan drabba hela GI‑kanalen med skip-lesions, fistlar och stenosering. Ulcerös kolit drabbar endast kolon och är kontinuerlig från rektum; både långvarig UC och Crohn med kolonengagemang ökar risken för kolorektalcancer, och behandlingsstrategier skiljer sig mellan sjukdomarna.
+  id: imp-18ad1bf7
+- type: multiple_choice
+  tags:
+  - Celiaki
+  - Dermatitis herpetiformis
+  question: Vilken hudåkomma bör få en att misstänka celiaki?
+  image: null
+  options:
+  - text: Psoriasis
+    correct: false
+    feedback: Psoriasis är inte typiskt för celiaki och saknar den starka associationen som dermatitis herpetiformis har.
+  - text: Akne
+    correct: false
+    feedback: Akne är vanligtvis hormonellt eller folliculärt betingat och inte kopplat till celiaki.
+  - text: Allergiskt eksem
+    correct: false
+    feedback: Allergiskt eller atopiskt eksem är inte specifikt för celiaki.
+  - text: Dermatitis herpetiformis
+    correct: true
+    feedback: Dermatitis herpetiformis är en IgA‑medierad blåsande/pruriginös hudsjukdom starkt associerad med celiaki.
+  - text: Recidiverande hudinfektioner
+    correct: false
+    feedback: Återkommande hudinfektioner tyder snarare på immunbrist eller lokal störning, inte typiskt celiaki.
+  explanation: Dermatitis herpetiformis är den klassiska hudmanifestationen vid celiaki och kännetecknas av täta IgA‑avlagringar i dermala papiller samt intensiv klåda och blåsbildning. Diagnos av celiaki bör övervägas vid denna hudbild och bekräftas med serologi och tunntarmsbiopsi; glutenfri kost är effektiv behandling.
+  id: imp-d184c35a
+- type: multiple_choice
+  tags:
+  - IBS
+  - diagnostik
+  - inflammationsmarkörer
+  question: Kvinna 21 år med magknip och periodvis hård avföring (IBS-misstanke). Hb och CRP är normala. Vilket ytterligare prov/undersökning måste vara normal för att kunna ställa IBS-diagnos?
+  image: null
+  options:
+  - text: Koloskopi
+    correct: false
+    feedback: Koloskopi krävs inte rutinmässigt vid typiska IBS-symptom utan alarmtecken om inflammationsmarkörer (t.ex. f-calprotectin) är normala.
+  - text: Antikroppar mot transglutaminas
+    correct: false
+    feedback: Celiakiutredning (anti-tTG) rekommenderas vid diarrédominans eller misstanke om celiaki men är inte alltid obligatorisk för IBS-diagnos i avsaknad av sådana fynd.
+  - text: F-Hb
+    correct: false
+    feedback: Fekalt hemoglobin kan upptäcka blödning men har lägre känslighet för att utesluta inflammatorisk tarmsjukdom än f-calprotectin.
+  - text: F-Calprotectin
+    correct: true
+    feedback: F-calprotectin måste vara normal för att med hög sannolikhet utesluta inflammatorisk tarmsjukdom och därmed stödja en IBS-diagnos.
+  - text: Laktas-gen polymorfism
+    correct: false
+    feedback: Laktasbrist utreds vid misstänkt laktosintolerans men en normal laktas-gen är inte ett krav för IBS-diagnos.
+  explanation: För att ställa IBS behövs uteslutande av organiska inflammatoriska sjukdomar; f-calprotectin är en känslig fecal markör för tarminflammation och bör vara normal. Koloskopi och anti-tTG utförs vid indikation eller alarmtecken, medan F-Hb och laktas-gen inte är avgörande för att bekräfta IBS.
+  id: imp-e6a9b219
+- type: multiple_choice
+  tags:
+  - rektalblödning
+  - anorektal undersökning
+  question: Kvinna 32 år med förstoppning och nu blod på toalettpapper. Hb är normalt. Vad är nästa steg i utredningen?
+  image: null
+  options:
+  - text: Kontroll av F-Hb
+    correct: false
+    feedback: F-Hb söker occulta blödningar i faeces men är inte prioriterat vid synligt färskt ytligt blod och misstanke om anorektal orsak.
+  - text: Koloskopi
+    correct: false
+    feedback: Koloskopi är indicerat vid alarmtecken, anemi eller kvarstående/blodig avföring eller hos äldre, men inte första steg hos en ung patient med ytliga blödningar.
+  - text: DT-kolografi
+    correct: false
+    feedback: CT-kolografi är ett alternativ vid kontraindikation mot koloskopi för kolonundersökning, inte lämpligt som initial utredning vid misstänkt anorektal blödning.
+  - text: Rekto-/Proktoskopi
+    correct: true
+    feedback: Direkt visuell undersökning av anus och distala rektum (anoskop/proktoskop) är lämplig förstahandsåtgärd vid färskt blod på papper hos ung patient.
+  - text: Gastroskopi
+    correct: false
+    feedback: Gastroskopi utreds misstanke om övre GIS-blödning (melena, hematemes) och är inte indicerat vid färskt perianalt blod utan övre GI-symtom.
+  explanation: Färskt blod på toalettpapper hos en ung person talar oftast för en lokal anorektal orsak (t.ex. fissur eller hemorrojd). En enkel rekto-/proktoskopi eller anoskopi är lämplig först för att visualisera och behandla dessa orsaker; koloskopi eller andra undersökningar övervägs vid fortsatta symtom, positiv F-Hb eller alarmtecken.
+  id: imp-52dbbc18
