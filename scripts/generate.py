@@ -146,8 +146,10 @@ INNEHÅLLSKRAV:
 1. Frågor ska vara relevanta för B-körkort (personbil) i Sverige.
 2. Feedback MÅSTE vara koncis (1 mening). Börja INTE med "Rätt" eller "Fel", det visas automatiskt.
 3. Explanation MÅSTE vara pedagogisk och praktisk (2-3 meningar).
-4. Frågor om vägmärken ska ALLTID ha image-fält med beskrivning av märket.
-5. Fokus på: trafikregler, vägmärken, körteknik, säkerhet, miljö och trafikfaror.
+4. Frågor om vägmärken ska ha image-fältet ifyllt korrekt.
+5. VIKTIGT: Om frågan handlar om vad ett vägmärke betyder, FÅR DU INTE nämna märkets namn i frågetexten!
+   - FEL: "Vad betyder skylten 'Förbud mot infart' (bilden)?"
+   - RÄTT: "Vad innebär detta vägmärke?" eller "Vägmärket i bilden markerar..."
 6. Svårighetsgrad: Svenska körkortsteoriprov (både grundläggande och fördjupade frågor).
 7. Inkludera praktiska situationer som förare möter i verkligheten.
 """
@@ -288,11 +290,27 @@ def download_image(url, filename):
         print(f"  [Error] Failed to download {url}: {e}")
         return False
 
+def get_existing_sign_filenames(subject='korkortsteori'):
+    """Finds all image filenames already used in question files."""
+    used_images = set()
+    subject_path = os.path.join(DATA_DIR, subject)
+    if not os.path.exists(subject_path):
+        return used_images
+    
+    for fname in os.listdir(subject_path):
+        if fname.endswith('.yaml') or fname.endswith('.yml'):
+            questions = load_existing(os.path.join(subject_path, fname))
+            for q in questions:
+                if q.get('image'):
+                    used_images.add(q['image'])
+    return used_images
+
 def run_roadsign_generator(count=5):
     """
     1. Loads roadsigns_db.json
-    2. Downloads images for N random signs
-    3. Generates questions for those signs
+    2. Filters out signs that are already used in existing questions
+    3. Downloads images for N random signs
+    4. Generates questions for those signs
     """
     db_path = os.path.join(DATA_DIR, 'korkortsteori', 'roadsigns_db.json')
     if not os.path.exists(db_path):
@@ -306,15 +324,26 @@ def run_roadsign_generator(count=5):
         print("No signs in DB.")
         return
 
-    # Select random signs
-    selected_signs = []
-    # If count is larger than db, loop/sample with replacement or just take all
-    if count >= len(road_signs):
-         selected_signs = road_signs
-    else:
-         selected_signs = random.sample(road_signs, count)
+    # Filter out already used signs
+    used_filenames = get_existing_sign_filenames('korkortsteori')
+    available_signs = [s for s in road_signs if s['filename'] not in used_filenames]
     
-    print(f"\nProcessing {len(selected_signs)} road signs...")
+    print(f"\nDB Size: {len(road_signs)}")
+    print(f"Already used unique images: {len(used_filenames)}")
+    print(f"Available for new questions: {len(available_signs)}")
+    
+    if not available_signs:
+        print("All signs in DB have been used! Add more signs to DB or delete old questions.")
+        return
+
+    # Select random signs from AVAILABLE ones
+    selected_signs = []
+    if count >= len(available_signs):
+         selected_signs = available_signs
+    else:
+         selected_signs = random.sample(available_signs, count)
+    
+    print(f"\nProcessing {len(selected_signs)} new road signs...")
     
     signs_context = []
     
@@ -370,8 +399,9 @@ def run_roadsign_generator(count=5):
     KRAV:
     1. Använd exakt filnamnet som anges för varje skylt i 'image'-fältet.
     2. Frågan ska handla specifikt om den skylten.
-    3. 'tags' ska inkludera 'Vägmärken' och kategorin (t.ex. '{signs_context[0]['category']}').
-    4. Ge pedagogisk feedback.
+    3. VIKTIGT: AVSLÖJA INTE svaret i frågan! Skriv inte: "Vad betyder 'Stoppskylt'?". Skriv: "Vad innebär detta märke?".
+    4. 'tags' ska inkludera 'Vägmärken' och kategorin (t.ex. '{signs_context[0]['category']}').
+    5. Ge pedagogisk feedback.
     """
     
     try:

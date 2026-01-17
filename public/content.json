@@ -207,7 +207,7 @@
         "V\u00e4gm\u00e4rken",
         "F\u00f6rbud"
       ],
-      "question": "Vad betyder skylten 'F\u00f6rbud mot infart med fordon' (vagmarke_forbud_infart.svg)?",
+      "question": "Vad betyder denna skylt?",
       "image": "vagmarke_forbud_infart.svg",
       "options": [
         {
@@ -241,7 +241,7 @@
         "V\u00e4gm\u00e4rken",
         "V\u00e4jningsplikt"
       ],
-      "question": "Vad anger skylten 'Huvudled' (vagmarke_huvudled.svg) i trafiksituationen?",
+      "question": "Vad anger denna skylt i trafiksituationen?",
       "image": "vagmarke_huvudled.svg",
       "options": [
         {
@@ -275,7 +275,7 @@
         "V\u00e4gm\u00e4rken",
         "F\u00f6rbud"
       ],
-      "question": "Vad inneb\u00e4r skylten 'F\u00f6rbud mot trafik med fordon' (vagmarke_forbud_trafik.svg)?",
+      "question": "Vad inneb\u00e4r denna skylt?",
       "image": "vagmarke_forbud_trafik.svg",
       "options": [
         {
@@ -309,7 +309,7 @@
         "V\u00e4gm\u00e4rken",
         "Anvisning"
       ],
-      "question": "Vilka regler g\u00e4ller p\u00e5 en g\u00e5gata (vagmarke_gagata.svg)?",
+      "question": "Vilka regler g\u00e4ller p\u00e5 en g\u00e5gata?",
       "image": "vagmarke_gagata.svg",
       "options": [
         {
@@ -343,7 +343,7 @@
         "V\u00e4gm\u00e4rken",
         "Varning"
       ],
-      "question": "Vad varnar skylten 'Varning f\u00f6r cyklande och mopedf\u00f6rare' (vagmarke_varning_cyklande.svg) f\u00f6r?",
+      "question": "Vad varnar denna skylt f\u00f6r?",
       "image": "vagmarke_varning_cyklande.svg",
       "options": [
         {
@@ -368,6 +368,652 @@
         }
       ],
       "explanation": "Varningsskylten talar om att cyklister och mopedf\u00f6rare kan befinna sig p\u00e5 eller n\u00e4ra v\u00e4gbanan och att du d\u00e4rf\u00f6r b\u00f6r s\u00e4nka hastigheten och vara beredd p\u00e5 ov\u00e4ntade r\u00f6relser. Anpassa avst\u00e5nd och omk\u00f6rningar s\u00e5 att det \u00e4r s\u00e4kert f\u00f6r de oskyddade trafikanterna.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-5c80d5",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_stenras.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r risk f\u00f6r stenras eller stenfall p\u00e5 v\u00e4gbanan.",
+          "correct": true,
+          "feedback": "Skyltens syfte \u00e4r att uppm\u00e4rksamma f\u00f6rare p\u00e5 att sten kan falla ner eller ligga p\u00e5 v\u00e4gen, s\u00e5 f\u00f6rsiktighet kr\u00e4vs."
+        },
+        {
+          "text": "Varning f\u00f6r l\u00f6sa grus- eller singelpartier p\u00e5 v\u00e4gbanan.",
+          "correct": false,
+          "feedback": "Denna skylt varnar specifikt f\u00f6r stenras, inte generellt f\u00f6r l\u00f6st grus."
+        },
+        {
+          "text": "Anvisning om alternativ v\u00e4g p\u00e5 grund av arbete framf\u00f6r.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt, inte en anvisningsskylt f\u00f6r omledning eller arbete."
+        },
+        {
+          "text": "Varning f\u00f6r fallande tr\u00e4d eller skogsarbete i n\u00e4rheten.",
+          "correct": false,
+          "feedback": "Symboliken p\u00e5 skylten visar sten/klippor, inte tr\u00e4d eller skogsarbete."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r stenras eller stenfall som kan f\u00f6rekomma n\u00e4ra eller p\u00e5 v\u00e4gen, s\u00e5 du ska s\u00e4nka hastigheten och vara beredd att stanna. H\u00e5ll extra uppsikt och undvik att sv\u00e4nga ut p\u00e5 skuldran om den \u00e4r l\u00f6s eller fylld med stenar.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-7a661a",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "V\u00e4jningsplikt"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vajningsplikt_mot_motande_trafik.svg",
+      "options": [
+        {
+          "text": "Du m\u00e5ste ge f\u00f6retr\u00e4de \u00e5t m\u00f6tande trafik innan du k\u00f6r ut.",
+          "correct": true,
+          "feedback": "Skyltens inneb\u00f6rd \u00e4r att du ska l\u00e4mna f\u00f6retr\u00e4de \u00e5t m\u00f6tande fordon p\u00e5 den smala str\u00e4ckan."
+        },
+        {
+          "text": "Du har f\u00f6retr\u00e4de \u00f6ver m\u00f6tande trafik p\u00e5 den smala v\u00e4gstr\u00e4ckan.",
+          "correct": false,
+          "feedback": "Denna skylt betyder motsatsen; du ska inte ta f\u00f6retr\u00e4de utan v\u00e4nta p\u00e5 m\u00f6tande."
+        },
+        {
+          "text": "Du m\u00e5ste stanna helt \u00e4ven om ingen m\u00f6tande trafik syns.",
+          "correct": false,
+          "feedback": "Skylt ger v\u00e4jningsplikt, inte automatisk stopplikt; stanna bara om det beh\u00f6vs f\u00f6r att l\u00e4mna f\u00f6retr\u00e4de."
+        },
+        {
+          "text": "Endast tunga fordon m\u00e5ste ge f\u00f6retr\u00e4de \u00e5t m\u00f6tande trafik.",
+          "correct": false,
+          "feedback": "Skyltens regler g\u00e4ller alla fordon, inte bara tunga fordon."
+        }
+      ],
+      "explanation": "Skylten markerar att du ska l\u00e4mna f\u00f6retr\u00e4de \u00e5t m\u00f6tande trafik, ofta p\u00e5 smal v\u00e4g eller bro d\u00e4r tv\u00e5 fordon inte kan passera samtidigt. Anpassa hastigheten och v\u00e4lj l\u00e4mplig plats att stanna eller backa om det beh\u00f6vs f\u00f6r att sl\u00e4ppa fram motsatt sida.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-64d1a5",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "V\u00e4jningsplikt"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_stopplikt.svg",
+      "options": [
+        {
+          "text": "Du m\u00e5ste g\u00f6ra full stopp vid stopplinjen eller v\u00e4gkanten innan du forts\u00e4tter.",
+          "correct": true,
+          "feedback": "Skyltens krav \u00e4r fullst\u00e4ndigt stopp f\u00f6ljt av att l\u00e4mna f\u00f6retr\u00e4de d\u00e4r det beh\u00f6vs innan fortsatt f\u00e4rd."
+        },
+        {
+          "text": "Du beh\u00f6ver bara sakta ner och ge f\u00f6retr\u00e4de om annan trafik n\u00e4rmar sig.",
+          "correct": false,
+          "feedback": "Stoppskylten kr\u00e4ver alltid ett helt stopp, inte bara att sakta ner."
+        },
+        {
+          "text": "Skylt anger att korsningen har v\u00e4jningspliktsskyltar f\u00f6r alla h\u00e5ll.",
+          "correct": false,
+          "feedback": "Stoppskylten inneb\u00e4r individuell stopplikt, inte att hela korsningen \u00e4r f\u00f6rsedd med v\u00e4jningspliktsskyltar."
+        },
+        {
+          "text": "G\u00e4ller endast fordonstyper \u00f6ver viss vikt.",
+          "correct": false,
+          "feedback": "Stopplikt g\u00e4ller alla fordon oavsett vikt om skylten \u00e4r riktad mot din riktning."
+        }
+      ],
+      "explanation": "Stoppskylten inneb\u00e4r att du alltid ska stanna helt vid stopplinjen eller, om s\u00e5dan saknas, vid v\u00e4gen kant och sedan v\u00e4ja f\u00f6r korsande trafik och fotg\u00e4ngare innan du k\u00f6r vidare. Det \u00e4r viktigt att stanna s\u00e5 att du tydligt kan bed\u00f6ma om det \u00e4r fritt att k\u00f6ra.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-d8e6af",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_flerfargssignal.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r trafiksignal (flerf\u00e4rgad ljussignal) l\u00e4ngre fram.",
+          "correct": true,
+          "feedback": "Skylten varnar f\u00f6r att du snart m\u00f6ter trafikljus och b\u00f6r vara beredd att stanna eller anpassa hastigheten."
+        },
+        {
+          "text": "Varning f\u00f6r j\u00e4rnv\u00e4gskorsning med bommar.",
+          "correct": false,
+          "feedback": "Skylten visar en trafiksignal, inte en j\u00e4rnv\u00e4g eller bommar."
+        },
+        {
+          "text": "Anvisning att du m\u00e5ste f\u00f6lja en s\u00e4rskild signal f\u00f6r g\u00e5ngtrafikanter.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt, inte en anvisning som reglerar enbart g\u00e5ngtrafik."
+        },
+        {
+          "text": "Varning f\u00f6r ett automatiskt v\u00e4gtullsystem l\u00e4ngre fram.",
+          "correct": false,
+          "feedback": "Symbolen visar trafikljus och har ingen koppling till v\u00e4gtullar."
+        }
+      ],
+      "explanation": "Skylten informerar om att trafiksignaler finns l\u00e4ngre fram, s\u00e5 att du ska vara beredd att stanna vid r\u00f6tt ljus och f\u00f6lja signalernas anvisningar. Anpassa fart och h\u00e5ll uppsikt f\u00f6r att undvika stopp i korsningen.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-7bdfb3",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_far.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r f\u00e5r eller tamdjur i eller n\u00e4ra v\u00e4gen.",
+          "correct": true,
+          "feedback": "Skylten varnar f\u00f6r att f\u00e5r kan finnas p\u00e5 eller n\u00e4ra v\u00e4gbanan, s\u00e5 du b\u00f6r s\u00e4nka farten och vara uppm\u00e4rksam."
+        },
+        {
+          "text": "Varning f\u00f6r vilda djur som hjort och \u00e4lg.",
+          "correct": false,
+          "feedback": "Symbolen visar f\u00e5r specifikt; vilda djur anges med en annan symbol."
+        },
+        {
+          "text": "Anvisning om att g\u00e5rdstr\u00e4dg\u00e5rd ligger intill v\u00e4gen.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt f\u00f6r djur p\u00e5 v\u00e4gen, inte en v\u00e4gvisning till g\u00e5rdar."
+        },
+        {
+          "text": "F\u00f6rbud mot att mata djur vid v\u00e4gkanten.",
+          "correct": false,
+          "feedback": "Det \u00e4r inte ett f\u00f6rbudsm\u00e4rke utan en varning om djur i trafiken."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r f\u00f6rekomst av f\u00e5r eller andra tamdjur som kan g\u00e5 fritt \u00f6ver eller n\u00e4ra v\u00e4gen, s\u00e4rskilt i landsbygd. S\u00e4nk farten och var beredd att stanna f\u00f6r att undvika kollision med djur.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-76994c",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Anvisning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_anvisning_motorvag.svg",
+      "options": [
+        {
+          "text": "Motorv\u00e4g b\u00f6rjar \u2014 s\u00e4rskilda regler och begr\u00e4nsningar f\u00f6r fordonstyp g\u00e4ller.",
+          "correct": true,
+          "feedback": "Skylten anger att du nu k\u00f6r p\u00e5 en motorv\u00e4g, vilket inneb\u00e4r trafikregler som t.ex. f\u00f6rbjudna trafikanter och h\u00f6gre hastighetsniv\u00e5er."
+        },
+        {
+          "text": "G\u00e5ng- och cykelbana b\u00f6rjar.",
+          "correct": false,
+          "feedback": "Symboliken f\u00f6r motorv\u00e4g skiljer sig tydligt fr\u00e5n g\u00e5ng- och cykelskyltar."
+        },
+        {
+          "text": "Motorv\u00e4g upph\u00f6r omedelbart.",
+          "correct": false,
+          "feedback": "Denna skylt visar b\u00f6rjan av motorv\u00e4g, inte slutet."
+        },
+        {
+          "text": "Till\u00e5tet att parkera vid v\u00e4gkanten p\u00e5 motorv\u00e4gen.",
+          "correct": false,
+          "feedback": "Parkering p\u00e5 motorv\u00e4g \u00e4r vanligtvis f\u00f6rbjuden; skylten anvisar att motorv\u00e4g p\u00e5b\u00f6rjas."
+        }
+      ],
+      "explanation": "Skylten markerar att en motorv\u00e4g b\u00f6rjar, vilket medf\u00f6r s\u00e4rskilda trafikregler, begr\u00e4nsningar f\u00f6r vissa fordon och ofta h\u00f6gre hastighetsgr\u00e4nser. Anv\u00e4nd r\u00e4tt k\u00f6rf\u00e4lt och var medveten om att g\u00e5ende, cyklister och vissa fordon inte f\u00e5r k\u00f6ra d\u00e4r.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-4e3619",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_svag_vagkant.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r svag eller br\u00e4cklig v\u00e4gkant d\u00e4r v\u00e4grenen kan rasa under fordon.",
+          "correct": true,
+          "feedback": "Skylten varnar f\u00f6r att v\u00e4grenen eller v\u00e4gkanten inte b\u00e4r upp fordon, s\u00e5 du b\u00f6r h\u00e5lla hjulen p\u00e5 k\u00f6rbanan."
+        },
+        {
+          "text": "Varning f\u00f6r att v\u00e4gen har d\u00e5lig b\u00e4righet \u00f6verlag (tunn asfalt).",
+          "correct": false,
+          "feedback": "Skylten specificerar svag v\u00e4gkant, inte generellt d\u00e5lig v\u00e4gkonstruktion \u00f6ver hela k\u00f6rbanan."
+        },
+        {
+          "text": "Anvisning om att parkering endast \u00e4r till\u00e5ten p\u00e5 v\u00e4gkanten.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt och inte en anvisning f\u00f6r parkering."
+        },
+        {
+          "text": "Varning f\u00f6r att v\u00e4gen \u00e4r extra smal fram\u00f6ver.",
+          "correct": false,
+          "feedback": "Symbolen visar svag kant snarare \u00e4n att v\u00e4gen blir smal."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r att v\u00e4gkanten kan vara svag eller brant, vilket \u00f6kar risken f\u00f6r att fordon tippar eller f\u00e5r s\u00e4nkta d\u00e4ck om man f\u00f6rs\u00f6ker k\u00f6ra ut p\u00e5 v\u00e4grenen. H\u00e5ll d\u00e4rf\u00f6r hjulen p\u00e5 k\u00f6rbanan och s\u00e4nk hastigheten vid behov.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-cbac9b",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_overgangsstalle.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r \u00f6verg\u00e5ngsst\u00e4lle f\u00f6r g\u00e5ende l\u00e4ngre fram.",
+          "correct": true,
+          "feedback": "Skylten p\u00e5minner om att korsande g\u00e5ende kan finnas vid \u00f6verg\u00e5ngsst\u00e4llet, s\u00e5 du ska vara beredd att stanna."
+        },
+        {
+          "text": "Anvisning att det finns en g\u00e5ng- och cykelbana parallellt med v\u00e4gen.",
+          "correct": false,
+          "feedback": "Denna skylt varnar f\u00f6r ett \u00f6verg\u00e5ngsst\u00e4lle, inte att en separat g\u00e5ng- och cykelbana b\u00f6rjar."
+        },
+        {
+          "text": "Varning f\u00f6r barn som leker i v\u00e4gkanten, utan samband med \u00f6verg\u00e5ngsst\u00e4lle.",
+          "correct": false,
+          "feedback": "Symbolen visar en g\u00e5ende \u00f6ver ett \u00f6verg\u00e5ngsst\u00e4lle, inte lekande barn."
+        },
+        {
+          "text": "F\u00f6rbud mot att stanna eller parkera vid n\u00e4sta korsning.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt, inte en parkeringsf\u00f6reskrift."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r ett \u00f6verg\u00e5ngsst\u00e4lle l\u00e4ngre fram, s\u00e5 du b\u00f6r s\u00e4nka hastigheten och vara extra uppm\u00e4rksam p\u00e5 g\u00e5ende som avser att korsa v\u00e4gen. Ge f\u00f6retr\u00e4de \u00e5t g\u00e5ende som befinner sig p\u00e5 eller tydligt avser att g\u00e5 ut p\u00e5 \u00f6verg\u00e5ngsst\u00e4llet.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-607fab",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_cyklande_och_mopedforare.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r cyklister och mopedf\u00f6rare i eller n\u00e4ra v\u00e4gbanan fram\u00f6ver.",
+          "correct": true,
+          "feedback": "Skylten signalerar att du kan m\u00f6ta cyklar och mopeder och b\u00f6r anpassa hastighet och avst\u00e5nd."
+        },
+        {
+          "text": "F\u00f6rbjudet att cykla eller k\u00f6ra moped p\u00e5 denna v\u00e4g.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en varningsskylt, inte ett f\u00f6rbud mot cykel eller moped."
+        },
+        {
+          "text": "Anvisning om att cykel- och g\u00e5ngbana b\u00f6rjar h\u00e4r.",
+          "correct": false,
+          "feedback": "Skylten varnar f\u00f6r f\u00f6rekomst av cyklister och mopedister, den anvisar inte en separat bana."
+        },
+        {
+          "text": "V\u00e4gavsnittet \u00e4r endast avsett f\u00f6r motorfordon med h\u00f6g hastighet.",
+          "correct": false,
+          "feedback": "Symboliken visar cyklister/mopeder; skylten uppmanar till f\u00f6rsiktighet, inte h\u00f6g hastighet."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r att cyklister och mopedf\u00f6rare kan finnas i n\u00e4rheten av eller p\u00e5 v\u00e4gen, ofta d\u00e4r sikten \u00e4r begr\u00e4nsad eller trafikmilj\u00f6n f\u00f6r\u00e4ndras. Anpassa hastighet och h\u00e5ll s\u00e4kerhetsavst\u00e5nd vid omk\u00f6rning.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-0818c7",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "V\u00e4jningsplikt"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_cykeloverfart.svg",
+      "options": [
+        {
+          "text": "Du m\u00e5ste l\u00e4mna f\u00f6retr\u00e4de \u00e5t cyklister som korsar v\u00e4gen vid \u00f6verfarten.",
+          "correct": true,
+          "feedback": "Skylten markerar en cykel\u00f6verfart d\u00e4r fordon p\u00e5 v\u00e4gen ska ge f\u00f6retr\u00e4de \u00e5t cyklister."
+        },
+        {
+          "text": "Cyklar m\u00e5ste alltid ge f\u00f6retr\u00e4de \u00e5t biltrafiken p\u00e5 denna plats.",
+          "correct": false,
+          "feedback": "Detta m\u00e4rke ger cyklister f\u00f6retr\u00e4de, inte tv\u00e4rtom."
+        },
+        {
+          "text": "F\u00f6rbud mot cykeltrafik \u00f6ver v\u00e4gen; cyklister ska ledas av.",
+          "correct": false,
+          "feedback": "Skyltens syfte \u00e4r att markera en \u00f6verfart d\u00e4r cyklister har f\u00f6retr\u00e4de, inte att f\u00f6rbjuda dem."
+        },
+        {
+          "text": "Anvisning om att cykelbana slutar och forts\u00e4tter som k\u00f6rbana.",
+          "correct": false,
+          "feedback": "Detta \u00e4r ett v\u00e4jningspliktsm\u00e4rke f\u00f6r cykel\u00f6verfart, inte en anvisning om banans slut."
+        }
+      ],
+      "explanation": "Skyltens funktion \u00e4r att markera en cykel\u00f6verfart d\u00e4r cyklister har f\u00f6retr\u00e4de framf\u00f6r korsande motorfordon. Som bilf\u00f6rare ska du sakta ner och l\u00e4mna f\u00f6retr\u00e4de \u00e5t cyklister p\u00e5 \u00f6verfarten.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-226ddf",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_flera_farliga_kurvor.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r flera farliga kurvor i f\u00f6ljd l\u00e4ngre fram.",
+          "correct": true,
+          "feedback": "Skylten visar att flera skarpa kurvor v\u00e4ntar, s\u00e5 du b\u00f6r anpassa hastigheten och k\u00f6ra f\u00f6rsiktigt."
+        },
+        {
+          "text": "Varning f\u00f6r en enda, mycket tv\u00e4r kurva.",
+          "correct": false,
+          "feedback": "Symbolen indikerar flera kurvor i f\u00f6ljd, inte endast en enstaka tv\u00e4r kurva."
+        },
+        {
+          "text": "Varning f\u00f6r oj\u00e4mn v\u00e4g med gupp.",
+          "correct": false,
+          "feedback": "Det finns en s\u00e4rskild skylt f\u00f6r gupp; denna visar kurvor."
+        },
+        {
+          "text": "Anvisning om att en rondell kommer l\u00e4ngre fram.",
+          "correct": false,
+          "feedback": "Rondellsymbol ser annorlunda ut; denna skylt varnar f\u00f6r kurvor."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r att flera farliga kurvor kommer i f\u00f6ljd, vilket kr\u00e4ver nedsatt hastighet och uppm\u00e4rksam k\u00f6rning. H\u00e5ll ett tryggt avst\u00e5nd till framf\u00f6rvarande fordon och undvik pl\u00f6tsliga man\u00f6vrer.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-f3e0ce",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "varning_for_kaj.svg",
+      "options": [
+        {
+          "text": "Varning f\u00f6r kaj eller vattenkant d\u00e4r det finns risk att \u00e5ka i vattnet.",
+          "correct": true,
+          "feedback": "Skylten varnar f\u00f6r att v\u00e4gen gr\u00e4nsar till vatten eller kaj, s\u00e5 extra f\u00f6rsiktighet kr\u00e4vs."
+        },
+        {
+          "text": "Varning f\u00f6r att en bro eller f\u00e4rjel\u00e4gesinfart kommer l\u00e4ngre fram.",
+          "correct": false,
+          "feedback": "Detta m\u00e4rke indikerar kaj/vattenkant snarare \u00e4n ett f\u00e4rjel\u00e4ge eller broinfart."
+        },
+        {
+          "text": "Anvisning om att det finns parkeringsm\u00f6jligheter vid hamnen.",
+          "correct": false,
+          "feedback": "Skyltens syfte \u00e4r varning f\u00f6r vattenkant, inte att visa parkering."
+        },
+        {
+          "text": "Varning f\u00f6r kraftig sidvind vid \u00f6ppna vattendrag.",
+          "correct": false,
+          "feedback": "Sidvind varnas med en annan symbol; denna visar en kajkant."
+        }
+      ],
+      "explanation": "Skylten varnar f\u00f6r att v\u00e4gen g\u00e5r n\u00e4ra kaj eller vatten och att det finns risk att k\u00f6ra i vattnet om man k\u00f6r av v\u00e4gen. S\u00e4nk farten, h\u00e5ll avst\u00e5nd och undvik att k\u00f6ra ut p\u00e5 v\u00e4grenen d\u00e4r den \u00e4r os\u00e4ker.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-1fc989",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "forbud_mot_omkorning.svg",
+      "options": [
+        {
+          "text": "Omk\u00f6rning \u00e4r f\u00f6rbjuden f\u00f6r alla fordon p\u00e5 str\u00e4ckan.",
+          "correct": true,
+          "feedback": "Skylten markerar ett generellt omk\u00f6rningsf\u00f6rbud, vilket g\u00e4ller alla fordon tills annat m\u00e4rke visar upph\u00f6rande."
+        },
+        {
+          "text": "Endast omk\u00f6rning med tung trafik \u00e4r f\u00f6rbjuden.",
+          "correct": false,
+          "feedback": "Denna skylt f\u00f6rbjuder omk\u00f6rning f\u00f6r alla fordon, inte bara tung trafik."
+        },
+        {
+          "text": "Omk\u00f6rning \u00e4r till\u00e5ten men endast p\u00e5 h\u00f6ger sida.",
+          "correct": false,
+          "feedback": "Skyltens inneb\u00f6rd \u00e4r att omk\u00f6rning inte \u00e4r till\u00e5ten alls, inte att reglera sidan f\u00f6r omk\u00f6rning."
+        },
+        {
+          "text": "F\u00f6rbudet g\u00e4ller endast under dagtid.",
+          "correct": false,
+          "feedback": "Om skylten g\u00e4ller, s\u00e5 g\u00e4ller f\u00f6rbudet normalt dygnet runt tills annan skylt anger annat."
+        }
+      ],
+      "explanation": "Denna f\u00f6rbudsskylt f\u00f6rbjuder omk\u00f6rning p\u00e5 den f\u00f6ljande v\u00e4gstr\u00e4ckan f\u00f6r alla fordon, tills ett m\u00e4rke visar att f\u00f6rbudet upph\u00f6r. Respektera f\u00f6rbudet och avvakta till r\u00e4tt plats f\u00f6r s\u00e4ker omk\u00f6rning.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-e3c566",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "forbud_mot_trafik_med_fordon.svg",
+      "options": [
+        {
+          "text": "Trafik med fordon \u00e4r f\u00f6rbjuden; endast g\u00e5ende eller annan specifik trafik kan f\u00e5 f\u00f6retr\u00e4de.",
+          "correct": true,
+          "feedback": "Skylten f\u00f6rbjuder motorfordon och ofta cyklar beroende p\u00e5 utf\u00f6rande, vilket inneb\u00e4r att fordon inte f\u00e5r k\u00f6ra in."
+        },
+        {
+          "text": "Till\u00e5tet f\u00f6r alla fordon att k\u00f6ra men hastigheten \u00e4r begr\u00e4nsad.",
+          "correct": false,
+          "feedback": "Detta \u00e4r ett f\u00f6rbudsm\u00e4rke, inte en hastighetsbegr\u00e4nsning eller anvisning om till\u00e5ten trafik."
+        },
+        {
+          "text": "Endast tunga transporter \u00e4r f\u00f6rbjudna i omr\u00e5det.",
+          "correct": false,
+          "feedback": "Skylten f\u00f6rbjuder trafik med fordon generellt, inte bara tunga transporter."
+        },
+        {
+          "text": "Detta markerar enbart b\u00f6rjan p\u00e5 en g\u00e5gata utan trafik under vissa tider.",
+          "correct": false,
+          "feedback": "G\u00e5gata regleras med andra skyltar; denna \u00e4r ett generellt f\u00f6rbud mot fordonstrafik."
+        }
+      ],
+      "explanation": "Skylten inneb\u00e4r ett f\u00f6rbud mot trafik med fordon p\u00e5 den aktuella str\u00e4ckan, vilket inneb\u00e4r att motorfordon och ofta andra fordon inte f\u00e5r k\u00f6ra d\u00e4r. Kontrollera kompletterande skyltar f\u00f6r undantag eller tidsangivelser.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-1a3d90",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "P\u00e5bud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_pabjuden_gang_och_cykelbana.svg",
+      "options": [
+        {
+          "text": "B\u00e5de g\u00e5ende och cyklister ska anv\u00e4nda den anvisade banan; den \u00e4r avsedd f\u00f6r b\u00e5da trafikantgrupperna.",
+          "correct": true,
+          "feedback": "Skylten visar att banan \u00e4r avsedd att anv\u00e4ndas av b\u00e5de g\u00e5ende och cyklister, ofta i delade eller separata delar."
+        },
+        {
+          "text": "Endast cyklister f\u00e5r anv\u00e4nda banan, g\u00e5ngtrafik \u00e4r f\u00f6rbjuden.",
+          "correct": false,
+          "feedback": "Denna skylt inkluderar b\u00e5de g\u00e5ende och cyklister; det \u00e4r inte en ren cykelbana."
+        },
+        {
+          "text": "Banans anv\u00e4ndning \u00e4r frivillig f\u00f6r g\u00e5ng- och cykeltrafik.",
+          "correct": false,
+          "feedback": "Detta \u00e4r ett p\u00e5budsm\u00e4rke vilket inneb\u00e4r att banan ska anv\u00e4ndas av de angivna trafikantgrupperna n\u00e4r den finns."
+        },
+        {
+          "text": "Endast motortrafik \u00e4r till\u00e5ten p\u00e5 banan.",
+          "correct": false,
+          "feedback": "Symboliken visar g\u00e5ende och cykel, inte motortrafik."
+        }
+      ],
+      "explanation": "Skylten anger att en s\u00e4rskild bana \u00e4r avsedd f\u00f6r b\u00e5de g\u00e5ende och cyklister, och att dessa trafikantgrupper ska anv\u00e4nda den. I vissa utf\u00f6randen kan banan vara uppdelad; som f\u00f6rare ska du vara uppm\u00e4rksam d\u00e4r korsningar med denna bana f\u00f6rekommer.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-89c0d4",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "forbud_mot_omkorning_med_tung_lastbil.svg",
+      "options": [
+        {
+          "text": "Omk\u00f6rning \u00e4r f\u00f6rbjuden f\u00f6r tunga lastbilar men kan vara till\u00e5ten f\u00f6r l\u00e4ttare fordon.",
+          "correct": true,
+          "feedback": "Skylten f\u00f6rbjuder specifikt omk\u00f6rning f\u00f6r tung lastbilstrafik, medan andra fordon kan omfattas av andra regler."
+        },
+        {
+          "text": "Inget fordon f\u00e5r k\u00f6ra om p\u00e5 denna str\u00e4cka, oavsett typ.",
+          "correct": false,
+          "feedback": "Denna skylt g\u00e4ller vanligtvis specifikt tunga lastbilar, inte alla fordon."
+        },
+        {
+          "text": "Tunga lastbilar m\u00e5ste alltid k\u00f6ra i v\u00e4nster k\u00f6rf\u00e4lt.",
+          "correct": false,
+          "feedback": "Skyltens inneb\u00f6rd r\u00f6r omk\u00f6rningsf\u00f6rbud, inte anvisning om k\u00f6rf\u00e4lt f\u00f6r tunga lastbilar."
+        },
+        {
+          "text": "F\u00f6rbudet g\u00e4ller endast under rusningstid.",
+          "correct": false,
+          "feedback": "Eventuell tidsbegr\u00e4nsning skulle anges med till\u00e4ggstavla; grundskylten saknar tidsangivelse."
+        }
+      ],
+      "explanation": "Skylten anger ett omk\u00f6rningsf\u00f6rbud som riktar sig mot tunga lastbilar, vilket f\u00f6rb\u00e4ttrar trafiks\u00e4kerheten och framkomligheten p\u00e5 smalare eller kurviga str\u00e4ckor. Andra trafikantgrupper m\u00e5ste f\u00f6lja separata regler eller eventuella kompletterande skyltar.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-f5cd23",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Anvisning"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_anvisning_motorvag_upphor.svg",
+      "options": [
+        {
+          "text": "Motorv\u00e4g upph\u00f6r \u2014 de s\u00e4rskilda motorv\u00e4gsreglerna g\u00e4ller inte l\u00e4ngre l\u00e4ngre fram.",
+          "correct": true,
+          "feedback": "Skylten visar att du l\u00e4mnar motorv\u00e4g och att dess speciella trafikregler upph\u00f6r."
+        },
+        {
+          "text": "Motorv\u00e4g b\u00f6rjar omedelbart.",
+          "correct": false,
+          "feedback": "Denna skylt anger slutet p\u00e5 motorv\u00e4g, inte b\u00f6rjan."
+        },
+        {
+          "text": "Endast personalfordon f\u00e5r forts\u00e4tta fram\u00e5t.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en anvisningsskylt som visar att motorv\u00e4gen upph\u00f6r, inte ett f\u00f6rbud f\u00f6r andra fordon."
+        },
+        {
+          "text": "Sn\u00f6r\u00f6jning sker inte l\u00e4ngre efter denna punkt.",
+          "correct": false,
+          "feedback": "Skylten har ingen koppling till sn\u00f6r\u00f6jning; den avser motorv\u00e4gens slut."
+        }
+      ],
+      "explanation": "N\u00e4r du ser skylten betyder det att motorv\u00e4gen slutar och att tidigare regler f\u00f6r motorv\u00e4g inte l\u00e4ngre g\u00e4ller, t.ex. vissa fordonsbegr\u00e4nsningar eller sl\u00e4ppt av farter. Anpassa k\u00f6rning efter de nya f\u00f6rh\u00e5llandena och f\u00f6lj eventuella nya skyltar.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-6eccaf",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "P\u00e5bud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_pabjuden_gangbana.svg",
+      "options": [
+        {
+          "text": "Banan \u00e4r avsedd f\u00f6r g\u00e5ende och ska anv\u00e4ndas av dem.",
+          "correct": true,
+          "feedback": "Skylten visar att det \u00e4r en p\u00e5bjuden g\u00e5ngbana, d\u00e4r g\u00e5ende ska vistas och andra trafikslag inte \u00e4r till\u00e5tna."
+        },
+        {
+          "text": "Cykling \u00e4r obligatorisk p\u00e5 denna bana.",
+          "correct": false,
+          "feedback": "Symbolen visar en g\u00e5ende figur och inneb\u00e4r g\u00e5ngbana, inte cykelbana."
+        },
+        {
+          "text": "Banan \u00e4r delad och g\u00e5r att anv\u00e4nda b\u00e5de som bilv\u00e4g och g\u00e5ngbana.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en specifik g\u00e5ngbanemarkering; den \u00e4r inte avsedd f\u00f6r biltrafik."
+        },
+        {
+          "text": "Det \u00e4r f\u00f6rbjudet att g\u00e5 p\u00e5 denna bana.",
+          "correct": false,
+          "feedback": "Skylten uppmuntrar tillg\u00e5ng f\u00f6r g\u00e5ende, inte f\u00f6rbud."
+        }
+      ],
+      "explanation": "Skylten anger att en s\u00e4rskild bana \u00e4r avsedd f\u00f6r g\u00e5ende och att de ska anv\u00e4nda den, ofta f\u00f6r att separera fotg\u00e4ngare fr\u00e5n cyklar och motorfordon. Som f\u00f6rare ska du visa h\u00e4nsyn d\u00e4r denna bana korsar k\u00f6rbanan.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-b90435",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "P\u00e5bud"
+      ],
+      "question": "Vad inneb\u00e4r detta v\u00e4gm\u00e4rke?",
+      "image": "vagmarke_pabjuden_cykelbana.svg",
+      "options": [
+        {
+          "text": "Banan \u00e4r avsedd f\u00f6r cyklister och ska anv\u00e4ndas av dem.",
+          "correct": true,
+          "feedback": "Skylten markerar en p\u00e5bjuden cykelbana d\u00e4r cyklister ska f\u00e4rdas och g\u00e5ngtrafik oftast \u00e4r f\u00f6rbjuden."
+        },
+        {
+          "text": "G\u00e5ende har alltid f\u00f6retr\u00e4de p\u00e5 denna bana framf\u00f6r cyklister.",
+          "correct": false,
+          "feedback": "Detta \u00e4r en cykelbana; g\u00e5ende f\u00e5r normalt inte anv\u00e4nda den och har inte f\u00f6retr\u00e4de h\u00e4r."
+        },
+        {
+          "text": "Banan \u00e4r en rekommenderad rutt men anv\u00e4ndning \u00e4r frivillig.",
+          "correct": false,
+          "feedback": "Som p\u00e5budsskylt inneb\u00e4r den obligatorisk anv\u00e4ndning f\u00f6r angiven trafikgrupp, inte rekommendation."
+        },
+        {
+          "text": "Motorfordon f\u00e5r k\u00f6ra p\u00e5 banan om det finns plats.",
+          "correct": false,
+          "feedback": "Cykelbana \u00e4r avsedd f\u00f6r cyklar; motorfordon f\u00e5r normalt inte vistas d\u00e4r."
+        }
+      ],
+      "explanation": "Skylten anger en p\u00e5bjuden cykelbana d\u00e4r cyklister ska f\u00e4rdas, vilket separerar dem fr\u00e5n motorfordon och oftast fr\u00e5n g\u00e5ende. Respektera banans regler och var f\u00f6rsiktig vid korsningar d\u00e4r bilar och cyklar m\u00f6ts.",
       "source": "korkortsteori/vagmarken_auto"
     },
     {
@@ -18111,7 +18757,7 @@
     }
   ],
   "meta": {
-    "total_questions": 469,
-    "generated_at": "2026-01-17T20:34:45.096929+00:00"
+    "total_questions": 488,
+    "generated_at": "2026-01-17T20:45:57.259060+00:00"
   }
 }

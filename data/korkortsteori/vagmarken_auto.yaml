@@ -3,7 +3,7 @@
   tags:
   - Vägmärken
   - Förbud
-  question: Vad betyder skylten 'Förbud mot infart med fordon' (vagmarke_forbud_infart.svg)?
+  question: Vad betyder denna skylt?
   image: vagmarke_forbud_infart.svg
   options:
   - text: Infart förbjuden för alla fordon från din riktning.
@@ -27,7 +27,7 @@
   tags:
   - Vägmärken
   - Väjningsplikt
-  question: Vad anger skylten 'Huvudled' (vagmarke_huvudled.svg) i trafiksituationen?
+  question: Vad anger denna skylt i trafiksituationen?
   image: vagmarke_huvudled.svg
   options:
   - text: Du kör på en väg där du har företräde i korsningar fram till slutet av huvudleden.
@@ -53,7 +53,7 @@
   tags:
   - Vägmärken
   - Förbud
-  question: Vad innebär skylten 'Förbud mot trafik med fordon' (vagmarke_forbud_trafik.svg)?
+  question: Vad innebär denna skylt?
   image: vagmarke_forbud_trafik.svg
   options:
   - text: Alla fordon är förbjudna att köra in på vägen där skylten sitter.
@@ -78,7 +78,7 @@
   tags:
   - Vägmärken
   - Anvisning
-  question: Vilka regler gäller på en gågata (vagmarke_gagata.svg)?
+  question: Vilka regler gäller på en gågata?
   image: vagmarke_gagata.svg
   options:
   - text: Gående har företräde, men fordon får köra sakta och endast om det är tillåtet.
@@ -105,8 +105,7 @@
   tags:
   - Vägmärken
   - Varning
-  question: Vad varnar skylten 'Varning för cyklande och mopedförare' (vagmarke_varning_cyklande.svg)
-    för?
+  question: Vad varnar denna skylt för?
   image: vagmarke_varning_cyklande.svg
   options:
   - text: Det kan förekomma cyklister och mopedförare på eller nära vägen — visa särskild
@@ -130,3 +129,494 @@
     sig på eller nära vägbanan och att du därför bör sänka hastigheten och vara beredd
     på oväntade rörelser. Anpassa avstånd och omkörningar så att det är säkert för
     de oskyddade trafikanterna.
+- id: kor-auto-5c80d5
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_stenras.svg
+  options:
+  - text: Varning för risk för stenras eller stenfall på vägbanan.
+    correct: true
+    feedback: Skyltens syfte är att uppmärksamma förare på att sten kan falla ner
+      eller ligga på vägen, så försiktighet krävs.
+  - text: Varning för lösa grus- eller singelpartier på vägbanan.
+    correct: false
+    feedback: Denna skylt varnar specifikt för stenras, inte generellt för löst grus.
+  - text: Anvisning om alternativ väg på grund av arbete framför.
+    correct: false
+    feedback: Detta är en varningsskylt, inte en anvisningsskylt för omledning eller
+      arbete.
+  - text: Varning för fallande träd eller skogsarbete i närheten.
+    correct: false
+    feedback: Symboliken på skylten visar sten/klippor, inte träd eller skogsarbete.
+  explanation: Skylten varnar för stenras eller stenfall som kan förekomma nära eller
+    på vägen, så du ska sänka hastigheten och vara beredd att stanna. Håll extra uppsikt
+    och undvik att svänga ut på skuldran om den är lös eller fylld med stenar.
+- id: kor-auto-7a661a
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta vägmärke?
+  image: vajningsplikt_mot_motande_trafik.svg
+  options:
+  - text: Du måste ge företräde åt mötande trafik innan du kör ut.
+    correct: true
+    feedback: Skyltens innebörd är att du ska lämna företräde åt mötande fordon på
+      den smala sträckan.
+  - text: Du har företräde över mötande trafik på den smala vägsträckan.
+    correct: false
+    feedback: Denna skylt betyder motsatsen; du ska inte ta företräde utan vänta på
+      mötande.
+  - text: Du måste stanna helt även om ingen mötande trafik syns.
+    correct: false
+    feedback: Skylt ger väjningsplikt, inte automatisk stopplikt; stanna bara om det
+      behövs för att lämna företräde.
+  - text: Endast tunga fordon måste ge företräde åt mötande trafik.
+    correct: false
+    feedback: Skyltens regler gäller alla fordon, inte bara tunga fordon.
+  explanation: Skylten markerar att du ska lämna företräde åt mötande trafik, ofta
+    på smal väg eller bro där två fordon inte kan passera samtidigt. Anpassa hastigheten
+    och välj lämplig plats att stanna eller backa om det behövs för att släppa fram
+    motsatt sida.
+- id: kor-auto-64d1a5
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_stopplikt.svg
+  options:
+  - text: Du måste göra full stopp vid stopplinjen eller vägkanten innan du fortsätter.
+    correct: true
+    feedback: Skyltens krav är fullständigt stopp följt av att lämna företräde där
+      det behövs innan fortsatt färd.
+  - text: Du behöver bara sakta ner och ge företräde om annan trafik närmar sig.
+    correct: false
+    feedback: Stoppskylten kräver alltid ett helt stopp, inte bara att sakta ner.
+  - text: Skylt anger att korsningen har väjningspliktsskyltar för alla håll.
+    correct: false
+    feedback: Stoppskylten innebär individuell stopplikt, inte att hela korsningen
+      är försedd med väjningspliktsskyltar.
+  - text: Gäller endast fordonstyper över viss vikt.
+    correct: false
+    feedback: Stopplikt gäller alla fordon oavsett vikt om skylten är riktad mot din
+      riktning.
+  explanation: Stoppskylten innebär att du alltid ska stanna helt vid stopplinjen
+    eller, om sådan saknas, vid vägen kant och sedan väja för korsande trafik och
+    fotgängare innan du kör vidare. Det är viktigt att stanna så att du tydligt kan
+    bedöma om det är fritt att köra.
+- id: kor-auto-d8e6af
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_flerfargssignal.svg
+  options:
+  - text: Varning för trafiksignal (flerfärgad ljussignal) längre fram.
+    correct: true
+    feedback: Skylten varnar för att du snart möter trafikljus och bör vara beredd
+      att stanna eller anpassa hastigheten.
+  - text: Varning för järnvägskorsning med bommar.
+    correct: false
+    feedback: Skylten visar en trafiksignal, inte en järnväg eller bommar.
+  - text: Anvisning att du måste följa en särskild signal för gångtrafikanter.
+    correct: false
+    feedback: Detta är en varningsskylt, inte en anvisning som reglerar enbart gångtrafik.
+  - text: Varning för ett automatiskt vägtullsystem längre fram.
+    correct: false
+    feedback: Symbolen visar trafikljus och har ingen koppling till vägtullar.
+  explanation: Skylten informerar om att trafiksignaler finns längre fram, så att
+    du ska vara beredd att stanna vid rött ljus och följa signalernas anvisningar.
+    Anpassa fart och håll uppsikt för att undvika stopp i korsningen.
+- id: kor-auto-7bdfb3
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_far.svg
+  options:
+  - text: Varning för får eller tamdjur i eller nära vägen.
+    correct: true
+    feedback: Skylten varnar för att får kan finnas på eller nära vägbanan, så du
+      bör sänka farten och vara uppmärksam.
+  - text: Varning för vilda djur som hjort och älg.
+    correct: false
+    feedback: Symbolen visar får specifikt; vilda djur anges med en annan symbol.
+  - text: Anvisning om att gårdsträdgård ligger intill vägen.
+    correct: false
+    feedback: Detta är en varningsskylt för djur på vägen, inte en vägvisning till
+      gårdar.
+  - text: Förbud mot att mata djur vid vägkanten.
+    correct: false
+    feedback: Det är inte ett förbudsmärke utan en varning om djur i trafiken.
+  explanation: Skylten varnar för förekomst av får eller andra tamdjur som kan gå
+    fritt över eller nära vägen, särskilt i landsbygd. Sänk farten och var beredd
+    att stanna för att undvika kollision med djur.
+- id: kor-auto-76994c
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_anvisning_motorvag.svg
+  options:
+  - text: Motorväg börjar — särskilda regler och begränsningar för fordonstyp gäller.
+    correct: true
+    feedback: Skylten anger att du nu kör på en motorväg, vilket innebär trafikregler
+      som t.ex. förbjudna trafikanter och högre hastighetsnivåer.
+  - text: Gång- och cykelbana börjar.
+    correct: false
+    feedback: Symboliken för motorväg skiljer sig tydligt från gång- och cykelskyltar.
+  - text: Motorväg upphör omedelbart.
+    correct: false
+    feedback: Denna skylt visar början av motorväg, inte slutet.
+  - text: Tillåtet att parkera vid vägkanten på motorvägen.
+    correct: false
+    feedback: Parkering på motorväg är vanligtvis förbjuden; skylten anvisar att motorväg
+      påbörjas.
+  explanation: Skylten markerar att en motorväg börjar, vilket medför särskilda trafikregler,
+    begränsningar för vissa fordon och ofta högre hastighetsgränser. Använd rätt körfält
+    och var medveten om att gående, cyklister och vissa fordon inte får köra där.
+- id: kor-auto-4e3619
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_svag_vagkant.svg
+  options:
+  - text: Varning för svag eller bräcklig vägkant där vägrenen kan rasa under fordon.
+    correct: true
+    feedback: Skylten varnar för att vägrenen eller vägkanten inte bär upp fordon,
+      så du bör hålla hjulen på körbanan.
+  - text: Varning för att vägen har dålig bärighet överlag (tunn asfalt).
+    correct: false
+    feedback: Skylten specificerar svag vägkant, inte generellt dålig vägkonstruktion
+      över hela körbanan.
+  - text: Anvisning om att parkering endast är tillåten på vägkanten.
+    correct: false
+    feedback: Detta är en varningsskylt och inte en anvisning för parkering.
+  - text: Varning för att vägen är extra smal framöver.
+    correct: false
+    feedback: Symbolen visar svag kant snarare än att vägen blir smal.
+  explanation: Skylten varnar för att vägkanten kan vara svag eller brant, vilket
+    ökar risken för att fordon tippar eller får sänkta däck om man försöker köra ut
+    på vägrenen. Håll därför hjulen på körbanan och sänk hastigheten vid behov.
+- id: kor-auto-cbac9b
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_overgangsstalle.svg
+  options:
+  - text: Varning för övergångsställe för gående längre fram.
+    correct: true
+    feedback: Skylten påminner om att korsande gående kan finnas vid övergångsstället,
+      så du ska vara beredd att stanna.
+  - text: Anvisning att det finns en gång- och cykelbana parallellt med vägen.
+    correct: false
+    feedback: Denna skylt varnar för ett övergångsställe, inte att en separat gång-
+      och cykelbana börjar.
+  - text: Varning för barn som leker i vägkanten, utan samband med övergångsställe.
+    correct: false
+    feedback: Symbolen visar en gående över ett övergångsställe, inte lekande barn.
+  - text: Förbud mot att stanna eller parkera vid nästa korsning.
+    correct: false
+    feedback: Detta är en varningsskylt, inte en parkeringsföreskrift.
+  explanation: Skylten varnar för ett övergångsställe längre fram, så du bör sänka
+    hastigheten och vara extra uppmärksam på gående som avser att korsa vägen. Ge
+    företräde åt gående som befinner sig på eller tydligt avser att gå ut på övergångsstället.
+- id: kor-auto-607fab
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_cyklande_och_mopedforare.svg
+  options:
+  - text: Varning för cyklister och mopedförare i eller nära vägbanan framöver.
+    correct: true
+    feedback: Skylten signalerar att du kan möta cyklar och mopeder och bör anpassa
+      hastighet och avstånd.
+  - text: Förbjudet att cykla eller köra moped på denna väg.
+    correct: false
+    feedback: Detta är en varningsskylt, inte ett förbud mot cykel eller moped.
+  - text: Anvisning om att cykel- och gångbana börjar här.
+    correct: false
+    feedback: Skylten varnar för förekomst av cyklister och mopedister, den anvisar
+      inte en separat bana.
+  - text: Vägavsnittet är endast avsett för motorfordon med hög hastighet.
+    correct: false
+    feedback: Symboliken visar cyklister/mopeder; skylten uppmanar till försiktighet,
+      inte hög hastighet.
+  explanation: Skylten varnar för att cyklister och mopedförare kan finnas i närheten
+    av eller på vägen, ofta där sikten är begränsad eller trafikmiljön förändras.
+    Anpassa hastighet och håll säkerhetsavstånd vid omkörning.
+- id: kor-auto-0818c7
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_cykeloverfart.svg
+  options:
+  - text: Du måste lämna företräde åt cyklister som korsar vägen vid överfarten.
+    correct: true
+    feedback: Skylten markerar en cykelöverfart där fordon på vägen ska ge företräde
+      åt cyklister.
+  - text: Cyklar måste alltid ge företräde åt biltrafiken på denna plats.
+    correct: false
+    feedback: Detta märke ger cyklister företräde, inte tvärtom.
+  - text: Förbud mot cykeltrafik över vägen; cyklister ska ledas av.
+    correct: false
+    feedback: Skyltens syfte är att markera en överfart där cyklister har företräde,
+      inte att förbjuda dem.
+  - text: Anvisning om att cykelbana slutar och fortsätter som körbana.
+    correct: false
+    feedback: Detta är ett väjningspliktsmärke för cykelöverfart, inte en anvisning
+      om banans slut.
+  explanation: Skyltens funktion är att markera en cykelöverfart där cyklister har
+    företräde framför korsande motorfordon. Som bilförare ska du sakta ner och lämna
+    företräde åt cyklister på överfarten.
+- id: kor-auto-226ddf
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_flera_farliga_kurvor.svg
+  options:
+  - text: Varning för flera farliga kurvor i följd längre fram.
+    correct: true
+    feedback: Skylten visar att flera skarpa kurvor väntar, så du bör anpassa hastigheten
+      och köra försiktigt.
+  - text: Varning för en enda, mycket tvär kurva.
+    correct: false
+    feedback: Symbolen indikerar flera kurvor i följd, inte endast en enstaka tvär
+      kurva.
+  - text: Varning för ojämn väg med gupp.
+    correct: false
+    feedback: Det finns en särskild skylt för gupp; denna visar kurvor.
+  - text: Anvisning om att en rondell kommer längre fram.
+    correct: false
+    feedback: Rondellsymbol ser annorlunda ut; denna skylt varnar för kurvor.
+  explanation: Skylten varnar för att flera farliga kurvor kommer i följd, vilket
+    kräver nedsatt hastighet och uppmärksam körning. Håll ett tryggt avstånd till
+    framförvarande fordon och undvik plötsliga manövrer.
+- id: kor-auto-f3e0ce
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta vägmärke?
+  image: varning_for_kaj.svg
+  options:
+  - text: Varning för kaj eller vattenkant där det finns risk att åka i vattnet.
+    correct: true
+    feedback: Skylten varnar för att vägen gränsar till vatten eller kaj, så extra
+      försiktighet krävs.
+  - text: Varning för att en bro eller färjelägesinfart kommer längre fram.
+    correct: false
+    feedback: Detta märke indikerar kaj/vattenkant snarare än ett färjeläge eller
+      broinfart.
+  - text: Anvisning om att det finns parkeringsmöjligheter vid hamnen.
+    correct: false
+    feedback: Skyltens syfte är varning för vattenkant, inte att visa parkering.
+  - text: Varning för kraftig sidvind vid öppna vattendrag.
+    correct: false
+    feedback: Sidvind varnas med en annan symbol; denna visar en kajkant.
+  explanation: Skylten varnar för att vägen går nära kaj eller vatten och att det
+    finns risk att köra i vattnet om man kör av vägen. Sänk farten, håll avstånd och
+    undvik att köra ut på vägrenen där den är osäker.
+- id: kor-auto-1fc989
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta vägmärke?
+  image: forbud_mot_omkorning.svg
+  options:
+  - text: Omkörning är förbjuden för alla fordon på sträckan.
+    correct: true
+    feedback: Skylten markerar ett generellt omkörningsförbud, vilket gäller alla
+      fordon tills annat märke visar upphörande.
+  - text: Endast omkörning med tung trafik är förbjuden.
+    correct: false
+    feedback: Denna skylt förbjuder omkörning för alla fordon, inte bara tung trafik.
+  - text: Omkörning är tillåten men endast på höger sida.
+    correct: false
+    feedback: Skyltens innebörd är att omkörning inte är tillåten alls, inte att reglera
+      sidan för omkörning.
+  - text: Förbudet gäller endast under dagtid.
+    correct: false
+    feedback: Om skylten gäller, så gäller förbudet normalt dygnet runt tills annan
+      skylt anger annat.
+  explanation: Denna förbudsskylt förbjuder omkörning på den följande vägsträckan
+    för alla fordon, tills ett märke visar att förbudet upphör. Respektera förbudet
+    och avvakta till rätt plats för säker omkörning.
+- id: kor-auto-e3c566
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta vägmärke?
+  image: forbud_mot_trafik_med_fordon.svg
+  options:
+  - text: Trafik med fordon är förbjuden; endast gående eller annan specifik trafik
+      kan få företräde.
+    correct: true
+    feedback: Skylten förbjuder motorfordon och ofta cyklar beroende på utförande,
+      vilket innebär att fordon inte får köra in.
+  - text: Tillåtet för alla fordon att köra men hastigheten är begränsad.
+    correct: false
+    feedback: Detta är ett förbudsmärke, inte en hastighetsbegränsning eller anvisning
+      om tillåten trafik.
+  - text: Endast tunga transporter är förbjudna i området.
+    correct: false
+    feedback: Skylten förbjuder trafik med fordon generellt, inte bara tunga transporter.
+  - text: Detta markerar enbart början på en gågata utan trafik under vissa tider.
+    correct: false
+    feedback: Gågata regleras med andra skyltar; denna är ett generellt förbud mot
+      fordonstrafik.
+  explanation: Skylten innebär ett förbud mot trafik med fordon på den aktuella sträckan,
+    vilket innebär att motorfordon och ofta andra fordon inte får köra där. Kontrollera
+    kompletterande skyltar för undantag eller tidsangivelser.
+- id: kor-auto-1a3d90
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Påbud
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_pabjuden_gang_och_cykelbana.svg
+  options:
+  - text: Både gående och cyklister ska använda den anvisade banan; den är avsedd
+      för båda trafikantgrupperna.
+    correct: true
+    feedback: Skylten visar att banan är avsedd att användas av både gående och cyklister,
+      ofta i delade eller separata delar.
+  - text: Endast cyklister får använda banan, gångtrafik är förbjuden.
+    correct: false
+    feedback: Denna skylt inkluderar både gående och cyklister; det är inte en ren
+      cykelbana.
+  - text: Banans användning är frivillig för gång- och cykeltrafik.
+    correct: false
+    feedback: Detta är ett påbudsmärke vilket innebär att banan ska användas av de
+      angivna trafikantgrupperna när den finns.
+  - text: Endast motortrafik är tillåten på banan.
+    correct: false
+    feedback: Symboliken visar gående och cykel, inte motortrafik.
+  explanation: Skylten anger att en särskild bana är avsedd för både gående och cyklister,
+    och att dessa trafikantgrupper ska använda den. I vissa utföranden kan banan vara
+    uppdelad; som förare ska du vara uppmärksam där korsningar med denna bana förekommer.
+- id: kor-auto-89c0d4
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta vägmärke?
+  image: forbud_mot_omkorning_med_tung_lastbil.svg
+  options:
+  - text: Omkörning är förbjuden för tunga lastbilar men kan vara tillåten för lättare
+      fordon.
+    correct: true
+    feedback: Skylten förbjuder specifikt omkörning för tung lastbilstrafik, medan
+      andra fordon kan omfattas av andra regler.
+  - text: Inget fordon får köra om på denna sträcka, oavsett typ.
+    correct: false
+    feedback: Denna skylt gäller vanligtvis specifikt tunga lastbilar, inte alla fordon.
+  - text: Tunga lastbilar måste alltid köra i vänster körfält.
+    correct: false
+    feedback: Skyltens innebörd rör omkörningsförbud, inte anvisning om körfält för
+      tunga lastbilar.
+  - text: Förbudet gäller endast under rusningstid.
+    correct: false
+    feedback: Eventuell tidsbegränsning skulle anges med tilläggstavla; grundskylten
+      saknar tidsangivelse.
+  explanation: Skylten anger ett omkörningsförbud som riktar sig mot tunga lastbilar,
+    vilket förbättrar trafiksäkerheten och framkomligheten på smalare eller kurviga
+    sträckor. Andra trafikantgrupper måste följa separata regler eller eventuella
+    kompletterande skyltar.
+- id: kor-auto-f5cd23
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_anvisning_motorvag_upphor.svg
+  options:
+  - text: Motorväg upphör — de särskilda motorvägsreglerna gäller inte längre längre
+      fram.
+    correct: true
+    feedback: Skylten visar att du lämnar motorväg och att dess speciella trafikregler
+      upphör.
+  - text: Motorväg börjar omedelbart.
+    correct: false
+    feedback: Denna skylt anger slutet på motorväg, inte början.
+  - text: Endast personalfordon får fortsätta framåt.
+    correct: false
+    feedback: Detta är en anvisningsskylt som visar att motorvägen upphör, inte ett
+      förbud för andra fordon.
+  - text: Snöröjning sker inte längre efter denna punkt.
+    correct: false
+    feedback: Skylten har ingen koppling till snöröjning; den avser motorvägens slut.
+  explanation: När du ser skylten betyder det att motorvägen slutar och att tidigare
+    regler för motorväg inte längre gäller, t.ex. vissa fordonsbegränsningar eller
+    släppt av farter. Anpassa körning efter de nya förhållandena och följ eventuella
+    nya skyltar.
+- id: kor-auto-6eccaf
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Påbud
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_pabjuden_gangbana.svg
+  options:
+  - text: Banan är avsedd för gående och ska användas av dem.
+    correct: true
+    feedback: Skylten visar att det är en påbjuden gångbana, där gående ska vistas
+      och andra trafikslag inte är tillåtna.
+  - text: Cykling är obligatorisk på denna bana.
+    correct: false
+    feedback: Symbolen visar en gående figur och innebär gångbana, inte cykelbana.
+  - text: Banan är delad och går att använda både som bilväg och gångbana.
+    correct: false
+    feedback: Detta är en specifik gångbanemarkering; den är inte avsedd för biltrafik.
+  - text: Det är förbjudet att gå på denna bana.
+    correct: false
+    feedback: Skylten uppmuntrar tillgång för gående, inte förbud.
+  explanation: Skylten anger att en särskild bana är avsedd för gående och att de
+    ska använda den, ofta för att separera fotgängare från cyklar och motorfordon.
+    Som förare ska du visa hänsyn där denna bana korsar körbanan.
+- id: kor-auto-b90435
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Påbud
+  question: Vad innebär detta vägmärke?
+  image: vagmarke_pabjuden_cykelbana.svg
+  options:
+  - text: Banan är avsedd för cyklister och ska användas av dem.
+    correct: true
+    feedback: Skylten markerar en påbjuden cykelbana där cyklister ska färdas och
+      gångtrafik oftast är förbjuden.
+  - text: Gående har alltid företräde på denna bana framför cyklister.
+    correct: false
+    feedback: Detta är en cykelbana; gående får normalt inte använda den och har inte
+      företräde här.
+  - text: Banan är en rekommenderad rutt men användning är frivillig.
+    correct: false
+    feedback: Som påbudsskylt innebär den obligatorisk användning för angiven trafikgrupp,
+      inte rekommendation.
+  - text: Motorfordon får köra på banan om det finns plats.
+    correct: false
+    feedback: Cykelbana är avsedd för cyklar; motorfordon får normalt inte vistas
+      där.
+  explanation: Skylten anger en påbjuden cykelbana där cyklister ska färdas, vilket
+    separerar dem från motorfordon och oftast från gående. Respektera banans regler
+    och var försiktig vid korsningar där bilar och cyklar möts.

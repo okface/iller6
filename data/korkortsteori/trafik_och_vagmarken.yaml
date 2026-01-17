@@ -1,103 +1,128 @@
-# Körkortsteori Questions - Trafik och Vägmärken
-# This file contains Swedish driving theory questions with road sign images
-
-- id: "kor-sample-001"
-  type: "multiple_choice"
-  tags: ["Vägmärken", "Varning", "Barn"]
-  question: "Du ser denna varningsskylt. Vad innebär den?"
-  image: "vagmarke_barn.png"
+- id: kor-sample-001
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  - Barn
+  question: Du ser denna varningsskylt. Vad innebär den?
+  image: vagmarke_barn.png
   options:
-    - text: "Varning för lekplats inom 50 meter"
-      correct: false
-      feedback: "Skylten anger inte något specifikt avstånd, utan varnar generellt för barn."
-    - text: "Förare ska vara uppmärksam på barn som kan befinna sig på vägen"
-      correct: true
-      feedback: "Skylten varnar om att barn kan vistas i området och förare ska vara extra försiktig."
-    - text: "Fartbegränsning 30 km/h gäller här"
-      correct: false
-      feedback: "Skylten anger ingen fartbegränsning, det är ett varningsmärke."
-    - text: "Endast barn får färdas på denna väg"
-      correct: false
-      feedback: "Detta är inte ett påbudsmärke, utan ett varningsmärke för alla trafikanter."
-  explanation: "Varningsmärket med triangel och barn indikerar att förare ska vara extra uppmärksam eftersom barn kan befinna sig på eller nära vägen. Skylten sätts ofta upp vid lekplatser, skolor eller bostadsområden."
-
-- id: "kor-sample-002"
-  type: "multiple_choice"
-  tags: ["Vägmärken", "Förbud", "Stopplikt"]
-  question: "Vid en stoppskylt måste du alltid:"
-  image: "vagmarke_stopplikt.png"
+  - text: Varning för lekplats inom 50 meter
+    correct: false
+    feedback: Skylten anger inte något specifikt avstånd, utan varnar generellt för
+      barn.
+  - text: Förare ska vara uppmärksam på barn som kan befinna sig på vägen
+    correct: true
+    feedback: Skylten varnar om att barn kan vistas i området och förare ska vara
+      extra försiktig.
+  - text: Fartbegränsning 30 km/h gäller här
+    correct: false
+    feedback: Skylten anger ingen fartbegränsning, det är ett varningsmärke.
+  - text: Endast barn får färdas på denna väg
+    correct: false
+    feedback: Detta är inte ett påbudsmärke, utan ett varningsmärke för alla trafikanter.
+  explanation: Varningsmärket med triangel och barn indikerar att förare ska vara
+    extra uppmärksam eftersom barn kan befinna sig på eller nära vägen. Skylten sätts
+    ofta upp vid lekplatser, skolor eller bostadsområden.
+- id: kor-sample-002
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  - Stopplikt
+  question: 'Vid en stoppskylt måste du alltid:'
+  image: vagmarke_stopplikt.png
   options:
-    - text: "Stanna om du ser andra fordon"
-      correct: false
-      feedback: "Du måste alltid stanna helt vid stoppskylt, oavsett om andra fordon syns."
-    - text: "Sakta ner till 10 km/h och titta åt sidorna"
-      correct: false
-      feedback: "Stoppskylt kräver fullständigt stopp, inte bara sakta ner."
-    - text: "Stanna helt och ge företräde innan du kör vidare"
-      correct: true
-      feedback: "Vid stoppskylt måste fordonet stanna helt innan stoplinjen och ge företräde åt korsande trafik."
-    - text: "Tuta för att varna andra trafikanter"
-      correct: false
-      feedback: "Stoppskylt kräver stopp, inte att tuta. Tuta används bara vid fara."
-  explanation: "Stoppskylt (åttkantigt rött märke med texten STOPP) kräver att föraren stannar helt vid stoplinjen eller framför korsningen. Efter stopp ska föraren ge företräde åt korsande trafik innan fortsättning."
-
-- id: "kor-sample-003"
-  type: "multiple_choice"
-  tags: ["Trafikregler", "Övergångsställe", "Säkerhet"]
-  question: "Vid ett obevakat övergångsställe utan ljussignaler:"
+  - text: Stanna om du ser andra fordon
+    correct: false
+    feedback: Du måste alltid stanna helt vid stoppskylt, oavsett om andra fordon
+      syns.
+  - text: Sakta ner till 10 km/h och titta åt sidorna
+    correct: false
+    feedback: Stoppskylt kräver fullständigt stopp, inte bara sakta ner.
+  - text: Stanna helt och ge företräde innan du kör vidare
+    correct: true
+    feedback: Vid stoppskylt måste fordonet stanna helt innan stoplinjen och ge företräde
+      åt korsande trafik.
+  - text: Tuta för att varna andra trafikanter
+    correct: false
+    feedback: Stoppskylt kräver stopp, inte att tuta. Tuta används bara vid fara.
+  explanation: Stoppskylt (åttkantigt rött märke med texten STOPP) kräver att föraren
+    stannar helt vid stoplinjen eller framför korsningen. Efter stopp ska föraren
+    ge företräde åt korsande trafik innan fortsättning.
+- id: kor-sample-003
+  type: multiple_choice
+  tags:
+  - Trafikregler
+  - Övergångsställe
+  - Säkerhet
+  question: 'Vid ett obevakat övergångsställe utan ljussignaler:'
   image: null
   options:
-    - text: "Har gående alltid företräde framför motorfordon"
-      correct: true
-      feedback: "Gående som befinner sig på eller ska gå ut på övergångsstället har företräde."
-    - text: "Har fordon alltid företräde framför gående"
-      correct: false
-      feedback: "Detta är fel - gående har företräde vid övergångsställen."
-    - text: "Måste gående vänta tills alla fordon passerat"
-      correct: false
-      feedback: "Gående har företräde och fordon ska ge plats."
-    - text: "Gäller väjningsplikt bara om gående redan korsar"
-      correct: false
-      feedback: "Gående har företräde även när de är på väg att gå ut på övergångsstället."
-  explanation: "Vid obevakade övergångsställen har gående företräde framför fordonstrafik. Fordon ska anpassa hastigheten och vara beredda att stanna för gående som befinner sig på eller är på väg ut på övergångsstället."
-
-- id: "kor-sample-004"
-  type: "multiple_choice"
-  tags: ["Hastighet", "Säkerhet", "Väglag"]
-  question: "När väglaget är halt på vintern ska du:"
+  - text: Har gående alltid företräde framför motorfordon
+    correct: true
+    feedback: Gående som befinner sig på eller ska gå ut på övergångsstället har företräde.
+  - text: Har fordon alltid företräde framför gående
+    correct: false
+    feedback: Detta är fel - gående har företräde vid övergångsställen.
+  - text: Måste gående vänta tills alla fordon passerat
+    correct: false
+    feedback: Gående har företräde och fordon ska ge plats.
+  - text: Gäller väjningsplikt bara om gående redan korsar
+    correct: false
+    feedback: Gående har företräde även när de är på väg att gå ut på övergångsstället.
+  explanation: Vid obevakade övergångsställen har gående företräde framför fordonstrafik.
+    Fordon ska anpassa hastigheten och vara beredda att stanna för gående som befinner
+    sig på eller är på väg ut på övergångsstället.
+- id: kor-sample-004
+  type: multiple_choice
+  tags:
+  - Hastighet
+  - Säkerhet
+  - Väglag
+  question: 'När väglaget är halt på vintern ska du:'
   image: null
   options:
-    - text: "Köra i den högsta tillåtna hastigheten för att spara tid"
-      correct: false
-      feedback: "Vid halt väglag ska hastigheten alltid anpassas till förhållandena, inte maxgränsen."
-    - text: "Anpassa hastigheten efter väglaget för att kunna stanna säkert"
-      correct: true
-      feedback: "Hastigheten ska alltid anpassas så att fordonet kan stanna inom synbart avstånd."
-    - text: "Bara använda ABS-bromsar istället för vanliga bromsar"
-      correct: false
-      feedback: "ABS är ett hjälpmedel men ersätter inte anpassad hastighet och körsätt."
-    - text: "Köra mycket nära framförvarande bil för bättre sikt"
-      correct: false
-      feedback: "Vid halt väglag behövs LÄNGRE avstånd, inte kortare, eftersom bromssträckan ökar."
-  explanation: "Vid halt väglag ökar bromssträckan betydligt. Föraren måste alltid anpassa hastigheten efter väglaget så att fordonet kan stanna inom synbart avstånd och ha tillräckligt säkerhetsavstånd till framförvarande fordon."
-
-- id: "kor-sample-005"
-  type: "multiple_choice"
-  tags: ["Miljö", "Bränsle", "Körning"]
-  question: "För att minska bränsleförbrukningen och miljöpåverkan bör du:"
+  - text: Köra i den högsta tillåtna hastigheten för att spara tid
+    correct: false
+    feedback: Vid halt väglag ska hastigheten alltid anpassas till förhållandena,
+      inte maxgränsen.
+  - text: Anpassa hastigheten efter väglaget för att kunna stanna säkert
+    correct: true
+    feedback: Hastigheten ska alltid anpassas så att fordonet kan stanna inom synbart
+      avstånd.
+  - text: Bara använda ABS-bromsar istället för vanliga bromsar
+    correct: false
+    feedback: ABS är ett hjälpmedel men ersätter inte anpassad hastighet och körsätt.
+  - text: Köra mycket nära framförvarande bil för bättre sikt
+    correct: false
+    feedback: Vid halt väglag behövs LÄNGRE avstånd, inte kortare, eftersom bromssträckan
+      ökar.
+  explanation: Vid halt väglag ökar bromssträckan betydligt. Föraren måste alltid
+    anpassa hastigheten efter väglaget så att fordonet kan stanna inom synbart avstånd
+    och ha tillräckligt säkerhetsavstånd till framförvarande fordon.
+- id: kor-sample-005
+  type: multiple_choice
+  tags:
+  - Miljö
+  - Bränsle
+  - Körning
+  question: 'För att minska bränsleförbrukningen och miljöpåverkan bör du:'
   image: null
   options:
-    - text: "Accelerera hårt och bromsa kraftigt för att spara tid"
-      correct: false
-      feedback: "Hård acceleration och kraftig bromsning ökar bränsleförbrukningen betydligt."
-    - text: "Köra i så hög växel som möjligt och undvika tomgång"
-      correct: true
-      feedback: "Att köra i hög växel med lågt varvtal och undvika onödig tomgång minskar förbrukningen."
-    - text: "Alltid köra i maximal hastighet på motorvägen"
-      correct: false
-      feedback: "Högre hastighet ökar luftmotståndet och därmed bränsleförbrukningen."
-    - text: "Låta motorn gå på tomgång för att den ska vara varm"
-      correct: false
-      feedback: "Modern motor värms upp bäst under körning, tomgång slösar bränsle."
-  explanation: "Miljövänlig körning innebär mjuk acceleration, att hålla jämn hastighet, köra i hög växel med lågt varvtal och undvika onödig tomgång. Detta minskar både bränsleförbrukning och miljöpåverkan."
-
+  - text: Accelerera hårt och bromsa kraftigt för att spara tid
+    correct: false
+    feedback: Hård acceleration och kraftig bromsning ökar bränsleförbrukningen betydligt.
+  - text: Köra i så hög växel som möjligt och undvika tomgång
+    correct: true
+    feedback: Att köra i hög växel med lågt varvtal och undvika onödig tomgång minskar
+      förbrukningen.
+  - text: Alltid köra i maximal hastighet på motorvägen
+    correct: false
+    feedback: Högre hastighet ökar luftmotståndet och därmed bränsleförbrukningen.
+  - text: Låta motorn gå på tomgång för att den ska vara varm
+    correct: false
+    feedback: Modern motor värms upp bäst under körning, tomgång slösar bränsle.
+  explanation: Miljövänlig körning innebär mjuk acceleration, att hålla jämn hastighet,
+    köra i hög växel med lågt varvtal och undvika onödig tomgång. Detta minskar både
+    bränsleförbrukning och miljöpåverkan.
