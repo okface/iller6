@@ -224,8 +224,8 @@ const getOptionClass = (index, option) => {
     </h2>
 
     <!-- Image (if any) -->
-    <div v-if="imageUrl" class="mb-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
-      <img :src="imageUrl" alt="Question Image" class="w-full h-auto object-cover max-h-80" />
+    <div v-if="imageUrl" class="mb-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm bg-gray-50 flex justify-center p-4">
+      <img :src="imageUrl" alt="Question Image" class="max-w-full h-auto object-contain max-h-64" />
     </div>
 
     <!-- Options -->
