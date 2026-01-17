@@ -4,6 +4,9 @@ import yaml
 import json
 import uuid
 import collections
+import random
+import urllib.request
+import urllib.parse
 from typing import List, Optional
 from pydantic import BaseModel, Field
 from openai import OpenAI
@@ -14,6 +17,7 @@ from openai import OpenAI
 client = OpenAI() 
 
 DATA_DIR = 'data'
+ASSETS_DIR = os.path.join('public', 'assets')
 
 # -------------------------------------------------------------------------
 # PYDANTIC MODELS (Structured Output 2025/2026 Standard)
@@ -248,6 +252,169 @@ När du skapar en fråga om ett specifikt vägmärke:
 3. Svarsalternativen ska vara rimliga men bara ett korrekt
 """
 
+# -------------------------------------------------------------------------
+# ROAD SIGN AUTOMATION
+# -------------------------------------------------------------------------
+def download_image(url, filename):
+    """Downloads image/svg from URL and saves to public/assets/."""
+    if not os.path.exists(ASSETS_DIR):
+        os.makedirs(ASSETS_DIR)
+        
+    filepath = os.path.join(ASSETS_DIR, filename)
+    if os.path.exists(filepath):
+        print(f"  [Skip] Image already exists: {filename}")
+        return True
+        
+    print(f"  [Download] Fetching from: {url}")
+    try:
+        # Wikimedia Special:FilePath with width param redirects to a scaled PNG
+        # Even for SVGs, asking for ?width=600 typically gives a PNG thumb
+        if 'wikimedia' in url and filename.lower().endswith('.png') and 'Special:FilePath' in url:
+             if '?' not in url:
+                 url += "?width=600"
+        
+        # User-Agent is required by Wikipedia
+        req = urllib.request.Request(
+            url, 
+            headers={'User-Agent': 'Iller6dev/1.0 (https://github.com/example/iller6)'}
+        )
+        with urllib.request.urlopen(req) as response, open(filepath, 'wb') as out_file:
+            data = response.read()
+            out_file.write(data)
+        
+        print(f"  [Success] Saved to {filepath}")
+        return True
+    except Exception as e:
+        print(f"  [Error] Failed to download {url}: {e}")
+        return False
+
+def run_roadsign_generator(count=5):
+    """
+    1. Loads roadsigns_db.json
+    2. Downloads images for N random signs
+    3. Generates questions for those signs
+    """
+    db_path = os.path.join(DATA_DIR, 'korkortsteori', 'roadsigns_db.json')
+    if not os.path.exists(db_path):
+        print(f"Error: {db_path} not found. Please create it first.")
+        return
+
+    with open(db_path, 'r', encoding='utf-8') as f:
+        road_signs = json.load(f)
+    
+    if not road_signs:
+        print("No signs in DB.")
+        return
+
+    # Select random signs
+    selected_signs = []
+    # If count is larger than db, loop/sample with replacement or just take all
+    if count >= len(road_signs):
+         selected_signs = road_signs
+    else:
+         selected_signs = random.sample(road_signs, count)
+    
+    print(f"\nProcessing {len(selected_signs)} road signs...")
+    
+    signs_context = []
+    
+    for sign in selected_signs:
+        # Resolve URL
+        # If 'url' key exists, use it. If 'wiki_file' exists, construct Special:FilePath URL
+        # Note: We want PNGs for the app usually. If filename ends in .svg, we might stick with svg if vite handles it.
+        # But earlier I set filenames to .svg in the DB.
+        
+        target_filename = sign.get('filename')
+        wiki_file = sign.get('wiki_file')
+        direct_url = sign.get('url')
+        
+        # Determine download URL
+        download_url = direct_url
+        if not download_url and wiki_file:
+            # Special:FilePath redirects to actual file
+            # For automation, this is easiest.
+            encoded_wiki = urllib.parse.quote(wiki_file)
+            download_url = f"https://commons.wikimedia.org/wiki/Special:FilePath/{encoded_wiki}"
+            
+        if download_image(download_url, target_filename):
+            signs_context.append({
+                "name": sign['name'],
+                "category": sign.get('category', 'Unknown'),
+                "image_file": target_filename
+            })
+            
+    if not signs_context:
+        print("No images available to generate questions for.")
+        return
+
+    # Generate questions
+    print(f"\nGenererar {len(signs_context)} frågor via OpenAI...")
+    
+    system_prompt = get_system_prompt('korkortsteori')
+    
+    # Construct a specific prompt
+    signs_desc = "\n".join([f"- {s['name']} (Fil: {s['image_file']}, Kategori: {s['category']})" for s in signs_context])
+    
+    user_prompt = f"""
+    Ämne: Körkortsteori (Vägmärken från Databas)
+    
+    BILDER ÄR NEDLADDADE OCH KLARA.
+    
+    Jag har laddat ner följande vägmärken:
+    {signs_desc}
+    
+    UPPGIFT:
+    Generera EN fråga för VARJE vägmärke i listan ovan.
+    Totalt: {len(signs_context)} frågor.
+    
+    KRAV:
+    1. Använd exakt filnamnet som anges för varje skylt i 'image'-fältet.
+    2. Frågan ska handla specifikt om den skylten.
+    3. 'tags' ska inkludera 'Vägmärken' och kategorin (t.ex. '{signs_context[0]['category']}').
+    4. Ge pedagogisk feedback.
+    """
+    
+    try:
+        completion = client.chat.completions.create(
+            model="gpt-5-mini", 
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            response_format={
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "question_batch",
+                    "schema": build_question_batch_schema(),
+                    "strict": True
+                }
+            }
+        )
+        
+        raw_json = completion.choices[0].message.content
+        batch = QuestionBatch.model_validate_json(raw_json)
+        
+        # Save to specific file
+        output_file = os.path.join(DATA_DIR, 'korkortsteori', 'vagmarken_auto.yaml')
+        existing_data = load_existing(output_file)
+        
+        new_data = [q.model_dump() for q in batch.questions]
+        
+        # Ensure unique IDs
+        for q in new_data:
+             q['id'] = f"kor-auto-{uuid.uuid4().hex[:6]}"
+
+        all_data = existing_data + new_data
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            yaml.dump(all_data, f, sort_keys=False, allow_unicode=True)
+            
+        print(f"\nSUCCÉ! Genererade {len(new_data)} frågor och sparade till {output_file}")
+        
+    except Exception as e:
+        print(f"Error during auto-generation: {e}")
+
+
 def main():
     print("--- Iller6 Content Factory (Structured v2026) ---")
     
@@ -267,7 +434,25 @@ def main():
     except (ValueError, IndexError):
         print("Invalid selection.")
         sys.exit(1)
-    
+
+    # BRANCH FOR KÖRKORTSTEORI
+    if subject == 'korkortsteori':
+        print("\n--- Körkortsteori Mode ---")
+        print("1. Standard (Topic-based text/manual images)")
+        print("2. AUTO Road Signs (Download images + Generate questions)")
+        try:
+            mode = input("Select Mode (1/2): ").strip()
+        except:
+            mode = "1"
+            
+        if mode == "2":
+            try:
+                cnt = int(input("How many road sign questions? (Default 5): ").strip())
+            except:
+                cnt = 5
+            run_roadsign_generator(cnt)
+            return
+
     # 2. Select Topic
     topics = get_topics(subject)
     print(f"\nTopics in {subject}:")

@@ -1,0 +1,132 @@
+- id: kor-auto-2541c8
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad betyder skylten 'Förbud mot infart med fordon' (vagmarke_forbud_infart.svg)?
+  image: vagmarke_forbud_infart.svg
+  options:
+  - text: Infart förbjuden för alla fordon från din riktning.
+    correct: true
+    feedback: Skylten förbjuder att köra in med fordon från den riktningen utan särskilt
+      tillstånd.
+  - text: Endast motorfordon får inte köra in, cyklar är tillåtna.
+    correct: false
+    feedback: Skylten omfattar alla fordon, inte bara motorfordon.
+  - text: Privat väg — endast boende får köra in.
+    correct: false
+    feedback: Skylten anger inte privat vägsstatus eller särskilda behörigheter.
+  - text: Gäller endast lastbilar över viss vikt.
+    correct: false
+    feedback: Det finns ingen viktbegränsning på denna skylt; den förbjuder all infart.
+  explanation: Denna förbudsskylt betyder att fordon inte får köra in i det område
+    skylten avser från den riktningen. Undantag kan finnas om en tilläggstavla anger
+    särskilda fordon eller tider, men i grund gäller förbudet för alla fordon.
+- id: kor-auto-31b832
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad anger skylten 'Huvudled' (vagmarke_huvudled.svg) i trafiksituationen?
+  image: vagmarke_huvudled.svg
+  options:
+  - text: Du kör på en väg där du har företräde i korsningar fram till slutet av huvudleden.
+    correct: true
+    feedback: Huvudledsskylt visar att trafiken på huvudleden har företräde i korsningar
+      tills huvudledens slutskylt syns.
+  - text: Du måste alltid väja för trafik på den korsande vägen.
+    correct: false
+    feedback: Motsatsen gäller; huvudleden har företräde, inte den korsande vägen.
+  - text: Det är en rekommenderad körväg för tunga fordon.
+    correct: false
+    feedback: Skylten anger inte rekommendation för tung trafik utan visar prioritet
+      i korsningar.
+  - text: Gäller endast vid dagtid på vardagar.
+    correct: false
+    feedback: Huvudledsskyltens betydelse är oberoende av tid på dygnet och gäller
+      tills ett slutmärke upphäver den.
+  explanation: Huvudledsskylten visar att du har företräde i korsningar mot dem som
+    kommer från sido­vägar under den tid huvudleden gäller. Företrädet gäller tills
+    en skylt som upphäver huvudleden syns eller tills annan trafikreglering anges.
+- id: kor-auto-9fccd1
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär skylten 'Förbud mot trafik med fordon' (vagmarke_forbud_trafik.svg)?
+  image: vagmarke_forbud_trafik.svg
+  options:
+  - text: Alla fordon är förbjudna att köra in på vägen där skylten sitter.
+    correct: true
+    feedback: Skylten förbjuder all trafik med fordon på den vägsträckan.
+  - text: Endast motorfordon är förbjudna, cyklar är tillåtna.
+    correct: false
+    feedback: Skylten omfattar alla fordon, inklusive cyklar och mopeder.
+  - text: Gäller endast fordon över viss bredd eller vikt.
+    correct: false
+    feedback: Ingen vikt- eller breddbegränsning anges på denna skylt; den är generellt
+      för alla fordon.
+  - text: Skylten anger en gågata där gångtrafik prioriteras.
+    correct: false
+    feedback: Gågata har en särskild symbol; denna förbudsskylt förbjuder fordonstrafik
+      generellt.
+  explanation: Denna skylt förbjuder trafik med fordon på den aktuella vägsträckan,
+    vilket ofta används för områden reserverade för gående. Gående får normalt vistas
+    där, men fordon får inte köra in om inte en tilläggstavla anger särskilda undantag.
+- id: kor-auto-f44585
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vilka regler gäller på en gågata (vagmarke_gagata.svg)?
+  image: vagmarke_gagata.svg
+  options:
+  - text: Gående har företräde, men fordon får köra sakta och endast om det är tillåtet.
+    correct: true
+    feedback: Gågata innebär att gående har företräde; fordon får endast köra om det
+      är tillåtet och i låg hastighet.
+  - text: Fordon får inte köra alls; gatan är helt stängd för motorfordon.
+    correct: false
+    feedback: En gågata kan tillåta viss motorfordonstrafik, så totalförbud gäller
+      inte automatiskt.
+  - text: Det är förbjudet att stanna eller parkera för gående.
+    correct: false
+    feedback: Skyltens huvudsyfte är att prioritera gående, inte att förbjuda dem
+      att vistas där.
+  - text: Cykling är alltid förbjudet på gågata.
+    correct: false
+    feedback: Cykling kan vara reglerad lokalt med tilläggsskylt, men gågateskylten
+      i sig förbjuder inte automatiskt cykling.
+  explanation: På en gågata har gående företräde och får röra sig fritt över hela
+    körbanan; fordon som är tillåtna måste anpassa hastighet och visad hänsyn. Lokala
+    tilläggstavlor kan reglera vilka fordon som får köra och om cykling är tillåten.
+- id: kor-auto-9baa56
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad varnar skylten 'Varning för cyklande och mopedförare' (vagmarke_varning_cyklande.svg)
+    för?
+  image: vagmarke_varning_cyklande.svg
+  options:
+  - text: Det kan förekomma cyklister och mopedförare på eller nära vägen — visa särskild
+      försiktighet.
+    correct: true
+    feedback: Skyltens syfte är att uppmärksamma förare på trafik med cyklar och mopeder
+      i närheten så att de tar det försiktigt.
+  - text: Det finns en separat cykelbana som du måste använda.
+    correct: false
+    feedback: Varningsskylten visar inte att en cykelbana finns eller är obligatorisk
+      att använda.
+  - text: Cykling och mopedkörning är förbjudna framöver.
+    correct: false
+    feedback: En förbudsskylt skulle ange sådant; varningsskylten varnar endast för
+      närvaro.
+  - text: Det är en rekommendation att parkera för cyklister.
+    correct: false
+    feedback: Skylten handlar om varning för trafikanter, inte om parkering eller
+      rekommendationer.
+  explanation: Varningsskylten talar om att cyklister och mopedförare kan befinna
+    sig på eller nära vägbanan och att du därför bör sänka hastigheten och vara beredd
+    på oväntade rörelser. Anpassa avstånd och omkörningar så att det är säkert för
+    de oskyddade trafikanterna.

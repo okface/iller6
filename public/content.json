@@ -1,7 +1,8 @@
 {
   "subjects": {
     "korkortsteori": [
-      "trafik_och_vagmarken"
+      "trafik_och_vagmarken",
+      "vagmarken_auto"
     ],
     "medical_exam": [
       "akutmedicin",
@@ -198,6 +199,176 @@
       ],
       "explanation": "Milj\u00f6v\u00e4nlig k\u00f6rning inneb\u00e4r mjuk acceleration, att h\u00e5lla j\u00e4mn hastighet, k\u00f6ra i h\u00f6g v\u00e4xel med l\u00e5gt varvtal och undvika on\u00f6dig tomg\u00e5ng. Detta minskar b\u00e5de br\u00e4nslef\u00f6rbrukning och milj\u00f6p\u00e5verkan.",
       "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
+      "id": "kor-auto-2541c8",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud"
+      ],
+      "question": "Vad betyder skylten 'F\u00f6rbud mot infart med fordon' (vagmarke_forbud_infart.svg)?",
+      "image": "vagmarke_forbud_infart.svg",
+      "options": [
+        {
+          "text": "Infart f\u00f6rbjuden f\u00f6r alla fordon fr\u00e5n din riktning.",
+          "correct": true,
+          "feedback": "Skylten f\u00f6rbjuder att k\u00f6ra in med fordon fr\u00e5n den riktningen utan s\u00e4rskilt tillst\u00e5nd."
+        },
+        {
+          "text": "Endast motorfordon f\u00e5r inte k\u00f6ra in, cyklar \u00e4r till\u00e5tna.",
+          "correct": false,
+          "feedback": "Skylten omfattar alla fordon, inte bara motorfordon."
+        },
+        {
+          "text": "Privat v\u00e4g \u2014 endast boende f\u00e5r k\u00f6ra in.",
+          "correct": false,
+          "feedback": "Skylten anger inte privat v\u00e4gsstatus eller s\u00e4rskilda beh\u00f6righeter."
+        },
+        {
+          "text": "G\u00e4ller endast lastbilar \u00f6ver viss vikt.",
+          "correct": false,
+          "feedback": "Det finns ingen viktbegr\u00e4nsning p\u00e5 denna skylt; den f\u00f6rbjuder all infart."
+        }
+      ],
+      "explanation": "Denna f\u00f6rbudsskylt betyder att fordon inte f\u00e5r k\u00f6ra in i det omr\u00e5de skylten avser fr\u00e5n den riktningen. Undantag kan finnas om en till\u00e4ggstavla anger s\u00e4rskilda fordon eller tider, men i grund g\u00e4ller f\u00f6rbudet f\u00f6r alla fordon.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-31b832",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "V\u00e4jningsplikt"
+      ],
+      "question": "Vad anger skylten 'Huvudled' (vagmarke_huvudled.svg) i trafiksituationen?",
+      "image": "vagmarke_huvudled.svg",
+      "options": [
+        {
+          "text": "Du k\u00f6r p\u00e5 en v\u00e4g d\u00e4r du har f\u00f6retr\u00e4de i korsningar fram till slutet av huvudleden.",
+          "correct": true,
+          "feedback": "Huvudledsskylt visar att trafiken p\u00e5 huvudleden har f\u00f6retr\u00e4de i korsningar tills huvudledens slutskylt syns."
+        },
+        {
+          "text": "Du m\u00e5ste alltid v\u00e4ja f\u00f6r trafik p\u00e5 den korsande v\u00e4gen.",
+          "correct": false,
+          "feedback": "Motsatsen g\u00e4ller; huvudleden har f\u00f6retr\u00e4de, inte den korsande v\u00e4gen."
+        },
+        {
+          "text": "Det \u00e4r en rekommenderad k\u00f6rv\u00e4g f\u00f6r tunga fordon.",
+          "correct": false,
+          "feedback": "Skylten anger inte rekommendation f\u00f6r tung trafik utan visar prioritet i korsningar."
+        },
+        {
+          "text": "G\u00e4ller endast vid dagtid p\u00e5 vardagar.",
+          "correct": false,
+          "feedback": "Huvudledsskyltens betydelse \u00e4r oberoende av tid p\u00e5 dygnet och g\u00e4ller tills ett slutm\u00e4rke upph\u00e4ver den."
+        }
+      ],
+      "explanation": "Huvudledsskylten visar att du har f\u00f6retr\u00e4de i korsningar mot dem som kommer fr\u00e5n sido\u00adv\u00e4gar under den tid huvudleden g\u00e4ller. F\u00f6retr\u00e4det g\u00e4ller tills en skylt som upph\u00e4ver huvudleden syns eller tills annan trafikreglering anges.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-9fccd1",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud"
+      ],
+      "question": "Vad inneb\u00e4r skylten 'F\u00f6rbud mot trafik med fordon' (vagmarke_forbud_trafik.svg)?",
+      "image": "vagmarke_forbud_trafik.svg",
+      "options": [
+        {
+          "text": "Alla fordon \u00e4r f\u00f6rbjudna att k\u00f6ra in p\u00e5 v\u00e4gen d\u00e4r skylten sitter.",
+          "correct": true,
+          "feedback": "Skylten f\u00f6rbjuder all trafik med fordon p\u00e5 den v\u00e4gstr\u00e4ckan."
+        },
+        {
+          "text": "Endast motorfordon \u00e4r f\u00f6rbjudna, cyklar \u00e4r till\u00e5tna.",
+          "correct": false,
+          "feedback": "Skylten omfattar alla fordon, inklusive cyklar och mopeder."
+        },
+        {
+          "text": "G\u00e4ller endast fordon \u00f6ver viss bredd eller vikt.",
+          "correct": false,
+          "feedback": "Ingen vikt- eller breddbegr\u00e4nsning anges p\u00e5 denna skylt; den \u00e4r generellt f\u00f6r alla fordon."
+        },
+        {
+          "text": "Skylten anger en g\u00e5gata d\u00e4r g\u00e5ngtrafik prioriteras.",
+          "correct": false,
+          "feedback": "G\u00e5gata har en s\u00e4rskild symbol; denna f\u00f6rbudsskylt f\u00f6rbjuder fordonstrafik generellt."
+        }
+      ],
+      "explanation": "Denna skylt f\u00f6rbjuder trafik med fordon p\u00e5 den aktuella v\u00e4gstr\u00e4ckan, vilket ofta anv\u00e4nds f\u00f6r omr\u00e5den reserverade f\u00f6r g\u00e5ende. G\u00e5ende f\u00e5r normalt vistas d\u00e4r, men fordon f\u00e5r inte k\u00f6ra in om inte en till\u00e4ggstavla anger s\u00e4rskilda undantag.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-f44585",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Anvisning"
+      ],
+      "question": "Vilka regler g\u00e4ller p\u00e5 en g\u00e5gata (vagmarke_gagata.svg)?",
+      "image": "vagmarke_gagata.svg",
+      "options": [
+        {
+          "text": "G\u00e5ende har f\u00f6retr\u00e4de, men fordon f\u00e5r k\u00f6ra sakta och endast om det \u00e4r till\u00e5tet.",
+          "correct": true,
+          "feedback": "G\u00e5gata inneb\u00e4r att g\u00e5ende har f\u00f6retr\u00e4de; fordon f\u00e5r endast k\u00f6ra om det \u00e4r till\u00e5tet och i l\u00e5g hastighet."
+        },
+        {
+          "text": "Fordon f\u00e5r inte k\u00f6ra alls; gatan \u00e4r helt st\u00e4ngd f\u00f6r motorfordon.",
+          "correct": false,
+          "feedback": "En g\u00e5gata kan till\u00e5ta viss motorfordonstrafik, s\u00e5 totalf\u00f6rbud g\u00e4ller inte automatiskt."
+        },
+        {
+          "text": "Det \u00e4r f\u00f6rbjudet att stanna eller parkera f\u00f6r g\u00e5ende.",
+          "correct": false,
+          "feedback": "Skyltens huvudsyfte \u00e4r att prioritera g\u00e5ende, inte att f\u00f6rbjuda dem att vistas d\u00e4r."
+        },
+        {
+          "text": "Cykling \u00e4r alltid f\u00f6rbjudet p\u00e5 g\u00e5gata.",
+          "correct": false,
+          "feedback": "Cykling kan vara reglerad lokalt med till\u00e4ggsskylt, men g\u00e5gateskylten i sig f\u00f6rbjuder inte automatiskt cykling."
+        }
+      ],
+      "explanation": "P\u00e5 en g\u00e5gata har g\u00e5ende f\u00f6retr\u00e4de och f\u00e5r r\u00f6ra sig fritt \u00f6ver hela k\u00f6rbanan; fordon som \u00e4r till\u00e5tna m\u00e5ste anpassa hastighet och visad h\u00e4nsyn. Lokala till\u00e4ggstavlor kan reglera vilka fordon som f\u00e5r k\u00f6ra och om cykling \u00e4r till\u00e5ten.",
+      "source": "korkortsteori/vagmarken_auto"
+    },
+    {
+      "id": "kor-auto-9baa56",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning"
+      ],
+      "question": "Vad varnar skylten 'Varning f\u00f6r cyklande och mopedf\u00f6rare' (vagmarke_varning_cyklande.svg) f\u00f6r?",
+      "image": "vagmarke_varning_cyklande.svg",
+      "options": [
+        {
+          "text": "Det kan f\u00f6rekomma cyklister och mopedf\u00f6rare p\u00e5 eller n\u00e4ra v\u00e4gen \u2014 visa s\u00e4rskild f\u00f6rsiktighet.",
+          "correct": true,
+          "feedback": "Skyltens syfte \u00e4r att uppm\u00e4rksamma f\u00f6rare p\u00e5 trafik med cyklar och mopeder i n\u00e4rheten s\u00e5 att de tar det f\u00f6rsiktigt."
+        },
+        {
+          "text": "Det finns en separat cykelbana som du m\u00e5ste anv\u00e4nda.",
+          "correct": false,
+          "feedback": "Varningsskylten visar inte att en cykelbana finns eller \u00e4r obligatorisk att anv\u00e4nda."
+        },
+        {
+          "text": "Cykling och mopedk\u00f6rning \u00e4r f\u00f6rbjudna fram\u00f6ver.",
+          "correct": false,
+          "feedback": "En f\u00f6rbudsskylt skulle ange s\u00e5dant; varningsskylten varnar endast f\u00f6r n\u00e4rvaro."
+        },
+        {
+          "text": "Det \u00e4r en rekommendation att parkera f\u00f6r cyklister.",
+          "correct": false,
+          "feedback": "Skylten handlar om varning f\u00f6r trafikanter, inte om parkering eller rekommendationer."
+        }
+      ],
+      "explanation": "Varningsskylten talar om att cyklister och mopedf\u00f6rare kan befinna sig p\u00e5 eller n\u00e4ra v\u00e4gbanan och att du d\u00e4rf\u00f6r b\u00f6r s\u00e4nka hastigheten och vara beredd p\u00e5 ov\u00e4ntade r\u00f6relser. Anpassa avst\u00e5nd och omk\u00f6rningar s\u00e5 att det \u00e4r s\u00e4kert f\u00f6r de oskyddade trafikanterna.",
+      "source": "korkortsteori/vagmarken_auto"
     },
     {
       "type": "multiple_choice",
@@ -17940,7 +18111,7 @@
     }
   ],
   "meta": {
-    "total_questions": 464,
-    "generated_at": "2026-01-17T20:18:33.098255+00:00"
+    "total_questions": 469,
+    "generated_at": "2026-01-17T20:31:18.793433+00:00"
   }
 }
