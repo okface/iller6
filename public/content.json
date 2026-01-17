@@ -25,6 +25,181 @@
   },
   "questions": [
     {
+      "id": "kor-sample-001",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "Varning",
+        "Barn"
+      ],
+      "question": "Du ser denna varningsskylt. Vad inneb\u00e4r den?",
+      "image": "vagmarke_barn.png",
+      "options": [
+        {
+          "text": "Varning f\u00f6r lekplats inom 50 meter",
+          "correct": false,
+          "feedback": "Skylten anger inte n\u00e5got specifikt avst\u00e5nd, utan varnar generellt f\u00f6r barn."
+        },
+        {
+          "text": "F\u00f6rare ska vara uppm\u00e4rksam p\u00e5 barn som kan befinna sig p\u00e5 v\u00e4gen",
+          "correct": true,
+          "feedback": "Skylten varnar om att barn kan vistas i omr\u00e5det och f\u00f6rare ska vara extra f\u00f6rsiktig."
+        },
+        {
+          "text": "Fartbegr\u00e4nsning 30 km/h g\u00e4ller h\u00e4r",
+          "correct": false,
+          "feedback": "Skylten anger ingen fartbegr\u00e4nsning, det \u00e4r ett varningsm\u00e4rke."
+        },
+        {
+          "text": "Endast barn f\u00e5r f\u00e4rdas p\u00e5 denna v\u00e4g",
+          "correct": false,
+          "feedback": "Detta \u00e4r inte ett p\u00e5budsm\u00e4rke, utan ett varningsm\u00e4rke f\u00f6r alla trafikanter."
+        }
+      ],
+      "explanation": "Varningsm\u00e4rket med triangel och barn indikerar att f\u00f6rare ska vara extra uppm\u00e4rksam eftersom barn kan befinna sig p\u00e5 eller n\u00e4ra v\u00e4gen. Skylten s\u00e4tts ofta upp vid lekplatser, skolor eller bostadsomr\u00e5den.",
+      "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
+      "id": "kor-sample-002",
+      "type": "multiple_choice",
+      "tags": [
+        "V\u00e4gm\u00e4rken",
+        "F\u00f6rbud",
+        "Stopplikt"
+      ],
+      "question": "Vid en stoppskylt m\u00e5ste du alltid:",
+      "image": "vagmarke_stopplikt.png",
+      "options": [
+        {
+          "text": "Stanna om du ser andra fordon",
+          "correct": false,
+          "feedback": "Du m\u00e5ste alltid stanna helt vid stoppskylt, oavsett om andra fordon syns."
+        },
+        {
+          "text": "Sakta ner till 10 km/h och titta \u00e5t sidorna",
+          "correct": false,
+          "feedback": "Stoppskylt kr\u00e4ver fullst\u00e4ndigt stopp, inte bara sakta ner."
+        },
+        {
+          "text": "Stanna helt och ge f\u00f6retr\u00e4de innan du k\u00f6r vidare",
+          "correct": true,
+          "feedback": "Vid stoppskylt m\u00e5ste fordonet stanna helt innan stoplinjen och ge f\u00f6retr\u00e4de \u00e5t korsande trafik."
+        },
+        {
+          "text": "Tuta f\u00f6r att varna andra trafikanter",
+          "correct": false,
+          "feedback": "Stoppskylt kr\u00e4ver stopp, inte att tuta. Tuta anv\u00e4nds bara vid fara."
+        }
+      ],
+      "explanation": "Stoppskylt (\u00e5ttkantigt r\u00f6tt m\u00e4rke med texten STOPP) kr\u00e4ver att f\u00f6raren stannar helt vid stoplinjen eller framf\u00f6r korsningen. Efter stopp ska f\u00f6raren ge f\u00f6retr\u00e4de \u00e5t korsande trafik innan forts\u00e4ttning.",
+      "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
+      "id": "kor-sample-003",
+      "type": "multiple_choice",
+      "tags": [
+        "Trafikregler",
+        "\u00d6verg\u00e5ngsst\u00e4lle",
+        "S\u00e4kerhet"
+      ],
+      "question": "Vid ett obevakat \u00f6verg\u00e5ngsst\u00e4lle utan ljussignaler:",
+      "image": null,
+      "options": [
+        {
+          "text": "Har g\u00e5ende alltid f\u00f6retr\u00e4de framf\u00f6r motorfordon",
+          "correct": true,
+          "feedback": "G\u00e5ende som befinner sig p\u00e5 eller ska g\u00e5 ut p\u00e5 \u00f6verg\u00e5ngsst\u00e4llet har f\u00f6retr\u00e4de."
+        },
+        {
+          "text": "Har fordon alltid f\u00f6retr\u00e4de framf\u00f6r g\u00e5ende",
+          "correct": false,
+          "feedback": "Detta \u00e4r fel - g\u00e5ende har f\u00f6retr\u00e4de vid \u00f6verg\u00e5ngsst\u00e4llen."
+        },
+        {
+          "text": "M\u00e5ste g\u00e5ende v\u00e4nta tills alla fordon passerat",
+          "correct": false,
+          "feedback": "G\u00e5ende har f\u00f6retr\u00e4de och fordon ska ge plats."
+        },
+        {
+          "text": "G\u00e4ller v\u00e4jningsplikt bara om g\u00e5ende redan korsar",
+          "correct": false,
+          "feedback": "G\u00e5ende har f\u00f6retr\u00e4de \u00e4ven n\u00e4r de \u00e4r p\u00e5 v\u00e4g att g\u00e5 ut p\u00e5 \u00f6verg\u00e5ngsst\u00e4llet."
+        }
+      ],
+      "explanation": "Vid obevakade \u00f6verg\u00e5ngsst\u00e4llen har g\u00e5ende f\u00f6retr\u00e4de framf\u00f6r fordonstrafik. Fordon ska anpassa hastigheten och vara beredda att stanna f\u00f6r g\u00e5ende som befinner sig p\u00e5 eller \u00e4r p\u00e5 v\u00e4g ut p\u00e5 \u00f6verg\u00e5ngsst\u00e4llet.",
+      "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
+      "id": "kor-sample-004",
+      "type": "multiple_choice",
+      "tags": [
+        "Hastighet",
+        "S\u00e4kerhet",
+        "V\u00e4glag"
+      ],
+      "question": "N\u00e4r v\u00e4glaget \u00e4r halt p\u00e5 vintern ska du:",
+      "image": null,
+      "options": [
+        {
+          "text": "K\u00f6ra i den h\u00f6gsta till\u00e5tna hastigheten f\u00f6r att spara tid",
+          "correct": false,
+          "feedback": "Vid halt v\u00e4glag ska hastigheten alltid anpassas till f\u00f6rh\u00e5llandena, inte maxgr\u00e4nsen."
+        },
+        {
+          "text": "Anpassa hastigheten efter v\u00e4glaget f\u00f6r att kunna stanna s\u00e4kert",
+          "correct": true,
+          "feedback": "Hastigheten ska alltid anpassas s\u00e5 att fordonet kan stanna inom synbart avst\u00e5nd."
+        },
+        {
+          "text": "Bara anv\u00e4nda ABS-bromsar ist\u00e4llet f\u00f6r vanliga bromsar",
+          "correct": false,
+          "feedback": "ABS \u00e4r ett hj\u00e4lpmedel men ers\u00e4tter inte anpassad hastighet och k\u00f6rs\u00e4tt."
+        },
+        {
+          "text": "K\u00f6ra mycket n\u00e4ra framf\u00f6rvarande bil f\u00f6r b\u00e4ttre sikt",
+          "correct": false,
+          "feedback": "Vid halt v\u00e4glag beh\u00f6vs L\u00c4NGRE avst\u00e5nd, inte kortare, eftersom bromsstr\u00e4ckan \u00f6kar."
+        }
+      ],
+      "explanation": "Vid halt v\u00e4glag \u00f6kar bromsstr\u00e4ckan betydligt. F\u00f6raren m\u00e5ste alltid anpassa hastigheten efter v\u00e4glaget s\u00e5 att fordonet kan stanna inom synbart avst\u00e5nd och ha tillr\u00e4ckligt s\u00e4kerhetsavst\u00e5nd till framf\u00f6rvarande fordon.",
+      "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
+      "id": "kor-sample-005",
+      "type": "multiple_choice",
+      "tags": [
+        "Milj\u00f6",
+        "Br\u00e4nsle",
+        "K\u00f6rning"
+      ],
+      "question": "F\u00f6r att minska br\u00e4nslef\u00f6rbrukningen och milj\u00f6p\u00e5verkan b\u00f6r du:",
+      "image": null,
+      "options": [
+        {
+          "text": "Accelerera h\u00e5rt och bromsa kraftigt f\u00f6r att spara tid",
+          "correct": false,
+          "feedback": "H\u00e5rd acceleration och kraftig bromsning \u00f6kar br\u00e4nslef\u00f6rbrukningen betydligt."
+        },
+        {
+          "text": "K\u00f6ra i s\u00e5 h\u00f6g v\u00e4xel som m\u00f6jligt och undvika tomg\u00e5ng",
+          "correct": true,
+          "feedback": "Att k\u00f6ra i h\u00f6g v\u00e4xel med l\u00e5gt varvtal och undvika on\u00f6dig tomg\u00e5ng minskar f\u00f6rbrukningen."
+        },
+        {
+          "text": "Alltid k\u00f6ra i maximal hastighet p\u00e5 motorv\u00e4gen",
+          "correct": false,
+          "feedback": "H\u00f6gre hastighet \u00f6kar luftmotst\u00e5ndet och d\u00e4rmed br\u00e4nslef\u00f6rbrukningen."
+        },
+        {
+          "text": "L\u00e5ta motorn g\u00e5 p\u00e5 tomg\u00e5ng f\u00f6r att den ska vara varm",
+          "correct": false,
+          "feedback": "Modern motor v\u00e4rms upp b\u00e4st under k\u00f6rning, tomg\u00e5ng sl\u00f6sar br\u00e4nsle."
+        }
+      ],
+      "explanation": "Milj\u00f6v\u00e4nlig k\u00f6rning inneb\u00e4r mjuk acceleration, att h\u00e5lla j\u00e4mn hastighet, k\u00f6ra i h\u00f6g v\u00e4xel med l\u00e5gt varvtal och undvika on\u00f6dig tomg\u00e5ng. Detta minskar b\u00e5de br\u00e4nslef\u00f6rbrukning och milj\u00f6p\u00e5verkan.",
+      "source": "korkortsteori/trafik_och_vagmarken"
+    },
+    {
       "type": "multiple_choice",
       "tags": [
         "Variceal bl\u00f6dning",
@@ -17765,7 +17940,7 @@
     }
   ],
   "meta": {
-    "total_questions": 459,
-    "generated_at": "2026-01-17T18:36:37.181910+00:00"
+    "total_questions": 464,
+    "generated_at": "2026-01-17T18:38:41.870918+00:00"
   }
 }
