@@ -1,25 +1,29 @@
 <script setup>
 import { computed, ref } from 'vue';
 import { useStudyStore } from '@/stores/study';
+import { formatName, getSubjectDisplayName, getTopicDisplayName } from '@/utils/displayNames';
 
 const store = useStudyStore();
 
 const showCategoryPicker = ref(false);
 const selectedSources = ref(new Set());
 
-// Group subjects for display
+// Group subjects for display - filter to only show selected subject
 // store.subjects is { folder: [file1, file2] }
 const subjectsList = computed(() => {
-  return Object.keys(store.subjects).map(folder => ({
+  if (!store.selectedSubject) return [];
+  const folder = store.selectedSubject;
+  if (!store.subjects[folder]) return [];
+  return [{
     name: folder,
     topics: store.subjects[folder]
-  }));
+  }];
 });
 
-const totalQuestions = computed(() => store.questions?.length || 0);
+const totalQuestions = computed(() => store.filteredQuestions?.length || 0);
 const answeredCount = computed(() => {
   let n = 0;
-  for (const q of store.questions || []) {
+  for (const q of store.filteredQuestions || []) {
     const p = store.progress?.[q.id];
     if (Number(p?.seen || 0) > 0) n += 1;
   }
@@ -28,7 +32,7 @@ const answeredCount = computed(() => {
 
 const correctOnceCount = computed(() => {
   let n = 0;
-  for (const q of store.questions || []) {
+  for (const q of store.filteredQuestions || []) {
     const p = store.progress?.[q.id];
     if (Number(p?.correct || 0) > 0) n += 1;
   }
@@ -40,7 +44,7 @@ const remainingToCorrectOnce = computed(() => Math.max(0, totalQuestions.value -
 
 const incorrectEverCount = computed(() => {
   let n = 0;
-  for (const q of store.questions || []) {
+  for (const q of store.filteredQuestions || []) {
     const p = store.progress?.[q.id];
     if (Number(p?.wrong || 0) > 0) n += 1;
   }
@@ -50,7 +54,7 @@ const incorrectEverCount = computed(() => {
 const totalAccuracy = computed(() => {
   let seen = 0;
   let correct = 0;
-  for (const q of store.questions || []) {
+  for (const q of store.filteredQuestions || []) {
     const p = store.progress?.[q.id];
     seen += Number(p?.seen || 0);
     correct += Number(p?.correct || 0);
@@ -84,7 +88,7 @@ const allSources = computed(() => {
         subject: sub.name,
         topic,
         count,
-        label: showSubject ? `${formatName(sub.name)} — ${prettyTopic(topic)}` : `${prettyTopic(topic)}`,
+        label: showSubject ? `${formatName(sub.name)} — ${getTopicDisplayName(topic)}` : `${getTopicDisplayName(topic)}`,
       });
     });
   });
@@ -99,20 +103,22 @@ const allSources = computed(() => {
 });
 
 // Format folder names (e.g. medical_exam -> Medical Exam)
-const formatName = (str) => {
-  return str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-};
+// This function is imported from utils now but kept here for backward compatibility if needed
+// const formatName = (str) => {
+//   return str.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+// };
 
 // Display overrides (filenames stay ASCII, UI can be Swedish)
-const topicDisplayOverrides = {
-  allmanmedicin: 'Allmänmedicin',
-  oron_nasa_hals: 'Öron-näsa-hals',
-};
+// Moved to utils/displayNames.js
+// const topicDisplayOverrides = {
+//   allmanmedicin: 'Allmänmedicin',
+//   oron_nasa_hals: 'Öron-näsa-hals',
+// };
 
-const prettyTopic = (topic) => {
-  const key = String(topic || '').replace(/\.ya?ml$/i, '');
-  return topicDisplayOverrides[key] || formatName(key);
-};
+// const prettyTopic = (topic) => {
+//   const key = String(topic || '').replace(/\.ya?ml$/i, '');
+//   return topicDisplayOverrides[key] || formatName(key);
+// };
 
 const startSpecific = (subject, topic) => {
   store.startSession('specific', `${subject}/${topic}`); // matches the 'source' field we added in bundle.py
@@ -153,10 +159,25 @@ const focusSelected = (count) => {
   store.startSession('focus', sources, count);
   showCategoryPicker.value = false;
 };
+
+const subjectDisplayName = computed(() => {
+  return getSubjectDisplayName(store.selectedSubject || '');
+});
 </script>
 
 <template>
   <div class="space-y-8 p-4">
+    <!-- Header with subject name and back button (only show if multiple subjects exist) -->
+    <section v-if="Object.keys(store.subjects).length > 1" class="flex items-center justify-between pb-2 border-b border-stone-200">
+      <h1 class="text-2xl font-bold text-stone-900">{{ subjectDisplayName }}</h1>
+      <button
+        @click="store.backToSubjectPicker()"
+        class="text-sm text-stone-600 hover:text-stone-900 underline"
+      >
+        Byt ämne
+      </button>
+    </section>
+    
     <!-- Compact stats + quick actions (mobile-first) -->
     <section class="space-y-3">
       <div class="flex gap-2">

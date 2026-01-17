@@ -89,6 +89,13 @@ const sourceLabel = computed(() => {
   return formatName(parts.join(' / '));
 });
 
+const imageUrl = computed(() => {
+  if (!currentQuestion.value?.image) return null;
+  const baseUrl = import.meta.env.BASE_URL;
+  const basePath = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  return `${basePath}assets/${currentQuestion.value.image}`;
+});
+
 const scrollQuestionIntoView = async () => {
   await nextTick();
   // Scroll to the question text, with a slight offset if possible (or just top)
@@ -217,8 +224,8 @@ const getOptionClass = (index, option) => {
     </h2>
 
     <!-- Image (if any) -->
-    <div v-if="currentQuestion.image" class="mb-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
-      <img :src="currentQuestion.image" alt="Question Image" class="w-full h-auto object-cover max-h-80" />
+    <div v-if="imageUrl" class="mb-6 rounded-lg overflow-hidden border border-gray-200 shadow-sm">
+      <img :src="imageUrl" alt="Question Image" class="w-full h-auto object-cover max-h-80" />
     </div>
 
     <!-- Options -->
