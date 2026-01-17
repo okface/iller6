@@ -130,3 +130,230 @@
   explanation: När du närmar dig järnvägsspår där ett tåg syns närma sig, måste du
     vara beredd att stanna. Det är alltid viktigt att prioritera säkerheten och vänta
     tills tåget har passerat helt.
+- id: kor-scene-e9e530
+  type: multiple_choice
+  tags:
+  - T-korsning
+  - Väjningsplikt
+  question: Du kör fram mot denna korsning från vänster. Vad är korrekt att göra i
+    denna situation?
+  image: scenarios/Norrvra_Sweden_201005.JPG
+  options:
+  - text: Köra vidare utan att stanna eftersom det är din tur.
+    correct: false
+    feedback: Du måste följa väjningspliktsreglerna.
+  - text: Väja för eventuella fordon från höger.
+    correct: true
+    feedback: Högerregeln gäller, så du måste väja.
+  - text: Stanna vid hållplatsen för buss.
+    correct: false
+    feedback: Det finns ingen buss eller hållplats i situationen.
+  - text: Svänga till vänster eftersom det inte finns några skyltar.
+    correct: false
+    feedback: Riktningen påverkas inte av skyltar utan väjningsplikten.
+  explanation: Vid denna korsning gäller högerregeln eftersom det saknas vägmärken.
+    Det betyder att du ska väja för trafik från höger. Detta är en vanlig regel och
+    en del av grundläggande väjningspliktsregler.
+- id: kor-scene-80ab6f
+  type: multiple_choice
+  tags:
+  - Landsväg
+  - Sikt
+  - Hastighetsbegränsning
+  question: Du kör på en landsväg med god sikt och lite trafik, vilka faktorer bör
+    påverka ditt val av hastighet här?
+  image: scenarios/Raksträcka_mellan_Svartnäs_och_Svärdsjö.jpg
+  options:
+  - text: Endast den högsta tillåtna hastighetsbegränsningen.
+    correct: false
+    feedback: Tänk även på väglaget och din erfarenhet.
+  - text: Sikt, vägförhållanden och personlig erfarenhet.
+    correct: true
+    feedback: Dessa är viktiga för säker körning.
+  - text: Bara din egen bedömning av vad som känns säkert.
+    correct: false
+    feedback: Hänsyn ska tas till trafikregler och vägförhållanden.
+  - text: Endast den faktiska trafikmängden på vägen.
+    correct: false
+    feedback: Det finns fler faktorer utöver trafikmängden.
+  explanation: När du kör på en landsväg är det viktigt att anpassa hastigheten inte
+    bara efter hastighetsbegränsningen, utan också efter sikt, vägförhållanden, och
+    din egen körvana. Detta ökar säkerheten och minskar risken för olyckor.
+- id: kor-scene-1602f5
+  type: multiple_choice
+  tags:
+  - Vinterkörning
+  - Kurvtagning
+  - Hastighet
+  question: När du kör i en kurva på en isig väg med sikten begränsad av snövallar
+    och skog, vad är extra viktigt att tänka på?
+  image: scenarios/Road_(7000914999).jpg
+  options:
+  - text: Att hålla en hög hastighet för att snabbt komma förbi kurvan.
+    correct: false
+    feedback: Det ökar risken för sladd och olycka.
+  - text: Att använda låga växlar för bättre fäste och kontroll.
+    correct: true
+    feedback: Det hjälper till att kontrollera fordonet på hala vägar.
+  - text: Att använda helljus för att se så långt fram som möjligt.
+    correct: false
+    feedback: Det kan orsaka bländning i snöreflexer.
+  - text: Att närma sig kurvan i mittfilen för att få bästa sikt.
+    correct: false
+    feedback: Det kan leda till kollision med mötande trafik.
+  explanation: På isiga vägar är det viktigt att anpassa hastigheten och använda låga
+    växlar för att behålla kontrollen. Förhöjd hastighet och oförsiktighet i kurvor
+    ökar risken för sladd och kollision. Sikten är ofta begränsad, vilket kräver extra
+    försiktighet.
+- id: kor-scene-cc2eca
+  type: multiple_choice
+  tags:
+  - Växtlighet
+  - Kurva
+  - Halkrisk
+  question: Vad måste föraren vara extra uppmärksam på i denna situation?
+  image: scenarios/Skräddartorpsvägen_i_Mälby.jpg
+  options:
+  - text: Trafikregler vid mötesplatser i kurvor
+    correct: false
+    feedback: Inga mötesplatser syns i bilden.
+  - text: Risken för halka på grund av våta löv på vägen
+    correct: true
+    feedback: Våta löv kan orsaka halka och förlänga bromssträckan.
+  - text: Förståelse för trafikljusens funktion
+    correct: false
+    feedback: Det finns inga trafikljus i bilden.
+  - text: Varje förares rätt att köra först
+    correct: false
+    feedback: Det finns inga indikationer på förkörsrätt i bilden.
+  explanation: Vid körning på en väg täckt med våta löv bör föraren vara medveten
+    om risken för halka och anpassa hastigheten. Lövens närvaro på vägen kan minska
+    däckens grepp och öka bromssträckan. Föraren bör därför vara extra försiktig,
+    särskilt i en kurva som den på bilden.
+- id: kor-scene-fc0b60
+  type: multiple_choice
+  tags:
+  - Vägval
+  - Stadsområde
+  - Motorväg
+  question: En förare kör på den stora vägen genom staden och ser en avfartsskylt
+    mot centrum. Vad är det viktigaste att tänka på när man planerar att lämna motorvägen
+    här?
+  image: scenarios/Stocksund-Mörby_-_KMB_-_16001000419624.jpg
+  options:
+  - text: Att omedelbart byta till vänster körfält för att kunna ta avfarten.
+    correct: false
+    feedback: Att byta körfält snabbt kan skapa farliga situationer.
+  - text: Att i god tid placera sig i höger körfält och anpassa hastigheten efter
+      kommande korsning.
+    correct: true
+    feedback: Det är viktigt att planera sin körning och vara förberedd genom att
+      ligga i rätt körfält.
+  - text: Att öka hastigheten för att hinna före andra bilar till avfarten.
+    correct: false
+    feedback: Att öka hastigheten kan leda till trafikbrott och är inte säkert.
+  - text: Att alltid använda sittbackblinkers vid alla körfältsbyten, även om man
+      inte byter fil.
+    correct: false
+    feedback: Det är överflödigt och kan förvilla andra förare.
+  explanation: När du planerar att lämna motorvägen är det viktigt att i god tid flytta
+    till rätt körfält och anpassa din hastighet för att underlätta avfarten. Det minskar
+    risken för olyckor och gör trafiken smidigare.
+- id: kor-scene-f5f2a9
+  type: multiple_choice
+  tags:
+  - Motorväg
+  - Körfält
+  question: Du kör på motorvägen som gör en skarp kurva framåt. Vad bör du främst
+    tänka på?
+  image: scenarios/Ulriksdal-Kista_-_KMB_-_16001000414984.jpg
+  options:
+  - text: Minska hastigheten till 70 km/h för bättre kontroll i kurvan.
+    correct: false
+    feedback: Hastighetsgränsen på motorvägen är ofta 110 km/h eller högre.
+  - text: Hålla till höger och anpassa hastigheten efter förhållandena.
+    correct: true
+    feedback: Du ska alltid hålla till höger och anpassa hastigheten efter rådande
+      förhållanden.
+  - text: Flytta till vänster körfält för att undvika långsam trafik.
+    correct: false
+    feedback: Du bör hålla dig i höger körfält om det är möjligt.
+  - text: Öka hastigheten för att minimera tid i kurvan.
+    correct: false
+    feedback: Att öka hastigheten kan medföra risk för förlorad kontroll i kurvan.
+  explanation: På motorväg bör du hålla till höger och köra i en hastighet som är
+    säker med hänsyn till vägens utformning och trafiksituationen. Anpassa hastigheten
+    särskilt i skarpa kurvor för att bibehålla kontrollen och trafiksäkerheten.
+- id: kor-scene-3623b1
+  type: multiple_choice
+  tags:
+  - Hastighetsanpassning
+  - Kurvor
+  - Landsväg
+  question: Vilken är den mest lämpliga åtgärden för föraren på denna landsväg med
+    svag kurva och sämre vägunderlag?
+  image: scenarios/Varmdovagen_2008b.jpg
+  options:
+  - text: Minska hastigheten för att anpassa sig till vägunderlaget.
+    correct: true
+    feedback: Hög hastighet kan leda till förlorad kontroll i kurvor med dåligt underlag.
+  - text: Öka hastigheten för att snabbt komma förbi den dåliga vägen.
+    correct: false
+    feedback: Ökad hastighet ökar risken för att förlora kontrollen.
+  - text: Köra i mitten av vägen för att undvika eventuell sten och grus vid vägkanten.
+    correct: false
+    feedback: Det är olagligt och farligt att inte hålla sig till rätt körfält.
+  - text: Behålla hastigheten och vara beredd att svänga snabbt vid behov.
+    correct: false
+    feedback: Det kan vara svårt att reagera i tid på negativa vägförhållanden.
+  explanation: Föraren bör alltid anpassa hastigheten efter vägens skick och kurvighet.
+    Att minska hastigheten ökar säkerheten i oväntade situationer som kan uppstå på
+    sådana vägar.
+- id: kor-scene-5e0f3e
+  type: multiple_choice
+  tags:
+  - Stadsområde
+  - Sikt
+  - Korsning
+  question: Vad bör föraren i detta tätbebyggda område vara särskilt uppmärksam på?
+  image: scenarios/Vällingby_-_KMB_-_16001000411504.jpg
+  options:
+  - text: Trafikljus i korsningar.
+    correct: true
+    feedback: Trafikljus styr trafiken och kan påverka förarens beslut.
+  - text: Fartbegränsning för motorvägar.
+    correct: false
+    feedback: Motorväg gäller inte i tätbebyggt område med komplexa gator.
+  - text: Skogsområden och djurliv.
+    correct: false
+    feedback: Det är inte relevant i stadskärnor med mycket bebyggelse.
+  - text: Osignalerade järnvägskorsningar.
+    correct: false
+    feedback: Sådana korsningar är ovanliga i stadsområden.
+  explanation: I tätbebyggda områden med mycket trafik och många korsningar är det
+    viktigt att ha extra uppsikt på trafikljus, eftersom de reglerar flödet och påverkar
+    trafiksäkerheten.
+- id: kor-scene-c95aa5
+  type: multiple_choice
+  tags:
+  - Rondell
+  - Väjningsplikt
+  question: Du närmar dig en rondell i bilden. Vad bör du vara särskilt uppmärksam
+    på när du infogar dig?
+  image: scenarios/Västberga_-_KMB_-_16001000288664.jpg
+  options:
+  - text: Blinka vänster när du kör in i rondellen och höger när du lämnar den.
+    correct: false
+    feedback: Du blinkar höger när du lämnar rondellen, inte vänster när du går in.
+  - text: Ge tecken och väja för fordon som redan är i rondellen.
+    correct: true
+    feedback: Du ska väja för fordon inne i rondellen och ge tecken när du lämnar.
+  - text: Åka rakt igenom utan att sänka hastigheten om ingen annan bil syns.
+    correct: false
+    feedback: Du bör sänka hastigheten och vara beredd att stanna även om inga andra
+      fordon syns.
+  - text: Stanna innan du kör in i rondellen, oavsett trafiksituationen.
+    correct: false
+    feedback: Du ska inte stanna om det är fritt att köra in.
+  explanation: I en rondell ska du alltid väja för fordon som redan befinner sig inne.
+    Använd blinkers när du lämnar rondellen för att visa din avsikt att svänga.

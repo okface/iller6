@@ -620,3 +620,629 @@
   explanation: Skylten anger en påbjuden cykelbana där cyklister ska färdas, vilket
     separerar dem från motorfordon och oftast från gående. Respektera banans regler
     och var försiktig vid korsningar där bilar och cyklar möts.
+- id: kor-auto-e697dd
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta märke?
+  image: vajningsplikt.svg
+  options:
+  - text: Du måste lämna företräde för trafik på den korsande vägen.
+    correct: true
+    feedback: Visar att du ska ge företräde åt trafiken på den andra vägen innan du
+      kör ut.
+  - text: Du måste stanna helt och vänta på tecken från polis eller trafikljus.
+    correct: false
+    feedback: Det krävs inte alltid full stopp; endast om det behövs för att lämna
+      företräde.
+  - text: Du har företräde före korsande trafik.
+    correct: false
+    feedback: Märket betyder tvärtom; du har inte företräde.
+  - text: Maximal hastighet är nedsatt vid korsningen.
+    correct: false
+    feedback: Skyltens funktion handlar om företräde, inte om hastighetsbegränsning.
+  explanation: Detta märke visar att du måste lämna företräde för trafik på den korsande
+    vägen om det behövs. Du behöver inte alltid stanna helt, men du får inte köra
+    in förrän det är klart.
+- id: kor-auto-97c565
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta märke?
+  image: vagmarke_anvisning_kameraovervakning.svg
+  options:
+  - text: Området är kameraövervakat, vilket kan gälla trafikövervakning eller säkerhet.
+    correct: true
+    feedback: Markerar att kameror används för övervakning i området, ofta för trafik
+      eller säkerhet.
+  - text: Det är förbjudet att parkera här på grund av kameror.
+    correct: false
+    feedback: Själva märket förbjuder inte parkering utan informerar om övervakning.
+  - text: Endast fordon med kamera får köra i området.
+    correct: false
+    feedback: Detta är inte en tillståndsskylt; den informerar om övervakning, inte
+      om vilka fordon som får vara där.
+  - text: Det finns automatisk hastighetskontroll med fotoböter.
+    correct: false
+    feedback: Kameraskylt kan indikera övervakning men specificerar inte alltid hastighetskontroll.
+  explanation: Skyltar för kameraövervakning informerar att området bevakas med kameror,
+    ofta av säkerhets- eller trafikövervakningsskäl. Skyltningen påverkar inte automatiskt
+    regler som parkeringsförbud om det inte anges separat.
+- id: kor-auto-f8c12c
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta märke?
+  image: vagmarke_motande_trafik_har_vajningsplikt.svg
+  options:
+  - text: Mötande trafik har väjningsplikt, du har alltså företräde framför mötande
+      fordon.
+    correct: true
+    feedback: Visar att du har företräde och att mötande fordon ska lämna företräde
+      åt dig.
+  - text: Du måste lämna företräde för mötande trafik.
+    correct: false
+    feedback: Detta är motsatsen; märket anger att mötande har väjningsplikt.
+  - text: Ingen trafik får mötas på denna vägsträcka.
+    correct: false
+    feedback: Märket reglerar företräde, inte ett generellt mötesförbud.
+  - text: Vägen smalnar av och båda trafikriktningarna ska följa växelvis inpassning.
+    correct: false
+    feedback: Sammanvävning visas med annat märke; detta anger företräde åt dig.
+  explanation: Märket visar att mötande trafik måste lämna företräde, vilket innebär
+    att du har rätt att passera först. Anpassa hastigheten och håll utkik efter mötande
+    fordon som kan avvakta.
+- id: kor-auto-d21ea7
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta märke?
+  image: forbud_mot_trafik_med_tung_lastbil.svg
+  options:
+  - text: Tunga lastbilar är förbjudna att köra på sträckan (gäller vanligen fordon
+      över viss vikt).
+    correct: true
+    feedback: Anger att tunga lastbilar inte får köra där, vanligtvis baserat på vagnviktsgräns.
+  - text: Alla lastbilar är förbjudna, oavsett vikt.
+    correct: false
+    feedback: Skyltens text gäller tunga lastbilar specifikt, inte alla lastbilar.
+  - text: Förbudet gäller endast under nattetid.
+    correct: false
+    feedback: Ingen tidsbegränsning anges av detta märke; sådant skulle vara separat
+      angivet.
+  - text: Endast transport av farligt gods är förbjuden.
+    correct: false
+    feedback: Märket förbjuder tunga lastbilar generellt, inte enbart farligt gods.
+  explanation: Detta förbudsmärke anger att tunga lastbilar inte får köra på den aktuella
+    vägsträckan, ofta för att skydda vägar eller boendemiljö. Kontrollera ibland om
+    tillstånd ges för leveranser eller undantag anges på kompletterande skyltar.
+- id: kor-auto-5b2809
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_jarnvagskorsning_utan_bommar.svg
+  options:
+  - text: Varning för järnvägskorsning utan bommar—du ska vara extra uppmärksam och
+      stanna vid behov.
+    correct: true
+    feedback: Markerar en järnvägskorsning som saknar bommar, vilket kräver särskild
+      försiktighet.
+  - text: Det finns tåg som kör på vägen och du får inte passera alls.
+    correct: false
+    feedback: Du får passera när det är fritt; skylten varnar och kräver försiktighet,
+      inte förbud.
+  - text: Korsningen har automatisk bom som öppnar och stänger.
+    correct: false
+    feedback: Skyltens betydelse är att bommar saknas, inte att de finns.
+  - text: Det är en gång- och cykelöverfart med särskild prioritet.
+    correct: false
+    feedback: Detta gäller järnvägskorsning, inte en gång- och cykelöverfart.
+  explanation: Märket varnar för en järnvägskorsning utan bommar, så du måste sänka
+    hastigheten och se efter tåg i båda riktningar. Var beredd att stanna om sikten
+    är dålig eller om ett tåg närmar sig.
+- id: kor-auto-e2e8ae
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_vagarbete.svg
+  options:
+  - text: Varning för vägarbete—sänk hastigheten och var beredd på hinder eller arbetare
+      på vägen.
+    correct: true
+    feedback: Skyltar för vägarbete uppmanar till försiktighet och sänkt hastighet
+      på grund av arbete på vägbanan.
+  - text: Vägen är avstängd för all trafik tills arbetet är klart.
+    correct: false
+    feedback: Märket varnar, det förbjuder inte automatiskt passage; avstängning meddelas
+      separat.
+  - text: Endast byggfordon får passera under arbetstiden.
+    correct: false
+    feedback: Ingen inskränkning av fordonsslag anges; skylten varnar generellt för
+      arbete.
+  - text: Det är förbjudet att stanna eller parkera i arbetsområdet.
+    correct: false
+    feedback: Parkeringsförbud måste anges separat; varningsskylten informerar primärt
+      om arbete.
+  explanation: Varningsskylten indikerar vägarbete framöver så du bör minska hastigheten
+    och vara uppmärksam på förändrade körfält eller arbetare. Följ eventuella tillfälliga
+    anvisningar och vägmärken i arbetsområdet.
+- id: kor-auto-4d0d1d
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_ko.svg
+  options:
+  - text: Varning för kö—det kan bildas stillastående eller långsamt rörlig trafik
+      längre fram.
+    correct: true
+    feedback: Skyltar för kö varnar om risk för köbildning och att du bör vara beredd
+      på köande fordon.
+  - text: Farlig kurva finns längre fram och omkörning är förbjuden.
+    correct: false
+    feedback: Detta märke varnar för kö, inte specifikt för kurvor eller omkörningsförbud.
+  - text: Det finns boskap på vägen som kan orsaka köbildning.
+    correct: false
+    feedback: Boskap varnas med annan skylt; här avser man oftast trafikstockning.
+  - text: Vägen är enkelriktad framöver för att undvika köer.
+    correct: false
+    feedback: Skylt för kö informerar om trafikläge, inte om enkelriktning.
+  explanation: Märket varnar för att kö kan förekomma framöver, vilket kräver uppmärksamhet
+    och anpassad hastighet. Håll avstånd och undvik onödiga filbyten som kan förvärra
+    köbildningen.
+- id: kor-auto-cf48c7
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta märke?
+  image: vagmarke_anvisning_tatort.svg
+  options:
+  - text: Du kör in i en tätort, vilket normalt innebär lägre hastighetsstandard och
+      tätare trafikmiljö.
+    correct: true
+    feedback: Anger att du är på väg in i en tätbebyggd ort där trafikmiljön förändras
+      och hastighetsgränser ofta är lägre.
+  - text: Du lämnar tätort och får fria hastigheter enligt landsväg.
+    correct: false
+    feedback: Detta märke markerar inträde i tätort, inte utgång.
+  - text: Det är obligatoriskt att använda helljus inom området.
+    correct: false
+    feedback: Helljusanvändning regleras inte av denna skylt; den informerar om tätort.
+  - text: Parkering är förbjuden i hela den kommande zonen.
+    correct: false
+    feedback: Parkeringsregler anges separat; denna skylt meddelar att du kör in i
+      tätort.
+  explanation: Skylt för tätort visar att du kommer in i en bebyggd område där trafikmiljön
+    ofta är mer komplex och hastighetsbegränsningar vanligtvis är lägre (ofta 50 km/h).
+    Var uppmärksam på fotgängare och lokala trafikregler.
+- id: kor-auto-2b6870
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_skidakare.svg
+  options:
+  - text: Varning för skidåkare i eller nära vägbanan—sänk hastigheten och var beredd
+      att stanna.
+    correct: true
+    feedback: Skyltar för skidåkare varnar för att skidåkare kan befinna sig på eller
+      nära vägen.
+  - text: Det är cykelbana för vinterbruk och endast cyklar får användas.
+    correct: false
+    feedback: Detta är en varningsskylt och avser skidåkare, inte en cykelbana.
+  - text: Vägen är avstängd vintertid på grund av skidåkning.
+    correct: false
+    feedback: Skylt varnar men innebär inte nödvändigtvis avstängning.
+  - text: Parkeringsförbud gäller för att ge plats åt skidåkare.
+    correct: false
+    feedback: Parkeringsregler kommuniceras med andra skyltar; denna varnar för skidåkare.
+  explanation: Märket varnar för att skidåkare kan korsa eller vistas nära vägen,
+    särskilt i vinterområden. Anpassa hastigheten och var beredd att ge företräde
+    eller stanna om det behövs.
+- id: kor-auto-c284f5
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_barn.svg
+  options:
+  - text: Varning för barn—sänk farten och var extra uppmärksam på lekande eller gående
+      barn nära vägen.
+    correct: true
+    feedback: Skyltar för barn varnar för att barn kan befinna sig i eller nära körbanan
+      och kräver extra försiktighet.
+  - text: Skolområde där skolbussar har ensamrätt att stanna.
+    correct: false
+    feedback: Märket varnar generellt för barn, skolrutiner och bussregler kommuniceras
+      separat.
+  - text: Det är förbjudet att köra på morgnar och eftermiddagar när barn är ute.
+    correct: false
+    feedback: Inga tidsbegränsningar anges av den här varningen; det uppmanar till
+      försiktighet.
+  - text: Gångfartsområde börjar här och maxhastighet är 5 km/h.
+    correct: false
+    feedback: Gångfartsområde markeras med annan skylt och specifik hastighet.
+  explanation: Varningsskylten indikerar att barn kan vistas i närheten av vägen,
+    så du bör minska hastigheten och vara beredd att stanna. Visa särskild uppmärksamhet
+    vid skolor och lekplatser.
+- id: kor-auto-a61d8e
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_tunnel.svg
+  options:
+  - text: Varning för tunnel—förbered dig för sänkt ljusnivå och eventuellt annorlunda
+      trafikförhållanden.
+    correct: true
+    feedback: Informerar om att en tunnel närmar sig och att du bör anpassa körning
+      och ljusbruk.
+  - text: Tunneln är avstängd för personbilar och endast lastbilar får köra.
+    correct: false
+    feedback: Märket varnar för tunnel; eventuella fordonsspecifika förbud anges separat.
+  - text: Stopplikt gäller innan tunneln, stanna alltid helt.
+    correct: false
+    feedback: Tunnelvarningen kräver inte alltid stopp; separata stoppskyltar skulle
+      kräva det.
+  - text: Vägavgift tas ut i tunneln.
+    correct: false
+    feedback: Vägavgifter markeras med andra skyltar; detta är endast en varning för
+      tunnel.
+  explanation: Märket varnar för att en tunnel kommer längre fram, vilket kan påverka
+    ljusförhållanden och sikt. Släck/ändra helljus enligt rekommendationer och håll
+    avstånd till andra fordon.
+- id: kor-auto-d06063
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta märke?
+  image: vagmarke_anvisning_motortrafikled.svg
+  options:
+  - text: Vägen är avsedd för motortrafik—gångtrafikanter, cyklar och vissa långsamtgående
+      fordon är inte tillåtna.
+    correct: true
+    feedback: Anger att vägen är avsedd för motorfordon och att svagare trafikanter
+      normalt är förbjudna.
+  - text: Vägen är en motorväg med fyrfälts trafik och högsta hastighet automatiskt
+      130 km/h.
+    correct: false
+    feedback: Motortrafikled är inte samma som motorväg och har andra regler och hastighetsgränser.
+  - text: Det finns vägtull på denna väg och betalning krävs.
+    correct: false
+    feedback: Vägtullar anges med separat skylt; detta märke anger vägtyp, inte betalning.
+  - text: Väjningsplikt gäller vid alla påfarter på denna väg.
+    correct: false
+    feedback: Väjningsplikt regleras på plats av särskilda märken; motortrafikled
+      anger inte automatiskt väjningsregler.
+  explanation: Skylt för motortrafikled visar att vägen är reserverad för motorfordon
+    och att svagare trafikanter som gående och cyklister normalt inte får vistas där.
+    Regler och hastighetsgränser kan skilja sig från motorväg och anges ofta separat.
+- id: kor-auto-9c928a
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta märke?
+  image: vagmarke_anvisning_sammanvavning.svg
+  options:
+  - text: Körfält eller vägar förenas—förbered på att trafiken måste växla in och
+      att fordon kan behöva släppa in varandra.
+    correct: true
+    feedback: Indikerar att körfält eller vägar smalnar och att förare behöver samordna
+      inpassning.
+  - text: Omkörning förbjuden tills skylt förbudet upphör.
+    correct: false
+    feedback: Sammanvävning varnar för förening av filer, men förbjuder inte per automatik
+      omkörning.
+  - text: Väjningsplikt gäller för alla fordon som kommer från höger.
+    correct: false
+    feedback: Väjningsregler specificeras vanligtvis av andra skyltar; detta är en
+      anvisning om sammanslagning.
+  - text: Cykeltrafik prioriteras i den kommande sträckan.
+    correct: false
+    feedback: Sammanvävningsmärke behandlar sammanslagning av motorfordonsfält, inte
+      cykelprioritet.
+  explanation: Märket varnar för att körfält eller vägar kommer att gå ihop, så trafikanter
+    måste anpassa farten och låta trafik från andra filer sluta in. Ett gott samspel
+    minskar risk för köer och olyckor.
+- id: kor-auto-719a56
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_nedforslutning.svg
+  options:
+  - text: Varning för brant nedförsbacke—sänk växeln och var beredd på ökad fart nedåt.
+    correct: true
+    feedback: Skyltar för nedförslutning varnar för en lång eller brant backe där
+      farten kan öka snabbt.
+  - text: Vägen lutar uppför och du bör öka farten.
+    correct: false
+    feedback: Detta märke varnar för utförsbacke, inte uppförsbacke.
+  - text: Det är stoppförbud i nedförsbacken.
+    correct: false
+    feedback: Stoppskyltar eller parkeringsregler anges separat; varningsmärke bara
+      informerar om lutning.
+  - text: Fordon med automatisk växellåda rekommenderas att stanna innan backen.
+    correct: false
+    feedback: Varningsskylten ger ingen rekommendation om växellåda, bara varnar för
+      lutningen.
+  explanation: Märket varnar för en utförsbacke där fordonets hastighet lätt kan öka;
+    det är lämpligt att välja lägre växel och motorbromsa. Håll avstånd till fordon
+    framför och var extra försiktig med tung last.
+- id: kor-auto-630d79
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_ojamn_vag.svg
+  options:
+  - text: Varning för ojämn väg eller gupp—sänk hastigheten för att undvika skador
+      och dålig kontroll.
+    correct: true
+    feedback: Skyltar för ojämn väg varnar för dålig vägstandard som kan påverka fordonshantering.
+  - text: Vägen är avstängd för tung trafik på grund av dålig brunnslock.
+    correct: false
+    feedback: Detta märke informerar generellt om ojämnheter, inte om avstängning
+      för tung trafik.
+  - text: Det finns hastighetskameror som mäter ojämnheter i körfältet.
+    correct: false
+    feedback: Ojämn väg-märket har inget att göra med kameror; det varnar för vägytan.
+  - text: Endast fyrhjulsdrivna fordon får passera här.
+    correct: false
+    feedback: Ingen fordonsbegränsning anges av denna varning; det gäller alla trafikanter
+      att vara försiktiga.
+  explanation: Märket varnar för ojämn väg eller gupp där du bör sänka hastigheten
+    för att bibehålla kontroll och undvika skador. Anpassa körningen och var särskilt
+    försiktig vid dålig sikt eller vått väglag.
+- id: kor-auto-207639
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_langsamtgaende_fordon.svg
+  options:
+  - text: Varning för långsamtgående fordon—sänk farten och var beredd på möte med
+      fordon som rör sig mycket långsammare.
+    correct: true
+    feedback: Skyltar för långsamtgående fordon varnar för fordon som kan hålla mycket
+      lägre hastighet än normal trafik.
+  - text: Alla fordon måste köra i lägsta möjliga växel under sträckan.
+    correct: false
+    feedback: Märket varnar för typen av fordon, det föreskriver inte växelanvändning.
+  - text: Vägen är endast avsedd för traktorer och jordbruksmaskiner.
+    correct: false
+    feedback: Det är en varning för att sådana fordon kan förekomma, men vägen är
+      inte nödvändigtvis reserverad för dem.
+  - text: Du får inte köra om under någon omständighet.
+    correct: false
+    feedback: Omkörningsregler bedöms separat; varningsmärke begränsar inte automatiskt
+      omkörning.
+  explanation: Märket varnar för att långsamtgående fordon som traktorer kan förekomma
+    på vägen och att du därför bör anpassa hastighet och avstånd. Planera omkörning
+    försiktigt och endast när det är säkert.
+- id: kor-auto-208825
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_ren.svg
+  options:
+  - text: Varning för renar i området—var beredd att stanna om djur korsar vägen.
+    correct: true
+    feedback: Markerar att renar kan förekomma på eller nära vägen och att extra försiktighet
+      krävs.
+  - text: Det är förbjudet att ta med husdjur längs denna vägsträcka.
+    correct: false
+    feedback: Skylt varnar för vilda djur, den förbjuder inte att ha husdjur i bilen.
+  - text: Omkörning av större fordon är förbjuden för att skydda renarnas habitat.
+    correct: false
+    feedback: Detta är inte en regel om omkörning; det varnar för djur närvarande.
+  - text: Det finns ett specifikt stängsel för att hålla renarna borta från vägen.
+    correct: false
+    feedback: Om stängsel finns visas det inte genom denna varningsskylt; du måste
+      fortfarande vara uppmärksam.
+  explanation: Märket varnar för renar som kan finnas på eller nära vägen, särskilt
+    i norra delar av landet. Anpassa hastigheten och var beredd att stanna för att
+    undvika kollisioner med djur.
+- id: kor-auto-410b11
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_lagt_flygande_flygplan.svg
+  options:
+  - text: Varning för lågt flygande flygplan—var uppmärksam på plötsligt buller eller
+      distraktioner.
+    correct: true
+    feedback: Skyltar för lågt flygande flygplan varnar för att plan kan passera nära
+      marknivå och störa trafiken.
+  - text: Flygplatsen kräver att alla fordon stannar vid kontrollpunkt.
+    correct: false
+    feedback: Skylt varnar om lågt flygande plan, den kräver inte stopp i sig.
+  - text: Det är förbjudet att stanna eller parkera inom flygplatsens omedelbara närområde.
+    correct: false
+    feedback: Parkering regleras separat; varningen informerar om flygaktivitet.
+  - text: Det finns fallande föremål från flygplan i området.
+    correct: false
+    feedback: Märket varnar generellt för flygplanens närhet och eventuella distraktioner,
+      inte specifikt fallande föremål.
+  explanation: Märket varnar för att flygplan kan passera lågt över området, vilket
+    kan orsaka ljudstörning eller plötsliga ljus- och vindpåverkan. Håll fokus på
+    vägen och undvik att låta distraktioner påverka körningen.
+- id: kor-auto-e78115
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta märke?
+  image: vagmarke_datumparkering.svg
+  options:
+  - text: Datumparkering—parkering sker enligt datumprincip (t.ex. sida för jämna/udda
+      dagar), följ lokal anvisning.
+    correct: true
+    feedback: Visar att parkering är reglerad enligt datum och att du ska följa de
+      angivna reglerna för sidan.
+  - text: Gratis parkering gäller endast vissa datum i månaden.
+    correct: false
+    feedback: Märket reglerar vilken sida eller dag som gäller, inte nödvändigtvis
+      avgiftens existens.
+  - text: Parkering är förbjuden varje månad på den dag som anges i kalendern.
+    correct: false
+    feedback: Datumparkering handlar om växelvis parkering enligt datum, inte ett
+      allmänt parkeringsförbud.
+  - text: Endast fordon med särskilt datumtillstånd får parkera här.
+    correct: false
+    feedback: Det handlar om datumstyrd parkering för alla fordon, inte ett särskilt
+      tillståndsbehov.
+  explanation: Datumparkering innebär att parkering regleras efter dag i månaden (ofta
+    jämna/udda dagar) så att bilar flyttas för gatustädning eller snöröjning. Följ
+    de lokala skyltarna noga för att undvika böter eller bogsering.
+- id: kor-auto-4b492f
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Förbud
+  question: Vad innebär detta märke?
+  image: vagmarke_vandplats.svg
+  options:
+  - text: Här finns en anvisad vändplats där du får vända ditt fordon.
+    correct: true
+    feedback: Anger att platsen är avsedd för att vända fordon och att det är tillåtet
+      där.
+  - text: Det är förbjudet att vända fordon på hela vägsträckan.
+    correct: false
+    feedback: Märket markerar tvärtom en plats där vändning är tillåten.
+  - text: Endast bussar får använda vändplatsen.
+    correct: false
+    feedback: Skylt för vändplats gäller generellt och begränsar inte per automatik
+      till bussar.
+  - text: Det är en angiven parkeringsplats för korttidsparkering.
+    correct: false
+    feedback: Vändplats är för vändning, inte för parkering; parkering regleras separat.
+  explanation: Märket visar att en särskild plats är avsedd för vändning av fordon,
+    vilket kan underlätta återvändande på enkelriktade eller smala vägar. Använd platsen
+    korrekt och undvik att blockera om du stannar kort.
+- id: kor-auto-bfd434
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_notkreatur.svg
+  options:
+  - text: Varning för nötkreatur i eller nära vägen—sänk hastigheten och var beredd
+      att stanna.
+    correct: true
+    feedback: Markerar att kor eller annan nötkreatur kan finnas på vägen, vilket
+      kräver försiktighet.
+  - text: Det är förbjudet att köra lastat med nötboskap i området.
+    correct: false
+    feedback: Märket varnar för närvaro av nötkreatur, det förbjuder inte transport
+      av sådana djur.
+  - text: Gårdsarbete pågår, men djur är instängda bakom stängsel.
+    correct: false
+    feedback: Skylt indikerar att djur kan röra sig fritt; det säger inget om stängselstatus.
+  - text: Det är säkerhetszon för djurpark där fordon måste stanna till för biljettkontroll.
+    correct: false
+    feedback: Detta är en varningsskylt snarare än en anvisning om biljettkontroll
+      eller entré.
+  explanation: Märket varnar för att nötkreatur kan vistas på eller nära vägen, vilket
+    innebär risk för plötsliga hinder. Använd låg hastighet och var beredd att stanna
+    för att undvika olyckor med djur.
+- id: kor-auto-ecbacf
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Väjningsplikt
+  question: Vad innebär detta märke?
+  image: vagmarke_overgangsstalle.svg
+  options:
+  - text: Markerar ett övergångsställe där gående har företräde när de är på väg över.
+    correct: true
+    feedback: Visar ett övergångsställe där gående har prioritet när de går över vägen.
+  - text: Gående måste vänta på fordon innan de får korsa här.
+    correct: false
+    feedback: Vid ett övergångsställe har gående normalt företräde, inte tvärtom.
+  - text: Det är en cykelöverfart där cyklister alltid har företräde.
+    correct: false
+    feedback: Denna skylt visar ett övergångsställe för gående, inte en särskild cykelöverfart.
+  - text: Stopplikt gäller för fordon på båda sidor av övergångsstället vid alla tider.
+    correct: false
+    feedback: Stopplikt gäller inte automatiskt; fordon måste lämna företräde när
+      gående är på väg att korsa.
+  explanation: Skylt för övergångsställe visar att gående ska ges företräde när de
+    befinner sig på eller har avsikt att gå ut på övergångsstället. Sänk farten och
+    var beredd att stanna för gående.
+- id: kor-auto-b5f8c9
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Anvisning
+  question: Vad innebär detta märke?
+  image: vagmarke_anvisning_nodutgang.svg
+  options:
+  - text: Anger riktningen till en nödutgång eller utrymningsväg som ska användas
+      vid fara.
+    correct: true
+    feedback: Visar var en nödutgång finns och i vilken riktning man ska gå för att
+      evakuera.
+  - text: Markerar en lucka för rengöring av vägen.
+    correct: false
+    feedback: Skyltens syfte är att peka ut en nödutgång, inte vägunderhåll.
+  - text: Det är en anvisning för var ambulansparkering finns.
+    correct: false
+    feedback: Nödutgångsskyltar visar utrymningsvägar, inte parkeringsplatser för
+      utryckningsfordon.
+  - text: Anger att det finns ett närliggande sjukvårdsutrymme som allmänheten får
+      använda.
+    correct: false
+    feedback: Nödutgångsskyltar pekar på utrymningsvägar, inte medicinska mottagningar.
+  explanation: Nödutgångsskylten visar var en utrymningsväg finns och i vilken riktning
+    man ska röra sig vid en nödsituation. Följ skyltens riktning för att säkert lämna
+    området.
+- id: kor-auto-d9425c
+  type: multiple_choice
+  tags:
+  - Vägmärken
+  - Varning
+  question: Vad innebär detta märke?
+  image: varning_for_farlig_kurva.svg
+  options:
+  - text: Varning för farlig kurva—sänk hastigheten och anpassa körningen inför kurvan.
+    correct: true
+    feedback: Markerar att en skarp eller riskfylld kurva ligger framför och att försiktighet
+      krävs.
+  - text: Vägen svänger lätt och du kan bibehålla samma hastighet som innan.
+    correct: false
+    feedback: Märket antyder att kurvan kan vara farlig och att sänkt hastighet ofta
+      är nödvändig.
+  - text: Omkörning krävs innan kurvan för att undvika köbildning.
+    correct: false
+    feedback: Omkörning rekommenderas inte i farliga kurvor; det är ofta olämpligt
+      eller förbjudet.
+  - text: Det är en enkelriktad kurva där endast fordon i ena riktningen får köra.
+    correct: false
+    feedback: Skylt för farlig kurva varnar för vägformen, inte för enkelriktning.
+  explanation: Märket varnar för en kurva som kan vara särskilt farlig om hastigheten
+    är för hög, så sänk farten i god tid. Håll rätt spårval och undvik plötsliga styr-
+    eller bromsrörelser.
