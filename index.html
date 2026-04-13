@@ -4,8 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iller6 Study</title>
+    <style>
+      .upgrade-banner{position:fixed;top:0;left:0;right:0;z-index:99999;background:linear-gradient(135deg,#4F46E5,#7C3AED);color:#fff;padding:12px 16px;text-align:center;font-family:system-ui,sans-serif;font-size:15px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+      .upgrade-banner a{color:#fff;font-weight:700;text-decoration:underline;margin-left:6px}
+      .upgrade-banner .close-btn{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:#fff;font-size:20px;cursor:pointer;opacity:.7}
+      .upgrade-banner .close-btn:hover{opacity:1}
+    </style>
   </head>
   <body>
+    <div class="upgrade-banner" id="upgrade-banner">
+      En ny version finns!<a href="https://okface.github.io/iller7/">Gå till iller7</a>
+      <button class="close-btn" onclick="document.getElementById('upgrade-banner').remove()">&times;</button>
+    </div>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
